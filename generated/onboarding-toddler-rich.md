@@ -4,12 +4,11 @@
 
 Welcome to Caly Sprout!
 
-Here is how to help your child use Caly:
+Here’s how to help your child use Caly Sprout:
 
-- **Model one word at a time.** Tap a word and say it out loud. For example, tap “more” and say “more.”
-- **Go slow.** Wait and watch. Give your child time to look or touch.
-- **Celebrate all tries.** Smiles, sounds, or any tap are great! Say, “You did it!” or clap.
-- **No pressure.** It is okay if your child does not tap. Just keep showing words.
-- **Keep it fun.** Use Caly during play, snack, or story time.
+- **Model one word at a time.** Tap a word and say it out loud. For example, tap “more” and say, “more.”
+- **Go slow.** Wait and watch. Give your child time to look and try.
+- **Celebrate all tries!** Smiles, sounds, or touches are great. Say, “You did it!” or “Nice try!”
+- **No pressure.** It’s okay if your child does not tap. Just keep showing how to use the words.
 
 If you have questions, talk to your speech therapist or care team.
