@@ -1,7 +1,7 @@
 {
   "id": "child-expanded",
   "title": "Child Expanded (5-12)",
-  "description": "Fifty functional symbols for school-age AAC users. Assent-aware, sensory-safe presentation.",
+  "description": "110 child AAC symbols with Quest-style original art.",
   "ageBand": "child",
   "symbols": [
     {
@@ -187,102 +187,482 @@
     {
       "id": "sorry",
       "label": "sorry",
-      "category": "social"
+      "category": "social",
+      "imageAsset": "assets/symbols/quest/sorry.png"
     },
     {
       "id": "break",
       "label": "break",
-      "category": "regulation"
+      "category": "regulation",
+      "imageAsset": "assets/symbols/quest/break.png"
     },
     {
       "id": "quiet",
       "label": "quiet",
-      "category": "regulation"
+      "category": "regulation",
+      "imageAsset": "assets/symbols/quest/quiet.png"
     },
     {
       "id": "loud",
       "label": "too loud",
-      "category": "regulation"
+      "category": "regulation",
+      "imageAsset": "assets/symbols/quest/loud.png"
     },
     {
       "id": "hot",
       "label": "hot",
-      "category": "sensory"
+      "category": "sensory",
+      "imageAsset": "assets/symbols/quest/hot.png"
     },
     {
       "id": "cold",
       "label": "cold",
-      "category": "sensory"
+      "category": "sensory",
+      "imageAsset": "assets/symbols/quest/cold.png"
     },
     {
       "id": "soft",
       "label": "soft",
-      "category": "sensory"
+      "category": "sensory",
+      "imageAsset": "assets/symbols/quest/soft.png"
     },
     {
       "id": "hard",
       "label": "hard",
-      "category": "sensory"
+      "category": "sensory",
+      "imageAsset": "assets/symbols/quest/hard.png"
     },
     {
       "id": "like",
       "label": "I like",
-      "category": "preferences"
+      "category": "preferences",
+      "imageAsset": "assets/symbols/quest/like.png"
     },
     {
       "id": "dont-like",
       "label": "don't like",
-      "category": "preferences"
+      "category": "preferences",
+      "imageAsset": "assets/symbols/quest/dont-like.png"
     },
     {
       "id": "want",
       "label": "I want",
-      "category": "core"
+      "category": "core",
+      "imageAsset": "assets/symbols/quest/want.png"
     },
     {
       "id": "need",
       "label": "I need",
-      "category": "core"
+      "category": "core",
+      "imageAsset": "assets/symbols/quest/need.png"
     },
     {
       "id": "where",
       "label": "where",
-      "category": "questions"
+      "category": "questions",
+      "imageAsset": "assets/symbols/quest/where.png"
     },
     {
       "id": "what",
       "label": "what",
-      "category": "questions"
+      "category": "questions",
+      "imageAsset": "assets/symbols/quest/what.png"
     },
     {
       "id": "who",
       "label": "who",
-      "category": "questions"
+      "category": "questions",
+      "imageAsset": "assets/symbols/quest/who.png"
     },
     {
       "id": "when",
       "label": "when",
-      "category": "questions"
+      "category": "questions",
+      "imageAsset": "assets/symbols/quest/when.png"
     },
     {
       "id": "why",
       "label": "why",
-      "category": "questions"
+      "category": "questions",
+      "imageAsset": "assets/symbols/quest/why.png"
     },
     {
       "id": "different",
       "label": "different",
-      "category": "core"
+      "category": "core",
+      "imageAsset": "assets/symbols/quest/different.png"
     },
     {
       "id": "same",
       "label": "same",
-      "category": "core"
+      "category": "core",
+      "imageAsset": "assets/symbols/quest/same.png"
     },
     {
       "id": "finished",
       "label": "finished",
-      "category": "core"
+      "category": "core",
+      "imageAsset": "assets/symbols/quest/finished.png"
+    },
+    {
+      "id": "water",
+      "label": "water",
+      "category": "core",
+      "imageAsset": "assets/symbols/quest/water.png"
+    },
+    {
+      "id": "computer",
+      "label": "computer",
+      "category": "activities",
+      "imageAsset": "assets/symbols/quest/computer.png"
+    },
+    {
+      "id": "phone",
+      "label": "phone",
+      "category": "activities",
+      "imageAsset": "assets/symbols/quest/phone.png"
+    },
+    {
+      "id": "email",
+      "label": "email",
+      "category": "activities",
+      "imageAsset": "assets/symbols/quest/email.png"
+    },
+    {
+      "id": "work",
+      "label": "work",
+      "category": "places",
+      "imageAsset": "assets/symbols/quest/work.png"
+    },
+    {
+      "id": "store",
+      "label": "store",
+      "category": "places",
+      "imageAsset": "assets/symbols/quest/store.png"
+    },
+    {
+      "id": "park",
+      "label": "park",
+      "category": "places",
+      "imageAsset": "assets/symbols/quest/park.png"
+    },
+    {
+      "id": "doctor",
+      "label": "doctor",
+      "category": "places",
+      "imageAsset": "assets/symbols/quest/doctor.png"
+    },
+    {
+      "id": "nurse",
+      "label": "nurse",
+      "category": "people",
+      "imageAsset": "assets/symbols/quest/nurse.png"
+    },
+    {
+      "id": "teacher",
+      "label": "teacher",
+      "category": "people",
+      "imageAsset": "assets/symbols/quest/teacher.png"
+    },
+    {
+      "id": "grandma",
+      "label": "grandma",
+      "category": "social",
+      "imageAsset": "assets/symbols/quest/grandma.png"
+    },
+    {
+      "id": "grandpa",
+      "label": "grandpa",
+      "category": "social",
+      "imageAsset": "assets/symbols/quest/grandpa.png"
+    },
+    {
+      "id": "baby",
+      "label": "baby",
+      "category": "social",
+      "imageAsset": "assets/symbols/quest/baby.png"
+    },
+    {
+      "id": "brother",
+      "label": "brother",
+      "category": "social",
+      "imageAsset": "assets/symbols/quest/brother.png"
+    },
+    {
+      "id": "sister",
+      "label": "sister",
+      "category": "social",
+      "imageAsset": "assets/symbols/quest/sister.png"
+    },
+    {
+      "id": "pet",
+      "label": "pet",
+      "category": "social",
+      "imageAsset": "assets/symbols/quest/pet.png"
+    },
+    {
+      "id": "walk",
+      "label": "walk",
+      "category": "activities",
+      "imageAsset": "assets/symbols/quest/walk.png"
+    },
+    {
+      "id": "run",
+      "label": "run",
+      "category": "activities",
+      "imageAsset": "assets/symbols/quest/run.png"
+    },
+    {
+      "id": "swim",
+      "label": "swim",
+      "category": "activities",
+      "imageAsset": "assets/symbols/quest/swim.png"
+    },
+    {
+      "id": "dance",
+      "label": "dance",
+      "category": "activities",
+      "imageAsset": "assets/symbols/quest/dance.png"
+    },
+    {
+      "id": "sing",
+      "label": "sing",
+      "category": "activities",
+      "imageAsset": "assets/symbols/quest/sing.png"
+    },
+    {
+      "id": "write",
+      "label": "write",
+      "category": "activities",
+      "imageAsset": "assets/symbols/quest/write.png"
+    },
+    {
+      "id": "think",
+      "label": "think",
+      "category": "feelings",
+      "imageAsset": "assets/symbols/quest/think.png"
+    },
+    {
+      "id": "remember",
+      "label": "remember",
+      "category": "core",
+      "imageAsset": "assets/symbols/quest/remember.png"
+    },
+    {
+      "id": "forget",
+      "label": "forget",
+      "category": "core",
+      "imageAsset": "assets/symbols/quest/forget.png"
+    },
+    {
+      "id": "try",
+      "label": "try",
+      "category": "core",
+      "imageAsset": "assets/symbols/quest/try.png"
+    },
+    {
+      "id": "win",
+      "label": "win",
+      "category": "social",
+      "imageAsset": "assets/symbols/quest/win.png"
+    },
+    {
+      "id": "lose",
+      "label": "lose",
+      "category": "social",
+      "imageAsset": "assets/symbols/quest/lose.png"
+    },
+    {
+      "id": "win",
+      "label": "win",
+      "category": "social",
+      "imageAsset": "assets/symbols/quest/win.png"
+    },
+    {
+      "id": "team",
+      "label": "team",
+      "category": "social",
+      "imageAsset": "assets/symbols/quest/team.png"
+    },
+    {
+      "id": "alone",
+      "label": "alone",
+      "category": "social",
+      "imageAsset": "assets/symbols/quest/alone.png"
+    },
+    {
+      "id": "together",
+      "label": "together",
+      "category": "social",
+      "imageAsset": "assets/symbols/quest/together.png"
+    },
+    {
+      "id": "fast",
+      "label": "fast",
+      "category": "sensory",
+      "imageAsset": "assets/symbols/quest/fast.png"
+    },
+    {
+      "id": "slow",
+      "label": "slow",
+      "category": "sensory",
+      "imageAsset": "assets/symbols/quest/slow.png"
+    },
+    {
+      "id": "first",
+      "label": "first",
+      "category": "core",
+      "imageAsset": "assets/symbols/quest/first.png"
+    },
+    {
+      "id": "last",
+      "label": "last",
+      "category": "core",
+      "imageAsset": "assets/symbols/quest/last.png"
+    },
+    {
+      "id": "morning",
+      "label": "morning",
+      "category": "routine",
+      "imageAsset": "assets/symbols/quest/morning.png"
+    },
+    {
+      "id": "night",
+      "label": "night",
+      "category": "routine",
+      "imageAsset": "assets/symbols/quest/night.png"
+    },
+    {
+      "id": "today",
+      "label": "today",
+      "category": "core",
+      "imageAsset": "assets/symbols/quest/today.png"
+    },
+    {
+      "id": "tomorrow",
+      "label": "tomorrow",
+      "category": "core",
+      "imageAsset": "assets/symbols/quest/tomorrow.png"
+    },
+    {
+      "id": "yesterday",
+      "label": "yesterday",
+      "category": "core",
+      "imageAsset": "assets/symbols/quest/yesterday.png"
+    },
+    {
+      "id": "money",
+      "label": "money",
+      "category": "functional",
+      "imageAsset": "assets/symbols/quest/money.png"
+    },
+    {
+      "id": "pay",
+      "label": "pay",
+      "category": "functional",
+      "imageAsset": "assets/symbols/quest/pay.png"
+    },
+    {
+      "id": "buy",
+      "label": "buy",
+      "category": "functional",
+      "imageAsset": "assets/symbols/quest/buy.png"
+    },
+    {
+      "id": "sell",
+      "label": "sell",
+      "category": "functional",
+      "imageAsset": "assets/symbols/quest/sell.png"
+    },
+    {
+      "id": "job",
+      "label": "job",
+      "category": "functional",
+      "imageAsset": "assets/symbols/quest/job.png"
+    },
+    {
+      "id": "meeting",
+      "label": "meeting",
+      "category": "functional",
+      "imageAsset": "assets/symbols/quest/meeting.png"
+    },
+    {
+      "id": "schedule",
+      "label": "schedule",
+      "category": "functional",
+      "imageAsset": "assets/symbols/quest/schedule.png"
+    },
+    {
+      "id": "calendar",
+      "label": "calendar",
+      "category": "functional",
+      "imageAsset": "assets/symbols/quest/calendar.png"
+    },
+    {
+      "id": "alarm",
+      "label": "alarm",
+      "category": "routine",
+      "imageAsset": "assets/symbols/quest/alarm.png"
+    },
+    {
+      "id": "message",
+      "label": "message",
+      "category": "functional",
+      "imageAsset": "assets/symbols/quest/message.png"
+    },
+    {
+      "id": "call",
+      "label": "call",
+      "category": "functional",
+      "imageAsset": "assets/symbols/quest/call.png"
+    },
+    {
+      "id": "video",
+      "label": "video",
+      "category": "activities",
+      "imageAsset": "assets/symbols/quest/video.png"
+    },
+    {
+      "id": "photo",
+      "label": "photo",
+      "category": "activities",
+      "imageAsset": "assets/symbols/quest/photo.png"
+    },
+    {
+      "id": "map",
+      "label": "map",
+      "category": "functional",
+      "imageAsset": "assets/symbols/quest/map.png"
+    },
+    {
+      "id": "directions",
+      "label": "directions",
+      "category": "functional",
+      "imageAsset": "assets/symbols/quest/directions.png"
+    },
+    {
+      "id": "left",
+      "label": "left",
+      "category": "core",
+      "imageAsset": "assets/symbols/quest/left.png"
+    },
+    {
+      "id": "right",
+      "label": "right",
+      "category": "core",
+      "imageAsset": "assets/symbols/quest/right.png"
+    },
+    {
+      "id": "forward",
+      "label": "forward",
+      "category": "core",
+      "imageAsset": "assets/symbols/quest/forward.png"
+    },
+    {
+      "id": "backward",
+      "label": "backward",
+      "category": "core",
+      "imageAsset": "assets/symbols/quest/backward.png"
     }
   ]
 }

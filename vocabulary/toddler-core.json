@@ -1,7 +1,7 @@
 {
   "id": "toddler-core",
   "title": "Toddler Core (2-4)",
-  "description": "Twenty high-frequency symbols for early AAC. Large tiles, one concept per symbol. Caregiver reads labels aloud.",
+  "description": "53 toddler AAC symbols with Sprout-style original art.",
   "ageBand": "toddler",
   "symbols": [
     {
@@ -183,6 +183,237 @@
       "category": "core",
       "promptHint": "Down for safety and direction",
       "imageAsset": "assets/symbols/sprout/down.png"
+    },
+    {
+      "id": "water",
+      "label": "water",
+      "category": "core",
+      "symbolHint": "water drop",
+      "imageAsset": "assets/symbols/sprout/water.png"
+    },
+    {
+      "id": "milk",
+      "label": "milk",
+      "category": "routine",
+      "symbolHint": "milk carton",
+      "imageAsset": "assets/symbols/sprout/milk.png"
+    },
+    {
+      "id": "juice",
+      "label": "juice",
+      "category": "routine",
+      "symbolHint": "juice box",
+      "imageAsset": "assets/symbols/sprout/juice.png"
+    },
+    {
+      "id": "apple",
+      "label": "apple",
+      "category": "routine",
+      "symbolHint": "red apple",
+      "imageAsset": "assets/symbols/sprout/apple.png"
+    },
+    {
+      "id": "cookie",
+      "label": "cookie",
+      "category": "routine",
+      "symbolHint": "cookie",
+      "imageAsset": "assets/symbols/sprout/cookie.png"
+    },
+    {
+      "id": "dog",
+      "label": "dog",
+      "category": "animals",
+      "symbolHint": "friendly dog",
+      "imageAsset": "assets/symbols/sprout/dog.png"
+    },
+    {
+      "id": "cat",
+      "label": "cat",
+      "category": "animals",
+      "symbolHint": "friendly cat",
+      "imageAsset": "assets/symbols/sprout/cat.png"
+    },
+    {
+      "id": "ball",
+      "label": "ball",
+      "category": "activities",
+      "symbolHint": "play ball",
+      "imageAsset": "assets/symbols/sprout/ball.png"
+    },
+    {
+      "id": "book",
+      "label": "book",
+      "category": "activities",
+      "symbolHint": "picture book",
+      "imageAsset": "assets/symbols/sprout/book.png"
+    },
+    {
+      "id": "car",
+      "label": "car",
+      "category": "places",
+      "symbolHint": "small car",
+      "imageAsset": "assets/symbols/sprout/car.png"
+    },
+    {
+      "id": "bus",
+      "label": "bus",
+      "category": "places",
+      "symbolHint": "school bus",
+      "imageAsset": "assets/symbols/sprout/bus.png"
+    },
+    {
+      "id": "shoe",
+      "label": "shoe",
+      "category": "routine",
+      "symbolHint": "sneaker",
+      "imageAsset": "assets/symbols/sprout/shoe.png"
+    },
+    {
+      "id": "wash",
+      "label": "wash",
+      "category": "routine",
+      "symbolHint": "soap bubbles",
+      "imageAsset": "assets/symbols/sprout/wash.png"
+    },
+    {
+      "id": "open",
+      "label": "open",
+      "category": "core",
+      "symbolHint": "open door",
+      "imageAsset": "assets/symbols/sprout/open.png"
+    },
+    {
+      "id": "close",
+      "label": "close",
+      "category": "core",
+      "symbolHint": "closed door",
+      "imageAsset": "assets/symbols/sprout/close.png"
+    },
+    {
+      "id": "again",
+      "label": "again",
+      "category": "core",
+      "symbolHint": "repeat arrow",
+      "imageAsset": "assets/symbols/sprout/again.png"
+    },
+    {
+      "id": "please",
+      "label": "please",
+      "category": "social",
+      "symbolHint": "please hands",
+      "imageAsset": "assets/symbols/sprout/please.png"
+    },
+    {
+      "id": "love",
+      "label": "love",
+      "category": "feelings",
+      "symbolHint": "heart",
+      "imageAsset": "assets/symbols/sprout/love.png"
+    },
+    {
+      "id": "mommy",
+      "label": "mommy",
+      "category": "social",
+      "symbolHint": "mother figure",
+      "imageAsset": "assets/symbols/sprout/mommy.png"
+    },
+    {
+      "id": "daddy",
+      "label": "daddy",
+      "category": "social",
+      "symbolHint": "father figure",
+      "imageAsset": "assets/symbols/sprout/daddy.png"
+    },
+    {
+      "id": "look",
+      "label": "look",
+      "category": "core",
+      "symbolHint": "eyes looking",
+      "imageAsset": "assets/symbols/sprout/look.png"
+    },
+    {
+      "id": "listen",
+      "label": "listen",
+      "category": "core",
+      "symbolHint": "ear",
+      "imageAsset": "assets/symbols/sprout/listen.png"
+    },
+    {
+      "id": "big",
+      "label": "big",
+      "category": "core",
+      "symbolHint": "large shape",
+      "imageAsset": "assets/symbols/sprout/big.png"
+    },
+    {
+      "id": "little",
+      "label": "little",
+      "category": "core",
+      "symbolHint": "small shape",
+      "imageAsset": "assets/symbols/sprout/little.png"
+    },
+    {
+      "id": "wet",
+      "label": "wet",
+      "category": "sensory",
+      "symbolHint": "water splash",
+      "imageAsset": "assets/symbols/sprout/wet.png"
+    },
+    {
+      "id": "dry",
+      "label": "dry",
+      "category": "sensory",
+      "symbolHint": "towel",
+      "imageAsset": "assets/symbols/sprout/dry.png"
+    },
+    {
+      "id": "hot",
+      "label": "hot",
+      "category": "sensory",
+      "symbolHint": "steam",
+      "imageAsset": "assets/symbols/sprout/hot.png"
+    },
+    {
+      "id": "cold",
+      "label": "cold",
+      "category": "sensory",
+      "symbolHint": "snowflake",
+      "imageAsset": "assets/symbols/sprout/cold.png"
+    },
+    {
+      "id": "clean",
+      "label": "clean",
+      "category": "routine",
+      "symbolHint": "sparkle clean",
+      "imageAsset": "assets/symbols/sprout/clean.png"
+    },
+    {
+      "id": "dirty",
+      "label": "dirty",
+      "category": "routine",
+      "symbolHint": "mud spot",
+      "imageAsset": "assets/symbols/sprout/dirty.png"
+    },
+    {
+      "id": "friend",
+      "label": "friend",
+      "category": "social",
+      "symbolHint": "two kids",
+      "imageAsset": "assets/symbols/sprout/friend.png"
+    },
+    {
+      "id": "blanket",
+      "label": "blanket",
+      "category": "routine",
+      "symbolHint": "soft blanket",
+      "imageAsset": "assets/symbols/sprout/blanket.png"
+    },
+    {
+      "id": "toy",
+      "label": "toy",
+      "category": "activities",
+      "symbolHint": "teddy",
+      "imageAsset": "assets/symbols/sprout/toy.png"
     }
   ]
 }
