@@ -1,0 +1,32 @@
+{
+  "id": "caly-voice-scripts",
+  "description": "Original Caly TTS lines for games. Clinical-aligned, assent-aware, celebratory.",
+  "toddler": {
+    "game_intro": "Hi friend! I am Caly Sprout! Let's play a word game together. Tap the picture you hear!",
+    "tap_intro": "Find the word I say. Tap the picture!",
+    "tap_prompt": "Can you find {word}?",
+    "match_intro": "Picture match! Which picture is {word}?",
+    "caly_says_intro": "Caly Says! Listen to me, then tap the picture!",
+    "caly_says_listen": "Caly says... find {word}!",
+    "parade_intro": "Word parade! Watch the pictures go by, then tap the one I name!",
+    "correct": ["Wonderful!", "You did it!", "Yes! Great job!", "Every try is a win!", "Hooray for you!"],
+    "try_again": ["Good try! Let's look again.", "Almost! Tap another one, or skip.", "That's okay! Try once more."],
+    "skip": "Skipping is always okay. New word coming!",
+    "streak_3": "Three in a row! You are a word superstar!",
+    "caregiver_cue": "Grown-ups: model the word by pointing and saying it calmly."
+  },
+  "child": {
+    "game_intro": "Hey explorer! Caly Quest here. Ready for a word adventure?",
+    "tap_intro": "Find the word on the quest board!",
+    "tap_prompt": "Which picture means {word}?",
+    "match_intro": "Match the picture to the word: {word}.",
+    "caly_says_intro": "Quest challenge! Caly says — tap the symbol!",
+    "caly_says_listen": "Caly says: {word}!",
+    "parade_intro": "Symbol parade! Find the word I call out.",
+    "correct": ["Quest complete!", "Nice symbol skills!", "You got it!", "Brave choice!"],
+    "try_again": ["Not quite — want a hint or skip?", "Good effort. Try another or press skip."],
+    "skip": "Skip anytime. Your choice matters.",
+    "streak_3": "Three quest wins! Amazing!",
+    "caregiver_cue": "Caregivers: pause and model if they want help — no pressure."
+  }
+}
