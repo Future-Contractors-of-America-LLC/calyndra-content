@@ -1,0 +1,32 @@
+{
+  "id": "teen-social",
+  "title": "Teen Social & Self-Advocacy Board",
+  "ageBand": "teen",
+  "layout": {
+    "columns": 4,
+    "rows": 5,
+    "tileMinSizePx": 64,
+    "gapPx": 8,
+    "fontSizePx": 16,
+    "style": "minimal-text"
+  },
+  "tiles": [
+    { "symbolId": "no", "category": "autonomy" },
+    { "symbolId": "not-now", "category": "autonomy" },
+    { "symbolId": "choice", "category": "autonomy" },
+    { "symbolId": "privacy", "category": "social" },
+    { "symbolId": "break", "category": "regulation" },
+    { "symbolId": "overwhelmed", "category": "regulation" },
+    { "symbolId": "slow", "category": "communication" },
+    { "symbolId": "repeat", "category": "communication" },
+    { "symbolId": "uncomfortable", "category": "feelings" },
+    { "symbolId": "anxious", "category": "feelings" },
+    { "symbolId": "friend", "category": "social" },
+    { "symbolId": "consent", "category": "social" },
+    { "symbolId": "help", "category": "core" },
+    { "symbolId": "support", "category": "autonomy" },
+    { "symbolId": "explain", "category": "questions" },
+    { "symbolId": "appointment", "category": "life" }
+  ],
+  "caregiverNotes": "Teens may prefer text-heavy labels. Never require eye contact to validate a message. Respect privacy and consent symbols as final."
+}

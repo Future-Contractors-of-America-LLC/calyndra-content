@@ -1,0 +1,36 @@
+{
+  "id": "child-school",
+  "title": "Child School & Home Board",
+  "ageBand": "child",
+  "layout": {
+    "columns": 5,
+    "rows": 6,
+    "tileMinSizePx": 72,
+    "gapPx": 8,
+    "fontSizePx": 18,
+    "categories": ["core", "feelings", "school", "social", "regulation"]
+  },
+  "tiles": [
+    { "symbolId": "help", "category": "core" },
+    { "symbolId": "want", "category": "core" },
+    { "symbolId": "need", "category": "core" },
+    { "symbolId": "break", "category": "regulation" },
+    { "symbolId": "quiet", "category": "regulation" },
+    { "symbolId": "happy", "category": "feelings" },
+    { "symbolId": "mad", "category": "feelings" },
+    { "symbolId": "scared", "category": "feelings" },
+    { "symbolId": "school", "category": "school" },
+    { "symbolId": "read", "category": "school" },
+    { "symbolId": "friend", "category": "social" },
+    { "symbolId": "turn", "category": "social" },
+    { "symbolId": "please", "category": "social" },
+    { "symbolId": "bathroom", "category": "routine" },
+    { "symbolId": "eat", "category": "routine" },
+    { "symbolId": "what", "category": "questions" },
+    { "symbolId": "where", "category": "questions" },
+    { "symbolId": "dont-like", "category": "preferences" },
+    { "symbolId": "finished", "category": "core" },
+    { "symbolId": "stop", "category": "core" }
+  ],
+  "caregiverNotes": "Offer break and quiet without shame. Teach question words by modeling answers, not quizzes."
+}

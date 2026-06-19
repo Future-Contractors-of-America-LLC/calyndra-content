@@ -1,0 +1,28 @@
+{
+  "id": "toddler-core",
+  "title": "Toddler Core (2-4)",
+  "description": "Twenty high-frequency symbols for early AAC. Large tiles, one concept per symbol. Caregiver reads labels aloud.",
+  "ageBand": "toddler",
+  "symbols": [
+    { "id": "help", "label": "help", "emoji": "??", "symbolHint": "open palm reaching up", "category": "core", "promptHint": "How can a caregiver model the word help with a toddler?" },
+    { "id": "more", "label": "more", "emoji": "?", "symbolHint": "point to item then more", "category": "core", "promptHint": "How to teach more without pressure?" },
+    { "id": "stop", "label": "stop", "emoji": "??", "symbolHint": "flat hand stop gesture", "category": "core", "promptHint": "How to honor stop as assent signal?" },
+    { "id": "yes", "label": "yes", "emoji": "??", "symbolHint": "nod or thumbs up", "category": "core", "promptHint": "Simple yes modeling for toddlers" },
+    { "id": "no", "label": "no", "emoji": "??", "symbolHint": "head shake or push away gently", "category": "core", "promptHint": "Respecting no without punishment" },
+    { "id": "bathroom", "label": "bathroom", "emoji": "??", "symbolHint": "toilet icon on routine board", "category": "routine", "promptHint": "Toilet routine AAC without shame" },
+    { "id": "eat", "label": "eat", "emoji": "???", "symbolHint": "spoon to mouth", "category": "routine", "promptHint": "Mealtime symbol introduction" },
+    { "id": "drink", "label": "drink", "emoji": "??", "symbolHint": "cup with straw", "category": "routine", "promptHint": "Thirst communication tips" },
+    { "id": "happy", "label": "happy", "emoji": "??", "symbolHint": "smiling face", "category": "feelings", "promptHint": "Naming happy feelings simply" },
+    { "id": "sad", "label": "sad", "emoji": "??", "symbolHint": "tearful face, caregiver validates", "category": "feelings", "promptHint": "Validating sad without fixing" },
+    { "id": "all-done", "label": "all done", "emoji": "?", "symbolHint": "hands push activity away", "category": "core", "promptHint": "Transition cue all done" },
+    { "id": "go", "label": "go", "emoji": "??", "symbolHint": "green go arrow or walk icon", "category": "core", "promptHint": "Go as movement/transition word" },
+    { "id": "wait", "label": "wait", "emoji": "?", "symbolHint": "hourglass or pause palm", "category": "core", "promptHint": "Wait with visual timer ideas" },
+    { "id": "home", "label": "home", "emoji": "??", "symbolHint": "house outline", "category": "places", "promptHint": "Home symbol for routines" },
+    { "id": "play", "label": "play", "emoji": "??", "symbolHint": "toy or blocks", "category": "activities", "promptHint": "Play choice and assent" },
+    { "id": "hug", "label": "hug", "emoji": "??", "symbolHint": "arms open, ask first", "category": "social", "promptHint": "Hug only with consent" },
+    { "id": "hurt", "label": "hurt", "emoji": "??", "symbolHint": "bandage on body part", "category": "feelings", "promptHint": "Hurt vs emergency boundaries" },
+    { "id": "sleep", "label": "sleep", "emoji": "??", "symbolHint": "bed and moon", "category": "routine", "promptHint": "Bedtime AAC cues" },
+    { "id": "up", "label": "up", "emoji": "??", "symbolHint": "arrow up or lift arms", "category": "core", "promptHint": "Up for lift or direction" },
+    { "id": "down", "label": "down", "emoji": "??", "symbolHint": "arrow down or sit gesture", "category": "core", "promptHint": "Down for safety and direction" }
+  ]
+}

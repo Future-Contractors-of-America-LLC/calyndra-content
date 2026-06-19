@@ -1,0 +1,30 @@
+{
+  "id": "adult-daily",
+  "title": "Adult Daily Living Board",
+  "ageBand": "adult",
+  "layout": {
+    "columns": 5,
+    "rows": 4,
+    "tileMinSizePx": 60,
+    "gapPx": 6,
+    "fontSizePx": 15
+  },
+  "tiles": [
+    { "symbolId": "help", "category": "core" },
+    { "symbolId": "break", "category": "regulation" },
+    { "symbolId": "pain", "category": "health" },
+    { "symbolId": "doctor", "category": "health" },
+    { "symbolId": "medication", "category": "health" },
+    { "symbolId": "work", "category": "life" },
+    { "symbolId": "appointment", "category": "life" },
+    { "symbolId": "transport", "category": "life" },
+    { "symbolId": "phone", "category": "communication" },
+    { "symbolId": "email", "category": "communication" },
+    { "symbolId": "accommodation", "category": "autonomy" },
+    { "symbolId": "explain", "category": "questions" },
+    { "symbolId": "yes", "category": "core" },
+    { "symbolId": "no", "category": "core" },
+    { "symbolId": "emergency", "category": "safety" }
+  ],
+  "caregiverNotes": "Health symbols support communication about symptoms—not diagnosis. Direct emergencies to 911 and licensed clinicians."
+}

@@ -1,0 +1,37 @@
+{
+  "id": "toddler-home",
+  "title": "Toddler Home Board",
+  "ageBand": "toddler",
+  "layout": {
+    "columns": 4,
+    "rows": 5,
+    "tileMinSizePx": 88,
+    "gapPx": 12,
+    "fontSizePx": 22,
+    "background": "#1a2332",
+    "tileBackground": "#243247",
+    "tileActiveBackground": "#2f4563",
+    "contrastRatio": "AAA"
+  },
+  "tiles": [
+    { "symbolId": "help", "position": [0, 0], "size": "1x1" },
+    { "symbolId": "more", "position": [1, 0], "size": "1x1" },
+    { "symbolId": "stop", "position": [2, 0], "size": "1x1" },
+    { "symbolId": "all-done", "position": [3, 0], "size": "1x1" },
+    { "symbolId": "yes", "position": [0, 1], "size": "1x1" },
+    { "symbolId": "no", "position": [1, 1], "size": "1x1" },
+    { "symbolId": "eat", "position": [2, 1], "size": "1x1" },
+    { "symbolId": "drink", "position": [3, 1], "size": "1x1" },
+    { "symbolId": "bathroom", "position": [0, 2], "size": "2x1" },
+    { "symbolId": "play", "position": [2, 2], "size": "1x1" },
+    { "symbolId": "go", "position": [3, 2], "size": "1x1" },
+    { "symbolId": "happy", "position": [0, 3], "size": "1x1" },
+    { "symbolId": "sad", "position": [1, 3], "size": "1x1" },
+    { "symbolId": "hurt", "position": [2, 3], "size": "1x1" },
+    { "symbolId": "wait", "position": [3, 3], "size": "1x1" },
+    { "symbolId": "sleep", "position": [0, 4], "size": "2x1" },
+    { "symbolId": "home", "position": [2, 4], "size": "1x1" },
+    { "symbolId": "hug", "position": [3, 4], "size": "1x1" }
+  ],
+  "caregiverNotes": "Model one symbol at a time. Wait 5-10 seconds after tap. Never take the device away when the child taps stop or no."
+}
