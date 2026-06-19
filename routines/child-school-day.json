@@ -1,0 +1,18 @@
+{
+  "id": "child-school-day",
+  "title": "School Day Quest",
+  "description": "Visual schedule for school mornings. Assent-first.",
+  "ageBand": "child",
+  "steps": [
+    { "id": "wake", "label": "wake up", "symbolId": "happy", "calyPrompt": "Good morning, explorer!" },
+    { "id": "eat", "label": "eat", "symbolId": "eat", "calyPrompt": "Fuel up for your quest." },
+    { "id": "shoe", "label": "shoes", "symbolId": "shoe", "calyPrompt": "Shoes on when you're ready." },
+    { "id": "school", "label": "school", "symbolId": "school", "calyPrompt": "School adventure time." },
+    { "id": "home", "label": "home", "symbolId": "home", "calyPrompt": "Welcome home!" },
+    { "id": "play", "label": "play", "symbolId": "play", "calyPrompt": "Free play — your choice." },
+    { "id": "sleep", "label": "sleep", "symbolId": "sleep", "calyPrompt": "Wind down for sleep." }
+  ],
+  "firstThen": [
+    { "first": "eat", "then": "school", "calyPrompt": "First breakfast, then school." }
+  ]
+}

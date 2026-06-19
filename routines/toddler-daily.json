@@ -1,0 +1,19 @@
+{
+  "id": "toddler-daily",
+  "title": "My Day with Caly",
+  "description": "TEACCH-style visual routine. Tap each step when done. Skip anytime.",
+  "ageBand": "toddler",
+  "steps": [
+    { "id": "wake", "label": "wake up", "symbolId": "happy", "calyPrompt": "Good morning! Time to wake up gently." },
+    { "id": "eat", "label": "eat", "symbolId": "eat", "calyPrompt": "Breakfast time. Yummy!" },
+    { "id": "wash", "label": "wash", "symbolId": "wash", "calyPrompt": "Let's wash hands or face." },
+    { "id": "play", "label": "play", "symbolId": "play", "calyPrompt": "Play time! You choose." },
+    { "id": "snack", "label": "snack", "symbolId": "apple", "calyPrompt": "Snack time if you're hungry." },
+    { "id": "bathroom", "label": "bathroom", "symbolId": "bathroom", "calyPrompt": "Potty or bathroom break." },
+    { "id": "sleep", "label": "sleep", "symbolId": "sleep", "calyPrompt": "Rest time. Cozy and calm." }
+  ],
+  "firstThen": [
+    { "first": "eat", "then": "play", "calyPrompt": "First eat, then play!" },
+    { "first": "wash", "then": "snack", "calyPrompt": "First wash, then snack!" }
+  ]
+}
