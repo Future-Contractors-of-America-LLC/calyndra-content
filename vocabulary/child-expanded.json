@@ -4,55 +4,285 @@
   "description": "Fifty functional symbols for school-age AAC users. Assent-aware, sensory-safe presentation.",
   "ageBand": "child",
   "symbols": [
-    { "id": "help", "label": "help", "category": "core" },
-    { "id": "more", "label": "more", "category": "core" },
-    { "id": "stop", "label": "stop", "category": "core" },
-    { "id": "yes", "label": "yes", "category": "core" },
-    { "id": "no", "label": "no", "category": "core" },
-    { "id": "bathroom", "label": "bathroom", "category": "routine" },
-    { "id": "eat", "label": "eat", "category": "routine" },
-    { "id": "drink", "label": "drink", "category": "routine" },
-    { "id": "happy", "label": "happy", "category": "feelings" },
-    { "id": "sad", "label": "sad", "category": "feelings" },
-    { "id": "mad", "label": "mad", "category": "feelings" },
-    { "id": "scared", "label": "scared", "category": "feelings" },
-    { "id": "tired", "label": "tired", "category": "feelings" },
-    { "id": "sick", "label": "sick", "category": "feelings" },
-    { "id": "all-done", "label": "all done", "category": "core" },
-    { "id": "go", "label": "go", "category": "core" },
-    { "id": "wait", "label": "wait", "category": "core" },
-    { "id": "home", "label": "home", "category": "places" },
-    { "id": "school", "label": "school", "category": "places" },
-    { "id": "play", "label": "play", "category": "activities" },
-    { "id": "read", "label": "read", "category": "activities" },
-    { "id": "draw", "label": "draw", "category": "activities" },
-    { "id": "music", "label": "music", "category": "activities" },
-    { "id": "outside", "label": "outside", "category": "activities" },
-    { "id": "friend", "label": "friend", "category": "social" },
-    { "id": "family", "label": "family", "category": "social" },
-    { "id": "share", "label": "share", "category": "social" },
-    { "id": "turn", "label": "my turn", "category": "social" },
-    { "id": "please", "label": "please", "category": "social" },
-    { "id": "thank-you", "label": "thank you", "category": "social" },
-    { "id": "sorry", "label": "sorry", "category": "social" },
-    { "id": "break", "label": "break", "category": "regulation" },
-    { "id": "quiet", "label": "quiet", "category": "regulation" },
-    { "id": "loud", "label": "too loud", "category": "regulation" },
-    { "id": "hot", "label": "hot", "category": "sensory" },
-    { "id": "cold", "label": "cold", "category": "sensory" },
-    { "id": "soft", "label": "soft", "category": "sensory" },
-    { "id": "hard", "label": "hard", "category": "sensory" },
-    { "id": "like", "label": "I like", "category": "preferences" },
-    { "id": "dont-like", "label": "don't like", "category": "preferences" },
-    { "id": "want", "label": "I want", "category": "core" },
-    { "id": "need", "label": "I need", "category": "core" },
-    { "id": "where", "label": "where", "category": "questions" },
-    { "id": "what", "label": "what", "category": "questions" },
-    { "id": "who", "label": "who", "category": "questions" },
-    { "id": "when", "label": "when", "category": "questions" },
-    { "id": "why", "label": "why", "category": "questions" },
-    { "id": "different", "label": "different", "category": "core" },
-    { "id": "same", "label": "same", "category": "core" },
-    { "id": "finished", "label": "finished", "category": "core" }
+    {
+      "id": "help",
+      "label": "help",
+      "category": "core",
+      "imageAsset": "assets/symbols/quest/help.png"
+    },
+    {
+      "id": "more",
+      "label": "more",
+      "category": "core",
+      "imageAsset": "assets/symbols/quest/more.png"
+    },
+    {
+      "id": "stop",
+      "label": "stop",
+      "category": "core",
+      "imageAsset": "assets/symbols/quest/stop.png"
+    },
+    {
+      "id": "yes",
+      "label": "yes",
+      "category": "core",
+      "imageAsset": "assets/symbols/quest/yes.png"
+    },
+    {
+      "id": "no",
+      "label": "no",
+      "category": "core",
+      "imageAsset": "assets/symbols/quest/no.png"
+    },
+    {
+      "id": "bathroom",
+      "label": "bathroom",
+      "category": "routine",
+      "imageAsset": "assets/symbols/quest/bathroom.png"
+    },
+    {
+      "id": "eat",
+      "label": "eat",
+      "category": "routine",
+      "imageAsset": "assets/symbols/quest/eat.png"
+    },
+    {
+      "id": "drink",
+      "label": "drink",
+      "category": "routine",
+      "imageAsset": "assets/symbols/quest/drink.png"
+    },
+    {
+      "id": "happy",
+      "label": "happy",
+      "category": "feelings",
+      "imageAsset": "assets/symbols/quest/happy.png"
+    },
+    {
+      "id": "sad",
+      "label": "sad",
+      "category": "feelings",
+      "imageAsset": "assets/symbols/quest/sad.png"
+    },
+    {
+      "id": "mad",
+      "label": "mad",
+      "category": "feelings",
+      "imageAsset": "assets/symbols/quest/mad.png"
+    },
+    {
+      "id": "scared",
+      "label": "scared",
+      "category": "feelings",
+      "imageAsset": "assets/symbols/quest/scared.png"
+    },
+    {
+      "id": "tired",
+      "label": "tired",
+      "category": "feelings",
+      "imageAsset": "assets/symbols/quest/tired.png"
+    },
+    {
+      "id": "sick",
+      "label": "sick",
+      "category": "feelings",
+      "imageAsset": "assets/symbols/quest/sick.png"
+    },
+    {
+      "id": "all-done",
+      "label": "all done",
+      "category": "core",
+      "imageAsset": "assets/symbols/quest/all-done.png"
+    },
+    {
+      "id": "go",
+      "label": "go",
+      "category": "core",
+      "imageAsset": "assets/symbols/quest/go.png"
+    },
+    {
+      "id": "wait",
+      "label": "wait",
+      "category": "core",
+      "imageAsset": "assets/symbols/quest/wait.png"
+    },
+    {
+      "id": "home",
+      "label": "home",
+      "category": "places",
+      "imageAsset": "assets/symbols/quest/home.png"
+    },
+    {
+      "id": "school",
+      "label": "school",
+      "category": "places",
+      "imageAsset": "assets/symbols/quest/school.png"
+    },
+    {
+      "id": "play",
+      "label": "play",
+      "category": "activities",
+      "imageAsset": "assets/symbols/quest/play.png"
+    },
+    {
+      "id": "read",
+      "label": "read",
+      "category": "activities",
+      "imageAsset": "assets/symbols/quest/read.png"
+    },
+    {
+      "id": "draw",
+      "label": "draw",
+      "category": "activities",
+      "imageAsset": "assets/symbols/quest/draw.png"
+    },
+    {
+      "id": "music",
+      "label": "music",
+      "category": "activities",
+      "imageAsset": "assets/symbols/quest/music.png"
+    },
+    {
+      "id": "outside",
+      "label": "outside",
+      "category": "activities",
+      "imageAsset": "assets/symbols/quest/outside.png"
+    },
+    {
+      "id": "friend",
+      "label": "friend",
+      "category": "social",
+      "imageAsset": "assets/symbols/quest/friend.png"
+    },
+    {
+      "id": "family",
+      "label": "family",
+      "category": "social",
+      "imageAsset": "assets/symbols/quest/family.png"
+    },
+    {
+      "id": "share",
+      "label": "share",
+      "category": "social",
+      "imageAsset": "assets/symbols/quest/share.png"
+    },
+    {
+      "id": "turn",
+      "label": "my turn",
+      "category": "social",
+      "imageAsset": "assets/symbols/quest/turn.png"
+    },
+    {
+      "id": "please",
+      "label": "please",
+      "category": "social",
+      "imageAsset": "assets/symbols/quest/please.png"
+    },
+    {
+      "id": "thank-you",
+      "label": "thank you",
+      "category": "social",
+      "imageAsset": "assets/symbols/quest/thank-you.png"
+    },
+    {
+      "id": "sorry",
+      "label": "sorry",
+      "category": "social"
+    },
+    {
+      "id": "break",
+      "label": "break",
+      "category": "regulation"
+    },
+    {
+      "id": "quiet",
+      "label": "quiet",
+      "category": "regulation"
+    },
+    {
+      "id": "loud",
+      "label": "too loud",
+      "category": "regulation"
+    },
+    {
+      "id": "hot",
+      "label": "hot",
+      "category": "sensory"
+    },
+    {
+      "id": "cold",
+      "label": "cold",
+      "category": "sensory"
+    },
+    {
+      "id": "soft",
+      "label": "soft",
+      "category": "sensory"
+    },
+    {
+      "id": "hard",
+      "label": "hard",
+      "category": "sensory"
+    },
+    {
+      "id": "like",
+      "label": "I like",
+      "category": "preferences"
+    },
+    {
+      "id": "dont-like",
+      "label": "don't like",
+      "category": "preferences"
+    },
+    {
+      "id": "want",
+      "label": "I want",
+      "category": "core"
+    },
+    {
+      "id": "need",
+      "label": "I need",
+      "category": "core"
+    },
+    {
+      "id": "where",
+      "label": "where",
+      "category": "questions"
+    },
+    {
+      "id": "what",
+      "label": "what",
+      "category": "questions"
+    },
+    {
+      "id": "who",
+      "label": "who",
+      "category": "questions"
+    },
+    {
+      "id": "when",
+      "label": "when",
+      "category": "questions"
+    },
+    {
+      "id": "why",
+      "label": "why",
+      "category": "questions"
+    },
+    {
+      "id": "different",
+      "label": "different",
+      "category": "core"
+    },
+    {
+      "id": "same",
+      "label": "same",
+      "category": "core"
+    },
+    {
+      "id": "finished",
+      "label": "finished",
+      "category": "core"
+    }
   ]
 }

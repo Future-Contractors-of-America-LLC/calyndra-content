@@ -1,22 +1,49 @@
-# Calyndra Content
+# Calyndra content
 
-Real AAC vocabulary, board layouts, caregiver onboarding, lesson scripts, and Caly-authored guidance—grounded in [Calyndra System Law](https://github.com/Future-Contractors-of-America-LLC/calyndra-system-law).
+AAC vocabulary, symbol art, videos, boards, onboarding, and lessons.
 
-## Structure
+## Symbol pictures
 
-| Path | Description |
-|------|-------------|
-| `vocabulary/` | JSON symbol sets: toddler (20), child (50), teen/adult functional |
-| `boards/` | Age-band board layout specifications |
-| `onboarding/` | Welcome, introducing AAC, assent tips (Caly voice) |
-| `lessons/` | Five quick-start modules for caregivers |
-| `generated/` | FAQ, sensory UX tips, introduction scripts |
+Original PNG illustrations per age-band style (trademark-safe, generated in-repo):
 
-## Usage
+| Style | Age band | Path |
+|-------|----------|------|
+| **sprout** | Toddler (2–4) | `symbols/images/sprout/{id}.png` |
+| **quest** | Child (5–12) | `symbols/images/quest/{id}.png` |
+| **spark** | Teen (13–17) | `symbols/images/spark/{id}.png` |
+| **core** | Adult / caregiver | `symbols/images/core/{id}.png` |
 
-- **Web & mobile apps** load vocabulary JSON from bundled copies in `calyndra-app/content/` and `calyndra-mobile/src/data/`.
-- **API**: pass `vocabulary_term` with `/api/caly/invoke` for symbol-focused Caly responses.
+Each vocabulary JSON entry includes `imageAsset` (Flutter bundle path), e.g. `"imageAsset": "assets/symbols/sprout/help.png"`.
 
-## License
+### Regenerate word pictures
 
-Copyright Future Contractors of America LLC. Content for Calyndra product use.
+```powershell
+pip install pillow
+python scripts/generate_word_pictures.py
+```
+
+Generates **20 toddler-core** + **30 child-expanded** unique PNGs and updates `vocabulary/*.json`. Also copies to `calyndra-mobile-flutter/assets/symbols/`.
+
+## Videos
+
+Short AAC intro clips (5–15 sec WebM) in `videos/`:
+
+| File | Audience |
+|------|----------|
+| `welcome_aac.webm` | All |
+| `toddler_wave.webm` | Toddler |
+| `child_quest.webm` | Child |
+| `caregiver_assent.webm` | Caregiver |
+| `teen_spark.webm` | Teen |
+
+```powershell
+pip install pillow imageio imageio-ffmpeg
+python scripts/generate_videos.py
+```
+
+If WebM encode fails, frame PNG sequences are written as fallback (see script output).
+
+## Governance
+
+- Original artwork only — see [calyndra-ip/IP_ORIGINALITY.md](https://github.com/Future-Contractors-of-America-LLC/calyndra-ip)
+- No placeholders in production UI — symbols without `imageAsset` are omitted from picture tiles
