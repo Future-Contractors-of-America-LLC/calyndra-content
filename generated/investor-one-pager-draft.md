@@ -1,0 +1,33 @@
+# Investor one-pager draft (Caly-generated)
+
+**Generated:** 2026-06-19 via Caly production API (`audience=caregiver`)  
+**Review:** Founder must verify numbers, claims, and contact info before external use.
+
+---
+
+**Calyndra Investor Summary**
+
+**Problem:**  
+Millions of individuals with complex communication needs—especially children with autism, developmental disabilities, or acquired conditions—face significant barriers accessing effective Augmentative and Alternative Communication (AAC) tools. Existing AAC solutions are often rigid, age-inappropriate, or lack transparency and safety guardrails, leaving caregivers and users underserved. Clinical trust is further eroded by opaque AI models and unclear regulatory positioning.
+
+**Solution:**  
+Calyndra delivers Caly, an age-adaptive AI AAC companion governed by a transparent System Law framework. Caly dynamically adjusts communication support to the user's developmental stage (toddler, child, teen, adult) and context, ensuring language, pacing, and interaction style are always safe, respectful, and assent-aware. Every Caly interaction is guided by explicit, published governance rules (System Law), providing caregivers and professionals with unprecedented transparency and auditability. Calyndra does not diagnose, prescribe, or replace clinicians—ensuring clear boundaries and trust.
+
+**Market:**  
+The global AAC market exceeds $1.5B, with rapid growth driven by rising autism diagnoses, increased inclusion mandates, and mainstreaming of assistive technology. Calyndra targets families, schools, and therapy providers seeking adaptive, trustworthy AAC support, with initial focus on the U.S. and EU.
+
+**Differentiation:**
+- **Age-adaptive AI:** Caly uniquely tailors communication to developmental stage and context.
+- **System Law governance:** Every interaction is rule-based, auditable, and transparent.
+- **Caregiver alignment:** Designed for caregiver oversight, with clear boundaries and safety-first defaults.
+- **Regulatory honesty:** Calyndra is not FDA cleared, does not claim medical device status, and does not replace clinical care.
+
+**Current Status:**  
+Live API: https://calyndra-central.azurewebsites.net/api/health  
+Live web app: https://kind-bay-033f1ea0f.7.azurestaticapps.net  
+Flutter mobile: bootstrap complete; store submission pending founder account setup.
+
+**Ask / Use of Funds (draft — founder to finalize):**  
+Seed funding to accelerate mobile store launch, expand System Law coverage, scale pilot deployments, and pursue strategic partnerships. Regulatory engagement and caregiver education initiatives.
+
+**Verify before sharing:** funding ask, market size citations, contact email/domain.

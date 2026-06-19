@@ -1,0 +1,21 @@
+# Elevator pitch variants (Caly-generated)
+
+**Generated:** 2026-06-19 via Caly production API (`audience=caregiver`)  
+**Review:** Founder may edit for tone and factual accuracy.
+
+---
+
+**1. Caregiver-Focused Pitch**  
+Calyndra empowers families supporting non-speaking or minimally verbal children by providing evidence-informed AAC guidance and transparent vocabulary selection. Our platform is designed for safety and ease, helping caregivers confidently facilitate communication at home. Calyndra does not diagnose or replace clinicians; instead, we partner with you to make AAC accessible, transparent, and always respectful of your child's autonomy.
+
+**2. SLP-Focused Pitch**  
+Calyndra is an AAC support platform built to complement—not replace—clinical expertise. We provide SLPs with transparent vocabulary logic, assent-aware reinforcement patterns, and caregiver-facing artifacts to streamline collaboration. Calyndra never diagnoses or prescribes; instead, we enhance your workflow by making AAC implementation more transparent, evidence-aligned, and family-friendly.
+
+**3. Ed-Tech Investor-Focused Pitch**  
+Calyndra is redefining AAC guidance with a platform that bridges families, clinicians, and technology. Our solution offers transparent, evidence-informed support for AAC use, focusing on safety, assent, and caregiver empowerment. We don't diagnose or provide clinical care, but we fill a critical gap in the assistive tech market by making AAC more accessible and trustworthy for all stakeholders.
+
+**4. Universal Clinical Boundary Emphasis**  
+Calyndra delivers practical, transparent AAC guidance for families and professionals, always within strict clinical boundaries. We do not diagnose, prescribe, or replace licensed clinicians. Instead, we provide clear, evidence-aligned support and vocabulary logic, empowering users to make informed choices and collaborate effectively with their clinical teams.
+
+**5. Multi-Stakeholder Collaboration Pitch**  
+Calyndra is an AAC guidance platform designed for collaboration between caregivers, SLPs, and educators. We offer transparent, non-clinical support for vocabulary selection and reinforcement strategies, always prioritizing user safety and assent. Calyndra never replaces clinical judgment but ensures everyone involved has the tools and understanding needed to support communication growth.
