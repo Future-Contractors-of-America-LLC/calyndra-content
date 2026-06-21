@@ -1,0 +1,68 @@
+{
+  "version": 2,
+  "theme": "caly-unified",
+  "characterCanon": "CALY_CHARACTER_AGING.md",
+  "agingBands": {
+    "toddler": { "scale": 0.92, "filter": "none", "poseSet": "sprout" },
+    "child": { "scale": 1, "filter": "saturate(1.05)", "poseSet": "sprout" },
+    "teen": { "portrait": "assets/caly-teen/portrait.png", "poseSet": "teen" },
+    "adult": { "portrait": "assets/caly-adult/portrait.png", "poseSet": "adult" },
+    "caregiver": { "portrait": "assets/caly-adult/portrait.png", "poseSet": "adult", "voiceNote": "same portrait and GuyNeural base as adult; friendly professional SSML" }
+  },
+  "lockedUtc": "2026-06-21T12:00:00Z",
+  "palette": {
+    "mint": "#b8f0d8",
+    "skyBlue": "#7ec8ff",
+    "outlineGreen": "#2d6a4f",
+    "pastelCream": "#fff8e8",
+    "coralAccent": "#ff6b6b"
+  },
+  "masterPromptRef": "ILLUSTRATION_STYLE.md",
+  "legacyFilenames": {
+    "caly_sprout.png": "toddler portrait fallback",
+    "caly_quest.png": "child band legacy alias",
+    "caly_spark.png": "teen band legacy alias (superseded by caly-teen/portrait.png)",
+    "caly_core.png": "adult band legacy alias (superseded by caly-adult/portrait.png)",
+    "caly_guide.png": "caregiver legacy alias (now same as adult portrait)"
+  },
+  "assets": [
+    {
+      "id": "teen-portrait",
+      "path": "assets/caly-teen/portrait.webp",
+      "fallback": "assets/caly-teen/portrait.png",
+      "type": "portrait",
+      "surfaces": ["marketing-landing", "app-shell-teen"],
+      "status": "live",
+      "generatedUtc": "2026-06-21T12:00:00Z",
+      "origin": "GenerateImage pipeline, same character bible as Sprout"
+    },
+    {
+      "id": "adult-portrait",
+      "path": "assets/caly-adult/portrait.webp",
+      "fallback": "assets/caly-adult/portrait.png",
+      "type": "portrait",
+      "surfaces": ["marketing-landing", "app-shell-adult", "app-shell-caregiver"],
+      "status": "live",
+      "generatedUtc": "2026-06-21T12:00:00Z",
+      "origin": "GenerateImage pipeline, same character bible as Sprout"
+    },
+    {
+      "id": "sprout-portrait",
+      "path": "assets/caly_sprout.webp",
+      "fallback": "assets/caly_sprout.png",
+      "type": "portrait",
+      "surfaces": ["marketing-landing", "login-gate", "app-shell-fallback"],
+      "status": "live",
+      "generatedUtc": "2026-06-01T00:00:00Z"
+    },
+    {
+      "id": "pose-wave",
+      "path": "assets/caly-sprout/poses/wave.webp",
+      "fallback": "assets/caly-sprout/poses/wave.png",
+      "type": "pose",
+      "surfaces": ["marketing-landing", "play", "caly-show", "app-shell-toddler"],
+      "status": "live",
+      "generatedUtc": "2026-06-15T00:00:00Z"
+    }
+  ]
+}
