@@ -1,15 +1,23 @@
 {
-  "version": 2,
+  "version": 3,
   "theme": "caly-unified",
   "characterCanon": "CALY_CHARACTER_AGING.md",
-  "agingBands": {
-    "toddler": { "scale": 0.92, "filter": "none", "poseSet": "sprout" },
-    "child": { "scale": 1, "filter": "saturate(1.05)", "poseSet": "sprout" },
-    "teen": { "portrait": "assets/caly-teen/portrait.png", "poseSet": "teen" },
-    "adult": { "portrait": "assets/caly-adult/portrait.png", "poseSet": "adult" },
-    "caregiver": { "portrait": "assets/caly-adult/portrait.png", "poseSet": "adult", "voiceNote": "same portrait and GuyNeural base as adult; friendly professional SSML" }
+  "primaryName": "Caly",
+  "nicknamesByBand": {
+    "toddler": "Sprout",
+    "child": "Bud",
+    "teen": "Vine",
+    "adult": "Bloom",
+    "caregiver": "Canopy"
   },
-  "lockedUtc": "2026-06-21T12:00:00Z",
+  "agingBands": {
+    "toddler": { "scale": 0.92, "filter": "none", "poseSet": "sprout", "nickname": "Sprout", "defaultPose": "wave" },
+    "child": { "scale": 1, "filter": "saturate(1.05)", "poseSet": "sprout", "nickname": "Bud", "defaultPose": "jump-celebrate" },
+    "teen": { "scale": 1.06, "filter": "saturate(0.95) brightness(1.02)", "poseSet": "sprout", "nickname": "Vine", "defaultPose": "listen-ear" },
+    "adult": { "scale": 1.1, "filter": "saturate(0.9) brightness(1.04)", "poseSet": "sprout", "nickname": "Bloom", "defaultPose": "sleepy" },
+    "caregiver": { "scale": 1.08, "filter": "saturate(0.92) brightness(1.03)", "poseSet": "sprout", "nickname": "Canopy", "defaultPose": "wave", "voiceNote": "same voice base as adult; friendly professional SSML" }
+  },
+  "lockedUtc": "2026-06-21T20:00:00Z",
   "palette": {
     "mint": "#b8f0d8",
     "skyBlue": "#7ec8ff",
@@ -19,33 +27,15 @@
   },
   "masterPromptRef": "ILLUSTRATION_STYLE.md",
   "legacyFilenames": {
-    "caly_sprout.png": "toddler portrait fallback",
-    "caly_quest.png": "child band legacy alias",
-    "caly_spark.png": "teen band legacy alias (superseded by caly-teen/portrait.png)",
-    "caly_core.png": "adult band legacy alias (superseded by caly-adult/portrait.png)",
-    "caly_guide.png": "caregiver legacy alias (now same as adult portrait)"
+    "caly_sprout.png": "toddler portrait + Sprout pose basis",
+    "caly_quest.png": "legacy child alias (plant art)",
+    "caly_spark.png": "legacy teen alias (plant art)",
+    "caly_core.png": "legacy adult alias (plant art)",
+    "caly_guide.png": "legacy caregiver alias (plant art)",
+    "caly-teen/portrait.png": "deprecated human portrait experiment — do not use in UI",
+    "caly-adult/portrait.png": "deprecated human portrait experiment — do not use in UI"
   },
   "assets": [
-    {
-      "id": "teen-portrait",
-      "path": "assets/caly-teen/portrait.webp",
-      "fallback": "assets/caly-teen/portrait.png",
-      "type": "portrait",
-      "surfaces": ["marketing-landing", "app-shell-teen"],
-      "status": "live",
-      "generatedUtc": "2026-06-21T12:00:00Z",
-      "origin": "GenerateImage pipeline, same character bible as Sprout"
-    },
-    {
-      "id": "adult-portrait",
-      "path": "assets/caly-adult/portrait.webp",
-      "fallback": "assets/caly-adult/portrait.png",
-      "type": "portrait",
-      "surfaces": ["marketing-landing", "app-shell-adult", "app-shell-caregiver"],
-      "status": "live",
-      "generatedUtc": "2026-06-21T12:00:00Z",
-      "origin": "GenerateImage pipeline, same character bible as Sprout"
-    },
     {
       "id": "sprout-portrait",
       "path": "assets/caly_sprout.webp",
@@ -60,7 +50,34 @@
       "path": "assets/caly-sprout/poses/wave.webp",
       "fallback": "assets/caly-sprout/poses/wave.png",
       "type": "pose",
-      "surfaces": ["marketing-landing", "play", "caly-show", "app-shell-toddler"],
+      "surfaces": ["marketing-landing", "play", "caly-show", "app-shell-all-bands"],
+      "status": "live",
+      "generatedUtc": "2026-06-15T00:00:00Z"
+    },
+    {
+      "id": "pose-jump-celebrate",
+      "path": "assets/caly-sprout/poses/jump-celebrate.webp",
+      "fallback": "assets/caly-sprout/poses/jump-celebrate.png",
+      "type": "pose",
+      "surfaces": ["play", "caly-show", "app-shell-child"],
+      "status": "live",
+      "generatedUtc": "2026-06-15T00:00:00Z"
+    },
+    {
+      "id": "pose-listen-ear",
+      "path": "assets/caly-sprout/poses/listen-ear.webp",
+      "fallback": "assets/caly-sprout/poses/listen-ear.png",
+      "type": "pose",
+      "surfaces": ["marketing-landing", "play", "app-shell-teen"],
+      "status": "live",
+      "generatedUtc": "2026-06-15T00:00:00Z"
+    },
+    {
+      "id": "pose-sleepy",
+      "path": "assets/caly-sprout/poses/sleepy.webp",
+      "fallback": "assets/caly-sprout/poses/sleepy.png",
+      "type": "pose",
+      "surfaces": ["routines", "play", "app-shell-adult"],
       "status": "live",
       "generatedUtc": "2026-06-15T00:00:00Z"
     }

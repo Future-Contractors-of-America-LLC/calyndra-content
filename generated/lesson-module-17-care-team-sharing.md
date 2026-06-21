@@ -19,7 +19,7 @@ Session summaries and routine boards in Calyndra are **transparency tools** — th
 3. **Invite feedback:** Ask whether vocabulary or routine order should align with school or clinic goals.
 
 ## Caly in caregiver mode
-Caregiver mode uses the same adult Caly portrait and voice base with a warm professional tone. Educational support only — not medical advice.
+Caregiver mode uses the same Caly (Canopy) plant friend and adult voice base with a warm professional tone. Educational support only — not medical advice.
 
 ---
 

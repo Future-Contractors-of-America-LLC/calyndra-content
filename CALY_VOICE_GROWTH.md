@@ -1,16 +1,16 @@
 # Caly voice growth arc
 
-**One Caly maturing over time** — not random voice swaps. Each audience band maps to a character, neural voice, express-as style, and SSML `<prosody>` tuning.
+**One Caly maturing over time** — not random voice swaps. Each audience band maps to a growth nickname, neural voice, express-as style, and SSML `<prosody>` tuning. Primary character name is always **Caly**.
 
 ## Character × voice matrix
 
-| Band | Character | Azure voice | Style | Rate | Pitch | Delivery |
-|------|-----------|-------------|-------|------|-------|----------|
-| toddler | **Caly Sprout** | en-US-AriaNeural | affectionate | ?35% | +15% | Slowest, highest pitch, sing-song phrase breaks (350 ms) |
-| child | **Caly Quest** | en-US-AnaNeural | cheerful | ?10% | +10% | Slightly faster, still bouncy; lighter phrase breaks (220 ms) |
-| teen | **Caly Spark** | en-US-JennyNeural | friendly | +3% | +2% | Neutral teen energy, respectful and direct |
-| adult | **Caly Core** | en-US-GuyNeural | calm | ?5% | ?8% | Steady, clear AAC guidance |
-| caregiver | **Caly Guide** | en-US-JaneNeural | empathetic | ?10% | +3% | Warm professional, caregiver-facing |
+| Band | Nickname | Azure voice | Style | Rate | Pitch | Delivery |
+|------|----------|-------------|-------|------|-------|----------|
+| toddler | **Sprout** | en-US-AriaNeural | affectionate | ?35% | +15% | Slowest, highest pitch, sing-song phrase breaks (350 ms) |
+| child | **Bud** | en-US-AnaNeural | cheerful | ?10% | +10% | Slightly faster, still bouncy; lighter phrase breaks (220 ms) |
+| teen | **Vine** | en-US-JennyNeural | friendly | +3% | +2% | Neutral teen energy, respectful and direct |
+| adult | **Bloom** | en-US-GuyNeural | calm | ?5% | ?8% | Steady, clear AAC guidance |
+| caregiver | **Canopy** | en-US-GuyNeural | friendly | ?12% | ?10% | Warm professional, caregiver-facing (same voice base as adult) |
 
 ## SSML differentiation
 
@@ -25,7 +25,7 @@ Implemented in `calyndra-central/speech_tts.py`:
 `POST /api/caly/speak` returns MP3 with:
 
 - `X-Caly-Voice` — neural voice name (e.g. `en-US-AriaNeural`)
-- `X-Caly-Character` — Sprout | Quest | Spark | Core | Guide
+- `X-Caly-Character` — Caly-toddler | Caly-child | … (internal band label)
 - `X-Caly-Audience` — toddler | child | teen | adult | caregiver
 
 ## Frontend mirror
@@ -34,18 +34,4 @@ Implemented in `calyndra-central/speech_tts.py`:
 
 ## Agent alignment
 
-`CALY_INSTRUCTIONS.md` (central + agent) documents the same character names so text tone and TTS voice stay aligned per audience.
-
-## Verification
-
-```powershell
-$bands = @("toddler","teen","adult")
-foreach ($b in $bands) {
-  $body = @{ text = "Hello from Caly"; audience = $b } | ConvertTo-Json
-  $r = Invoke-WebRequest -Method POST -Uri "https://calyndra-central.azurewebsites.net/api/caly/speak" `
-    -ContentType "application/json" -Body $body
-  Write-Host "$b voice=$($r.Headers['X-Caly-Voice']) character=$($r.Headers['X-Caly-Character']) bytes=$($r.RawContentLength)"
-}
-```
-
-Expected: toddler ? AriaNeural + Sprout; teen ? JennyNeural + Spark; adult ? GuyNeural + Core.
+`CALY_INSTRUCTIONS.md` (central + agent) documents the same band tones so text and TTS stay aligned per audience.

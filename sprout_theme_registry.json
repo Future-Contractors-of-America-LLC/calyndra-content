@@ -1,15 +1,23 @@
 {
-  "version": 1,
+  "version": 2,
   "theme": "caly-unified",
   "characterCanon": "CALY_CHARACTER_AGING.md",
-  "agingBands": {
-    "toddler": { "scale": 0.92, "filter": "none", "poseSet": "sprout" },
-    "child": { "scale": 1, "filter": "saturate(1.05)", "poseSet": "sprout" },
-    "teen": { "scale": 1.06, "filter": "saturate(0.95) brightness(1.02)", "poseSet": "sprout" },
-    "adult": { "scale": 1.1, "filter": "saturate(0.9) brightness(1.04)", "poseSet": "sprout" },
-    "caregiver": { "portrait": "assets/caly_guide.png", "poseSet": "guide" }
+  "primaryName": "Caly",
+  "nicknamesByBand": {
+    "toddler": "Sprout",
+    "child": "Bud",
+    "teen": "Vine",
+    "adult": "Bloom",
+    "caregiver": "Canopy"
   },
-  "lockedUtc": "2026-06-21T00:00:00Z",
+  "agingBands": {
+    "toddler": { "scale": 0.92, "filter": "none", "poseSet": "sprout", "nickname": "Sprout" },
+    "child": { "scale": 1, "filter": "saturate(1.05)", "poseSet": "sprout", "nickname": "Bud" },
+    "teen": { "scale": 1.06, "filter": "saturate(0.95) brightness(1.02)", "poseSet": "sprout", "nickname": "Vine" },
+    "adult": { "scale": 1.1, "filter": "saturate(0.9) brightness(1.04)", "poseSet": "sprout", "nickname": "Bloom" },
+    "caregiver": { "scale": 1.08, "filter": "saturate(0.92) brightness(1.03)", "poseSet": "sprout", "nickname": "Canopy" }
+  },
+  "lockedUtc": "2026-06-21T20:00:00Z",
   "palette": {
     "mint": "#b8f0d8",
     "skyBlue": "#7ec8ff",

@@ -1,13 +1,13 @@
 {
   "id": "caly-voice-scripts",
-  "description": "Original Caly TTS lines ó sing-song preschool-show energy. Assent-aware, celebratory.",
+  "description": "Original Caly TTS lines ù sing-song preschool-show energy. Assent-aware, celebratory.",
   "toddler": {
-    "game_intro": "Hi, hi, hi! I am Caly Sprout! Let's play, play, play! Tap the picture you hear!",
+    "game_intro": "Hi, hi, hi! I am Caly ù call me Sprout! Let's play, play, play! Tap the picture you hear!",
     "tap_intro": "Tap, tap, tap! Listen close! Find the word I say!",
     "tap_prompt": "Tap, tap, tap! Can you find {word}? {word}! {word}!",
     "match_intro": "Picture match, picture match! Which one is {word}? {word}!",
     "caly_says_intro": "Caly Says! Caly Says! Listen, listen, then tap!",
-    "caly_says_listen": "Caly saysÖ find {word}! {word}! {word}!",
+    "caly_says_listen": "Caly saysù find {word}! {word}! {word}!",
     "parade_intro": "Word parade! Watch them go! Then tap the one I name!",
     "bubble_intro": "Bubble pop words! Pop, pop, pop! Tap the bubble I name!",
     "bubble_prompt": "Pop the {word} bubble! {word}! {word}!",
@@ -15,7 +15,7 @@
     "peek_found": "You found me! Peek-a-boo! There I am!",
     "song_circle_intro": "Song circle time! Clap and tap along!",
     "song_circle_cue": "If you're happy, tap HAPPY! HAPPY! HAPPY!",
-    "show_hello_intro": "Hello song time! Sing with Caly Sprout!",
+    "show_hello_intro": "Hello song time! Sing with Caly (Sprout)!",
     "show_hello_beat": "Hello, hello! Wave hello! HELLO!",
     "correct": [
       "Yay, yay, yay! You did it!",
@@ -34,11 +34,11 @@
     "caregiver_cue": "Grown-ups: point and say the word calmly. No pressure!"
   },
   "child": {
-    "game_intro": "Hey, hey! Caly Quest here! Ready for a word adventure?",
+    "game_intro": "Hey, hey! Caly here ó your Bud guide! Ready for a word adventure?",
     "tap_intro": "Quest time! Find the word on the board!",
     "tap_prompt": "Which picture means {word}? {word}! Go, go, go!",
     "match_intro": "Match match! Find the picture for {word}!",
-    "caly_says_intro": "Quest challenge! Caly says ó listen and tap!",
+    "caly_says_intro": "Quest challenge! Caly says ù listen and tap!",
     "caly_says_listen": "Caly says: {word}! {word}! Tap it!",
     "parade_intro": "Symbol parade! Watch them bounce! Find my word!",
     "bubble_intro": "Bubble pop quest! Pop the word bubble!",
@@ -56,11 +56,11 @@
       "Yes! Adventure win!"
     ],
     "try_again": [
-      "Not quite ó hint or skip?",
+      "Not quite ù hint or skip?",
       "Good effort! Try again or skip!"
     ],
     "skip": "Skip anytime! Your choice matters!",
     "streak_3": "Three quest wins! Amazing streak!",
-    "caregiver_cue": "Caregivers: model if they want help ó no pressure."
+    "caregiver_cue": "Caregivers: model if they want help ù no pressure."
   }
 }

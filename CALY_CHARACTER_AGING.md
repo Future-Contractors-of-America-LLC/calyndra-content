@@ -1,31 +1,45 @@
-# Caly character aging — one friend, every life stage
+# Caly character aging — one growing plant friend
 
-**Status:** locked — Caly is **one character** who ages. Sprout/Quest/Spark/Core/Guide are legacy filenames only.
+**Status:** locked — **Caly** is one animated plant character who matures across age bands. Band nicknames are optional growth-stage labels, not separate mascots.
 
 ## Core principle
 
-- **Name in UI:** always **Caly**.
-- **Age bands** change voice, text tone, and art variant of the **same** character.
+- **Primary name in UI:** always **Caly**.
+- **Nicknames (optional subtitle):** plant-themed growth labels per band — see table below.
+- **Art:** Sprout pose set (`assets/caly-sprout/poses/*`) for **all** bands; maturity via CSS scale/filter only.
 - **Palette:** mint `#b8f0d8`, sky `#7ec8ff`, chunky `#2d6a4f` outlines, pastel cream backgrounds.
+
+## Nicknames by band
+
+| Band | Nickname | Meaning | Default pose |
+|------|----------|---------|--------------|
+| Toddler | **Sprout** | First green shoot | wave |
+| Child | **Bud** | Opening leaf bud | jump-celebrate |
+| Teen | **Vine** | Climbing growth, slightly taller | listen-ear |
+| Adult | **Bloom** | Mature flowering plant | sleepy |
+| Caregiver | **Canopy** | Shelter shade for others | wave |
+
+Display pattern: **Caly (Sprout)**, **Caly (Bud)**, etc. — or title **Caly** with nickname in subtitle.
 
 ## Pose evolution by band
 
-| Band | Pose feel | Art source | Voice arc |
-|------|-----------|------------|-----------|
-| Toddler | Smaller, rounder | Sprout poses @ CSS scale 0.92 | AriaNeural, slowest, sing-song |
-| Child | Taller, bouncy | Sprout poses @ scale 1.0 | AnaNeural, cheerful |
-| Teen | Taller, direct gaze | **`assets/caly-teen/portrait.png`** (Caly teen) | JennyNeural, respectful |
-| Adult | Calm guide look | **`assets/caly-adult/portrait.png`** | GuyNeural, calm |
-| Caregiver | Same as adult | **`assets/caly-adult/portrait.png`** | GuyNeural, friendly professional |
+| Band | CSS scale | Filter | Voice arc |
+|------|-----------|--------|-----------|
+| Toddler | 0.92 | none | AriaNeural, slowest, sing-song |
+| Child | 1.0 | saturate(1.05) | AnaNeural, cheerful |
+| Teen | 1.06 | saturate(0.95) brightness(1.02) | JennyNeural, respectful |
+| Adult | 1.1 | saturate(0.9) brightness(1.04) | GuyNeural, calm |
+| Caregiver | 1.08 | saturate(0.92) brightness(1.03) | GuyNeural, friendly professional |
 
-Caregiver and adult share the **same portrait** and **same voice base** (GuyNeural). Caregiver SSML uses slower rate and friendly style for warm professional tone.
+Caregiver and adult share the **same voice base** (GuyNeural). Caregiver SSML uses slower rate and friendly style for warm professional tone.
+
+## Deprecated (do not use in UI)
+
+- Human portrait assets under `assets/caly-teen/` and `assets/caly-adult/` (June 2026 experiment — reverted).
+- Treating Quest / Spark / Core / Guide as separate characters (legacy filenames only).
 
 ## Implementation
 
-- `caly-mascot.js` — `AGE_BANDS` + `headerPortrait()`
+- `caly-mascot.js` — `AGE_BANDS`, `displayTitle()`, `headerPortrait()`
 - `speech_tts.py` — band labels `Caly-toddler` … `Caly-caregiver` (internal)
-- `caly_character_registry.json` — machine-readable asset list
-
-## Deprecated naming
-
-Do **not** use in user-facing copy: Caly Sprout, Caly Quest, Caly Spark, Caly Core as separate characters.
+- `caly_character_registry.json` — machine-readable asset list + nicknames
