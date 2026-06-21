@@ -1,0 +1,96 @@
+{
+  "version": 1,
+  "theme": "caly-sprout",
+  "lockedUtc": "2026-06-21T00:00:00Z",
+  "palette": {
+    "mint": "#b8f0d8",
+    "skyBlue": "#7ec8ff",
+    "outlineGreen": "#2d6a4f",
+    "pastelCream": "#fff8e8",
+    "coralAccent": "#ff6b6b"
+  },
+  "masterPromptRef": "ILLUSTRATION_STYLE.md",
+  "assets": [
+    {
+      "id": "sprout-portrait",
+      "path": "assets/caly_sprout.webp",
+      "fallback": "assets/caly_sprout.png",
+      "type": "portrait",
+      "surfaces": ["marketing-landing", "login-gate", "app-shell-fallback"],
+      "status": "live",
+      "generatedUtc": "2026-06-01T00:00:00Z"
+    },
+    {
+      "id": "pose-wave",
+      "path": "assets/caly-sprout/poses/wave.webp",
+      "fallback": "assets/caly-sprout/poses/wave.png",
+      "type": "pose",
+      "surfaces": ["marketing-landing", "play", "caly-show", "app-shell-toddler"],
+      "status": "live",
+      "generatedUtc": "2026-06-15T00:00:00Z"
+    },
+    {
+      "id": "pose-jump-celebrate",
+      "path": "assets/caly-sprout/poses/jump-celebrate.webp",
+      "fallback": "assets/caly-sprout/poses/jump-celebrate.png",
+      "type": "pose",
+      "surfaces": ["play", "caly-show"],
+      "status": "live",
+      "generatedUtc": "2026-06-15T00:00:00Z"
+    },
+    {
+      "id": "pose-peek-hide",
+      "path": "assets/caly-sprout/poses/peek-hide.webp",
+      "fallback": "assets/caly-sprout/poses/peek-hide.png",
+      "type": "pose",
+      "surfaces": ["play", "caly-show"],
+      "status": "live",
+      "generatedUtc": "2026-06-15T00:00:00Z"
+    },
+    {
+      "id": "pose-listen-ear",
+      "path": "assets/caly-sprout/poses/listen-ear.webp",
+      "fallback": "assets/caly-sprout/poses/listen-ear.png",
+      "type": "pose",
+      "surfaces": ["marketing-landing", "play"],
+      "status": "live",
+      "generatedUtc": "2026-06-15T00:00:00Z"
+    },
+    {
+      "id": "pose-drum-dance",
+      "path": "assets/caly-sprout/poses/drum-dance.webp",
+      "fallback": "assets/caly-sprout/poses/drum-dance.png",
+      "type": "pose",
+      "surfaces": ["play", "caly-show"],
+      "status": "live",
+      "generatedUtc": "2026-06-15T00:00:00Z"
+    },
+    {
+      "id": "pose-sleepy",
+      "path": "assets/caly-sprout/poses/sleepy.webp",
+      "fallback": "assets/caly-sprout/poses/sleepy.png",
+      "type": "pose",
+      "surfaces": ["routines", "play"],
+      "status": "live",
+      "generatedUtc": "2026-06-15T00:00:00Z"
+    },
+    {
+      "id": "scene-meadow",
+      "path": "assets/scenes/sunny-meadow-stage.webp",
+      "fallback": "assets/scenes/sunny-meadow-stage.png",
+      "type": "scene",
+      "surfaces": ["play"],
+      "status": "live",
+      "generatedUtc": "2026-06-15T00:00:00Z"
+    },
+    {
+      "id": "scene-playroom",
+      "path": "assets/scenes/colorful-playroom-stage.webp",
+      "fallback": "assets/scenes/colorful-playroom-stage.png",
+      "type": "scene",
+      "surfaces": ["play"],
+      "status": "live",
+      "generatedUtc": "2026-06-15T00:00:00Z"
+    }
+  ]
+}
