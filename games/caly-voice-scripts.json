@@ -1,13 +1,13 @@
 {
   "id": "caly-voice-scripts",
-  "description": "Original Caly TTS lines ù sing-song preschool-show energy. Assent-aware, celebratory.",
+  "description": "Original Caly TTS lines - sing-song preschool-show energy. Assent-aware, celebratory.",
   "toddler": {
-    "game_intro": "Hi, hi, hi! I am Caly ù call me Sprout! Let's play, play, play! Tap the picture you hear!",
+    "game_intro": "Hi, hi, hi! I am Caly - call me Sprout! Let's play, play, play! Tap the picture you hear!",
     "tap_intro": "Tap, tap, tap! Listen close! Find the word I say!",
     "tap_prompt": "Tap, tap, tap! Can you find {word}? {word}! {word}!",
     "match_intro": "Picture match, picture match! Which one is {word}? {word}!",
     "caly_says_intro": "Caly Says! Caly Says! Listen, listen, then tap!",
-    "caly_says_listen": "Caly saysù find {word}! {word}! {word}!",
+    "caly_says_listen": "Caly says: find {word}! {word}! {word}!",
     "parade_intro": "Word parade! Watch them go! Then tap the one I name!",
     "bubble_intro": "Bubble pop words! Pop, pop, pop! Tap the bubble I name!",
     "bubble_prompt": "Pop the {word} bubble! {word}! {word}!",
@@ -34,11 +34,11 @@
     "caregiver_cue": "Grown-ups: point and say the word calmly. No pressure!"
   },
   "child": {
-    "game_intro": "Hey, hey! Caly here ó your Bud guide! Ready for a word adventure?",
+    "game_intro": "Hey, hey! Caly here - your Bud guide! Ready for a word adventure?",
     "tap_intro": "Quest time! Find the word on the board!",
     "tap_prompt": "Which picture means {word}? {word}! Go, go, go!",
     "match_intro": "Match match! Find the picture for {word}!",
-    "caly_says_intro": "Quest challenge! Caly says ù listen and tap!",
+    "caly_says_intro": "Quest challenge! Caly says - listen and tap!",
     "caly_says_listen": "Caly says: {word}! {word}! Tap it!",
     "parade_intro": "Symbol parade! Watch them bounce! Find my word!",
     "bubble_intro": "Bubble pop quest! Pop the word bubble!",
@@ -56,11 +56,93 @@
       "Yes! Adventure win!"
     ],
     "try_again": [
-      "Not quite ù hint or skip?",
+      "Not quite - hint or skip?",
       "Good effort! Try again or skip!"
     ],
     "skip": "Skip anytime! Your choice matters!",
     "streak_3": "Three quest wins! Amazing streak!",
-    "caregiver_cue": "Caregivers: model if they want help ù no pressure."
+    "caregiver_cue": "Caregivers: model if they want help - no pressure."
+  },
+  "teen": {
+    "game_intro": "Hey - Caly (Vine) here. Word quest time. Your call if you want to play.",
+    "tap_intro": "Find the symbol that matches. You lead.",
+    "tap_prompt": "Which one is {word}? Take your time.",
+    "match_intro": "Match {word}. You've got this.",
+    "caly_says_intro": "Caly Says - listen, then tap when you're ready.",
+    "caly_says_listen": "Find {word}. Your pace.",
+    "parade_intro": "Symbol parade - pick the one I name.",
+    "bubble_intro": "Bubble pop - tap the word you hear.",
+    "bubble_prompt": "Pop {word}. Go for it.",
+    "peek_intro": "Peek-a-Caly - find where I'm hiding.",
+    "peek_found": "Found me! Nice eye.",
+    "song_circle_intro": "Song circle - tap on the beat if you want.",
+    "song_circle_cue": "Tap HAPPY on the beat!",
+    "correct": [
+      "Nice one!",
+      "Got it.",
+      "Solid choice.",
+      "That's the one."
+    ],
+    "try_again": [
+      "Not that one - try again or skip.",
+      "Good try. Another pick?"
+    ],
+    "skip": "Skip anytime. Your choice.",
+    "streak_3": "Three in a row. On a roll.",
+    "caregiver_cue": "Support only if they ask - no pressure."
+  },
+  "adult": {
+    "game_intro": "Caly (Bloom) here. Quick symbol practice - skip anytime.",
+    "tap_intro": "Find the matching symbol.",
+    "tap_prompt": "Select {word}.",
+    "match_intro": "Which picture is {word}?",
+    "caly_says_intro": "Listen for the target word, then tap.",
+    "caly_says_listen": "Find {word}.",
+    "parade_intro": "Symbol parade - locate the named word.",
+    "bubble_intro": "Tap the bubble labeled with the target word.",
+    "bubble_prompt": "Select {word}.",
+    "peek_intro": "Find Caly under a card.",
+    "peek_found": "Found Caly.",
+    "song_circle_intro": "Tap symbols on the beat - optional.",
+    "song_circle_cue": "Tap HAPPY on the beat.",
+    "correct": [
+      "Correct.",
+      "Good match.",
+      "That's it."
+    ],
+    "try_again": [
+      "Try another or skip.",
+      "Not a match - your call."
+    ],
+    "skip": "Skip this round anytime.",
+    "streak_3": "Three correct in a row.",
+    "caregiver_cue": "Model only if requested."
+  },
+  "caregiver": {
+    "game_intro": "Caly (Canopy) here. Preview a playful round - educational modeling only.",
+    "tap_intro": "Tap the symbol Caly names to model aided language stimulation.",
+    "tap_prompt": "Find {word} - model calmly for your learner.",
+    "match_intro": "Match {word} - celebrate attempts, not perfection.",
+    "caly_says_intro": "Caly Says - model the word after each round if helpful.",
+    "caly_says_listen": "Find {word}. Point and say the word together if they want help.",
+    "parade_intro": "Symbol parade for joint attention practice.",
+    "bubble_intro": "Bubble pop - name the symbol aloud as you model.",
+    "bubble_prompt": "Pop {word} - say the word clearly.",
+    "peek_intro": "Peek-a-Caly - fun turn-taking preview.",
+    "peek_found": "Found Caly - celebrate the try!",
+    "song_circle_intro": "Song circle - clap and model words on the beat.",
+    "song_circle_cue": "Model HAPPY on the beat together.",
+    "correct": [
+      "Great modeling moment!",
+      "Nice joint attention.",
+      "Celebrate the attempt."
+    ],
+    "try_again": [
+      "Try again or skip - assent first.",
+      "No pressure - model and wait."
+    ],
+    "skip": "Skip anytime. Assent-first always.",
+    "streak_3": "Three rounds - note what worked for your learner.",
+    "caregiver_cue": "Educational carryover only - not therapy. Model, don't test."
   }
 }
