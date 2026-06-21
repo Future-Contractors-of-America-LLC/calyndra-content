@@ -1,6 +1,14 @@
 {
   "version": 1,
-  "theme": "caly-sprout",
+  "theme": "caly-unified",
+  "characterCanon": "CALY_CHARACTER_AGING.md",
+  "agingBands": {
+    "toddler": { "scale": 0.92, "filter": "none", "poseSet": "sprout" },
+    "child": { "scale": 1, "filter": "saturate(1.05)", "poseSet": "sprout" },
+    "teen": { "scale": 1.06, "filter": "saturate(0.95) brightness(1.02)", "poseSet": "sprout" },
+    "adult": { "scale": 1.1, "filter": "saturate(0.9) brightness(1.04)", "poseSet": "sprout" },
+    "caregiver": { "portrait": "assets/caly_guide.png", "poseSet": "guide" }
+  },
   "lockedUtc": "2026-06-21T00:00:00Z",
   "palette": {
     "mint": "#b8f0d8",

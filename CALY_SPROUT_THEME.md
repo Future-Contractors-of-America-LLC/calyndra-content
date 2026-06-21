@@ -1,6 +1,8 @@
 # Caly Sprout theme bible
 
-**Status:** locked — preschool mint/sky palette, chunky outlines, pose set. Sprout is the hero for toddler, marketing, and Play defaults.
+> **Superseded for character canon:** see [`CALY_CHARACTER_AGING.md`](CALY_CHARACTER_AGING.md) — one Caly aging across bands. This file retains Sprout palette and pose inventory reference.
+
+**Status:** locked — preschool mint/sky palette, chunky outlines, pose set. Sprout poses are the **base art** for all age bands until mature pose sets ship.
 
 ## Palette
 
@@ -15,41 +17,12 @@
 ## Visual rules
 
 - Chunky rounded shapes, big friendly eyes, soft gradients, warm storybook lighting.
-- Thick dark-green outlines on all Sprout art (match `help.png`, `caly_sprout.png` quality bar).
+- Thick dark-green outlines on all Caly art (match `help.png`, `caly_sprout.png` quality bar).
 - Lucas & Friends / Super Simple Songs *energy* — **original Calyndra IP only**.
-
-## Master prompt suffix
-
-Append to every Sprout generation (from `ILLUSTRATION_STYLE.md`):
-
-> Preschool educational cartoon illustration for an AAC app. Chunky rounded shapes, pastel mint and sky-blue palette, thick dark-green outlines, friendly big-eyed cartoon style, soft gradients, warm storybook lighting. Square 1:1, soft mint-to-sky gradient background, single clear pictogram centered, no text, no letters, no trademarked characters. Original Calyndra art only.
 
 ## Pose inventory
 
-| Pose | Path | Used in |
-|------|------|---------|
-| wave | `assets/caly-sprout/poses/wave.webp` | Landing hero, Play intro, mascot default |
-| jump-celebrate | `assets/caly-sprout/poses/jump-celebrate.webp` | Game wins, celebrate events |
-| peek-hide | `assets/caly-sprout/poses/peek-hide.webp` | Peek-a-Caly, hide/reveal |
-| listen-ear | `assets/caly-sprout/poses/listen-ear.webp` | Bubble Pop prompt, landing solution |
-| drum-dance | `assets/caly-sprout/poses/drum-dance.webp` | Song Circle |
-| sleepy | `assets/caly-sprout/poses/sleepy.webp` | Bedtime routines, wind-down |
-
-PNG fallbacks: same paths with `.png` extension.
-
-## Scene backgrounds
-
-| Scene | Path | Used in |
-|-------|------|---------|
-| sunny meadow | `assets/scenes/sunny-meadow-stage.webp` | Bubble Pop, Song Circle |
-| colorful playroom | `assets/scenes/colorful-playroom-stage.webp` | Peek-a-Caly |
-
-## Theme routing rules
-
-1. **Toddler audience** ? Sprout mascot + Sprout symbol style + Sprout voice (AriaNeural).
-2. **Marketing landing** ? Sprout poses over generic `caly_sprout.png` when poses exist.
-3. **Play tab default** ? Sprout pose animations via `caly-mascot.js`.
-4. **Child (Caly Quest)** ? extends Sprout visual energy (same palette, explorer gear) with Quest portrait for header; symbol style uses `quest` variant.
+See `CALY_CHARACTER_AGING.md` for full pose table and aging CSS rules.
 
 ## Registry
 
