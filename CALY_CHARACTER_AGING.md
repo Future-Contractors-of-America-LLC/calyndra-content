@@ -5,8 +5,9 @@
 ## Core principle
 
 - **Primary name in UI:** always **Caly**.
+- **Gender:** Caly is **female** at every age band — feminine features, voice, and presence throughout.
 - **Nicknames (optional subtitle):** plant-themed growth labels per band — see table below.
-- **Art:** Sprout pose set (`assets/caly-sprout/poses/*`) for **all** bands; maturity via CSS scale/filter only.
+- **Art:** Distinct band portraits in `assets/caly-bands/` — each stage is **progressively leaner, taller, and more mature** (Sprout ? Canopy) while staying fun.
 - **Palette:** mint `#b8f0d8`, sky `#7ec8ff`, chunky `#2d6a4f` outlines, pastel cream backgrounds.
 
 ## Nicknames by band
