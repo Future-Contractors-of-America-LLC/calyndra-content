@@ -1,0 +1,1241 @@
+{
+  "id": "adult-vocab",
+  "title": "Adult Vocabulary (18+)",
+  "description": "179 words + phrases for Caly Bloom - work, health, and daily living.",
+  "ageBand": "adult",
+  "nickname": "Bloom",
+  "symbols": [
+    {
+      "id": "help",
+      "label": "I need help",
+      "category": "core",
+      "description": "Functional AAC symbol: I need help.",
+      "imageAsset": "assets/symbols/bloom/help.png"
+    },
+    {
+      "id": "more",
+      "label": "more",
+      "category": "core",
+      "imageAsset": "assets/symbols/bloom/more.png"
+    },
+    {
+      "id": "stop",
+      "label": "stop",
+      "category": "core",
+      "description": "Functional AAC symbol: stop.",
+      "imageAsset": "assets/symbols/bloom/stop.png"
+    },
+    {
+      "id": "yes",
+      "label": "yes",
+      "category": "core",
+      "description": "Functional AAC symbol: yes.",
+      "imageAsset": "assets/symbols/bloom/yes.png"
+    },
+    {
+      "id": "no",
+      "label": "no",
+      "category": "core",
+      "description": "Functional AAC symbol: no.",
+      "imageAsset": "assets/symbols/bloom/no.png"
+    },
+    {
+      "id": "bathroom",
+      "label": "bathroom",
+      "category": "routine",
+      "description": "Functional AAC symbol: bathroom.",
+      "imageAsset": "assets/symbols/bloom/bathroom.png"
+    },
+    {
+      "id": "eat",
+      "label": "eat",
+      "category": "routine",
+      "description": "Functional AAC symbol: eat.",
+      "imageAsset": "assets/symbols/bloom/eat.png"
+    },
+    {
+      "id": "drink",
+      "label": "drink",
+      "category": "routine",
+      "description": "Functional AAC symbol: drink.",
+      "imageAsset": "assets/symbols/bloom/drink.png"
+    },
+    {
+      "id": "happy",
+      "label": "happy",
+      "category": "feelings",
+      "description": "Functional AAC symbol: happy.",
+      "imageAsset": "assets/symbols/bloom/happy.png"
+    },
+    {
+      "id": "sad",
+      "label": "sad",
+      "category": "feelings",
+      "description": "Functional AAC symbol: sad.",
+      "imageAsset": "assets/symbols/bloom/sad.png"
+    },
+    {
+      "id": "all-done",
+      "label": "all done",
+      "category": "core",
+      "imageAsset": "assets/symbols/bloom/all-done.png"
+    },
+    {
+      "id": "go",
+      "label": "go",
+      "category": "core",
+      "imageAsset": "assets/symbols/bloom/go.png"
+    },
+    {
+      "id": "wait",
+      "label": "wait",
+      "category": "core",
+      "description": "Ask for time before responding or acting.",
+      "imageAsset": "assets/symbols/bloom/wait.png"
+    },
+    {
+      "id": "home",
+      "label": "home",
+      "category": "places",
+      "imageAsset": "assets/symbols/bloom/home.png"
+    },
+    {
+      "id": "play",
+      "label": "play",
+      "category": "activities",
+      "imageAsset": "assets/symbols/bloom/play.png"
+    },
+    {
+      "id": "hug",
+      "label": "hug please",
+      "category": "social",
+      "description": "Ask for consensual comfort.",
+      "imageAsset": "assets/symbols/bloom/hug.png"
+    },
+    {
+      "id": "hurt",
+      "label": "hurt",
+      "emoji": "??",
+      "symbolHint": "bandage on body part",
+      "category": "feelings",
+      "promptHint": "Hurt vs emergency boundaries",
+      "imageAsset": "assets/symbols/bloom/hurt.png"
+    },
+    {
+      "id": "sleep",
+      "label": "sleep",
+      "category": "routine",
+      "description": "Functional AAC symbol: sleep.",
+      "imageAsset": "assets/symbols/bloom/sleep.png"
+    },
+    {
+      "id": "up",
+      "label": "up",
+      "emoji": "??",
+      "symbolHint": "arrow up or lift arms",
+      "category": "core",
+      "promptHint": "Up for lift or direction",
+      "imageAsset": "assets/symbols/bloom/up.png"
+    },
+    {
+      "id": "down",
+      "label": "down",
+      "emoji": "??",
+      "symbolHint": "arrow down or sit gesture",
+      "category": "core",
+      "promptHint": "Down for safety and direction",
+      "imageAsset": "assets/symbols/bloom/down.png"
+    },
+    {
+      "id": "water",
+      "label": "water",
+      "category": "core",
+      "imageAsset": "assets/symbols/bloom/water.png"
+    },
+    {
+      "id": "milk",
+      "label": "milk",
+      "category": "routine",
+      "symbolHint": "milk carton",
+      "imageAsset": "assets/symbols/bloom/milk.png"
+    },
+    {
+      "id": "juice",
+      "label": "juice",
+      "category": "routine",
+      "symbolHint": "juice box",
+      "imageAsset": "assets/symbols/bloom/juice.png"
+    },
+    {
+      "id": "apple",
+      "label": "apple",
+      "category": "routine",
+      "symbolHint": "red apple",
+      "imageAsset": "assets/symbols/bloom/apple.png"
+    },
+    {
+      "id": "cookie",
+      "label": "cookie",
+      "category": "routine",
+      "symbolHint": "cookie",
+      "imageAsset": "assets/symbols/bloom/cookie.png"
+    },
+    {
+      "id": "dog",
+      "label": "dog",
+      "category": "animals",
+      "symbolHint": "friendly dog",
+      "imageAsset": "assets/symbols/bloom/dog.png"
+    },
+    {
+      "id": "cat",
+      "label": "cat",
+      "category": "animals",
+      "symbolHint": "friendly cat",
+      "imageAsset": "assets/symbols/bloom/cat.png"
+    },
+    {
+      "id": "ball",
+      "label": "ball",
+      "category": "activities",
+      "symbolHint": "play ball",
+      "imageAsset": "assets/symbols/bloom/ball.png"
+    },
+    {
+      "id": "book",
+      "label": "book",
+      "category": "activities",
+      "symbolHint": "picture book",
+      "imageAsset": "assets/symbols/bloom/book.png"
+    },
+    {
+      "id": "car",
+      "label": "car",
+      "category": "places",
+      "symbolHint": "small car",
+      "imageAsset": "assets/symbols/bloom/car.png"
+    },
+    {
+      "id": "bus",
+      "label": "bus",
+      "category": "places",
+      "symbolHint": "school bus",
+      "imageAsset": "assets/symbols/bloom/bus.png"
+    },
+    {
+      "id": "shoe",
+      "label": "shoe",
+      "category": "routine",
+      "symbolHint": "sneaker",
+      "imageAsset": "assets/symbols/bloom/shoe.png"
+    },
+    {
+      "id": "wash",
+      "label": "wash",
+      "category": "routine",
+      "symbolHint": "soap bubbles",
+      "imageAsset": "assets/symbols/bloom/wash.png"
+    },
+    {
+      "id": "open",
+      "label": "open",
+      "category": "core",
+      "symbolHint": "open door",
+      "imageAsset": "assets/symbols/bloom/open.png"
+    },
+    {
+      "id": "close",
+      "label": "close",
+      "category": "core",
+      "symbolHint": "closed door",
+      "imageAsset": "assets/symbols/bloom/close.png"
+    },
+    {
+      "id": "again",
+      "label": "again",
+      "category": "core",
+      "symbolHint": "repeat arrow",
+      "imageAsset": "assets/symbols/bloom/again.png"
+    },
+    {
+      "id": "please",
+      "label": "please",
+      "category": "social",
+      "imageAsset": "assets/symbols/bloom/please.png"
+    },
+    {
+      "id": "love",
+      "label": "love",
+      "category": "feelings",
+      "symbolHint": "heart",
+      "imageAsset": "assets/symbols/bloom/love.png"
+    },
+    {
+      "id": "mommy",
+      "label": "mommy",
+      "category": "social",
+      "symbolHint": "mother figure",
+      "imageAsset": "assets/symbols/bloom/mommy.png"
+    },
+    {
+      "id": "daddy",
+      "label": "daddy",
+      "category": "social",
+      "symbolHint": "father figure",
+      "imageAsset": "assets/symbols/bloom/daddy.png"
+    },
+    {
+      "id": "look",
+      "label": "look",
+      "category": "core",
+      "symbolHint": "eyes looking",
+      "imageAsset": "assets/symbols/bloom/look.png"
+    },
+    {
+      "id": "listen",
+      "label": "please listen",
+      "category": "communication",
+      "description": "Request full attention respectfully.",
+      "imageAsset": "assets/symbols/bloom/listen.png"
+    },
+    {
+      "id": "big",
+      "label": "big",
+      "category": "core",
+      "symbolHint": "large shape",
+      "imageAsset": "assets/symbols/bloom/big.png"
+    },
+    {
+      "id": "little",
+      "label": "little",
+      "category": "core",
+      "symbolHint": "small shape",
+      "imageAsset": "assets/symbols/bloom/little.png"
+    },
+    {
+      "id": "wet",
+      "label": "wet",
+      "category": "sensory",
+      "symbolHint": "water splash",
+      "imageAsset": "assets/symbols/bloom/wet.png"
+    },
+    {
+      "id": "dry",
+      "label": "dry",
+      "category": "sensory",
+      "symbolHint": "towel",
+      "imageAsset": "assets/symbols/bloom/dry.png"
+    },
+    {
+      "id": "hot",
+      "label": "hot",
+      "category": "sensory",
+      "imageAsset": "assets/symbols/bloom/hot.png"
+    },
+    {
+      "id": "cold",
+      "label": "cold",
+      "category": "sensory",
+      "imageAsset": "assets/symbols/bloom/cold.png"
+    },
+    {
+      "id": "clean",
+      "label": "clean",
+      "category": "routine",
+      "symbolHint": "sparkle clean",
+      "imageAsset": "assets/symbols/bloom/clean.png"
+    },
+    {
+      "id": "dirty",
+      "label": "dirty",
+      "category": "routine",
+      "symbolHint": "mud spot",
+      "imageAsset": "assets/symbols/bloom/dirty.png"
+    },
+    {
+      "id": "friend",
+      "label": "friend",
+      "category": "social",
+      "description": "Functional AAC symbol: friend.",
+      "imageAsset": "assets/symbols/bloom/friend.png"
+    },
+    {
+      "id": "blanket",
+      "label": "blanket",
+      "category": "routine",
+      "symbolHint": "soft blanket",
+      "imageAsset": "assets/symbols/bloom/blanket.png"
+    },
+    {
+      "id": "toy",
+      "label": "toy",
+      "category": "activities",
+      "symbolHint": "teddy",
+      "imageAsset": "assets/symbols/bloom/toy.png"
+    },
+    {
+      "id": "mad",
+      "label": "mad",
+      "category": "feelings",
+      "imageAsset": "assets/symbols/bloom/mad.png"
+    },
+    {
+      "id": "scared",
+      "label": "scared",
+      "category": "feelings",
+      "imageAsset": "assets/symbols/bloom/scared.png"
+    },
+    {
+      "id": "tired",
+      "label": "tired",
+      "category": "feelings",
+      "imageAsset": "assets/symbols/bloom/tired.png"
+    },
+    {
+      "id": "sick",
+      "label": "sick",
+      "category": "feelings",
+      "imageAsset": "assets/symbols/bloom/sick.png"
+    },
+    {
+      "id": "school",
+      "label": "school",
+      "category": "life",
+      "description": "Functional AAC symbol: school.",
+      "imageAsset": "assets/symbols/bloom/school.png"
+    },
+    {
+      "id": "read",
+      "label": "read",
+      "category": "activities",
+      "imageAsset": "assets/symbols/bloom/read.png"
+    },
+    {
+      "id": "draw",
+      "label": "draw",
+      "category": "activities",
+      "imageAsset": "assets/symbols/bloom/draw.png"
+    },
+    {
+      "id": "music",
+      "label": "music",
+      "category": "activities",
+      "imageAsset": "assets/symbols/bloom/music.png"
+    },
+    {
+      "id": "outside",
+      "label": "outside",
+      "category": "activities",
+      "imageAsset": "assets/symbols/bloom/outside.png"
+    },
+    {
+      "id": "family",
+      "label": "family",
+      "category": "social",
+      "imageAsset": "assets/symbols/bloom/family.png"
+    },
+    {
+      "id": "share",
+      "label": "share",
+      "category": "social",
+      "imageAsset": "assets/symbols/bloom/share.png"
+    },
+    {
+      "id": "turn",
+      "label": "my turn",
+      "category": "social",
+      "imageAsset": "assets/symbols/bloom/turn.png"
+    },
+    {
+      "id": "thank-you",
+      "label": "thank you",
+      "category": "social",
+      "imageAsset": "assets/symbols/bloom/thank-you.png"
+    },
+    {
+      "id": "sorry",
+      "label": "sorry",
+      "category": "social",
+      "imageAsset": "assets/symbols/bloom/sorry.png"
+    },
+    {
+      "id": "break",
+      "label": "I need a break",
+      "category": "regulation",
+      "description": "Functional AAC symbol: I need a break.",
+      "imageAsset": "assets/symbols/bloom/break.png"
+    },
+    {
+      "id": "quiet",
+      "label": "quiet",
+      "category": "regulation",
+      "imageAsset": "assets/symbols/bloom/quiet.png"
+    },
+    {
+      "id": "loud",
+      "label": "too loud",
+      "category": "regulation",
+      "imageAsset": "assets/symbols/bloom/loud.png"
+    },
+    {
+      "id": "like",
+      "label": "I like",
+      "category": "preferences",
+      "imageAsset": "assets/symbols/bloom/like.png"
+    },
+    {
+      "id": "dont-like",
+      "label": "don't like",
+      "category": "preferences",
+      "imageAsset": "assets/symbols/bloom/dont-like.png"
+    },
+    {
+      "id": "want",
+      "label": "I want",
+      "category": "core",
+      "imageAsset": "assets/symbols/bloom/want.png"
+    },
+    {
+      "id": "need",
+      "label": "I need",
+      "category": "core",
+      "imageAsset": "assets/symbols/bloom/need.png"
+    },
+    {
+      "id": "where",
+      "label": "where",
+      "category": "questions",
+      "imageAsset": "assets/symbols/bloom/where.png"
+    },
+    {
+      "id": "what",
+      "label": "what",
+      "category": "questions",
+      "imageAsset": "assets/symbols/bloom/what.png"
+    },
+    {
+      "id": "who",
+      "label": "who",
+      "category": "questions",
+      "imageAsset": "assets/symbols/bloom/who.png"
+    },
+    {
+      "id": "when",
+      "label": "when",
+      "category": "questions",
+      "imageAsset": "assets/symbols/bloom/when.png"
+    },
+    {
+      "id": "why",
+      "label": "why",
+      "category": "questions",
+      "imageAsset": "assets/symbols/bloom/why.png"
+    },
+    {
+      "id": "different",
+      "label": "different",
+      "category": "core",
+      "imageAsset": "assets/symbols/bloom/different.png"
+    },
+    {
+      "id": "same",
+      "label": "same",
+      "category": "core",
+      "imageAsset": "assets/symbols/bloom/same.png"
+    },
+    {
+      "id": "finished",
+      "label": "finished",
+      "category": "core",
+      "imageAsset": "assets/symbols/bloom/finished.png"
+    },
+    {
+      "id": "computer",
+      "label": "computer",
+      "category": "activities",
+      "imageAsset": "assets/symbols/bloom/computer.png"
+    },
+    {
+      "id": "phone",
+      "label": "call someone",
+      "category": "communication",
+      "description": "Functional AAC symbol: call someone.",
+      "imageAsset": "assets/symbols/bloom/phone.png"
+    },
+    {
+      "id": "park",
+      "label": "park",
+      "category": "places",
+      "imageAsset": "assets/symbols/bloom/park.png"
+    },
+    {
+      "id": "walk",
+      "label": "walk",
+      "category": "activities",
+      "imageAsset": "assets/symbols/bloom/walk.png"
+    },
+    {
+      "id": "run",
+      "label": "run",
+      "category": "activities",
+      "imageAsset": "assets/symbols/bloom/run.png"
+    },
+    {
+      "id": "swim",
+      "label": "swim",
+      "category": "activities",
+      "imageAsset": "assets/symbols/bloom/swim.png"
+    },
+    {
+      "id": "dance",
+      "label": "dance",
+      "category": "activities",
+      "imageAsset": "assets/symbols/bloom/dance.png"
+    },
+    {
+      "id": "sing",
+      "label": "sing",
+      "category": "activities",
+      "imageAsset": "assets/symbols/bloom/sing.png"
+    },
+    {
+      "id": "write",
+      "label": "write it down",
+      "category": "communication",
+      "description": "Functional AAC symbol: write it down.",
+      "imageAsset": "assets/symbols/bloom/write.png"
+    },
+    {
+      "id": "think",
+      "label": "think",
+      "category": "feelings",
+      "imageAsset": "assets/symbols/bloom/think.png"
+    },
+    {
+      "id": "try",
+      "label": "try",
+      "category": "core",
+      "imageAsset": "assets/symbols/bloom/try.png"
+    },
+    {
+      "id": "team",
+      "label": "team",
+      "category": "social",
+      "imageAsset": "assets/symbols/bloom/team.png"
+    },
+    {
+      "id": "together",
+      "label": "together",
+      "category": "social",
+      "imageAsset": "assets/symbols/bloom/together.png"
+    },
+    {
+      "id": "fast",
+      "label": "fast",
+      "category": "sensory",
+      "imageAsset": "assets/symbols/bloom/fast.png"
+    },
+    {
+      "id": "slow",
+      "label": "slow down",
+      "category": "communication",
+      "description": "Functional AAC symbol: slow down.",
+      "imageAsset": "assets/symbols/bloom/slow.png"
+    },
+    {
+      "id": "morning",
+      "label": "morning",
+      "category": "routine",
+      "imageAsset": "assets/symbols/bloom/morning.png"
+    },
+    {
+      "id": "night",
+      "label": "night",
+      "category": "routine",
+      "imageAsset": "assets/symbols/bloom/night.png"
+    },
+    {
+      "id": "today",
+      "label": "today",
+      "category": "core",
+      "imageAsset": "assets/symbols/bloom/today.png"
+    },
+    {
+      "id": "soft",
+      "label": "soft",
+      "category": "sensory",
+      "imageAsset": "assets/symbols/bloom/soft.png"
+    },
+    {
+      "id": "hard",
+      "label": "hard",
+      "category": "sensory",
+      "imageAsset": "assets/symbols/bloom/hard.png"
+    },
+    {
+      "id": "email",
+      "label": "email",
+      "category": "communication",
+      "description": "Functional AAC symbol: email.",
+      "imageAsset": "assets/symbols/bloom/email.png"
+    },
+    {
+      "id": "work",
+      "label": "work",
+      "category": "life",
+      "description": "Functional AAC symbol: work.",
+      "imageAsset": "assets/symbols/bloom/work.png"
+    },
+    {
+      "id": "store",
+      "label": "store",
+      "category": "places",
+      "imageAsset": "assets/symbols/bloom/store.png"
+    },
+    {
+      "id": "doctor",
+      "label": "see doctor",
+      "category": "health",
+      "description": "Functional AAC symbol: see doctor.",
+      "imageAsset": "assets/symbols/bloom/doctor.png"
+    },
+    {
+      "id": "nurse",
+      "label": "nurse",
+      "category": "people",
+      "imageAsset": "assets/symbols/bloom/nurse.png"
+    },
+    {
+      "id": "teacher",
+      "label": "teacher",
+      "category": "people",
+      "imageAsset": "assets/symbols/bloom/teacher.png"
+    },
+    {
+      "id": "grandma",
+      "label": "grandma",
+      "category": "social",
+      "imageAsset": "assets/symbols/bloom/grandma.png"
+    },
+    {
+      "id": "grandpa",
+      "label": "grandpa",
+      "category": "social",
+      "imageAsset": "assets/symbols/bloom/grandpa.png"
+    },
+    {
+      "id": "baby",
+      "label": "baby",
+      "category": "social",
+      "imageAsset": "assets/symbols/bloom/baby.png"
+    },
+    {
+      "id": "brother",
+      "label": "brother",
+      "category": "social",
+      "imageAsset": "assets/symbols/bloom/brother.png"
+    },
+    {
+      "id": "sister",
+      "label": "sister",
+      "category": "social",
+      "imageAsset": "assets/symbols/bloom/sister.png"
+    },
+    {
+      "id": "pet",
+      "label": "pet",
+      "category": "social",
+      "imageAsset": "assets/symbols/bloom/pet.png"
+    },
+    {
+      "id": "remember",
+      "label": "remember",
+      "category": "core",
+      "imageAsset": "assets/symbols/bloom/remember.png"
+    },
+    {
+      "id": "forget",
+      "label": "forget",
+      "category": "core",
+      "imageAsset": "assets/symbols/bloom/forget.png"
+    },
+    {
+      "id": "win",
+      "label": "win",
+      "category": "social",
+      "imageAsset": "assets/symbols/bloom/win.png"
+    },
+    {
+      "id": "lose",
+      "label": "lose",
+      "category": "social",
+      "imageAsset": "assets/symbols/bloom/lose.png"
+    },
+    {
+      "id": "alone",
+      "label": "alone",
+      "category": "social",
+      "imageAsset": "assets/symbols/bloom/alone.png"
+    },
+    {
+      "id": "first",
+      "label": "first",
+      "category": "core",
+      "imageAsset": "assets/symbols/bloom/first.png"
+    },
+    {
+      "id": "last",
+      "label": "last",
+      "category": "core",
+      "imageAsset": "assets/symbols/bloom/last.png"
+    },
+    {
+      "id": "tomorrow",
+      "label": "tomorrow",
+      "category": "core",
+      "imageAsset": "assets/symbols/bloom/tomorrow.png"
+    },
+    {
+      "id": "yesterday",
+      "label": "yesterday",
+      "category": "core",
+      "imageAsset": "assets/symbols/bloom/yesterday.png"
+    },
+    {
+      "id": "money",
+      "label": "money",
+      "category": "life",
+      "description": "Functional AAC symbol: money.",
+      "imageAsset": "assets/symbols/bloom/money.png"
+    },
+    {
+      "id": "pay",
+      "label": "pay",
+      "category": "functional",
+      "imageAsset": "assets/symbols/bloom/pay.png"
+    },
+    {
+      "id": "buy",
+      "label": "buy",
+      "category": "functional",
+      "imageAsset": "assets/symbols/bloom/buy.png"
+    },
+    {
+      "id": "sell",
+      "label": "sell",
+      "category": "functional",
+      "imageAsset": "assets/symbols/bloom/sell.png"
+    },
+    {
+      "id": "job",
+      "label": "job",
+      "category": "functional",
+      "imageAsset": "assets/symbols/bloom/job.png"
+    },
+    {
+      "id": "meeting",
+      "label": "meeting",
+      "category": "functional",
+      "imageAsset": "assets/symbols/bloom/meeting.png"
+    },
+    {
+      "id": "schedule",
+      "label": "schedule",
+      "category": "functional",
+      "imageAsset": "assets/symbols/bloom/schedule.png"
+    },
+    {
+      "id": "calendar",
+      "label": "calendar",
+      "category": "functional",
+      "imageAsset": "assets/symbols/bloom/calendar.png"
+    },
+    {
+      "id": "alarm",
+      "label": "alarm",
+      "category": "routine",
+      "imageAsset": "assets/symbols/bloom/alarm.png"
+    },
+    {
+      "id": "message",
+      "label": "message",
+      "category": "functional",
+      "imageAsset": "assets/symbols/bloom/message.png"
+    },
+    {
+      "id": "call",
+      "label": "call",
+      "category": "functional",
+      "imageAsset": "assets/symbols/bloom/call.png"
+    },
+    {
+      "id": "video",
+      "label": "video",
+      "category": "activities",
+      "imageAsset": "assets/symbols/bloom/video.png"
+    },
+    {
+      "id": "photo",
+      "label": "photo",
+      "category": "activities",
+      "imageAsset": "assets/symbols/bloom/photo.png"
+    },
+    {
+      "id": "map",
+      "label": "map",
+      "category": "functional",
+      "imageAsset": "assets/symbols/bloom/map.png"
+    },
+    {
+      "id": "directions",
+      "label": "directions",
+      "category": "functional",
+      "imageAsset": "assets/symbols/bloom/directions.png"
+    },
+    {
+      "id": "left",
+      "label": "left",
+      "category": "core",
+      "imageAsset": "assets/symbols/bloom/left.png"
+    },
+    {
+      "id": "right",
+      "label": "right",
+      "category": "core",
+      "imageAsset": "assets/symbols/bloom/right.png"
+    },
+    {
+      "id": "forward",
+      "label": "forward",
+      "category": "core",
+      "imageAsset": "assets/symbols/bloom/forward.png"
+    },
+    {
+      "id": "backward",
+      "label": "backward",
+      "category": "core",
+      "imageAsset": "assets/symbols/bloom/backward.png"
+    },
+    {
+      "id": "not-now",
+      "label": "not now",
+      "category": "core",
+      "description": "Functional AAC symbol: not now.",
+      "imageAsset": "assets/symbols/bloom/not-now.png"
+    },
+    {
+      "id": "later",
+      "label": "later",
+      "category": "core",
+      "description": "Functional AAC symbol: later.",
+      "imageAsset": "assets/symbols/bloom/later.png"
+    },
+    {
+      "id": "overwhelmed",
+      "label": "overwhelmed",
+      "category": "regulation",
+      "description": "Functional AAC symbol: overwhelmed.",
+      "imageAsset": "assets/symbols/bloom/overwhelmed.png"
+    },
+    {
+      "id": "pain",
+      "label": "pain",
+      "category": "health",
+      "description": "Functional AAC symbol: pain.",
+      "imageAsset": "assets/symbols/bloom/pain.png"
+    },
+    {
+      "id": "medication",
+      "label": "medication",
+      "category": "health",
+      "description": "Functional AAC symbol: medication.",
+      "imageAsset": "assets/symbols/bloom/medication.png"
+    },
+    {
+      "id": "appointment",
+      "label": "appointment",
+      "category": "life",
+      "description": "Functional AAC symbol: appointment.",
+      "imageAsset": "assets/symbols/bloom/appointment.png"
+    },
+    {
+      "id": "transport",
+      "label": "ride",
+      "category": "life",
+      "description": "Functional AAC symbol: ride.",
+      "imageAsset": "assets/symbols/bloom/transport.png"
+    },
+    {
+      "id": "text",
+      "label": "text message",
+      "category": "communication",
+      "description": "Functional AAC symbol: text message.",
+      "imageAsset": "assets/symbols/bloom/text.png"
+    },
+    {
+      "id": "repeat",
+      "label": "say that again",
+      "category": "communication",
+      "description": "Functional AAC symbol: say that again.",
+      "imageAsset": "assets/symbols/bloom/repeat.png"
+    },
+    {
+      "id": "privacy",
+      "label": "privacy please",
+      "category": "social",
+      "description": "Functional AAC symbol: privacy please.",
+      "imageAsset": "assets/symbols/bloom/privacy.png"
+    },
+    {
+      "id": "consent",
+      "label": "I don't consent",
+      "category": "social",
+      "description": "Functional AAC symbol: I don't consent.",
+      "imageAsset": "assets/symbols/bloom/consent.png"
+    },
+    {
+      "id": "uncomfortable",
+      "label": "uncomfortable",
+      "category": "feelings",
+      "description": "Functional AAC symbol: uncomfortable.",
+      "imageAsset": "assets/symbols/bloom/uncomfortable.png"
+    },
+    {
+      "id": "anxious",
+      "label": "anxious",
+      "category": "feelings",
+      "description": "Functional AAC symbol: anxious.",
+      "imageAsset": "assets/symbols/bloom/anxious.png"
+    },
+    {
+      "id": "excited",
+      "label": "excited",
+      "category": "feelings",
+      "description": "Functional AAC symbol: excited.",
+      "imageAsset": "assets/symbols/bloom/excited.png"
+    },
+    {
+      "id": "frustrated",
+      "label": "frustrated",
+      "category": "feelings",
+      "description": "Functional AAC symbol: frustrated.",
+      "imageAsset": "assets/symbols/bloom/frustrated.png"
+    },
+    {
+      "id": "explain",
+      "label": "explain more",
+      "category": "questions",
+      "description": "Functional AAC symbol: explain more.",
+      "imageAsset": "assets/symbols/bloom/explain.png"
+    },
+    {
+      "id": "choice",
+      "label": "my choice",
+      "category": "autonomy",
+      "description": "Functional AAC symbol: my choice.",
+      "imageAsset": "assets/symbols/bloom/choice.png"
+    },
+    {
+      "id": "support",
+      "label": "support person",
+      "category": "autonomy",
+      "description": "Functional AAC symbol: support person.",
+      "imageAsset": "assets/symbols/bloom/support.png"
+    },
+    {
+      "id": "accommodation",
+      "label": "accommodation",
+      "category": "autonomy",
+      "description": "Functional AAC symbol: accommodation.",
+      "imageAsset": "assets/symbols/bloom/accommodation.png"
+    },
+    {
+      "id": "emergency",
+      "label": "emergency (call 911)",
+      "category": "safety",
+      "description": "Functional AAC symbol: emergency (call 911).",
+      "imageAsset": "assets/symbols/bloom/emergency.png"
+    },
+    {
+      "id": "repeat-slower",
+      "label": "repeat slower",
+      "category": "communication",
+      "description": "Ask someone to slow down and repeat.",
+      "imageAsset": "assets/symbols/bloom/repeat-slower.png"
+    },
+    {
+      "id": "clarify",
+      "label": "I don't understand",
+      "category": "communication",
+      "description": "Signal confusion without blame.",
+      "imageAsset": "assets/symbols/bloom/clarify.png"
+    },
+    {
+      "id": "topic-change",
+      "label": "change topic",
+      "category": "communication",
+      "description": "Redirect conversation comfortably.",
+      "imageAsset": "assets/symbols/bloom/topic-change.png"
+    },
+    {
+      "id": "leave",
+      "label": "I want to leave",
+      "category": "autonomy",
+      "description": "Exit a space or situation.",
+      "imageAsset": "assets/symbols/bloom/leave.png"
+    },
+    {
+      "id": "stay",
+      "label": "I want to stay",
+      "category": "autonomy",
+      "description": "Remain where you feel safe.",
+      "imageAsset": "assets/symbols/bloom/stay.png"
+    },
+    {
+      "id": "space",
+      "label": "need space",
+      "category": "regulation",
+      "description": "Request physical or emotional distance.",
+      "imageAsset": "assets/symbols/bloom/space.png"
+    },
+    {
+      "id": "high-five",
+      "label": "high five",
+      "category": "social",
+      "description": "Celebrate without pressure.",
+      "imageAsset": "assets/symbols/bloom/high-five.png"
+    },
+    {
+      "id": "introduce",
+      "label": "introduce me",
+      "category": "social",
+      "description": "Support in social introductions.",
+      "imageAsset": "assets/symbols/bloom/introduce.png"
+    },
+    {
+      "id": "schedule-change",
+      "label": "schedule change",
+      "category": "life",
+      "description": "Flag a change in plans.",
+      "imageAsset": "assets/symbols/bloom/schedule-change.png"
+    },
+    {
+      "id": "running-late",
+      "label": "running late",
+      "category": "life",
+      "description": "Communicate delay proactively.",
+      "imageAsset": "assets/symbols/bloom/running-late.png"
+    },
+    {
+      "id": "cancel",
+      "label": "cancel plans",
+      "category": "life",
+      "description": "Opt out of plans respectfully.",
+      "imageAsset": "assets/symbols/bloom/cancel.png"
+    },
+    {
+      "id": "grocery",
+      "label": "grocery store",
+      "category": "life",
+      "description": "Community errand vocabulary.",
+      "imageAsset": "assets/symbols/bloom/grocery.png"
+    },
+    {
+      "id": "restaurant",
+      "label": "restaurant",
+      "category": "life",
+      "description": "Dining out communication.",
+      "imageAsset": "assets/symbols/bloom/restaurant.png"
+    },
+    {
+      "id": "order",
+      "label": "my order",
+      "category": "life",
+      "description": "State food or item choice.",
+      "imageAsset": "assets/symbols/bloom/order.png"
+    },
+    {
+      "id": "allergy",
+      "label": "food allergy",
+      "category": "health",
+      "description": "Disclose dietary needs clearly.",
+      "imageAsset": "assets/symbols/bloom/allergy.png"
+    },
+    {
+      "id": "nausea",
+      "label": "feel sick",
+      "category": "health",
+      "description": "Report illness without diagnosis.",
+      "imageAsset": "assets/symbols/bloom/nausea.png"
+    },
+    {
+      "id": "rest",
+      "label": "need rest",
+      "category": "regulation",
+      "description": "Request downtime for recovery.",
+      "imageAsset": "assets/symbols/bloom/rest.png"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "schedule-meeting",
+      "label": "I'd like to schedule a meeting",
+      "category": "work",
+      "speakText": "I'd like to schedule a meeting."
+    },
+    {
+      "id": "need-clarification",
+      "label": "I need clarification",
+      "category": "work",
+      "speakText": "I need clarification."
+    },
+    {
+      "id": "follow-up",
+      "label": "I will follow up by email",
+      "category": "work",
+      "speakText": "I will follow up by email."
+    },
+    {
+      "id": "running-late-adult",
+      "label": "I'm running late for work",
+      "category": "work",
+      "speakText": "I'm running late for work."
+    },
+    {
+      "id": "need-accommodation",
+      "label": "I need an accommodation",
+      "category": "work",
+      "speakText": "I need an accommodation."
+    },
+    {
+      "id": "pay-bill",
+      "label": "I need to pay a bill",
+      "category": "functional",
+      "speakText": "I need to pay a bill."
+    },
+    {
+      "id": "make-appointment",
+      "label": "I need to make an appointment",
+      "category": "health",
+      "speakText": "I need to make an appointment."
+    },
+    {
+      "id": "transport-help",
+      "label": "I need help with transport",
+      "category": "functional",
+      "speakText": "I need help with transport."
+    },
+    {
+      "id": "allergy",
+      "label": "I have a food allergy",
+      "category": "health",
+      "speakText": "I have a food allergy."
+    },
+    {
+      "id": "repeat-email",
+      "label": "Please repeat that in writing",
+      "category": "core",
+      "speakText": "Please repeat that in writing."
+    }
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "id": "caregiver-vocab",
+  "title": "Caregiver Modeling",
+  "description": "26 model words + coaching phrases for Caly Canopy.",
+  "ageBand": "caregiver",
+  "nickname": "Canopy",
+  "symbols": [
+    {
+      "id": "help",
+      "label": "I need help",
+      "category": "core",
+      "description": "Functional AAC symbol: I need help.",
+      "imageAsset": "assets/symbols/canopy/help.png"
+    },
+    {
+      "id": "more",
+      "label": "more",
+      "category": "core",
+      "imageAsset": "assets/symbols/canopy/more.png"
+    },
+    {
+      "id": "stop",
+      "label": "stop",
+      "category": "core",
+      "description": "Functional AAC symbol: stop.",
+      "imageAsset": "assets/symbols/canopy/stop.png"
+    },
+    {
+      "id": "yes",
+      "label": "yes",
+      "category": "core",
+      "description": "Functional AAC symbol: yes.",
+      "imageAsset": "assets/symbols/canopy/yes.png"
+    },
+    {
+      "id": "no",
+      "label": "no",
+      "category": "core",
+      "description": "Functional AAC symbol: no.",
+      "imageAsset": "assets/symbols/canopy/no.png"
+    },
+    {
+      "id": "bathroom",
+      "label": "bathroom",
+      "category": "routine",
+      "description": "Functional AAC symbol: bathroom.",
+      "imageAsset": "assets/symbols/canopy/bathroom.png"
+    },
+    {
+      "id": "eat",
+      "label": "eat",
+      "category": "routine",
+      "description": "Functional AAC symbol: eat.",
+      "imageAsset": "assets/symbols/canopy/eat.png"
+    },
+    {
+      "id": "drink",
+      "label": "drink",
+      "category": "routine",
+      "description": "Functional AAC symbol: drink.",
+      "imageAsset": "assets/symbols/canopy/drink.png"
+    },
+    {
+      "id": "happy",
+      "label": "happy",
+      "category": "feelings",
+      "description": "Functional AAC symbol: happy.",
+      "imageAsset": "assets/symbols/canopy/happy.png"
+    },
+    {
+      "id": "sad",
+      "label": "sad",
+      "category": "feelings",
+      "description": "Functional AAC symbol: sad.",
+      "imageAsset": "assets/symbols/canopy/sad.png"
+    },
+    {
+      "id": "all-done",
+      "label": "all done",
+      "category": "core",
+      "imageAsset": "assets/symbols/canopy/all-done.png"
+    },
+    {
+      "id": "go",
+      "label": "go",
+      "category": "core",
+      "imageAsset": "assets/symbols/canopy/go.png"
+    },
+    {
+      "id": "wait",
+      "label": "wait",
+      "category": "core",
+      "description": "Ask for time before responding or acting.",
+      "imageAsset": "assets/symbols/canopy/wait.png"
+    },
+    {
+      "id": "home",
+      "label": "home",
+      "category": "places",
+      "imageAsset": "assets/symbols/canopy/home.png"
+    },
+    {
+      "id": "play",
+      "label": "play",
+      "category": "activities",
+      "imageAsset": "assets/symbols/canopy/play.png"
+    },
+    {
+      "id": "hug",
+      "label": "hug please",
+      "category": "social",
+      "description": "Ask for consensual comfort.",
+      "imageAsset": "assets/symbols/canopy/hug.png"
+    },
+    {
+      "id": "hurt",
+      "label": "hurt",
+      "emoji": "??",
+      "symbolHint": "bandage on body part",
+      "category": "feelings",
+      "promptHint": "Hurt vs emergency boundaries",
+      "imageAsset": "assets/symbols/canopy/hurt.png"
+    },
+    {
+      "id": "sleep",
+      "label": "sleep",
+      "category": "routine",
+      "description": "Functional AAC symbol: sleep.",
+      "imageAsset": "assets/symbols/canopy/sleep.png"
+    },
+    {
+      "id": "up",
+      "label": "up",
+      "emoji": "??",
+      "symbolHint": "arrow up or lift arms",
+      "category": "core",
+      "promptHint": "Up for lift or direction",
+      "imageAsset": "assets/symbols/canopy/up.png"
+    },
+    {
+      "id": "down",
+      "label": "down",
+      "emoji": "??",
+      "symbolHint": "arrow down or sit gesture",
+      "category": "core",
+      "promptHint": "Down for safety and direction",
+      "imageAsset": "assets/symbols/canopy/down.png"
+    },
+    {
+      "id": "break",
+      "label": "I need a break",
+      "category": "regulation",
+      "description": "Functional AAC symbol: I need a break.",
+      "imageAsset": "assets/symbols/canopy/break.png"
+    },
+    {
+      "id": "please",
+      "label": "please",
+      "category": "social",
+      "imageAsset": "assets/symbols/canopy/please.png"
+    },
+    {
+      "id": "thank-you",
+      "label": "thank you",
+      "category": "social",
+      "imageAsset": "assets/symbols/canopy/thank-you.png"
+    },
+    {
+      "id": "share",
+      "label": "share",
+      "category": "social",
+      "imageAsset": "assets/symbols/canopy/share.png"
+    },
+    {
+      "id": "listen",
+      "label": "please listen",
+      "category": "communication",
+      "description": "Request full attention respectfully.",
+      "imageAsset": "assets/symbols/canopy/listen.png"
+    },
+    {
+      "id": "quiet",
+      "label": "quiet",
+      "category": "regulation",
+      "imageAsset": "assets/symbols/canopy/quiet.png"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "model-word",
+      "label": "Let's model this word",
+      "category": "coaching",
+      "speakText": "Let's model this word together."
+    },
+    {
+      "id": "take-time",
+      "label": "Take your time",
+      "category": "coaching",
+      "speakText": "Take your time. I'm listening."
+    },
+    {
+      "id": "good-try",
+      "label": "Good try!",
+      "category": "coaching",
+      "speakText": "Good try! That counts."
+    },
+    {
+      "id": "your-choice",
+      "label": "Your choice matters",
+      "category": "coaching",
+      "speakText": "Your choice matters."
+    },
+    {
+      "id": "we-can-wait",
+      "label": "We can wait",
+      "category": "coaching",
+      "speakText": "We can wait. No rush."
+    },
+    {
+      "id": "want-break",
+      "label": "Do you want a break?",
+      "category": "coaching",
+      "speakText": "Do you want a break?"
+    },
+    {
+      "id": "show-me",
+      "label": "Show me how you feel",
+      "category": "coaching",
+      "speakText": "Show me how you feel."
+    },
+    {
+      "id": "i-see-you",
+      "label": "I see you trying",
+      "category": "coaching",
+      "speakText": "I see you trying."
+    },
+    {
+      "id": "not-emergency",
+      "label": "This is support, not emergency care",
+      "category": "boundary",
+      "speakText": "This is support, not emergency care."
+    },
+    {
+      "id": "assent-first",
+      "label": "We follow assent first",
+      "category": "coaching",
+      "speakText": "We follow assent first."
+    }
+  ]
+}

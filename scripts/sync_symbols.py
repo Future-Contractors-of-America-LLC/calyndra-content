@@ -23,7 +23,16 @@ def sync() -> int:
                 dest.parent.mkdir(parents=True, exist_ok=True)
                 shutil.copy2(png, dest)
             n += 1
-    for name in ("toddler-core.json", "child-expanded.json", "teen-adult-functional.json"):
+    for name in (
+        "toddler-core.json",
+        "child-vocab.json",
+        "tween-vocab.json",
+        "teen-vocab.json",
+        "adult-vocab.json",
+        "caregiver-vocab.json",
+        "child-expanded.json",
+        "teen-adult-functional.json",
+    ):
         src = ROOT / "vocabulary" / name
         if src.exists():
             shutil.copy2(src, FLUTTER / "assets" / "vocabulary" / name)

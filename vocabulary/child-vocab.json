@@ -1,0 +1,609 @@
+{
+  "id": "child-vocab",
+  "title": "Child Vocabulary (5-8)",
+  "description": "76 words + phrases for Caly Bud - builds on toddler core.",
+  "ageBand": "child",
+  "nickname": "Bud",
+  "symbols": [
+    {
+      "id": "help",
+      "label": "I need help",
+      "category": "core",
+      "description": "Functional AAC symbol: I need help.",
+      "imageAsset": "assets/symbols/bud/help.png"
+    },
+    {
+      "id": "more",
+      "label": "more",
+      "category": "core",
+      "imageAsset": "assets/symbols/bud/more.png"
+    },
+    {
+      "id": "stop",
+      "label": "stop",
+      "category": "core",
+      "description": "Functional AAC symbol: stop.",
+      "imageAsset": "assets/symbols/bud/stop.png"
+    },
+    {
+      "id": "yes",
+      "label": "yes",
+      "category": "core",
+      "description": "Functional AAC symbol: yes.",
+      "imageAsset": "assets/symbols/bud/yes.png"
+    },
+    {
+      "id": "no",
+      "label": "no",
+      "category": "core",
+      "description": "Functional AAC symbol: no.",
+      "imageAsset": "assets/symbols/bud/no.png"
+    },
+    {
+      "id": "bathroom",
+      "label": "bathroom",
+      "category": "routine",
+      "description": "Functional AAC symbol: bathroom.",
+      "imageAsset": "assets/symbols/bud/bathroom.png"
+    },
+    {
+      "id": "eat",
+      "label": "eat",
+      "category": "routine",
+      "description": "Functional AAC symbol: eat.",
+      "imageAsset": "assets/symbols/bud/eat.png"
+    },
+    {
+      "id": "drink",
+      "label": "drink",
+      "category": "routine",
+      "description": "Functional AAC symbol: drink.",
+      "imageAsset": "assets/symbols/bud/drink.png"
+    },
+    {
+      "id": "happy",
+      "label": "happy",
+      "category": "feelings",
+      "description": "Functional AAC symbol: happy.",
+      "imageAsset": "assets/symbols/bud/happy.png"
+    },
+    {
+      "id": "sad",
+      "label": "sad",
+      "category": "feelings",
+      "description": "Functional AAC symbol: sad.",
+      "imageAsset": "assets/symbols/bud/sad.png"
+    },
+    {
+      "id": "all-done",
+      "label": "all done",
+      "category": "core",
+      "imageAsset": "assets/symbols/bud/all-done.png"
+    },
+    {
+      "id": "go",
+      "label": "go",
+      "category": "core",
+      "imageAsset": "assets/symbols/bud/go.png"
+    },
+    {
+      "id": "wait",
+      "label": "wait",
+      "category": "core",
+      "description": "Ask for time before responding or acting.",
+      "imageAsset": "assets/symbols/bud/wait.png"
+    },
+    {
+      "id": "home",
+      "label": "home",
+      "category": "places",
+      "imageAsset": "assets/symbols/bud/home.png"
+    },
+    {
+      "id": "play",
+      "label": "play",
+      "category": "activities",
+      "imageAsset": "assets/symbols/bud/play.png"
+    },
+    {
+      "id": "hug",
+      "label": "hug please",
+      "category": "social",
+      "description": "Ask for consensual comfort.",
+      "imageAsset": "assets/symbols/bud/hug.png"
+    },
+    {
+      "id": "hurt",
+      "label": "hurt",
+      "emoji": "??",
+      "symbolHint": "bandage on body part",
+      "category": "feelings",
+      "promptHint": "Hurt vs emergency boundaries",
+      "imageAsset": "assets/symbols/bud/hurt.png"
+    },
+    {
+      "id": "sleep",
+      "label": "sleep",
+      "category": "routine",
+      "description": "Functional AAC symbol: sleep.",
+      "imageAsset": "assets/symbols/bud/sleep.png"
+    },
+    {
+      "id": "up",
+      "label": "up",
+      "emoji": "??",
+      "symbolHint": "arrow up or lift arms",
+      "category": "core",
+      "promptHint": "Up for lift or direction",
+      "imageAsset": "assets/symbols/bud/up.png"
+    },
+    {
+      "id": "down",
+      "label": "down",
+      "emoji": "??",
+      "symbolHint": "arrow down or sit gesture",
+      "category": "core",
+      "promptHint": "Down for safety and direction",
+      "imageAsset": "assets/symbols/bud/down.png"
+    },
+    {
+      "id": "water",
+      "label": "water",
+      "category": "core",
+      "imageAsset": "assets/symbols/bud/water.png"
+    },
+    {
+      "id": "milk",
+      "label": "milk",
+      "category": "routine",
+      "symbolHint": "milk carton",
+      "imageAsset": "assets/symbols/bud/milk.png"
+    },
+    {
+      "id": "juice",
+      "label": "juice",
+      "category": "routine",
+      "symbolHint": "juice box",
+      "imageAsset": "assets/symbols/bud/juice.png"
+    },
+    {
+      "id": "apple",
+      "label": "apple",
+      "category": "routine",
+      "symbolHint": "red apple",
+      "imageAsset": "assets/symbols/bud/apple.png"
+    },
+    {
+      "id": "cookie",
+      "label": "cookie",
+      "category": "routine",
+      "symbolHint": "cookie",
+      "imageAsset": "assets/symbols/bud/cookie.png"
+    },
+    {
+      "id": "dog",
+      "label": "dog",
+      "category": "animals",
+      "symbolHint": "friendly dog",
+      "imageAsset": "assets/symbols/bud/dog.png"
+    },
+    {
+      "id": "cat",
+      "label": "cat",
+      "category": "animals",
+      "symbolHint": "friendly cat",
+      "imageAsset": "assets/symbols/bud/cat.png"
+    },
+    {
+      "id": "ball",
+      "label": "ball",
+      "category": "activities",
+      "symbolHint": "play ball",
+      "imageAsset": "assets/symbols/bud/ball.png"
+    },
+    {
+      "id": "book",
+      "label": "book",
+      "category": "activities",
+      "symbolHint": "picture book",
+      "imageAsset": "assets/symbols/bud/book.png"
+    },
+    {
+      "id": "car",
+      "label": "car",
+      "category": "places",
+      "symbolHint": "small car",
+      "imageAsset": "assets/symbols/bud/car.png"
+    },
+    {
+      "id": "bus",
+      "label": "bus",
+      "category": "places",
+      "symbolHint": "school bus",
+      "imageAsset": "assets/symbols/bud/bus.png"
+    },
+    {
+      "id": "shoe",
+      "label": "shoe",
+      "category": "routine",
+      "symbolHint": "sneaker",
+      "imageAsset": "assets/symbols/bud/shoe.png"
+    },
+    {
+      "id": "wash",
+      "label": "wash",
+      "category": "routine",
+      "symbolHint": "soap bubbles",
+      "imageAsset": "assets/symbols/bud/wash.png"
+    },
+    {
+      "id": "open",
+      "label": "open",
+      "category": "core",
+      "symbolHint": "open door",
+      "imageAsset": "assets/symbols/bud/open.png"
+    },
+    {
+      "id": "close",
+      "label": "close",
+      "category": "core",
+      "symbolHint": "closed door",
+      "imageAsset": "assets/symbols/bud/close.png"
+    },
+    {
+      "id": "again",
+      "label": "again",
+      "category": "core",
+      "symbolHint": "repeat arrow",
+      "imageAsset": "assets/symbols/bud/again.png"
+    },
+    {
+      "id": "please",
+      "label": "please",
+      "category": "social",
+      "imageAsset": "assets/symbols/bud/please.png"
+    },
+    {
+      "id": "love",
+      "label": "love",
+      "category": "feelings",
+      "symbolHint": "heart",
+      "imageAsset": "assets/symbols/bud/love.png"
+    },
+    {
+      "id": "mommy",
+      "label": "mommy",
+      "category": "social",
+      "symbolHint": "mother figure",
+      "imageAsset": "assets/symbols/bud/mommy.png"
+    },
+    {
+      "id": "daddy",
+      "label": "daddy",
+      "category": "social",
+      "symbolHint": "father figure",
+      "imageAsset": "assets/symbols/bud/daddy.png"
+    },
+    {
+      "id": "look",
+      "label": "look",
+      "category": "core",
+      "symbolHint": "eyes looking",
+      "imageAsset": "assets/symbols/bud/look.png"
+    },
+    {
+      "id": "listen",
+      "label": "please listen",
+      "category": "communication",
+      "description": "Request full attention respectfully.",
+      "imageAsset": "assets/symbols/bud/listen.png"
+    },
+    {
+      "id": "big",
+      "label": "big",
+      "category": "core",
+      "symbolHint": "large shape",
+      "imageAsset": "assets/symbols/bud/big.png"
+    },
+    {
+      "id": "little",
+      "label": "little",
+      "category": "core",
+      "symbolHint": "small shape",
+      "imageAsset": "assets/symbols/bud/little.png"
+    },
+    {
+      "id": "wet",
+      "label": "wet",
+      "category": "sensory",
+      "symbolHint": "water splash",
+      "imageAsset": "assets/symbols/bud/wet.png"
+    },
+    {
+      "id": "dry",
+      "label": "dry",
+      "category": "sensory",
+      "symbolHint": "towel",
+      "imageAsset": "assets/symbols/bud/dry.png"
+    },
+    {
+      "id": "hot",
+      "label": "hot",
+      "category": "sensory",
+      "imageAsset": "assets/symbols/bud/hot.png"
+    },
+    {
+      "id": "cold",
+      "label": "cold",
+      "category": "sensory",
+      "imageAsset": "assets/symbols/bud/cold.png"
+    },
+    {
+      "id": "clean",
+      "label": "clean",
+      "category": "routine",
+      "symbolHint": "sparkle clean",
+      "imageAsset": "assets/symbols/bud/clean.png"
+    },
+    {
+      "id": "dirty",
+      "label": "dirty",
+      "category": "routine",
+      "symbolHint": "mud spot",
+      "imageAsset": "assets/symbols/bud/dirty.png"
+    },
+    {
+      "id": "friend",
+      "label": "friend",
+      "category": "social",
+      "description": "Functional AAC symbol: friend.",
+      "imageAsset": "assets/symbols/bud/friend.png"
+    },
+    {
+      "id": "blanket",
+      "label": "blanket",
+      "category": "routine",
+      "symbolHint": "soft blanket",
+      "imageAsset": "assets/symbols/bud/blanket.png"
+    },
+    {
+      "id": "toy",
+      "label": "toy",
+      "category": "activities",
+      "symbolHint": "teddy",
+      "imageAsset": "assets/symbols/bud/toy.png"
+    },
+    {
+      "id": "mad",
+      "label": "mad",
+      "category": "feelings",
+      "imageAsset": "assets/symbols/bud/mad.png"
+    },
+    {
+      "id": "scared",
+      "label": "scared",
+      "category": "feelings",
+      "imageAsset": "assets/symbols/bud/scared.png"
+    },
+    {
+      "id": "tired",
+      "label": "tired",
+      "category": "feelings",
+      "imageAsset": "assets/symbols/bud/tired.png"
+    },
+    {
+      "id": "sick",
+      "label": "sick",
+      "category": "feelings",
+      "imageAsset": "assets/symbols/bud/sick.png"
+    },
+    {
+      "id": "school",
+      "label": "school",
+      "category": "life",
+      "description": "Functional AAC symbol: school.",
+      "imageAsset": "assets/symbols/bud/school.png"
+    },
+    {
+      "id": "read",
+      "label": "read",
+      "category": "activities",
+      "imageAsset": "assets/symbols/bud/read.png"
+    },
+    {
+      "id": "draw",
+      "label": "draw",
+      "category": "activities",
+      "imageAsset": "assets/symbols/bud/draw.png"
+    },
+    {
+      "id": "music",
+      "label": "music",
+      "category": "activities",
+      "imageAsset": "assets/symbols/bud/music.png"
+    },
+    {
+      "id": "outside",
+      "label": "outside",
+      "category": "activities",
+      "imageAsset": "assets/symbols/bud/outside.png"
+    },
+    {
+      "id": "family",
+      "label": "family",
+      "category": "social",
+      "imageAsset": "assets/symbols/bud/family.png"
+    },
+    {
+      "id": "share",
+      "label": "share",
+      "category": "social",
+      "imageAsset": "assets/symbols/bud/share.png"
+    },
+    {
+      "id": "turn",
+      "label": "my turn",
+      "category": "social",
+      "imageAsset": "assets/symbols/bud/turn.png"
+    },
+    {
+      "id": "thank-you",
+      "label": "thank you",
+      "category": "social",
+      "imageAsset": "assets/symbols/bud/thank-you.png"
+    },
+    {
+      "id": "sorry",
+      "label": "sorry",
+      "category": "social",
+      "imageAsset": "assets/symbols/bud/sorry.png"
+    },
+    {
+      "id": "break",
+      "label": "I need a break",
+      "category": "regulation",
+      "description": "Functional AAC symbol: I need a break.",
+      "imageAsset": "assets/symbols/bud/break.png"
+    },
+    {
+      "id": "quiet",
+      "label": "quiet",
+      "category": "regulation",
+      "imageAsset": "assets/symbols/bud/quiet.png"
+    },
+    {
+      "id": "loud",
+      "label": "too loud",
+      "category": "regulation",
+      "imageAsset": "assets/symbols/bud/loud.png"
+    },
+    {
+      "id": "like",
+      "label": "I like",
+      "category": "preferences",
+      "imageAsset": "assets/symbols/bud/like.png"
+    },
+    {
+      "id": "dont-like",
+      "label": "don't like",
+      "category": "preferences",
+      "imageAsset": "assets/symbols/bud/dont-like.png"
+    },
+    {
+      "id": "want",
+      "label": "I want",
+      "category": "core",
+      "imageAsset": "assets/symbols/bud/want.png"
+    },
+    {
+      "id": "need",
+      "label": "I need",
+      "category": "core",
+      "imageAsset": "assets/symbols/bud/need.png"
+    },
+    {
+      "id": "where",
+      "label": "where",
+      "category": "questions",
+      "imageAsset": "assets/symbols/bud/where.png"
+    },
+    {
+      "id": "what",
+      "label": "what",
+      "category": "questions",
+      "imageAsset": "assets/symbols/bud/what.png"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "can-i-have",
+      "label": "Can I have more?",
+      "category": "core",
+      "speakText": "Can I have more?"
+    },
+    {
+      "id": "need-break",
+      "label": "I need a break",
+      "category": "regulation",
+      "speakText": "I need a break."
+    },
+    {
+      "id": "thank-you",
+      "label": "Thank you",
+      "category": "social",
+      "speakText": "Thank you!"
+    },
+    {
+      "id": "please-help",
+      "label": "Please help me",
+      "category": "core",
+      "speakText": "Please help me."
+    },
+    {
+      "id": "where-is",
+      "label": "Where is it?",
+      "category": "questions",
+      "speakText": "Where is it?"
+    },
+    {
+      "id": "dont-like",
+      "label": "I don't like that",
+      "category": "preferences",
+      "speakText": "I don't like that."
+    },
+    {
+      "id": "my-turn-phrase",
+      "label": "It's my turn",
+      "category": "social",
+      "speakText": "It's my turn!"
+    },
+    {
+      "id": "share-please",
+      "label": "Can we share?",
+      "category": "social",
+      "speakText": "Can we share?"
+    },
+    {
+      "id": "feel-happy",
+      "label": "I feel happy",
+      "category": "feelings",
+      "speakText": "I feel happy!"
+    },
+    {
+      "id": "feel-sad",
+      "label": "I feel sad",
+      "category": "feelings",
+      "speakText": "I feel sad."
+    },
+    {
+      "id": "too-loud",
+      "label": "It's too loud",
+      "category": "regulation",
+      "speakText": "It's too loud."
+    },
+    {
+      "id": "wait-please",
+      "label": "Wait please",
+      "category": "core",
+      "speakText": "Wait please."
+    },
+    {
+      "id": "lets-play",
+      "label": "Let's play",
+      "category": "activities",
+      "speakText": "Let's play!"
+    },
+    {
+      "id": "read-book",
+      "label": "Read a book",
+      "category": "activities",
+      "speakText": "Read a book!"
+    },
+    {
+      "id": "go-home",
+      "label": "I want to go home",
+      "category": "places",
+      "speakText": "I want to go home."
+    }
+  ]
+}
