@@ -1,37 +1,47 @@
 # Caly voice growth arc
 
-**One Caly maturing over time** — not random voice swaps. Each audience band maps to a growth nickname, neural voice, express-as style, and SSML `<prosody>` tuning. Primary character name is always **Caly**.
+**One Caly maturing over time** — not random voice swaps. Caly is **female at every band**. Each audience maps to a growth nickname, neural voice, express-as style, styledegree, and SSML prosody. Primary character name is always **Caly**.
 
 ## Character × voice matrix
 
 | Band | Nickname | Azure voice | Style | Rate | Pitch | Delivery |
 |------|----------|-------------|-------|------|-------|----------|
-| toddler | **Sprout** | en-US-AriaNeural | affectionate | ?35% | +15% | Slowest, highest pitch, sing-song phrase breaks (350 ms) |
-| child | **Bud** | en-US-AnaNeural | cheerful | ?10% | +10% | Slightly faster, still bouncy; lighter phrase breaks (220 ms) |
-| teen | **Vine** | en-US-JennyNeural | friendly | +3% | +2% | Neutral teen energy, respectful and direct |
-| adult | **Bloom** | en-US-GuyNeural | calm | ?5% | ?8% | Steady, clear AAC guidance |
-| caregiver | **Canopy** | en-US-GuyNeural | friendly | ?12% | ?10% | Warm professional, caregiver-facing (same voice base as adult) |
+| toddler | **Sprout** | en-US-AriaNeural | affectionate (0.85) | ?18% | +6% | Warm preschool host — gentle, not chipmunk |
+| child | **Bud** | en-US-AnaNeural | cheerful (0.80) | ?4% | +4% | Natural kid energy, light phrase breaks (100 ms) |
+| tween | **Sprig** | en-US-AvaNeural | friendly (0.78) | 0% | +2% | Curious, clear, bridging child and teen |
+| teen | **Vine** | en-US-JennyNeural | friendly (0.72) | +2% | 0% | Respectful, direct, sounds like a real teen |
+| adult | **Bloom** | en-US-AvaNeural | calm (0.68) | ?2% | ?2% | Warm adult guide — grounded, not robotic |
+| caregiver | **Canopy** | en-US-JennyNeural | friendly (0.70) | ?8% | ?1% | Calm professional support tone |
 
-## SSML differentiation
+## Humanization
+
+`humanize_for_speech()` in `speech_tts.py`:
+
+- Strips parenthetical nicknames before TTS ("I'm Caly (Sprout)" ? "I'm Caly")
+- Uses contractions from child band upward
+- Toddler keeps fuller phrases; teen/adult/caregiver get natural contractions
+
+Phrase breaks for toddler/child are **short** (140 ms / 100 ms) so delivery feels conversational, not staccato.
+
+## SSML
 
 Implemented in `calyndra-central/speech_tts.py`:
 
-- **Toddler:** clause splits + 350 ms `<break>` between phrases + moderate emphasis on ALL-CAPS words + affectionate style + slowest/highest prosody.
-- **Child:** same structure with 220 ms breaks and cheerier rate/pitch — still exploratory, not baby-talk.
-- **Teen / adult / caregiver:** single `<prosody>` wrap without sing-song breaks; style tag carries emotional tone.
+- Toddler/child: clause splits + short breaks + caps emphasis where needed
+- Tween through caregiver: steady prosody; emotional tone from `mstts:express-as` style + styledegree
 
 ## API headers
 
 `POST /api/caly/speak` returns MP3 with:
 
-- `X-Caly-Voice` — neural voice name (e.g. `en-US-AriaNeural`)
-- `X-Caly-Character` — Caly-toddler | Caly-child | … (internal band label)
-- `X-Caly-Audience` — toddler | child | teen | adult | caregiver
+- `X-Caly-Voice` — neural voice name
+- `X-Caly-Character` — Caly-toddler | Caly-child | …
+- `X-Caly-Audience` — toddler | child | tween | teen | adult | caregiver
 
 ## Frontend mirror
 
-`calyndra-app/js/caly-voice.js` `BROWSER_VOICE_PREFER` matches the growth arc for offline/browser fallback. When the user changes **Audience** in the app, the next `calySpeak()` call uses the new band.
+`calyndra-app/js/caly-voice.js` `BROWSER_VOICE_PREFER` uses **female** voices only for browser fallback, matching the arc above.
 
-## Agent alignment
+## Cached voice clips
 
-`CALY_INSTRUCTIONS.md` (central + agent) documents the same band tones so text and TTS stay aligned per audience.
+Stale MP3 in `content/voice/manifest.json` may sound robotic until regenerated with the new profiles. Clear or rebuild manifest after deploying central TTS changes.
