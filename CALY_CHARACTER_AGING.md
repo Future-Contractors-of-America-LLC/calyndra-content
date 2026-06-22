@@ -10,7 +10,7 @@
 - **Clothing:** Every band portrait shows Caly **fully clothed** (romper/overalls ? tee & shorts ? hoodie & pants ? cardigan & trousers ? modest dress & cardigan).
 - **Nicknames (optional subtitle):** plant-themed growth labels per band — see table below.
 - **Art:** Distinct band portraits in `assets/caly-bands/` — each stage is **progressively leaner, taller, and more mature** (Sprout ? Canopy) while staying fun.
-- **Palette:** mint `#b8f0d8`, sky `#7ec8ff`, chunky `#2d6a4f` outlines, pastel cream backgrounds.
+- **Palette:** mint `#b8f0d8`, sky `#7ec8ff`, pink accents per band (pale pink Sprout tee ? bright pink Bud/Vine ? pink bloom & trim Bloom/Canopy), chunky `#2d6a4f` outlines, pastel cream backgrounds.
 
 ## Nicknames by band
 
