@@ -1,16 +1,23 @@
-# Calyndra Sprout illustration standard (toddler symbols)
+# Calyndra illustration standard (all band symbols)
 
-**Quality bar:** Match `help.png`, `more.png`, `yes.png`, `caly_sprout.png` — preschool show polish (Lucas & Friends / Super Simple Songs *energy*, original IP only).
+**Quality bar:** Band portraits in `assets/caly-bands/` plus `CALY_SYMBOL_ART_RULES.md`  preschool show polish, original IP only.
+
+## Locked character rules (read first)
+
+See **`CALY_SYMBOL_ART_RULES.md`** for:
+
+- **Expression:** Caly is **happy by default** on every symbol unless the word is explicitly an emotion (sad, mad, scared, etc.). Words like help, stop, and wait still use a warm smile.
+- **Hands:** **Exactly five fingers** on each visible hand, every age band, every asset.
 
 ## Master prompt suffix (append to every word)
 
-> Preschool educational cartoon illustration for an AAC app. Chunky rounded shapes, pastel mint and sky-blue palette, thick dark-green outlines, friendly big-eyed cartoon style, soft gradients, warm storybook lighting. Square 1:1, soft mint-to-sky gradient background, single clear pictogram centered, no text, no letters, no trademarked characters. Original Calyndra art only.
+> Preschool educational cartoon illustration for an AAC app. Caly [NICKNAME] plant girl matching band portrait reference. Warm happy smile and bright eyes (unless symbol is an listed emotion exception). Exactly five fingers on each visible hand. Chunky rounded shapes, pastel mint and sky-blue palette, thick dark-green outlines, friendly big-eyed cartoon style, soft gradients, warm storybook lighting. Square 1:1, soft mint-to-sky gradient background, single clear pictogram centered, modest clothing, no text, no letters, no trademarked characters. Original Calyndra art only.
 
 ## Per-word prompts
 
 | id | pictogram |
 |----|-----------|
-| no | toddler shaking head gently with X symbol nearby, respectful boundary |
+| no | Caly gently shaking head with soft **happy-calm** smile, X symbol nearby, respectful boundary |
 | all-done | toddler pushing toy blocks away with finished smile |
 | go | green go arrow with happy walking feet |
 | wait | hourglass and gentle pause palm, patient smile |
@@ -18,7 +25,7 @@
 | bathroom | friendly potty chair with sparkle clean |
 | sad | gentle tearful toddler face, caregiver-validated warmth |
 | hug | open arms asking for consent hug, hearts |
-| hurt | bandage on knee with caring expression |
+| hurt | bandage on knee; Caly **kind and hopeful**, not distressed |
 | sleep | cozy bed with moon and stars |
 | up | arrow up with arms reaching up |
 | down | arrow down with sitting gesture |
@@ -58,4 +65,6 @@
 | stop | flat palm stop gesture, clear red stop sign |
 | home | cozy house with heart window |
 
-Regenerate with GenerateImage ? copy to `calyndra-content/symbols/images/sprout/`, `calyndra-app/assets/symbols/sprout/`, `calyndra-mobile-flutter/assets/symbols/sprout/`.
+Regenerate with GenerateImage + band portrait reference ? copy to `calyndra-content/symbols/images/{band}/`, sync via `scripts/sync_band_symbols_to_app.py`.
+
+**Do not install** symbols that fail the expression or five-finger checks in `CALY_SYMBOL_ART_RULES.md`.

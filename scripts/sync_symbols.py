@@ -8,7 +8,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 FLUTTER = ROOT.parent / "calyndra-mobile-flutter"
 WEB = ROOT.parent / "calyndra-app"
-STYLES = ("sprout", "quest", "spark", "core")
+STYLES = ("sprout", "bud", "sprig", "vine", "bloom", "canopy", "quest", "spark", "core")
 
 
 def sync() -> int:

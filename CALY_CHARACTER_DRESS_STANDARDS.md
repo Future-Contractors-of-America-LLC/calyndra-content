@@ -8,9 +8,11 @@ Calyndra is **Christian-based** and family-first. Caly must always present as wh
 2. **No sexualized design** ù no hourglass emphasis, revealing outfits, suggestive poses, or adult appeal.
 3. **Wholesome poses** ù wave, jump, listen, stand; no hand-on-hip flirt poses.
 4. **Progressive maturity** ù leaner and taller from Sprout to Canopy; still fun and warm.
-5. **Female Caly** ù consistent feminine identity; modest throughout.
+5. **Female Caly** ó consistent feminine identity; modest throughout.
+6. **Default expression** ó warm **happy** smile unless the asset is explicitly an emotion symbol (sad, mad, scared, etc.).
+7. **Hands** ó **five fingers** on each visible hand at every age band; never mitten or three-finger hands.
 
-## Clothing by band
+See also: `CALY_SYMBOL_ART_RULES.md`
 
 | Band | Outfit | Pink accents |
 |------|--------|--------------|
