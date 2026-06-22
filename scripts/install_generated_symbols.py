@@ -13,15 +13,24 @@ CURSOR_ASSETS = Path.home() / ".cursor" / "projects" / "c-Users-Auricrux-OneDriv
 BANDS = ("sprout", "bud", "sprig", "vine", "bloom", "canopy")
 
 
+def parse_stem(stem: str) -> tuple[str, str] | None:
+    """Return (word_id, band) when stem ends with a known band suffix."""
+    for band in BANDS:
+        suffix = f"-{band}"
+        if stem.endswith(suffix):
+            word = stem[: -len(suffix)]
+            if word:
+                return word, band
+    return None
+
+
 def install(src_dir: Path) -> int:
     n = 0
     for png in sorted(src_dir.glob("*-*.png")):
-        stem = png.stem
-        if "-" not in stem:
+        parsed = parse_stem(png.stem)
+        if not parsed:
             continue
-        word, band = stem.split("-", 1)
-        if band not in BANDS:
-            continue
+        word, band = parsed
         for base in (ROOT / "symbols" / "images", APP / "assets" / "symbols"):
             dest = base / band / f"{word}.png"
             dest.parent.mkdir(parents=True, exist_ok=True)
