@@ -15,7 +15,7 @@ Calyndra is **Christian-based** and family-first. Caly must always present as wh
 | Band | Outfit | Pink accents |
 |------|--------|--------------|
 | Sprout (toddler) | Mint romper / overalls over pale-pink tee | Pale pink shirt |
-| Bud (child) | Bright-pink tee and green shorts | Bright pink shirt + "Bud" label |
+| Bud (child) | Soft rose-pink tee and green shorts | Same rose-pink shirt + "Bud" label (match Bloom/Vine tone) |
 | Vine (teen) | Pink hoodie & sweatpants, pink sneakers | Green trim, laces, leaf logos |
 | Bloom (adult) | Cardigan, top, full-length trousers | Pink bloom flower, pink "Bloom" label, pink trim/buttons |
 | Canopy (caregiver) | Modest long dress with cardigan | Subtle pink trim, pink flowers in canopy & on dress |
