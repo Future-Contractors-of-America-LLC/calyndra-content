@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "theme": "caly-unified",
   "characterCanon": "CALY_CHARACTER_AGING.md",
   "primaryName": "Caly",
@@ -10,22 +10,21 @@
     "adult": "Bloom",
     "caregiver": "Canopy"
   },
+  "bandPortraits": {
+    "toddler": { "path": "assets/caly-bands/sprout.png", "nickname": "Sprout", "nameOnArt": true },
+    "child": { "path": "assets/caly-bands/bud.png", "nickname": "Bud", "nameOnArt": true },
+    "teen": { "path": "assets/caly-bands/vine.png", "nickname": "Vine", "nameOnArt": true },
+    "adult": { "path": "assets/caly-bands/bloom.png", "nickname": "Bloom", "nameOnArt": true },
+    "caregiver": { "path": "assets/caly-bands/canopy.png", "nickname": "Canopy", "nameOnArt": true }
+  },
   "agingBands": {
-    "toddler": { "scale": 0.92, "filter": "none", "poseSet": "sprout", "nickname": "Sprout", "defaultPose": "wave", "motionProfile": "toddler-bouncy" },
-    "child": { "scale": 1, "filter": "saturate(1.05)", "poseSet": "sprout", "nickname": "Bud", "defaultPose": "jump-celebrate", "motionProfile": "child-playful" },
-    "teen": { "scale": 1.06, "filter": "saturate(0.95) brightness(1.02)", "poseSet": "sprout", "nickname": "Vine", "defaultPose": "listen-ear", "motionProfile": "teen-smooth" },
-    "adult": { "scale": 1.1, "filter": "saturate(0.9) brightness(1.04)", "poseSet": "sprout", "nickname": "Bloom", "defaultPose": "drum-dance", "motionProfile": "adult-calm" },
-    "caregiver": { "scale": 1.08, "filter": "saturate(0.92) brightness(1.03)", "poseSet": "sprout", "nickname": "Canopy", "defaultPose": "listen-ear", "voiceNote": "same voice base as adult; friendly professional SSML", "motionProfile": "caregiver-warm" }
+    "toddler": { "portrait": "assets/caly-bands/sprout.png", "poseSet": "sprout", "nickname": "Sprout", "defaultPose": "wave" },
+    "child": { "portrait": "assets/caly-bands/bud.png", "poseSet": "sprout", "nickname": "Bud", "defaultPose": "jump-celebrate" },
+    "teen": { "portrait": "assets/caly-bands/vine.png", "poseSet": "sprout", "nickname": "Vine", "defaultPose": "listen-ear" },
+    "adult": { "portrait": "assets/caly-bands/bloom.png", "poseSet": "sprout", "nickname": "Bloom", "defaultPose": "drum-dance" },
+    "caregiver": { "portrait": "assets/caly-bands/canopy.png", "poseSet": "sprout", "nickname": "Canopy", "defaultPose": "wave", "voiceNote": "same voice base as adult; friendly professional SSML" }
   },
-  "motionProfiles": {
-    "toddler-bouncy": { "idleClass": "caly-motion-idle-toddler", "speakAmp": 1.2, "bounce": 1.35, "blinkMs": [2800, 6000], "clinicalNote": "High delight; respect reduce-motion" },
-    "child-playful": { "idleClass": "caly-motion-idle-child", "speakAmp": 1.0, "bounce": 1.15, "blinkMs": [3000, 5500], "clinicalNote": "Celebration optional; assent-first" },
-    "teen-smooth": { "idleClass": "caly-motion-idle-teen", "speakAmp": 0.75, "bounce": 0.9, "blinkMs": [3500, 7000], "clinicalNote": "Avoid infantilizing bounce" },
-    "adult-calm": { "idleClass": "caly-motion-idle-adult", "speakAmp": 0.55, "bounce": 0.7, "blinkMs": [4000, 8000], "clinicalNote": "Functional AAC presence" },
-    "caregiver-warm": { "idleClass": "caly-motion-idle-caregiver", "speakAmp": 0.5, "bounce": 0.65, "blinkMs": [4000, 8000], "clinicalNote": "Professional-warm; same plant Caly" }
-  },
-  "motionDoc": "CALY_MOTION_AND_PRESENCE.md",
-  "lockedUtc": "2026-06-21T20:00:00Z",
+  "lockedUtc": "2026-06-22T16:30:00Z",
   "palette": {
     "mint": "#b8f0d8",
     "skyBlue": "#7ec8ff",
@@ -34,60 +33,19 @@
     "coralAccent": "#ff6b6b"
   },
   "masterPromptRef": "ILLUSTRATION_STYLE.md",
-  "legacyFilenames": {
-    "caly_sprout.png": "toddler portrait + Sprout pose basis",
-    "caly_quest.png": "legacy child alias (plant art)",
-    "caly_spark.png": "legacy teen alias (plant art)",
-    "caly_core.png": "legacy adult alias (plant art)",
-    "caly_guide.png": "legacy caregiver alias (plant art)",
-    "caly-teen/portrait.png": "deprecated human portrait experiment — do not use in UI",
-    "caly-adult/portrait.png": "deprecated human portrait experiment — do not use in UI"
+  "quarantined": {
+    "caly_quest.png": "fox character — not Caly plant",
+    "caly_spark.png": "broken placeholder",
+    "caly_core.png": "camera icon placeholder",
+    "caly_guide.png": "generic avatar placeholder",
+    "caly-teen/portrait.png": "human teen experiment",
+    "caly-adult/portrait.png": "human adult experiment"
   },
   "assets": [
-    {
-      "id": "sprout-portrait",
-      "path": "assets/caly_sprout.webp",
-      "fallback": "assets/caly_sprout.png",
-      "type": "portrait",
-      "surfaces": ["marketing-landing", "login-gate", "app-shell-fallback"],
-      "status": "live",
-      "generatedUtc": "2026-06-01T00:00:00Z"
-    },
-    {
-      "id": "pose-wave",
-      "path": "assets/caly-sprout/poses/wave.webp",
-      "fallback": "assets/caly-sprout/poses/wave.png",
-      "type": "pose",
-      "surfaces": ["marketing-landing", "play", "caly-show", "app-shell-all-bands"],
-      "status": "live",
-      "generatedUtc": "2026-06-15T00:00:00Z"
-    },
-    {
-      "id": "pose-jump-celebrate",
-      "path": "assets/caly-sprout/poses/jump-celebrate.webp",
-      "fallback": "assets/caly-sprout/poses/jump-celebrate.png",
-      "type": "pose",
-      "surfaces": ["play", "caly-show", "app-shell-child"],
-      "status": "live",
-      "generatedUtc": "2026-06-15T00:00:00Z"
-    },
-    {
-      "id": "pose-listen-ear",
-      "path": "assets/caly-sprout/poses/listen-ear.webp",
-      "fallback": "assets/caly-sprout/poses/listen-ear.png",
-      "type": "pose",
-      "surfaces": ["marketing-landing", "play", "app-shell-teen"],
-      "status": "live",
-      "generatedUtc": "2026-06-15T00:00:00Z"
-    },
-    {
-      "id": "pose-sleepy",
-      "path": "assets/caly-sprout/poses/sleepy.webp",
-      "fallback": "assets/caly-sprout/poses/sleepy.png",
-      "type": "pose",
-      "surfaces": ["routines", "play", "app-shell-adult"],
-      "status": "live",
-      "generatedUtc": "2026-06-15T00:00:00Z"
-    }
+    { "id": "band-sprout", "path": "assets/caly-bands/sprout.png", "type": "band-portrait", "band": "toddler", "status": "live", "generatedUtc": "2026-06-22T16:00:00Z" },
+    { "id": "band-bud", "path": "assets/caly-bands/bud.png", "type": "band-portrait", "band": "child", "status": "live", "generatedUtc": "2026-06-22T16:00:00Z" },
+    { "id": "band-vine", "path": "assets/caly-bands/vine.png", "type": "band-portrait", "band": "teen", "status": "live", "generatedUtc": "2026-06-22T16:00:00Z" },
+    { "id": "band-bloom", "path": "assets/caly-bands/bloom.png", "type": "band-portrait", "band": "adult", "status": "live", "generatedUtc": "2026-06-22T16:00:00Z" },
+    { "id": "band-canopy", "path": "assets/caly-bands/canopy.png", "type": "band-portrait", "band": "caregiver", "status": "live", "generatedUtc": "2026-06-22T16:00:00Z" }
   ]
 }
