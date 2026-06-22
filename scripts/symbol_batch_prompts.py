@@ -22,6 +22,8 @@ ACTIONS = {
     "up": "Happy Caly with arms reaching up and arrow pointing up.",
     "down": "Happy Caly sitting with arrow pointing down.",
     "water": "Happy Caly holding shiny water glass and water drop.",
+    "hurt": "Soft concerned but hopeful expression, bandage on knee, kind and kid-safe not scary.",
+    "milk": "Happy Caly holding cute milk carton with straw.",
 }
 
 
