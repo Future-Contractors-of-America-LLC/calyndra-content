@@ -1,18 +1,28 @@
 {
-  "version": 4,
+  "version": 5,
   "theme": "caly-unified",
   "characterCanon": "CALY_CHARACTER_AGING.md",
   "primaryName": "Caly",
   "nicknamesByBand": {
     "toddler": "Sprout",
     "child": "Bud",
+    "tween": "Sprig",
     "teen": "Vine",
     "adult": "Bloom",
     "caregiver": "Canopy"
   },
+  "ageRangesByBand": {
+    "toddler": "2-4",
+    "child": "5-8",
+    "tween": "9-12",
+    "teen": "13-17",
+    "adult": "18+",
+    "caregiver": "care team"
+  },
   "bandPortraits": {
     "toddler": { "path": "assets/caly-bands/sprout.png", "nickname": "Sprout", "nameOnArt": true },
     "child": { "path": "assets/caly-bands/bud.png", "nickname": "Bud", "nameOnArt": true },
+    "tween": { "path": "assets/caly-bands/sprig.png", "nickname": "Sprig", "nameOnArt": true },
     "teen": { "path": "assets/caly-bands/vine.png", "nickname": "Vine", "nameOnArt": true },
     "adult": { "path": "assets/caly-bands/bloom.png", "nickname": "Bloom", "nameOnArt": true },
     "caregiver": { "path": "assets/caly-bands/canopy.png", "nickname": "Canopy", "nameOnArt": true }
@@ -20,11 +30,12 @@
   "agingBands": {
     "toddler": { "portrait": "assets/caly-bands/sprout.png", "poseSet": "sprout", "nickname": "Sprout", "defaultPose": "wave" },
     "child": { "portrait": "assets/caly-bands/bud.png", "poseSet": "sprout", "nickname": "Bud", "defaultPose": "jump-celebrate" },
+    "tween": { "portrait": "assets/caly-bands/sprig.png", "poseSet": "sprout", "nickname": "Sprig", "defaultPose": "jump-celebrate" },
     "teen": { "portrait": "assets/caly-bands/vine.png", "poseSet": "sprout", "nickname": "Vine", "defaultPose": "listen-ear" },
     "adult": { "portrait": "assets/caly-bands/bloom.png", "poseSet": "sprout", "nickname": "Bloom", "defaultPose": "drum-dance" },
     "caregiver": { "portrait": "assets/caly-bands/canopy.png", "poseSet": "sprout", "nickname": "Canopy", "defaultPose": "wave", "voiceNote": "same voice base as adult; friendly professional SSML" }
   },
-  "lockedUtc": "2026-06-22T16:30:00Z",
+  "lockedUtc": "2026-06-22T18:00:00Z",
   "palette": {
     "mint": "#b8f0d8",
     "skyBlue": "#7ec8ff",
@@ -44,6 +55,7 @@
   "assets": [
     { "id": "band-sprout", "path": "assets/caly-bands/sprout.png", "type": "band-portrait", "band": "toddler", "status": "live", "generatedUtc": "2026-06-22T16:00:00Z" },
     { "id": "band-bud", "path": "assets/caly-bands/bud.png", "type": "band-portrait", "band": "child", "status": "live", "generatedUtc": "2026-06-22T16:00:00Z" },
+    { "id": "band-sprig", "path": "assets/caly-bands/sprig.png", "type": "band-portrait", "band": "tween", "status": "live", "generatedUtc": "2026-06-22T18:00:00Z" },
     { "id": "band-vine", "path": "assets/caly-bands/vine.png", "type": "band-portrait", "band": "teen", "status": "live", "generatedUtc": "2026-06-22T16:00:00Z" },
     { "id": "band-bloom", "path": "assets/caly-bands/bloom.png", "type": "band-portrait", "band": "adult", "status": "live", "generatedUtc": "2026-06-22T16:00:00Z" },
     { "id": "band-canopy", "path": "assets/caly-bands/canopy.png", "type": "band-portrait", "band": "caregiver", "status": "live", "generatedUtc": "2026-06-22T16:00:00Z" }

@@ -7,20 +7,21 @@
 - **Primary name in UI:** always **Caly**.
 - **Gender:** Caly is **female** at every age band — feminine features, voice, and presence throughout.
 - **Values:** Calyndra reflects **Christian family values** — modest dress, wholesome poses, no sexualized design.
-- **Clothing:** Every band portrait shows Caly **fully clothed** (romper/overalls ? tee & shorts ? hoodie & pants ? cardigan & trousers ? modest dress & cardigan).
+- **Clothing:** Every band portrait shows Caly **fully clothed** (romper/overalls ? tee & shorts ? tee & patterned shorts ? hoodie & pants ? cardigan & trousers ? modest dress & cardigan).
 - **Nicknames (optional subtitle):** plant-themed growth labels per band — see table below.
-- **Art:** Distinct band portraits in `assets/caly-bands/` — each stage is **progressively leaner, taller, and more mature** (Sprout ? Canopy) while staying fun.
-- **Palette:** mint `#b8f0d8`, sky `#7ec8ff`, pink accents per band (pale pink Sprout tee ? bright pink Bud/Vine ? pink bloom & trim Bloom/Canopy), chunky `#2d6a4f` outlines, pastel cream backgrounds.
+- **Art:** Distinct band portraits in `assets/caly-bands/` — each stage is **progressively leaner, taller, and more mature** (Sprout ? Canopy) while staying fun. **Leaf count increases** from Bud (2 leaves) through Sprig (3–4 leaves + tendrils) to Vine (full vine growth).
+- **Palette:** mint `#b8f0d8`, sky `#7ec8ff`, soft rose-pink accents per band, chunky `#2d6a4f` outlines, pastel cream backgrounds.
 
 ## Nicknames by band
 
-| Band | Nickname | Meaning | Default pose |
-|------|----------|---------|--------------|
-| Toddler | **Sprout** | First green shoot | wave |
-| Child | **Bud** | Opening leaf bud | jump-celebrate |
-| Teen | **Vine** | Climbing growth, slightly taller | listen-ear |
-| Adult | **Bloom** | Mature flowering plant | sleepy |
-| Caregiver | **Canopy** | Shelter shade for others | wave |
+| Band | Ages | Nickname | Meaning | Default pose |
+|------|------|----------|---------|--------------|
+| Toddler | 2–4 | **Sprout** | First green shoot | wave |
+| Child | 5–8 | **Bud** | Opening leaf bud | jump-celebrate |
+| Tween | 9–12 | **Sprig** | Small stem with more leaves | jump-celebrate |
+| Teen | 13–17 | **Vine** | Climbing growth, taller | listen-ear |
+| Adult | 18+ | **Bloom** | Mature flowering plant | sleepy |
+| Caregiver | — | **Canopy** | Shelter shade for others | wave |
 
 Display pattern: **Caly (Sprout)**, **Caly (Bud)**, etc. — or title **Caly** with nickname in subtitle.
 
@@ -30,6 +31,7 @@ Display pattern: **Caly (Sprout)**, **Caly (Bud)**, etc. — or title **Caly** wit
 |------|-----------|--------|-----------|
 | Toddler | 0.92 | none | AriaNeural, slowest, sing-song |
 | Child | 1.0 | saturate(1.05) | AnaNeural, cheerful |
+| Tween | 1.03 | saturate(1.03) brightness(1.01) | AnaNeural, bridging pace |
 | Teen | 1.06 | saturate(0.95) brightness(1.02) | JennyNeural, respectful |
 | Adult | 1.1 | saturate(0.9) brightness(1.04) | GuyNeural, calm |
 | Caregiver | 1.08 | saturate(0.92) brightness(1.03) | GuyNeural, friendly professional |
