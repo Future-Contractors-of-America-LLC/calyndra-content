@@ -11,12 +11,20 @@
     "caregiver": "Canopy"
   },
   "agingBands": {
-    "toddler": { "scale": 0.92, "filter": "none", "poseSet": "sprout", "nickname": "Sprout", "defaultPose": "wave" },
-    "child": { "scale": 1, "filter": "saturate(1.05)", "poseSet": "sprout", "nickname": "Bud", "defaultPose": "jump-celebrate" },
-    "teen": { "scale": 1.06, "filter": "saturate(0.95) brightness(1.02)", "poseSet": "sprout", "nickname": "Vine", "defaultPose": "listen-ear" },
-    "adult": { "scale": 1.1, "filter": "saturate(0.9) brightness(1.04)", "poseSet": "sprout", "nickname": "Bloom", "defaultPose": "sleepy" },
-    "caregiver": { "scale": 1.08, "filter": "saturate(0.92) brightness(1.03)", "poseSet": "sprout", "nickname": "Canopy", "defaultPose": "wave", "voiceNote": "same voice base as adult; friendly professional SSML" }
+    "toddler": { "scale": 0.92, "filter": "none", "poseSet": "sprout", "nickname": "Sprout", "defaultPose": "wave", "motionProfile": "toddler-bouncy" },
+    "child": { "scale": 1, "filter": "saturate(1.05)", "poseSet": "sprout", "nickname": "Bud", "defaultPose": "jump-celebrate", "motionProfile": "child-playful" },
+    "teen": { "scale": 1.06, "filter": "saturate(0.95) brightness(1.02)", "poseSet": "sprout", "nickname": "Vine", "defaultPose": "listen-ear", "motionProfile": "teen-smooth" },
+    "adult": { "scale": 1.1, "filter": "saturate(0.9) brightness(1.04)", "poseSet": "sprout", "nickname": "Bloom", "defaultPose": "sleepy", "motionProfile": "adult-calm" },
+    "caregiver": { "scale": 1.08, "filter": "saturate(0.92) brightness(1.03)", "poseSet": "sprout", "nickname": "Canopy", "defaultPose": "wave", "voiceNote": "same voice base as adult; friendly professional SSML", "motionProfile": "caregiver-warm" }
   },
+  "motionProfiles": {
+    "toddler-bouncy": { "idleClass": "caly-motion-idle-toddler", "speakAmp": 1.2, "bounce": 1.35, "blinkMs": [2800, 6000], "clinicalNote": "High delight; respect reduce-motion" },
+    "child-playful": { "idleClass": "caly-motion-idle-child", "speakAmp": 1.0, "bounce": 1.15, "blinkMs": [3000, 5500], "clinicalNote": "Celebration optional; assent-first" },
+    "teen-smooth": { "idleClass": "caly-motion-idle-teen", "speakAmp": 0.75, "bounce": 0.9, "blinkMs": [3500, 7000], "clinicalNote": "Avoid infantilizing bounce" },
+    "adult-calm": { "idleClass": "caly-motion-idle-adult", "speakAmp": 0.55, "bounce": 0.7, "blinkMs": [4000, 8000], "clinicalNote": "Functional AAC presence" },
+    "caregiver-warm": { "idleClass": "caly-motion-idle-caregiver", "speakAmp": 0.5, "bounce": 0.65, "blinkMs": [4000, 8000], "clinicalNote": "Professional-warm; same plant Caly" }
+  },
+  "motionDoc": "CALY_MOTION_AND_PRESENCE.md",
   "lockedUtc": "2026-06-21T20:00:00Z",
   "palette": {
     "mint": "#b8f0d8",
