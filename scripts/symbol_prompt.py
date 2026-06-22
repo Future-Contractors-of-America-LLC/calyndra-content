@@ -29,7 +29,7 @@ def expression_clause(word_id: str) -> str:
 def prompt(band: str, word_id: str, action: str) -> str:
     nickname, outfit = BANDS[band]
     return (
-        f"AAC symbol tile, square 1:1. Caly {nickname} — friendly green plant girl matching "
+        f"AAC symbol tile, square 1:1. Caly {nickname}, friendly green plant girl matching "
         f"band portrait reference ({outfit}, modest). {expression_clause(word_id)}"
         f"Exactly FIVE fingers on each visible hand, human-like. "
         f"{action} Chunky dark green outlines, soft mint-to-sky gradient background, "
