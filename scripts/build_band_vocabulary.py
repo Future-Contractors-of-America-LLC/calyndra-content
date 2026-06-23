@@ -66,19 +66,19 @@ WORD_TARGETS = {
 
 PHRASE_TARGETS = {
 
-    "baby": 12,
+    "baby": 22,
 
-    "toddler": 20,
+    "toddler": 30,
 
-    "child": 22,
+    "child": 32,
 
-    "tween": 18,
+    "tween": 30,
 
-    "teen": 18,
+    "teen": 30,
 
-    "adult": 14,
+    "adult": 26,
 
-    "caregiver": 14,
+    "caregiver": 24,
 
 }
 
@@ -434,6 +434,30 @@ PHRASES = {
 
         {"id": "nice-song", "label": "nice song", "category": "nursery", "speakText": "Nice song!"},
 
+        {"id": "soft-cozy", "label": "soft and cozy", "category": "nursery", "speakText": "Soft and cozy."},
+
+        {"id": "bouncy-baby", "label": "bouncy bouncy", "category": "nursery", "speakText": "Bouncy bouncy!"},
+
+        {"id": "more-hugs", "label": "more hugs", "category": "nursery", "speakText": "More hugs!"},
+
+        {"id": "change-diaper", "label": "change diaper", "category": "routine", "speakText": "Change diaper please."},
+
+        {"id": "time-for-nap", "label": "time for nap", "category": "routine", "speakText": "Time for nap."},
+
+        {"id": "hold-me", "label": "hold me", "category": "nursery", "speakText": "Hold me please."},
+
+        {"id": "where-mama", "label": "where is mama", "category": "social", "speakText": "Where is mama?"},
+
+        {"id": "yucky-face", "label": "yucky", "category": "preferences", "speakText": "Yucky!"},
+
+        {"id": "want-play", "label": "want to play", "category": "activities", "speakText": "Want to play!"},
+
+        {"id": "silly-face", "label": "silly face", "category": "social", "speakText": "Silly face!"},
+
+        {"id": "shhh-sleepy", "label": "shhh sleepy", "category": "routine", "speakText": "Shhh, sleepy time."},
+
+        {"id": "more-bubbles", "label": "more bubbles", "category": "activities", "speakText": "More bubbles!"},
+
     ],
 
     "toddler": [
@@ -477,6 +501,30 @@ PHRASES = {
         {"id": "my-snack", "label": "my snack", "category": "routine", "speakText": "My snack please!"},
 
         {"id": "go-outside", "label": "go outside", "category": "activities", "speakText": "Go outside!"},
+
+        {"id": "shoes-on", "label": "shoes on", "category": "routine", "speakText": "Shoes on please!"},
+
+        {"id": "wash-hands", "label": "wash hands", "category": "routine", "speakText": "Wash hands!"},
+
+        {"id": "my-cup", "label": "my cup", "category": "routine", "speakText": "My cup please!"},
+
+        {"id": "big-kid", "label": "I am a big kid", "category": "social", "speakText": "I am a big kid!"},
+
+        {"id": "too-hot", "label": "too hot", "category": "sensory", "speakText": "Too hot!"},
+
+        {"id": "too-cold", "label": "too cold", "category": "sensory", "speakText": "Too cold!"},
+
+        {"id": "pick-me-up", "label": "pick me up", "category": "social", "speakText": "Pick me up!"},
+
+        {"id": "fix-it", "label": "fix it please", "category": "core", "speakText": "Fix it please!"},
+
+        {"id": "again-please", "label": "again please", "category": "core", "speakText": "Again please!"},
+
+        {"id": "different-one", "label": "different one", "category": "preferences", "speakText": "Different one please!"},
+
+        {"id": "feel-sick-toddler", "label": "I feel sick", "category": "health", "speakText": "I feel sick."},
+
+        {"id": "car-seat", "label": "car seat please", "category": "routine", "speakText": "Car seat please!"},
 
     ],
 
@@ -526,6 +574,30 @@ PHRASES = {
 
         {"id": "i-am-done", "label": "I am done", "category": "core", "speakText": "I am done."},
 
+        {"id": "can-i-go-first", "label": "Can I go first?", "category": "social", "speakText": "Can I go first?"},
+
+        {"id": "help-open", "label": "Help me open this", "category": "core", "speakText": "Help me open this."},
+
+        {"id": "feel-scared", "label": "I feel scared", "category": "feelings", "speakText": "I feel scared."},
+
+        {"id": "need-friend", "label": "I need a friend", "category": "social", "speakText": "I need a friend."},
+
+        {"id": "what-next", "label": "What happens next?", "category": "questions", "speakText": "What happens next?"},
+
+        {"id": "can-i-sit", "label": "Can I sit here?", "category": "boundaries", "speakText": "Can I sit here?"},
+
+        {"id": "need-water-child", "label": "I need water", "category": "routine", "speakText": "I need water."},
+
+        {"id": "feel-tired", "label": "I feel tired", "category": "feelings", "speakText": "I feel tired."},
+
+        {"id": "sorry-child", "label": "I'm sorry", "category": "social", "speakText": "I'm sorry."},
+
+        {"id": "show-you", "label": "Let me show you", "category": "social", "speakText": "Let me show you."},
+
+        {"id": "too-bright", "label": "It's too bright", "category": "regulation", "speakText": "It's too bright."},
+
+        {"id": "my-body", "label": "That's my body", "category": "boundaries", "speakText": "That's my body."},
+
     ],
 
     "tween": [
@@ -565,6 +637,36 @@ PHRASES = {
         {"id": "too-much", "label": "This is too much for me", "category": "regulation", "speakText": "This is too much for me."},
 
         {"id": "need-break-tween", "label": "I need a short break", "category": "regulation", "speakText": "I need a short break."},
+
+        {"id": "need-time-process", "label": "I need time to process", "category": "regulation", "speakText": "I need time to process."},
+
+        {"id": "not-my-fault", "label": "That wasn't my fault", "category": "social", "speakText": "That wasn't my fault."},
+
+        {"id": "check-calendar", "label": "Can we check my calendar?", "category": "routine", "speakText": "Can we check my calendar?"},
+
+        {"id": "feel-embarrassed", "label": "I feel embarrassed", "category": "feelings", "speakText": "I feel embarrassed."},
+
+        {"id": "use-headphones", "label": "I need my headphones", "category": "regulation", "speakText": "I need my headphones."},
+
+        {"id": "peer-pressure-no", "label": "I don't want to do that", "category": "boundaries", "speakText": "I don't want to do that."},
+
+        {"id": "explain-differently", "label": "Can you explain it differently?", "category": "core", "speakText": "Can you explain it differently?"},
+
+        {"id": "test-anxiety", "label": "I'm worried about the test", "category": "school", "speakText": "I'm worried about the test."},
+
+        {"id": "change-topic", "label": "Can we change the topic?", "category": "boundaries", "speakText": "Can we change the topic?"},
+
+        {"id": "text-instead", "label": "Can you text me instead?", "category": "functional", "speakText": "Can you text me instead?"},
+
+        {"id": "feel-left-out", "label": "I feel left out", "category": "feelings", "speakText": "I feel left out."},
+
+        {"id": "practice-presentation", "label": "Can we practice my presentation?", "category": "school", "speakText": "Can we practice my presentation?"},
+
+        {"id": "fidget-tool", "label": "I need my fidget tool", "category": "regulation", "speakText": "I need my fidget tool."},
+
+        {"id": "school-overwhelming", "label": "School felt overwhelming today", "category": "school", "speakText": "School felt overwhelming today."},
+
+        {"id": "can-i-record", "label": "Can I record the instructions?", "category": "school", "speakText": "Can I record the instructions?"},
 
     ],
 
@@ -606,6 +708,36 @@ PHRASES = {
 
         {"id": "running-errands", "label": "I am running errands", "category": "functional", "speakText": "I am running errands."},
 
+        {"id": "mental-health-day", "label": "I need a mental health day", "category": "health", "speakText": "I need a mental health day."},
+
+        {"id": "set-boundary", "label": "I'm setting a boundary", "category": "boundaries", "speakText": "I'm setting a boundary."},
+
+        {"id": "need-therapist", "label": "I want to talk to my therapist", "category": "health", "speakText": "I want to talk to my therapist."},
+
+        {"id": "deadline-extension", "label": "Can I get an extension?", "category": "school", "speakText": "Can I get an extension?"},
+
+        {"id": "gas-money", "label": "I need gas money", "category": "functional", "speakText": "I need gas money."},
+
+        {"id": "feeling-burned-out", "label": "I'm feeling burned out", "category": "feelings", "speakText": "I'm feeling burned out."},
+
+        {"id": "not-drinking", "label": "I'm not drinking tonight", "category": "boundaries", "speakText": "I'm not drinking tonight."},
+
+        {"id": "cover-shift", "label": "Can someone cover my shift?", "category": "work", "speakText": "Can someone cover my shift?"},
+
+        {"id": "college-visit", "label": "I have a college visit", "category": "school", "speakText": "I have a college visit."},
+
+        {"id": "safe-ride-home", "label": "I need a safe ride home", "category": "functional", "speakText": "I need a safe ride home."},
+
+        {"id": "misgendered", "label": "Please use my name", "category": "boundaries", "speakText": "Please use my name."},
+
+        {"id": "overstimulated", "label": "I'm overstimulated right now", "category": "regulation", "speakText": "I'm overstimulated right now."},
+
+        {"id": "schedule-conflict", "label": "I have a schedule conflict", "category": "functional", "speakText": "I have a schedule conflict."},
+
+        {"id": "need-quiet-teen", "label": "I need somewhere quiet", "category": "regulation", "speakText": "I need somewhere quiet."},
+
+        {"id": "interview-prep", "label": "Can you help me prep for an interview?", "category": "work", "speakText": "Can you help me prep for an interview?"},
+
     ],
 
     "adult": [
@@ -638,6 +770,34 @@ PHRASES = {
 
         {"id": "refill-rx", "label": "I need a prescription refill", "category": "health", "speakText": "I need a prescription refill."},
 
+        {"id": "pto-request", "label": "I would like to request PTO", "category": "work", "speakText": "I would like to request PTO."},
+
+        {"id": "disability-accommodation", "label": "I am requesting a disability accommodation", "category": "work", "speakText": "I am requesting a disability accommodation."},
+
+        {"id": "insurance-question", "label": "I have a question about my insurance", "category": "health", "speakText": "I have a question about my insurance."},
+
+        {"id": "direct-deposit-setup", "label": "I need to set up direct deposit", "category": "functional", "speakText": "I need to set up direct deposit."},
+
+        {"id": "lease-renewal", "label": "I'm asking about my lease renewal", "category": "functional", "speakText": "I'm asking about my lease renewal."},
+
+        {"id": "budget-help", "label": "I need help with my budget", "category": "functional", "speakText": "I need help with my budget."},
+
+        {"id": "coworker-meeting", "label": "Can we sync on this project?", "category": "work", "speakText": "Can we sync on this project?"},
+
+        {"id": "performance-feedback", "label": "I'd like feedback on my performance", "category": "work", "speakText": "I'd like feedback on my performance."},
+
+        {"id": "missed-deadline", "label": "I will miss the deadline", "category": "work", "speakText": "I will miss the deadline."},
+
+        {"id": "copay-question", "label": "What is my copay?", "category": "health", "speakText": "What is my copay?"},
+
+        {"id": "cancel-subscription", "label": "I need to cancel a subscription", "category": "functional", "speakText": "I need to cancel a subscription."},
+
+        {"id": "tax-documents", "label": "Where are my tax documents?", "category": "functional", "speakText": "Where are my tax documents?"},
+
+        {"id": "wfh-today", "label": "I'm working from home today", "category": "work", "speakText": "I'm working from home today."},
+
+        {"id": "utility-bill", "label": "I need to pay my utility bill", "category": "functional", "speakText": "I need to pay my utility bill."},
+
     ],
 
     "caregiver": [
@@ -669,6 +829,30 @@ PHRASES = {
         {"id": "one-more-try", "label": "One more try?", "category": "coaching", "speakText": "One more try? No pressure."},
 
         {"id": "celebrate-effort", "label": "I celebrate your effort", "category": "coaching", "speakText": "I celebrate your effort."},
+
+        {"id": "notice-effort", "label": "I notice your effort", "category": "coaching", "speakText": "I notice your effort."},
+
+        {"id": "your-pace", "label": "We can go at your pace", "category": "coaching", "speakText": "We can go at your pace."},
+
+        {"id": "choice-two", "label": "You get to choose between two options", "category": "coaching", "speakText": "You get to choose between two options."},
+
+        {"id": "tell-me-no", "label": "You can tell me no", "category": "coaching", "speakText": "You can tell me no."},
+
+        {"id": "co-regulate", "label": "Let's breathe together", "category": "coaching", "speakText": "Let's breathe together."},
+
+        {"id": "celebrate-communication", "label": "I celebrate how you communicated", "category": "coaching", "speakText": "I celebrate how you communicated."},
+
+        {"id": "visual-support", "label": "Let's use a visual support", "category": "coaching", "speakText": "Let's use a visual support."},
+
+        {"id": "body-says", "label": "Your body is telling us something", "category": "coaching", "speakText": "Your body is telling us something."},
+
+        {"id": "try-different-way", "label": "We can try a different way", "category": "coaching", "speakText": "We can try a different way."},
+
+        {"id": "ready-when-you", "label": "I'm ready when you are", "category": "coaching", "speakText": "I'm ready when you are."},
+
+        {"id": "model-phrase", "label": "Let me model this phrase", "category": "coaching", "speakText": "Let me model this phrase."},
+
+        {"id": "count-as-try", "label": "That attempt counts", "category": "coaching", "speakText": "That attempt counts."},
 
     ],
 

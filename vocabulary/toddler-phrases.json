@@ -1,7 +1,7 @@
 {
   "id": "toddler-phrases",
   "title": "Toddler Core (2-4)  - Phrases",
-  "description": "20 phrases for Caly Sprout.",
+  "description": "30 phrases for Caly Sprout.",
   "ageBand": "toddler",
   "nickname": "Sprout",
   "phrases": [
@@ -124,6 +124,66 @@
       "label": "go outside",
       "category": "activities",
       "speakText": "Go outside!"
+    },
+    {
+      "id": "shoes-on",
+      "label": "shoes on",
+      "category": "routine",
+      "speakText": "Shoes on please!"
+    },
+    {
+      "id": "wash-hands",
+      "label": "wash hands",
+      "category": "routine",
+      "speakText": "Wash hands!"
+    },
+    {
+      "id": "my-cup",
+      "label": "my cup",
+      "category": "routine",
+      "speakText": "My cup please!"
+    },
+    {
+      "id": "big-kid",
+      "label": "I am a big kid",
+      "category": "social",
+      "speakText": "I am a big kid!"
+    },
+    {
+      "id": "too-hot",
+      "label": "too hot",
+      "category": "sensory",
+      "speakText": "Too hot!"
+    },
+    {
+      "id": "too-cold",
+      "label": "too cold",
+      "category": "sensory",
+      "speakText": "Too cold!"
+    },
+    {
+      "id": "pick-me-up",
+      "label": "pick me up",
+      "category": "social",
+      "speakText": "Pick me up!"
+    },
+    {
+      "id": "fix-it",
+      "label": "fix it please",
+      "category": "core",
+      "speakText": "Fix it please!"
+    },
+    {
+      "id": "again-please",
+      "label": "again please",
+      "category": "core",
+      "speakText": "Again please!"
+    },
+    {
+      "id": "different-one",
+      "label": "different one",
+      "category": "preferences",
+      "speakText": "Different one please!"
     }
   ]
 }

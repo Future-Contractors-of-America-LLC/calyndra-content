@@ -3,7 +3,7 @@
   "title": "Teen Vocabulary (13-17)",
   "nickname": "Vine",
   "ageBand": "teen",
-  "description": "230 words + 18 phrases for Caly Vine.",
+  "description": "230 words + 30 phrases for Caly Vine.",
   "symbols": [
     {
       "id": "help",
@@ -1642,6 +1642,78 @@
       "label": "I am running errands",
       "category": "functional",
       "speakText": "I am running errands."
+    },
+    {
+      "id": "mental-health-day",
+      "label": "I need a mental health day",
+      "category": "health",
+      "speakText": "I need a mental health day."
+    },
+    {
+      "id": "set-boundary",
+      "label": "I'm setting a boundary",
+      "category": "boundaries",
+      "speakText": "I'm setting a boundary."
+    },
+    {
+      "id": "need-therapist",
+      "label": "I want to talk to my therapist",
+      "category": "health",
+      "speakText": "I want to talk to my therapist."
+    },
+    {
+      "id": "deadline-extension",
+      "label": "Can I get an extension?",
+      "category": "school",
+      "speakText": "Can I get an extension?"
+    },
+    {
+      "id": "gas-money",
+      "label": "I need gas money",
+      "category": "functional",
+      "speakText": "I need gas money."
+    },
+    {
+      "id": "feeling-burned-out",
+      "label": "I'm feeling burned out",
+      "category": "feelings",
+      "speakText": "I'm feeling burned out."
+    },
+    {
+      "id": "not-drinking",
+      "label": "I'm not drinking tonight",
+      "category": "boundaries",
+      "speakText": "I'm not drinking tonight."
+    },
+    {
+      "id": "cover-shift",
+      "label": "Can someone cover my shift?",
+      "category": "work",
+      "speakText": "Can someone cover my shift?"
+    },
+    {
+      "id": "college-visit",
+      "label": "I have a college visit",
+      "category": "school",
+      "speakText": "I have a college visit."
+    },
+    {
+      "id": "safe-ride-home",
+      "label": "I need a safe ride home",
+      "category": "functional",
+      "speakText": "I need a safe ride home."
+    },
+    {
+      "id": "misgendered",
+      "label": "Please use my name",
+      "category": "boundaries",
+      "speakText": "Please use my name."
+    },
+    {
+      "id": "overstimulated",
+      "label": "I'm overstimulated right now",
+      "category": "regulation",
+      "speakText": "I'm overstimulated right now."
     }
   ]
 }

@@ -3,7 +3,7 @@
   "title": "Baby Nursery (0-23 mo)",
   "nickname": "Seed",
   "ageBand": "baby",
-  "description": "55 words + 12 phrases for Caly Seed.",
+  "description": "55 words + 22 phrases for Caly Seed.",
   "symbols": [
     {
       "id": "help",
@@ -462,6 +462,66 @@
       "label": "nice song",
       "category": "nursery",
       "speakText": "Nice song!"
+    },
+    {
+      "id": "soft-cozy",
+      "label": "soft and cozy",
+      "category": "nursery",
+      "speakText": "Soft and cozy."
+    },
+    {
+      "id": "bouncy-baby",
+      "label": "bouncy bouncy",
+      "category": "nursery",
+      "speakText": "Bouncy bouncy!"
+    },
+    {
+      "id": "more-hugs",
+      "label": "more hugs",
+      "category": "nursery",
+      "speakText": "More hugs!"
+    },
+    {
+      "id": "change-diaper",
+      "label": "change diaper",
+      "category": "routine",
+      "speakText": "Change diaper please."
+    },
+    {
+      "id": "time-for-nap",
+      "label": "time for nap",
+      "category": "routine",
+      "speakText": "Time for nap."
+    },
+    {
+      "id": "hold-me",
+      "label": "hold me",
+      "category": "nursery",
+      "speakText": "Hold me please."
+    },
+    {
+      "id": "where-mama",
+      "label": "where is mama",
+      "category": "social",
+      "speakText": "Where is mama?"
+    },
+    {
+      "id": "yucky-face",
+      "label": "yucky",
+      "category": "preferences",
+      "speakText": "Yucky!"
+    },
+    {
+      "id": "want-play",
+      "label": "want to play",
+      "category": "activities",
+      "speakText": "Want to play!"
+    },
+    {
+      "id": "silly-face",
+      "label": "silly face",
+      "category": "social",
+      "speakText": "Silly face!"
     }
   ]
 }

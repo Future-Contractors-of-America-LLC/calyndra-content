@@ -1,7 +1,7 @@
 {
   "id": "tween-phrases",
   "title": "Tween Vocabulary (9-12)  - Phrases",
-  "description": "18 phrases for Caly Sprig.",
+  "description": "30 phrases for Caly Sprig.",
   "ageBand": "tween",
   "nickname": "Sprig",
   "phrases": [
@@ -112,6 +112,78 @@
       "label": "I need a short break",
       "category": "regulation",
       "speakText": "I need a short break."
+    },
+    {
+      "id": "need-time-process",
+      "label": "I need time to process",
+      "category": "regulation",
+      "speakText": "I need time to process."
+    },
+    {
+      "id": "not-my-fault",
+      "label": "That wasn't my fault",
+      "category": "social",
+      "speakText": "That wasn't my fault."
+    },
+    {
+      "id": "check-calendar",
+      "label": "Can we check my calendar?",
+      "category": "routine",
+      "speakText": "Can we check my calendar?"
+    },
+    {
+      "id": "feel-embarrassed",
+      "label": "I feel embarrassed",
+      "category": "feelings",
+      "speakText": "I feel embarrassed."
+    },
+    {
+      "id": "use-headphones",
+      "label": "I need my headphones",
+      "category": "regulation",
+      "speakText": "I need my headphones."
+    },
+    {
+      "id": "peer-pressure-no",
+      "label": "I don't want to do that",
+      "category": "boundaries",
+      "speakText": "I don't want to do that."
+    },
+    {
+      "id": "explain-differently",
+      "label": "Can you explain it differently?",
+      "category": "core",
+      "speakText": "Can you explain it differently?"
+    },
+    {
+      "id": "test-anxiety",
+      "label": "I'm worried about the test",
+      "category": "school",
+      "speakText": "I'm worried about the test."
+    },
+    {
+      "id": "change-topic",
+      "label": "Can we change the topic?",
+      "category": "boundaries",
+      "speakText": "Can we change the topic?"
+    },
+    {
+      "id": "text-instead",
+      "label": "Can you text me instead?",
+      "category": "functional",
+      "speakText": "Can you text me instead?"
+    },
+    {
+      "id": "feel-left-out",
+      "label": "I feel left out",
+      "category": "feelings",
+      "speakText": "I feel left out."
+    },
+    {
+      "id": "practice-presentation",
+      "label": "Can we practice my presentation?",
+      "category": "school",
+      "speakText": "Can we practice my presentation?"
     }
   ]
 }

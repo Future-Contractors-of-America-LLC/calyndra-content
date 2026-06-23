@@ -3,7 +3,7 @@
   "title": "Adult Vocabulary (18+)",
   "nickname": "Bloom",
   "ageBand": "adult",
-  "description": "245 words + 14 phrases for Caly Bloom.",
+  "description": "245 words + 26 phrases for Caly Bloom.",
   "symbols": [
     {
       "id": "help",
@@ -1723,6 +1723,78 @@
       "label": "I need a prescription refill",
       "category": "health",
       "speakText": "I need a prescription refill."
+    },
+    {
+      "id": "pto-request",
+      "label": "I would like to request PTO",
+      "category": "work",
+      "speakText": "I would like to request PTO."
+    },
+    {
+      "id": "disability-accommodation",
+      "label": "I am requesting a disability accommodation",
+      "category": "work",
+      "speakText": "I am requesting a disability accommodation."
+    },
+    {
+      "id": "insurance-question",
+      "label": "I have a question about my insurance",
+      "category": "health",
+      "speakText": "I have a question about my insurance."
+    },
+    {
+      "id": "direct-deposit-setup",
+      "label": "I need to set up direct deposit",
+      "category": "functional",
+      "speakText": "I need to set up direct deposit."
+    },
+    {
+      "id": "lease-renewal",
+      "label": "I'm asking about my lease renewal",
+      "category": "functional",
+      "speakText": "I'm asking about my lease renewal."
+    },
+    {
+      "id": "budget-help",
+      "label": "I need help with my budget",
+      "category": "functional",
+      "speakText": "I need help with my budget."
+    },
+    {
+      "id": "coworker-meeting",
+      "label": "Can we sync on this project?",
+      "category": "work",
+      "speakText": "Can we sync on this project?"
+    },
+    {
+      "id": "performance-feedback",
+      "label": "I'd like feedback on my performance",
+      "category": "work",
+      "speakText": "I'd like feedback on my performance."
+    },
+    {
+      "id": "missed-deadline",
+      "label": "I will miss the deadline",
+      "category": "work",
+      "speakText": "I will miss the deadline."
+    },
+    {
+      "id": "copay-question",
+      "label": "What is my copay?",
+      "category": "health",
+      "speakText": "What is my copay?"
+    },
+    {
+      "id": "cancel-subscription",
+      "label": "I need to cancel a subscription",
+      "category": "functional",
+      "speakText": "I need to cancel a subscription."
+    },
+    {
+      "id": "tax-documents",
+      "label": "Where are my tax documents?",
+      "category": "functional",
+      "speakText": "Where are my tax documents?"
     }
   ]
 }

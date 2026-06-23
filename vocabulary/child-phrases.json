@@ -1,7 +1,7 @@
 {
   "id": "child-phrases",
   "title": "Child Vocabulary (5-8)  - Phrases",
-  "description": "22 phrases for Caly Bud.",
+  "description": "32 phrases for Caly Bud.",
   "ageBand": "child",
   "nickname": "Bud",
   "phrases": [
@@ -136,6 +136,66 @@
       "label": "I am done",
       "category": "core",
       "speakText": "I am done."
+    },
+    {
+      "id": "can-i-go-first",
+      "label": "Can I go first?",
+      "category": "social",
+      "speakText": "Can I go first?"
+    },
+    {
+      "id": "help-open",
+      "label": "Help me open this",
+      "category": "core",
+      "speakText": "Help me open this."
+    },
+    {
+      "id": "feel-scared",
+      "label": "I feel scared",
+      "category": "feelings",
+      "speakText": "I feel scared."
+    },
+    {
+      "id": "need-friend",
+      "label": "I need a friend",
+      "category": "social",
+      "speakText": "I need a friend."
+    },
+    {
+      "id": "what-next",
+      "label": "What happens next?",
+      "category": "questions",
+      "speakText": "What happens next?"
+    },
+    {
+      "id": "can-i-sit",
+      "label": "Can I sit here?",
+      "category": "boundaries",
+      "speakText": "Can I sit here?"
+    },
+    {
+      "id": "need-water-child",
+      "label": "I need water",
+      "category": "routine",
+      "speakText": "I need water."
+    },
+    {
+      "id": "feel-tired",
+      "label": "I feel tired",
+      "category": "feelings",
+      "speakText": "I feel tired."
+    },
+    {
+      "id": "sorry-child",
+      "label": "I'm sorry",
+      "category": "social",
+      "speakText": "I'm sorry."
+    },
+    {
+      "id": "show-you",
+      "label": "Let me show you",
+      "category": "social",
+      "speakText": "Let me show you."
     }
   ]
 }

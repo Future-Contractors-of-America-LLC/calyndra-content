@@ -3,7 +3,7 @@
   "title": "Caregiver Modeling",
   "nickname": "Canopy",
   "ageBand": "caregiver",
-  "description": "58 words + 14 phrases for Caly Canopy.",
+  "description": "58 words + 24 phrases for Caly Canopy.",
   "symbols": [
     {
       "id": "help",
@@ -483,6 +483,66 @@
       "label": "I celebrate your effort",
       "category": "coaching",
       "speakText": "I celebrate your effort."
+    },
+    {
+      "id": "notice-effort",
+      "label": "I notice your effort",
+      "category": "coaching",
+      "speakText": "I notice your effort."
+    },
+    {
+      "id": "your-pace",
+      "label": "We can go at your pace",
+      "category": "coaching",
+      "speakText": "We can go at your pace."
+    },
+    {
+      "id": "choice-two",
+      "label": "You get to choose between two options",
+      "category": "coaching",
+      "speakText": "You get to choose between two options."
+    },
+    {
+      "id": "tell-me-no",
+      "label": "You can tell me no",
+      "category": "coaching",
+      "speakText": "You can tell me no."
+    },
+    {
+      "id": "co-regulate",
+      "label": "Let's breathe together",
+      "category": "coaching",
+      "speakText": "Let's breathe together."
+    },
+    {
+      "id": "celebrate-communication",
+      "label": "I celebrate how you communicated",
+      "category": "coaching",
+      "speakText": "I celebrate how you communicated."
+    },
+    {
+      "id": "visual-support",
+      "label": "Let's use a visual support",
+      "category": "coaching",
+      "speakText": "Let's use a visual support."
+    },
+    {
+      "id": "body-says",
+      "label": "Your body is telling us something",
+      "category": "coaching",
+      "speakText": "Your body is telling us something."
+    },
+    {
+      "id": "try-different-way",
+      "label": "We can try a different way",
+      "category": "coaching",
+      "speakText": "We can try a different way."
+    },
+    {
+      "id": "ready-when-you",
+      "label": "I'm ready when you are",
+      "category": "coaching",
+      "speakText": "I'm ready when you are."
     }
   ]
 }
