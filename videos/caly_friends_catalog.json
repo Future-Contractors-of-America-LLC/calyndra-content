@@ -1,0 +1,100 @@
+{
+  "version": 1,
+  "series": "Caly and Friends",
+  "lockedUtc": "2026-06-23T12:00:00Z",
+  "durationTargetsSec": {
+    "baby": 300,
+    "toddler": 600,
+    "child": 900,
+    "tween": 1200,
+    "teen": 1800,
+    "adult": 2700
+  },
+  "scenePacingSec": 6,
+  "episodes": [
+    {
+      "id": "pip_gentle_hello_long",
+      "band": "baby",
+      "title": "Pip's Gentle Hello",
+      "friend": "Pip",
+      "mentor": "Elder Oak",
+      "targetDurationSec": 300,
+      "targetSceneCount": 50,
+      "script": "videos/scripts/06-pip-gentle-hello.md",
+      "webm": "pip_gentle_hello_long.webm",
+      "lesson": "You are wonderfully made and deeply loved.",
+      "pilot": true,
+      "status": "pilot"
+    },
+    {
+      "id": "fern_garden_share_long",
+      "band": "toddler",
+      "title": "Fern's Garden Share",
+      "friend": "Fern",
+      "mentor": "Elder Oak",
+      "targetDurationSec": 600,
+      "targetSceneCount": 100,
+      "script": "videos/scripts/07-fern-garden-share.md",
+      "webm": "fern_garden_share_long.webm",
+      "lesson": "Sharing joy makes friendship grow.",
+      "pilot": true,
+      "status": "pilot"
+    },
+    {
+      "id": "moss_kindness_trail_long",
+      "band": "child",
+      "title": "Moss and the Kindness Trail",
+      "friend": "Moss",
+      "mentor": "Elder Oak",
+      "targetDurationSec": 900,
+      "targetSceneCount": 150,
+      "script": "videos/scripts/08-moss-kindness-trail.md",
+      "webm": "moss_kindness_trail_long.webm",
+      "lesson": "Small acts of kindness light the path for everyone.",
+      "pilot": true,
+      "status": "pilot"
+    },
+    {
+      "id": "reed_wisdom_perch_long",
+      "band": "tween",
+      "title": "Reed's Wisdom Perch",
+      "friend": "Reed",
+      "mentor": "Elder Oak",
+      "targetDurationSec": 1200,
+      "targetSceneCount": 200,
+      "script": "videos/scripts/09-reed-wisdom-perch.md",
+      "webm": "reed_wisdom_perch_long.webm",
+      "lesson": "Wisdom listens before it speaks.",
+      "pilot": false,
+      "status": "script-only"
+    },
+    {
+      "id": "sage_crossroads_long",
+      "band": "teen",
+      "title": "Sage at the Crossroads",
+      "friend": "Sage",
+      "mentor": "Elder Oak",
+      "targetDurationSec": 1800,
+      "targetSceneCount": 300,
+      "script": "videos/scripts/10-sage-crossroads.md",
+      "webm": "sage_crossroads_long.webm",
+      "lesson": "Choose integrity even when it is hard.",
+      "pilot": false,
+      "status": "script-only"
+    },
+    {
+      "id": "laurel_morning_song_long",
+      "band": "adult",
+      "title": "Laurel's Morning Song",
+      "friend": "Laurel",
+      "mentor": "Elder Oak",
+      "targetDurationSec": 2700,
+      "targetSceneCount": 450,
+      "script": "videos/scripts/11-laurel-morning-song.md",
+      "webm": "laurel_morning_song_long.webm",
+      "lesson": "Gratitude turns ordinary mornings into gifts.",
+      "pilot": false,
+      "status": "script-only"
+    }
+  ]
+}
