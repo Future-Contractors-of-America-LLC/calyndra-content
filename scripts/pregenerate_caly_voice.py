@@ -76,7 +76,7 @@ def collect_lines(audience: str, scripts: dict, vocab_labels: list[str]) -> dict
 def main() -> int:
     key = os.getenv("AZURE_SPEECH_KEY", "").strip()
     if not key:
-        print("AZURE_SPEECH_KEY not set ù writing manifest skeleton only.")
+        print("AZURE_SPEECH_KEY not set - writing manifest skeleton only.")
         print("Set the key and re-run to generate MP3 files.")
         manifest = {
             "version": 2,
