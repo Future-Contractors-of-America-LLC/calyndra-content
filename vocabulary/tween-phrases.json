@@ -1,0 +1,111 @@
+{
+  "id": "tween-phrases",
+  "title": "Tween Vocabulary (9-12)  - Phrases",
+  "description": "17 phrases for Caly Sprig.",
+  "ageBand": "tween",
+  "nickname": "Sprig",
+  "phrases": [
+    {
+      "id": "dont-understand",
+      "label": "I don't understand",
+      "category": "core",
+      "speakText": "I don't understand."
+    },
+    {
+      "id": "say-again",
+      "label": "Can you say that again?",
+      "category": "core",
+      "speakText": "Can you say that again?"
+    },
+    {
+      "id": "need-space",
+      "label": "I need space",
+      "category": "regulation",
+      "speakText": "I need space."
+    },
+    {
+      "id": "not-ready",
+      "label": "I'm not ready yet",
+      "category": "core",
+      "speakText": "I'm not ready yet."
+    },
+    {
+      "id": "pick-different",
+      "label": "Can we pick something else?",
+      "category": "preferences",
+      "speakText": "Can we pick something else?"
+    },
+    {
+      "id": "feel-overwhelmed",
+      "label": "I feel overwhelmed",
+      "category": "feelings",
+      "speakText": "I feel overwhelmed."
+    },
+    {
+      "id": "can-we-talk",
+      "label": "Can we talk about it?",
+      "category": "social",
+      "speakText": "Can we talk about it?"
+    },
+    {
+      "id": "homework-help",
+      "label": "I need help with homework",
+      "category": "school",
+      "speakText": "I need help with homework."
+    },
+    {
+      "id": "join-game",
+      "label": "Can I join the game?",
+      "category": "social",
+      "speakText": "Can I join the game?"
+    },
+    {
+      "id": "pass-turn",
+      "label": "I'll pass this turn",
+      "category": "social",
+      "speakText": "I'll pass this turn."
+    },
+    {
+      "id": "schedule-change",
+      "label": "The schedule changed",
+      "category": "routine",
+      "speakText": "The schedule changed."
+    },
+    {
+      "id": "need-quiet",
+      "label": "I need a quiet place",
+      "category": "regulation",
+      "speakText": "I need a quiet place."
+    },
+    {
+      "id": "feel-stressed",
+      "label": "I feel stressed",
+      "category": "feelings",
+      "speakText": "I feel stressed."
+    },
+    {
+      "id": "can-i-leave",
+      "label": "Can I leave?",
+      "category": "boundaries",
+      "speakText": "Can I leave?"
+    },
+    {
+      "id": "tell-me-more",
+      "label": "Can you tell me more?",
+      "category": "core",
+      "speakText": "Can you tell me more?"
+    },
+    {
+      "id": "group-project",
+      "label": "I need help with a group project",
+      "category": "school",
+      "speakText": "I need help with a group project."
+    },
+    {
+      "id": "too-much",
+      "label": "This is too much for me",
+      "category": "regulation",
+      "speakText": "This is too much for me."
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": "caregiver-phrases",
+  "title": "Caregiver Modeling  - Phrases",
+  "description": "14 phrases for Caly Canopy.",
+  "ageBand": "caregiver",
+  "nickname": "Canopy",
+  "phrases": [
+    {
+      "id": "model-word",
+      "label": "Let's model this word",
+      "category": "coaching",
+      "speakText": "Let's model this word together."
+    },
+    {
+      "id": "take-time",
+      "label": "Take your time",
+      "category": "coaching",
+      "speakText": "Take your time. I'm listening."
+    },
+    {
+      "id": "good-try",
+      "label": "Good try!",
+      "category": "coaching",
+      "speakText": "Good try! That counts."
+    },
+    {
+      "id": "your-choice",
+      "label": "Your choice matters",
+      "category": "coaching",
+      "speakText": "Your choice matters."
+    },
+    {
+      "id": "we-can-wait",
+      "label": "We can wait",
+      "category": "coaching",
+      "speakText": "We can wait. No rush."
+    },
+    {
+      "id": "want-break",
+      "label": "Do you want a break?",
+      "category": "coaching",
+      "speakText": "Do you want a break?"
+    },
+    {
+      "id": "show-me",
+      "label": "Show me how you feel",
+      "category": "coaching",
+      "speakText": "Show me how you feel."
+    },
+    {
+      "id": "i-see-you",
+      "label": "I see you trying",
+      "category": "coaching",
+      "speakText": "I see you trying."
+    },
+    {
+      "id": "not-emergency",
+      "label": "This is support, not emergency care",
+      "category": "boundary",
+      "speakText": "This is support, not emergency care."
+    },
+    {
+      "id": "assent-first",
+      "label": "We follow assent first",
+      "category": "coaching",
+      "speakText": "We follow assent first."
+    },
+    {
+      "id": "lets-practice",
+      "label": "Let's practice together",
+      "category": "coaching",
+      "speakText": "Let's practice together."
+    },
+    {
+      "id": "you-are-safe",
+      "label": "You are safe with me",
+      "category": "coaching",
+      "speakText": "You are safe with me."
+    },
+    {
+      "id": "one-more-try",
+      "label": "One more try?",
+      "category": "coaching",
+      "speakText": "One more try? No pressure."
+    },
+    {
+      "id": "celebrate-effort",
+      "label": "I celebrate your effort",
+      "category": "coaching",
+      "speakText": "I celebrate your effort."
+    }
+  ]
+}

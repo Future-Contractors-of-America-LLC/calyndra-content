@@ -1,0 +1,81 @@
+{
+  "id": "baby-phrases",
+  "title": "Baby Nursery (0-23 mo)  - Phrases",
+  "description": "12 phrases for Caly Seed.",
+  "ageBand": "baby",
+  "nickname": "Seed",
+  "phrases": [
+    {
+      "id": "peek-a-boo",
+      "label": "peek-a-boo",
+      "category": "nursery",
+      "speakText": "Peek-a-boo!"
+    },
+    {
+      "id": "night-night",
+      "label": "night night",
+      "category": "nursery",
+      "speakText": "Night night."
+    },
+    {
+      "id": "up-up",
+      "label": "up up",
+      "category": "nursery",
+      "speakText": "Up up!"
+    },
+    {
+      "id": "all-gone",
+      "label": "all gone",
+      "category": "nursery",
+      "speakText": "All gone!"
+    },
+    {
+      "id": "more-milk",
+      "label": "more milk",
+      "category": "nursery",
+      "speakText": "More milk!"
+    },
+    {
+      "id": "love-you-baby",
+      "label": "love you",
+      "category": "nursery",
+      "speakText": "Love you!"
+    },
+    {
+      "id": "bye-bye",
+      "label": "bye bye",
+      "category": "nursery",
+      "speakText": "Bye bye!"
+    },
+    {
+      "id": "gentle-hands",
+      "label": "gentle hands",
+      "category": "nursery",
+      "speakText": "Gentle hands."
+    },
+    {
+      "id": "all-better",
+      "label": "all better",
+      "category": "nursery",
+      "speakText": "All better!"
+    },
+    {
+      "id": "my-turn-baby",
+      "label": "my turn",
+      "category": "nursery",
+      "speakText": "My turn!"
+    },
+    {
+      "id": "so-big",
+      "label": "so big",
+      "category": "nursery",
+      "speakText": "So big!"
+    },
+    {
+      "id": "nice-song",
+      "label": "nice song",
+      "category": "nursery",
+      "speakText": "Nice song!"
+    }
+  ]
+}

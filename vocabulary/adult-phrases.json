@@ -1,0 +1,93 @@
+{
+  "id": "adult-phrases",
+  "title": "Adult Vocabulary (18+)  - Phrases",
+  "description": "14 phrases for Caly Bloom.",
+  "ageBand": "adult",
+  "nickname": "Bloom",
+  "phrases": [
+    {
+      "id": "schedule-meeting",
+      "label": "I'd like to schedule a meeting",
+      "category": "work",
+      "speakText": "I'd like to schedule a meeting."
+    },
+    {
+      "id": "need-clarification",
+      "label": "I need clarification",
+      "category": "work",
+      "speakText": "I need clarification."
+    },
+    {
+      "id": "follow-up",
+      "label": "I will follow up by email",
+      "category": "work",
+      "speakText": "I will follow up by email."
+    },
+    {
+      "id": "running-late-adult",
+      "label": "I'm running late for work",
+      "category": "work",
+      "speakText": "I'm running late for work."
+    },
+    {
+      "id": "need-accommodation",
+      "label": "I need an accommodation",
+      "category": "work",
+      "speakText": "I need an accommodation."
+    },
+    {
+      "id": "pay-bill",
+      "label": "I need to pay a bill",
+      "category": "functional",
+      "speakText": "I need to pay a bill."
+    },
+    {
+      "id": "make-appointment",
+      "label": "I need to make an appointment",
+      "category": "health",
+      "speakText": "I need to make an appointment."
+    },
+    {
+      "id": "transport-help",
+      "label": "I need help with transport",
+      "category": "functional",
+      "speakText": "I need help with transport."
+    },
+    {
+      "id": "allergy",
+      "label": "I have a food allergy",
+      "category": "health",
+      "speakText": "I have a food allergy."
+    },
+    {
+      "id": "repeat-email",
+      "label": "Please repeat that in writing",
+      "category": "core",
+      "speakText": "Please repeat that in writing."
+    },
+    {
+      "id": "need-extension",
+      "label": "I need an extension",
+      "category": "work",
+      "speakText": "I need an extension."
+    },
+    {
+      "id": "send-invoice",
+      "label": "Please send the invoice",
+      "category": "work",
+      "speakText": "Please send the invoice."
+    },
+    {
+      "id": "work-from-home",
+      "label": "I need to work from home",
+      "category": "work",
+      "speakText": "I need to work from home."
+    },
+    {
+      "id": "refill-rx",
+      "label": "I need a prescription refill",
+      "category": "health",
+      "speakText": "I need a prescription refill."
+    }
+  ]
+}

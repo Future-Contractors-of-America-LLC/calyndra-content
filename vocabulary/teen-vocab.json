@@ -1,9 +1,9 @@
 {
   "id": "teen-vocab",
   "title": "Teen Vocabulary (13-17)",
-  "description": "179 words + phrases for Caly Vine - autonomy, health, and boundaries.",
-  "ageBand": "teen",
   "nickname": "Vine",
+  "ageBand": "teen",
+  "description": "215 words + 17 phrases for Caly Vine.",
   "symbols": [
     {
       "id": "help",
@@ -374,10 +374,23 @@
       "imageAsset": "assets/symbols/vine/toy.png"
     },
     {
+      "id": "hungry",
+      "label": "hungry",
+      "category": "routine",
+      "description": "Functional AAC symbol: hungry.",
+      "imageAsset": "assets/symbols/vine/hungry.png"
+    },
+    {
       "id": "mad",
       "label": "mad",
       "category": "feelings",
       "imageAsset": "assets/symbols/vine/mad.png"
+    },
+    {
+      "id": "need",
+      "label": "I need",
+      "category": "core",
+      "imageAsset": "assets/symbols/vine/need.png"
     },
     {
       "id": "scared",
@@ -390,6 +403,145 @@
       "label": "tired",
       "category": "feelings",
       "imageAsset": "assets/symbols/vine/tired.png"
+    },
+    {
+      "id": "want",
+      "label": "I want",
+      "category": "core",
+      "imageAsset": "assets/symbols/vine/want.png"
+    },
+    {
+      "id": "thirsty",
+      "label": "thirsty",
+      "category": "routine",
+      "description": "Functional AAC symbol: thirsty.",
+      "imageAsset": "assets/symbols/vine/thirsty.png"
+    },
+    {
+      "id": "bye",
+      "label": "bye",
+      "category": "social",
+      "description": "Functional AAC symbol: bye.",
+      "imageAsset": "assets/symbols/vine/bye.png"
+    },
+    {
+      "id": "hi",
+      "label": "hi",
+      "category": "social",
+      "description": "Functional AAC symbol: hi.",
+      "imageAsset": "assets/symbols/vine/hi.png"
+    },
+    {
+      "id": "brush-teeth",
+      "label": "brush teeth",
+      "category": "routine",
+      "description": "Functional AAC symbol: brush teeth.",
+      "imageAsset": "assets/symbols/vine/brush-teeth.png"
+    },
+    {
+      "id": "teeth",
+      "label": "teeth",
+      "category": "routine",
+      "description": "Functional AAC symbol: teeth.",
+      "imageAsset": "assets/symbols/vine/teeth.png"
+    },
+    {
+      "id": "sock",
+      "label": "sock",
+      "category": "routine",
+      "description": "Functional AAC symbol: sock.",
+      "imageAsset": "assets/symbols/vine/sock.png"
+    },
+    {
+      "id": "shirt",
+      "label": "shirt",
+      "category": "routine",
+      "description": "Functional AAC symbol: shirt.",
+      "imageAsset": "assets/symbols/vine/shirt.png"
+    },
+    {
+      "id": "pants",
+      "label": "pants",
+      "category": "routine",
+      "description": "Functional AAC symbol: pants.",
+      "imageAsset": "assets/symbols/vine/pants.png"
+    },
+    {
+      "id": "night",
+      "label": "night",
+      "category": "routine",
+      "description": "Functional AAC symbol: night.",
+      "imageAsset": "assets/symbols/vine/night.png"
+    },
+    {
+      "id": "gentle",
+      "label": "gentle",
+      "category": "social",
+      "description": "Functional AAC symbol: gentle.",
+      "imageAsset": "assets/symbols/vine/gentle.png"
+    },
+    {
+      "id": "diaper",
+      "label": "diaper",
+      "category": "routine",
+      "description": "Functional AAC symbol: diaper.",
+      "imageAsset": "assets/symbols/vine/diaper.png"
+    },
+    {
+      "id": "bottle",
+      "label": "bottle",
+      "category": "routine",
+      "description": "Functional AAC symbol: bottle.",
+      "imageAsset": "assets/symbols/vine/bottle.png"
+    },
+    {
+      "id": "snack",
+      "label": "snack",
+      "category": "food",
+      "description": "Functional AAC symbol: snack.",
+      "imageAsset": "assets/symbols/vine/snack.png"
+    },
+    {
+      "id": "playground",
+      "label": "playground",
+      "category": "places",
+      "description": "Functional AAC symbol: playground.",
+      "imageAsset": "assets/symbols/vine/playground.png"
+    },
+    {
+      "id": "crayon",
+      "label": "crayon",
+      "category": "activities",
+      "description": "Functional AAC symbol: crayon.",
+      "imageAsset": "assets/symbols/vine/crayon.png"
+    },
+    {
+      "id": "swing",
+      "label": "swing",
+      "category": "activities",
+      "description": "Functional AAC symbol: swing.",
+      "imageAsset": "assets/symbols/vine/swing.png"
+    },
+    {
+      "id": "slide",
+      "label": "slide",
+      "category": "activities",
+      "description": "Functional AAC symbol: slide.",
+      "imageAsset": "assets/symbols/vine/slide.png"
+    },
+    {
+      "id": "rain",
+      "label": "rain",
+      "category": "weather",
+      "description": "Functional AAC symbol: rain.",
+      "imageAsset": "assets/symbols/vine/rain.png"
+    },
+    {
+      "id": "snow",
+      "label": "snow",
+      "category": "weather",
+      "description": "Functional AAC symbol: snow.",
+      "imageAsset": "assets/symbols/vine/snow.png"
     },
     {
       "id": "sick",
@@ -490,18 +642,6 @@
       "imageAsset": "assets/symbols/vine/dont-like.png"
     },
     {
-      "id": "want",
-      "label": "I want",
-      "category": "core",
-      "imageAsset": "assets/symbols/vine/want.png"
-    },
-    {
-      "id": "need",
-      "label": "I need",
-      "category": "core",
-      "imageAsset": "assets/symbols/vine/need.png"
-    },
-    {
       "id": "where",
       "label": "where",
       "category": "questions",
@@ -512,6 +652,92 @@
       "label": "what",
       "category": "questions",
       "imageAsset": "assets/symbols/vine/what.png"
+    },
+    {
+      "id": "soft",
+      "label": "soft",
+      "category": "sensory",
+      "imageAsset": "assets/symbols/vine/soft.png"
+    },
+    {
+      "id": "hard",
+      "label": "hard",
+      "category": "sensory",
+      "imageAsset": "assets/symbols/vine/hard.png"
+    },
+    {
+      "id": "pet",
+      "label": "pet",
+      "category": "social",
+      "imageAsset": "assets/symbols/vine/pet.png"
+    },
+    {
+      "id": "brother",
+      "label": "brother",
+      "category": "social",
+      "imageAsset": "assets/symbols/vine/brother.png"
+    },
+    {
+      "id": "sister",
+      "label": "sister",
+      "category": "social",
+      "imageAsset": "assets/symbols/vine/sister.png"
+    },
+    {
+      "id": "grandma",
+      "label": "grandma",
+      "category": "social",
+      "imageAsset": "assets/symbols/vine/grandma.png"
+    },
+    {
+      "id": "grandpa",
+      "label": "grandpa",
+      "category": "social",
+      "imageAsset": "assets/symbols/vine/grandpa.png"
+    },
+    {
+      "id": "teacher",
+      "label": "teacher",
+      "category": "people",
+      "imageAsset": "assets/symbols/vine/teacher.png"
+    },
+    {
+      "id": "park",
+      "label": "park",
+      "category": "places",
+      "imageAsset": "assets/symbols/vine/park.png"
+    },
+    {
+      "id": "finished",
+      "label": "finished",
+      "category": "core",
+      "imageAsset": "assets/symbols/vine/finished.png"
+    },
+    {
+      "id": "alone",
+      "label": "alone",
+      "category": "social",
+      "imageAsset": "assets/symbols/vine/alone.png"
+    },
+    {
+      "id": "together",
+      "label": "together",
+      "category": "social",
+      "imageAsset": "assets/symbols/vine/together.png"
+    },
+    {
+      "id": "pencil",
+      "label": "pencil",
+      "category": "school",
+      "description": "Functional AAC symbol: pencil.",
+      "imageAsset": "assets/symbols/vine/pencil.png"
+    },
+    {
+      "id": "backpack",
+      "label": "backpack",
+      "category": "school",
+      "description": "Functional AAC symbol: backpack.",
+      "imageAsset": "assets/symbols/vine/backpack.png"
     },
     {
       "id": "who",
@@ -544,12 +770,6 @@
       "imageAsset": "assets/symbols/vine/same.png"
     },
     {
-      "id": "finished",
-      "label": "finished",
-      "category": "core",
-      "imageAsset": "assets/symbols/vine/finished.png"
-    },
-    {
       "id": "computer",
       "label": "computer",
       "category": "activities",
@@ -561,12 +781,6 @@
       "category": "communication",
       "description": "Functional AAC symbol: call someone.",
       "imageAsset": "assets/symbols/vine/phone.png"
-    },
-    {
-      "id": "park",
-      "label": "park",
-      "category": "places",
-      "imageAsset": "assets/symbols/vine/park.png"
     },
     {
       "id": "walk",
@@ -624,12 +838,6 @@
       "imageAsset": "assets/symbols/vine/team.png"
     },
     {
-      "id": "together",
-      "label": "together",
-      "category": "social",
-      "imageAsset": "assets/symbols/vine/together.png"
-    },
-    {
       "id": "fast",
       "label": "fast",
       "category": "sensory",
@@ -649,28 +857,76 @@
       "imageAsset": "assets/symbols/vine/morning.png"
     },
     {
-      "id": "night",
-      "label": "night",
-      "category": "routine",
-      "imageAsset": "assets/symbols/vine/night.png"
-    },
-    {
       "id": "today",
       "label": "today",
       "category": "core",
       "imageAsset": "assets/symbols/vine/today.png"
     },
     {
-      "id": "soft",
-      "label": "soft",
-      "category": "sensory",
-      "imageAsset": "assets/symbols/vine/soft.png"
+      "id": "tomorrow",
+      "label": "tomorrow",
+      "category": "core",
+      "imageAsset": "assets/symbols/vine/tomorrow.png"
     },
     {
-      "id": "hard",
-      "label": "hard",
-      "category": "sensory",
-      "imageAsset": "assets/symbols/vine/hard.png"
+      "id": "yesterday",
+      "label": "yesterday",
+      "category": "core",
+      "imageAsset": "assets/symbols/vine/yesterday.png"
+    },
+    {
+      "id": "first",
+      "label": "first",
+      "category": "core",
+      "imageAsset": "assets/symbols/vine/first.png"
+    },
+    {
+      "id": "last",
+      "label": "last",
+      "category": "core",
+      "imageAsset": "assets/symbols/vine/last.png"
+    },
+    {
+      "id": "forget",
+      "label": "forget",
+      "category": "core",
+      "imageAsset": "assets/symbols/vine/forget.png"
+    },
+    {
+      "id": "remember",
+      "label": "remember",
+      "category": "core",
+      "imageAsset": "assets/symbols/vine/remember.png"
+    },
+    {
+      "id": "win",
+      "label": "win",
+      "category": "social",
+      "imageAsset": "assets/symbols/vine/win.png"
+    },
+    {
+      "id": "lose",
+      "label": "lose",
+      "category": "social",
+      "imageAsset": "assets/symbols/vine/lose.png"
+    },
+    {
+      "id": "alarm",
+      "label": "alarm",
+      "category": "routine",
+      "imageAsset": "assets/symbols/vine/alarm.png"
+    },
+    {
+      "id": "photo",
+      "label": "photo",
+      "category": "activities",
+      "imageAsset": "assets/symbols/vine/photo.png"
+    },
+    {
+      "id": "video",
+      "label": "video",
+      "category": "activities",
+      "imageAsset": "assets/symbols/vine/video.png"
     },
     {
       "id": "email",
@@ -678,13 +934,6 @@
       "category": "communication",
       "description": "Functional AAC symbol: email.",
       "imageAsset": "assets/symbols/vine/email.png"
-    },
-    {
-      "id": "work",
-      "label": "work",
-      "category": "life",
-      "description": "Functional AAC symbol: work.",
-      "imageAsset": "assets/symbols/vine/work.png"
     },
     {
       "id": "store",
@@ -706,102 +955,6 @@
       "imageAsset": "assets/symbols/vine/nurse.png"
     },
     {
-      "id": "teacher",
-      "label": "teacher",
-      "category": "people",
-      "imageAsset": "assets/symbols/vine/teacher.png"
-    },
-    {
-      "id": "grandma",
-      "label": "grandma",
-      "category": "social",
-      "imageAsset": "assets/symbols/vine/grandma.png"
-    },
-    {
-      "id": "grandpa",
-      "label": "grandpa",
-      "category": "social",
-      "imageAsset": "assets/symbols/vine/grandpa.png"
-    },
-    {
-      "id": "baby",
-      "label": "baby",
-      "category": "social",
-      "imageAsset": "assets/symbols/vine/baby.png"
-    },
-    {
-      "id": "brother",
-      "label": "brother",
-      "category": "social",
-      "imageAsset": "assets/symbols/vine/brother.png"
-    },
-    {
-      "id": "sister",
-      "label": "sister",
-      "category": "social",
-      "imageAsset": "assets/symbols/vine/sister.png"
-    },
-    {
-      "id": "pet",
-      "label": "pet",
-      "category": "social",
-      "imageAsset": "assets/symbols/vine/pet.png"
-    },
-    {
-      "id": "remember",
-      "label": "remember",
-      "category": "core",
-      "imageAsset": "assets/symbols/vine/remember.png"
-    },
-    {
-      "id": "forget",
-      "label": "forget",
-      "category": "core",
-      "imageAsset": "assets/symbols/vine/forget.png"
-    },
-    {
-      "id": "win",
-      "label": "win",
-      "category": "social",
-      "imageAsset": "assets/symbols/vine/win.png"
-    },
-    {
-      "id": "lose",
-      "label": "lose",
-      "category": "social",
-      "imageAsset": "assets/symbols/vine/lose.png"
-    },
-    {
-      "id": "alone",
-      "label": "alone",
-      "category": "social",
-      "imageAsset": "assets/symbols/vine/alone.png"
-    },
-    {
-      "id": "first",
-      "label": "first",
-      "category": "core",
-      "imageAsset": "assets/symbols/vine/first.png"
-    },
-    {
-      "id": "last",
-      "label": "last",
-      "category": "core",
-      "imageAsset": "assets/symbols/vine/last.png"
-    },
-    {
-      "id": "tomorrow",
-      "label": "tomorrow",
-      "category": "core",
-      "imageAsset": "assets/symbols/vine/tomorrow.png"
-    },
-    {
-      "id": "yesterday",
-      "label": "yesterday",
-      "category": "core",
-      "imageAsset": "assets/symbols/vine/yesterday.png"
-    },
-    {
       "id": "money",
       "label": "money",
       "category": "life",
@@ -819,12 +972,6 @@
       "label": "buy",
       "category": "functional",
       "imageAsset": "assets/symbols/vine/buy.png"
-    },
-    {
-      "id": "sell",
-      "label": "sell",
-      "category": "functional",
-      "imageAsset": "assets/symbols/vine/sell.png"
     },
     {
       "id": "job",
@@ -851,12 +998,6 @@
       "imageAsset": "assets/symbols/vine/calendar.png"
     },
     {
-      "id": "alarm",
-      "label": "alarm",
-      "category": "routine",
-      "imageAsset": "assets/symbols/vine/alarm.png"
-    },
-    {
       "id": "message",
       "label": "message",
       "category": "functional",
@@ -867,18 +1008,6 @@
       "label": "call",
       "category": "functional",
       "imageAsset": "assets/symbols/vine/call.png"
-    },
-    {
-      "id": "video",
-      "label": "video",
-      "category": "activities",
-      "imageAsset": "assets/symbols/vine/video.png"
-    },
-    {
-      "id": "photo",
-      "label": "photo",
-      "category": "activities",
-      "imageAsset": "assets/symbols/vine/photo.png"
     },
     {
       "id": "map",
@@ -917,6 +1046,88 @@
       "imageAsset": "assets/symbols/vine/backward.png"
     },
     {
+      "id": "sell",
+      "label": "sell",
+      "category": "functional",
+      "imageAsset": "assets/symbols/vine/sell.png"
+    },
+    {
+      "id": "favorite",
+      "label": "favorite",
+      "category": "preferences",
+      "description": "Functional AAC symbol: favorite.",
+      "imageAsset": "assets/symbols/vine/favorite.png"
+    },
+    {
+      "id": "weather",
+      "label": "weather",
+      "category": "core",
+      "description": "Functional AAC symbol: weather.",
+      "imageAsset": "assets/symbols/vine/weather.png"
+    },
+    {
+      "id": "storm",
+      "label": "storm",
+      "category": "sensory",
+      "description": "Functional AAC symbol: storm.",
+      "imageAsset": "assets/symbols/vine/storm.png"
+    },
+    {
+      "id": "library",
+      "label": "library",
+      "category": "places",
+      "description": "Functional AAC symbol: library.",
+      "imageAsset": "assets/symbols/vine/library.png"
+    },
+    {
+      "id": "homework",
+      "label": "homework",
+      "category": "school",
+      "description": "Functional AAC symbol: homework.",
+      "imageAsset": "assets/symbols/vine/homework.png"
+    },
+    {
+      "id": "baby",
+      "label": "baby",
+      "category": "social",
+      "imageAsset": "assets/symbols/vine/baby.png"
+    },
+    {
+      "id": "transport",
+      "label": "ride",
+      "category": "life",
+      "description": "Functional AAC symbol: ride.",
+      "imageAsset": "assets/symbols/vine/transport.png"
+    },
+    {
+      "id": "appointment",
+      "label": "appointment",
+      "category": "life",
+      "description": "Functional AAC symbol: appointment.",
+      "imageAsset": "assets/symbols/vine/appointment.png"
+    },
+    {
+      "id": "grocery",
+      "label": "grocery store",
+      "category": "life",
+      "description": "Community errand vocabulary.",
+      "imageAsset": "assets/symbols/vine/grocery.png"
+    },
+    {
+      "id": "restaurant",
+      "label": "restaurant",
+      "category": "life",
+      "description": "Dining out communication.",
+      "imageAsset": "assets/symbols/vine/restaurant.png"
+    },
+    {
+      "id": "locker",
+      "label": "locker",
+      "category": "school",
+      "description": "Functional AAC symbol: locker.",
+      "imageAsset": "assets/symbols/vine/locker.png"
+    },
+    {
       "id": "not-now",
       "label": "not now",
       "category": "core",
@@ -950,20 +1161,6 @@
       "category": "health",
       "description": "Functional AAC symbol: medication.",
       "imageAsset": "assets/symbols/vine/medication.png"
-    },
-    {
-      "id": "appointment",
-      "label": "appointment",
-      "category": "life",
-      "description": "Functional AAC symbol: appointment.",
-      "imageAsset": "assets/symbols/vine/appointment.png"
-    },
-    {
-      "id": "transport",
-      "label": "ride",
-      "category": "life",
-      "description": "Functional AAC symbol: ride.",
-      "imageAsset": "assets/symbols/vine/transport.png"
     },
     {
       "id": "text",
@@ -1113,13 +1310,6 @@
       "imageAsset": "assets/symbols/vine/introduce.png"
     },
     {
-      "id": "schedule-change",
-      "label": "schedule change",
-      "category": "life",
-      "description": "Flag a change in plans.",
-      "imageAsset": "assets/symbols/vine/schedule-change.png"
-    },
-    {
       "id": "running-late",
       "label": "running late",
       "category": "life",
@@ -1132,20 +1322,6 @@
       "category": "life",
       "description": "Opt out of plans respectfully.",
       "imageAsset": "assets/symbols/vine/cancel.png"
-    },
-    {
-      "id": "grocery",
-      "label": "grocery store",
-      "category": "life",
-      "description": "Community errand vocabulary.",
-      "imageAsset": "assets/symbols/vine/grocery.png"
-    },
-    {
-      "id": "restaurant",
-      "label": "restaurant",
-      "category": "life",
-      "description": "Dining out communication.",
-      "imageAsset": "assets/symbols/vine/restaurant.png"
     },
     {
       "id": "order",
@@ -1174,6 +1350,83 @@
       "category": "regulation",
       "description": "Request downtime for recovery.",
       "imageAsset": "assets/symbols/vine/rest.png"
+    },
+    {
+      "id": "insurance",
+      "label": "insurance",
+      "category": "functional",
+      "description": "Functional AAC symbol: insurance.",
+      "imageAsset": "assets/symbols/vine/insurance.png"
+    },
+    {
+      "id": "pharmacy",
+      "label": "pharmacy",
+      "category": "health",
+      "description": "Functional AAC symbol: pharmacy.",
+      "imageAsset": "assets/symbols/vine/pharmacy.png"
+    },
+    {
+      "id": "therapist",
+      "label": "therapist",
+      "category": "health",
+      "description": "Functional AAC symbol: therapist.",
+      "imageAsset": "assets/symbols/vine/therapist.png"
+    },
+    {
+      "id": "counselor",
+      "label": "counselor",
+      "category": "health",
+      "description": "Functional AAC symbol: counselor.",
+      "imageAsset": "assets/symbols/vine/counselor.png"
+    },
+    {
+      "id": "wifi",
+      "label": "wifi",
+      "category": "functional",
+      "description": "Functional AAC symbol: wifi.",
+      "imageAsset": "assets/symbols/vine/wifi.png"
+    },
+    {
+      "id": "password",
+      "label": "password",
+      "category": "functional",
+      "description": "Functional AAC symbol: password.",
+      "imageAsset": "assets/symbols/vine/password.png"
+    },
+    {
+      "id": "bank",
+      "label": "bank",
+      "category": "functional",
+      "description": "Functional AAC symbol: bank.",
+      "imageAsset": "assets/symbols/vine/bank.png"
+    },
+    {
+      "id": "rent",
+      "label": "rent",
+      "category": "functional",
+      "description": "Functional AAC symbol: rent.",
+      "imageAsset": "assets/symbols/vine/rent.png"
+    },
+    {
+      "id": "resume",
+      "label": "resume",
+      "category": "work",
+      "description": "Functional AAC symbol: resume.",
+      "imageAsset": "assets/symbols/vine/resume.png"
+    },
+    {
+      "id": "interview",
+      "label": "interview",
+      "category": "work",
+      "description": "Functional AAC symbol: interview.",
+      "imageAsset": "assets/symbols/vine/interview.png"
+    },
+    {
+      "id": "paycheck",
+      "label": "paycheck",
+      "category": "functional",
+      "description": "Functional AAC symbol: paycheck.",
+      "imageAsset": "assets/symbols/vine/paycheck.png"
     }
   ],
   "phrases": [
@@ -1248,6 +1501,36 @@
       "label": "I'd like to order food",
       "category": "functional",
       "speakText": "I'd like to order food."
+    },
+    {
+      "id": "need-ride",
+      "label": "I need a ride",
+      "category": "functional",
+      "speakText": "I need a ride."
+    },
+    {
+      "id": "can-you-text",
+      "label": "Can you text me?",
+      "category": "functional",
+      "speakText": "Can you text me?"
+    },
+    {
+      "id": "respect-my-no",
+      "label": "Please respect my no",
+      "category": "boundaries",
+      "speakText": "Please respect my no."
+    },
+    {
+      "id": "need-break-teen",
+      "label": "I need a break from this",
+      "category": "regulation",
+      "speakText": "I need a break from this."
+    },
+    {
+      "id": "pick-me-up",
+      "label": "Can you pick me up?",
+      "category": "functional",
+      "speakText": "Can you pick me up?"
     }
   ]
 }

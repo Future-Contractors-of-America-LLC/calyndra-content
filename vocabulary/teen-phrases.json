@@ -1,0 +1,111 @@
+{
+  "id": "teen-phrases",
+  "title": "Teen Vocabulary (13-17)  - Phrases",
+  "description": "17 phrases for Caly Vine.",
+  "ageBand": "teen",
+  "nickname": "Vine",
+  "phrases": [
+    {
+      "id": "moment-respond",
+      "label": "I need a moment to respond",
+      "category": "core",
+      "speakText": "I need a moment to respond."
+    },
+    {
+      "id": "not-comfortable",
+      "label": "I'm not comfortable with that",
+      "category": "boundaries",
+      "speakText": "I'm not comfortable with that."
+    },
+    {
+      "id": "repeat-slower",
+      "label": "Can you repeat that slower?",
+      "category": "core",
+      "speakText": "Can you repeat that slower?"
+    },
+    {
+      "id": "clarify",
+      "label": "Can you clarify?",
+      "category": "core",
+      "speakText": "Can you clarify?"
+    },
+    {
+      "id": "privacy",
+      "label": "I need privacy",
+      "category": "boundaries",
+      "speakText": "I need privacy."
+    },
+    {
+      "id": "consent-no",
+      "label": "I don't consent to that",
+      "category": "boundaries",
+      "speakText": "I don't consent to that."
+    },
+    {
+      "id": "running-late",
+      "label": "I'm running late",
+      "category": "functional",
+      "speakText": "I'm running late."
+    },
+    {
+      "id": "cancel-plans",
+      "label": "I need to cancel",
+      "category": "functional",
+      "speakText": "I need to cancel."
+    },
+    {
+      "id": "feel-anxious",
+      "label": "I feel anxious",
+      "category": "feelings",
+      "speakText": "I feel anxious."
+    },
+    {
+      "id": "talk-later",
+      "label": "Can we talk later?",
+      "category": "social",
+      "speakText": "Can we talk later?"
+    },
+    {
+      "id": "need-doctor",
+      "label": "I need to see a doctor",
+      "category": "health",
+      "speakText": "I need to see a doctor."
+    },
+    {
+      "id": "order-food",
+      "label": "I'd like to order food",
+      "category": "functional",
+      "speakText": "I'd like to order food."
+    },
+    {
+      "id": "need-ride",
+      "label": "I need a ride",
+      "category": "functional",
+      "speakText": "I need a ride."
+    },
+    {
+      "id": "can-you-text",
+      "label": "Can you text me?",
+      "category": "functional",
+      "speakText": "Can you text me?"
+    },
+    {
+      "id": "respect-my-no",
+      "label": "Please respect my no",
+      "category": "boundaries",
+      "speakText": "Please respect my no."
+    },
+    {
+      "id": "need-break-teen",
+      "label": "I need a break from this",
+      "category": "regulation",
+      "speakText": "I need a break from this."
+    },
+    {
+      "id": "pick-me-up",
+      "label": "Can you pick me up?",
+      "category": "functional",
+      "speakText": "Can you pick me up?"
+    }
+  ]
+}

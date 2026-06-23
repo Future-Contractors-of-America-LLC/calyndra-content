@@ -1,9 +1,9 @@
 {
-  "id": "toddler-core",
-  "title": "Toddler Core (2-4)",
-  "nickname": "Sprout",
+  "id": "toddler-words",
+  "title": "Toddler Core (2-4)  - Words",
+  "description": "78 basic vocabulary symbols for Caly Sprout.",
   "ageBand": "toddler",
-  "description": "78 words + 20 phrases for Caly Sprout.",
+  "nickname": "Sprout",
   "symbols": [
     {
       "id": "help",
@@ -542,128 +542,6 @@
       "category": "weather",
       "description": "Functional AAC symbol: snow.",
       "imageAsset": "assets/symbols/sprout/snow.png"
-    }
-  ],
-  "phrases": [
-    {
-      "id": "more-please",
-      "label": "more please",
-      "category": "core",
-      "speakText": "More please!"
-    },
-    {
-      "id": "all-done",
-      "label": "all done",
-      "category": "core",
-      "speakText": "All done!"
-    },
-    {
-      "id": "help-me",
-      "label": "help me",
-      "category": "core",
-      "speakText": "Help me!"
-    },
-    {
-      "id": "my-turn",
-      "label": "my turn",
-      "category": "social",
-      "speakText": "My turn!"
-    },
-    {
-      "id": "go-play",
-      "label": "go play",
-      "category": "activities",
-      "speakText": "Go play!"
-    },
-    {
-      "id": "want-that",
-      "label": "I want that",
-      "category": "core",
-      "speakText": "I want that!"
-    },
-    {
-      "id": "need-help",
-      "label": "I need help",
-      "category": "core",
-      "speakText": "I need help!"
-    },
-    {
-      "id": "look-at",
-      "label": "look at this",
-      "category": "core",
-      "speakText": "Look at this!"
-    },
-    {
-      "id": "come-here",
-      "label": "come here",
-      "category": "social",
-      "speakText": "Come here!"
-    },
-    {
-      "id": "love-you",
-      "label": "love you",
-      "category": "social",
-      "speakText": "Love you!"
-    },
-    {
-      "id": "yucky",
-      "label": "no thank you",
-      "category": "core",
-      "speakText": "No thank you."
-    },
-    {
-      "id": "bathroom-please",
-      "label": "bathroom please",
-      "category": "routine",
-      "speakText": "Bathroom please!"
-    },
-    {
-      "id": "want-water",
-      "label": "want water",
-      "category": "routine",
-      "speakText": "Want water!"
-    },
-    {
-      "id": "not-yet",
-      "label": "not yet",
-      "category": "core",
-      "speakText": "Not yet."
-    },
-    {
-      "id": "go-potty",
-      "label": "go potty",
-      "category": "routine",
-      "speakText": "Go potty!"
-    },
-    {
-      "id": "hungry-now",
-      "label": "I am hungry",
-      "category": "routine",
-      "speakText": "I am hungry!"
-    },
-    {
-      "id": "sing-song",
-      "label": "sing a song",
-      "category": "activities",
-      "speakText": "Sing a song!"
-    },
-    {
-      "id": "read-please",
-      "label": "read please",
-      "category": "activities",
-      "speakText": "Read please!"
-    },
-    {
-      "id": "my-snack",
-      "label": "my snack",
-      "category": "routine",
-      "speakText": "My snack please!"
-    },
-    {
-      "id": "go-outside",
-      "label": "go outside",
-      "category": "activities",
-      "speakText": "Go outside!"
     }
   ]
 }

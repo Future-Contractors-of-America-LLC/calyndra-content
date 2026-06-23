@@ -1,9 +1,9 @@
 {
-  "id": "child-vocab",
-  "title": "Child Vocabulary (5-8)",
-  "nickname": "Bud",
+  "id": "child-words",
+  "title": "Child Vocabulary (5-8)  - Words",
+  "description": "110 basic vocabulary symbols for Caly Bud.",
   "ageBand": "child",
-  "description": "110 words + 22 phrases for Caly Bud.",
+  "nickname": "Bud",
   "symbols": [
     {
       "id": "help",
@@ -738,140 +738,6 @@
       "category": "school",
       "description": "Functional AAC symbol: backpack.",
       "imageAsset": "assets/symbols/bud/backpack.png"
-    }
-  ],
-  "phrases": [
-    {
-      "id": "can-i-have",
-      "label": "Can I have more?",
-      "category": "core",
-      "speakText": "Can I have more?"
-    },
-    {
-      "id": "need-break",
-      "label": "I need a break",
-      "category": "regulation",
-      "speakText": "I need a break."
-    },
-    {
-      "id": "thank-you",
-      "label": "Thank you",
-      "category": "social",
-      "speakText": "Thank you!"
-    },
-    {
-      "id": "please-help",
-      "label": "Please help me",
-      "category": "core",
-      "speakText": "Please help me."
-    },
-    {
-      "id": "where-is",
-      "label": "Where is it?",
-      "category": "questions",
-      "speakText": "Where is it?"
-    },
-    {
-      "id": "dont-like",
-      "label": "I don't like that",
-      "category": "preferences",
-      "speakText": "I don't like that."
-    },
-    {
-      "id": "my-turn-phrase",
-      "label": "It's my turn",
-      "category": "social",
-      "speakText": "It's my turn!"
-    },
-    {
-      "id": "share-please",
-      "label": "Can we share?",
-      "category": "social",
-      "speakText": "Can we share?"
-    },
-    {
-      "id": "feel-happy",
-      "label": "I feel happy",
-      "category": "feelings",
-      "speakText": "I feel happy!"
-    },
-    {
-      "id": "feel-sad",
-      "label": "I feel sad",
-      "category": "feelings",
-      "speakText": "I feel sad."
-    },
-    {
-      "id": "too-loud",
-      "label": "It's too loud",
-      "category": "regulation",
-      "speakText": "It's too loud."
-    },
-    {
-      "id": "wait-please",
-      "label": "Wait please",
-      "category": "core",
-      "speakText": "Wait please."
-    },
-    {
-      "id": "lets-play",
-      "label": "Let's play",
-      "category": "activities",
-      "speakText": "Let's play!"
-    },
-    {
-      "id": "read-book",
-      "label": "Read a book",
-      "category": "activities",
-      "speakText": "Read a book!"
-    },
-    {
-      "id": "go-home",
-      "label": "I want to go home",
-      "category": "places",
-      "speakText": "I want to go home."
-    },
-    {
-      "id": "can-we-go",
-      "label": "Can we go?",
-      "category": "places",
-      "speakText": "Can we go?"
-    },
-    {
-      "id": "i-feel-mad",
-      "label": "I feel mad",
-      "category": "feelings",
-      "speakText": "I feel mad."
-    },
-    {
-      "id": "need-quiet",
-      "label": "I need quiet",
-      "category": "regulation",
-      "speakText": "I need quiet."
-    },
-    {
-      "id": "good-job",
-      "label": "Good job!",
-      "category": "social",
-      "speakText": "Good job!"
-    },
-    {
-      "id": "whats-that",
-      "label": "What's that?",
-      "category": "questions",
-      "speakText": "What's that?"
-    },
-    {
-      "id": "can-i-try",
-      "label": "Can I try?",
-      "category": "social",
-      "speakText": "Can I try?"
-    },
-    {
-      "id": "i-am-done",
-      "label": "I am done",
-      "category": "core",
-      "speakText": "I am done."
     }
   ]
 }
