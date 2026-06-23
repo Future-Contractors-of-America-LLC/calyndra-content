@@ -76,9 +76,15 @@ def collect_lines(audience: str, scripts: dict, vocab_labels: list[str]) -> dict
 def main() -> int:
     key = os.getenv("AZURE_SPEECH_KEY", "").strip()
     if not key:
-        print("AZURE_SPEECH_KEY not set — writing manifest skeleton only.")
+        print("AZURE_SPEECH_KEY not set  writing manifest skeleton only.")
         print("Set the key and re-run to generate MP3 files.")
-        manifest = {"version": 1, "generated": False, "audiences": {}, "byText": {}}
+        manifest = {
+            "version": 2,
+            "profileVersion": 2,
+            "generated": False,
+            "audiences": {},
+            "byText": {},
+        }
         APP_VOICE.mkdir(parents=True, exist_ok=True)
         manifest_path = APP_VOICE / "manifest.json"
         manifest_path.write_text(json.dumps(manifest, indent=2), encoding="utf-8")
@@ -90,7 +96,8 @@ def main() -> int:
     child_labels = [s["label"] for s in load_json(CHILD_VOCAB).get("symbols", [])]
 
     manifest: dict = {
-        "version": 1,
+        "version": 2,
+        "profileVersion": 2,
         "generated": True,
         "audiences": {"toddler": {}, "child": {}},
         "byText": {},
