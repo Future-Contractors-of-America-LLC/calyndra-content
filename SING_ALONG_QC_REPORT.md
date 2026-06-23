@@ -1,6 +1,6 @@
 # Sing-along catalog QC report
 
-Generated: **2026-06-23 17:52 UTC**
+Generated: **2026-06-23 18:19 UTC**
 
 ## Summary
 
