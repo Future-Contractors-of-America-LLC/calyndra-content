@@ -1,6 +1,6 @@
 # Band art QC report
 
-Generated: **2026-06-23 09:28 UTC**
+Generated: **2026-06-23 09:32 UTC**
 
 ## Summary
 
@@ -23,11 +23,11 @@ Generated: **2026-06-23 09:28 UTC**
 | `bloom` | Bloom | adult | 18+ |
 | `canopy` | Canopy | caregiver | caregiver |
 
-### Future (not required in symbol QC yet)
+### Bootstrap (sprout copy until unique Seed art)
 
 | Band folder | Mascot | Audience | Age band |
 |-------------|--------|----------|----------|
-| `seed` | Seed | baby | 0-23mo |
+| `seed` | Seed | baby | 0-23mo (64 png) |
 
 ## Pass: band-unique words
 

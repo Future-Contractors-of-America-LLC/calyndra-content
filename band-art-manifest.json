@@ -1,6 +1,11 @@
 {
-  "updatedUtc": "2026-06-23T09:28:20.151116+00:00",
+  "updatedUtc": "2026-06-23T09:32:51.405633+00:00",
   "audienceBandMap": {
+    "baby": {
+      "band": "seed",
+      "nickname": "Seed",
+      "age": "0-23mo"
+    },
     "toddler": {
       "band": "sprout",
       "nickname": "Sprout",
@@ -32,13 +37,10 @@
       "age": "caregiver"
     }
   },
-  "futureAudienceBandMap": {
-    "baby": {
-      "band": "seed",
-      "nickname": "Seed",
-      "age": "0-23mo"
-    }
-  },
+  "bootstrapBands": [
+    "seed"
+  ],
+  "futureAudienceBandMap": {},
   "generatedWords": {
     "again": [
       "sprout",
