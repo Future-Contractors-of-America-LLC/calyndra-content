@@ -15,6 +15,7 @@ OUT_REPORT = ROOT / "BAND_QC_REPORT.md"
 
 # Audience key -> band folder, mascot nickname, age band (app selector values).
 AUDIENCE_BAND_MAP: dict[str, dict[str, str]] = {
+    "baby": {"band": "seed", "nickname": "Seed", "age": "0-23mo"},
     "toddler": {"band": "sprout", "nickname": "Sprout", "age": "2-4"},
     "child": {"band": "bud", "nickname": "Bud", "age": "5-8"},
     "tween": {"band": "sprig", "nickname": "Sprig", "age": "9-12"},
@@ -23,13 +24,11 @@ AUDIENCE_BAND_MAP: dict[str, dict[str, str]] = {
     "caregiver": {"band": "canopy", "nickname": "Canopy", "age": "caregiver"},
 }
 
-# Future band - landing / baby audience only; symbol QC not required yet.
-FUTURE_AUDIENCE_BAND_MAP: dict[str, dict[str, str]] = {
-    "baby": {"band": "seed", "nickname": "Seed", "age": "0-23mo"},
-}
+# Bootstrap band - seed folder may mirror sprout until unique art ships; excluded from hash parity.
+BOOTSTRAP_BANDS = ("seed",)
 
-BANDS = tuple(entry["band"] for entry in AUDIENCE_BAND_MAP.values())
-FUTURE_BANDS = tuple(entry["band"] for entry in FUTURE_AUDIENCE_BAND_MAP.values())
+BANDS = tuple(entry["band"] for entry in AUDIENCE_BAND_MAP.values() if entry["band"] not in BOOTSTRAP_BANDS)
+FUTURE_BANDS: tuple[str, ...] = ()
 
 # Reverse lookup: band folder -> audience metadata (required bands only).
 BAND_TO_AUDIENCE: dict[str, dict[str, str]] = {
@@ -159,7 +158,8 @@ def main() -> int:
     manifest = {
         "updatedUtc": datetime.now(timezone.utc).isoformat(),
         "audienceBandMap": AUDIENCE_BAND_MAP,
-        "futureAudienceBandMap": FUTURE_AUDIENCE_BAND_MAP,
+        "bootstrapBands": list(BOOTSTRAP_BANDS),
+        "futureAudienceBandMap": {},
         "generatedWords": generated,
         "placeholderWords": placeholder,
         "generatedCount": len(generated),
@@ -175,23 +175,27 @@ def main() -> int:
         "| Band folder | Mascot | Audience | Age band |",
         "|-------------|--------|----------|----------|",
     ]
-    for band in BANDS:
-        meta = BAND_TO_AUDIENCE[band]
+    for aud, entry in AUDIENCE_BAND_MAP.items():
+        if entry["band"] in BOOTSTRAP_BANDS:
+            continue
         mapping_lines.append(
-            f"| `{band}` | {meta['nickname']} | {meta['audience']} | {meta['age']} |"
+            f"| `{entry['band']}` | {entry['nickname']} | {aud} | {entry['age']} |"
         )
     mapping_lines.extend(
         [
             "",
-            "### Future (not required in symbol QC yet)",
+            "### Bootstrap (sprout copy until unique Seed art)",
             "",
             "| Band folder | Mascot | Audience | Age band |",
             "|-------------|--------|----------|----------|",
         ]
     )
-    for aud, entry in FUTURE_AUDIENCE_BAND_MAP.items():
+    for aud, entry in AUDIENCE_BAND_MAP.items():
+        if entry["band"] not in BOOTSTRAP_BANDS:
+            continue
+        seed_count = len(band_word_stems(entry["band"]))
         mapping_lines.append(
-            f"| `{entry['band']}` | {entry['nickname']} | {aud} | {entry['age']} |"
+            f"| `{entry['band']}` | {entry['nickname']} | {aud} | {entry['age']} ({seed_count} png) |"
         )
 
     lines = [
