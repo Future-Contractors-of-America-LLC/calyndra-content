@@ -1,0 +1,1527 @@
+{
+  "id": "band-games-catalog",
+  "version": "1.0.0",
+  "updatedUtc": "2026-06-23T17:11:06.800647+00:00",
+  "description": "Per-audience Caly Play catalog - existing + 5+ new games per band, 3-5 min sessions.",
+  "audiences": {
+    "baby": {
+      "bandPortrait": "seed",
+      "nickname": "Seed",
+      "games": [
+        {
+          "id": "bubble-pop",
+          "title": "Bubble Pop Words",
+          "description": "Pop the bubble Caly names - playful word practice.",
+          "durationMinutes": 4,
+          "mode": "bubble-pop",
+          "minRounds": 8,
+          "voiceIntroKey": "bubble_intro",
+          "voicePromptKeys": [
+            "bubble_prompt"
+          ],
+          "engine": "fun",
+          "bandPortrait": "seed",
+          "isNew": false,
+          "friendCharacter": null
+        },
+        {
+          "id": "peek-a-caly",
+          "title": "Peek-a-Caly",
+          "description": "Find where Caly is hiding - turn-taking fun.",
+          "durationMinutes": 4,
+          "mode": "peek-a-caly",
+          "minRounds": 8,
+          "voiceIntroKey": "peek_intro",
+          "voicePromptKeys": [
+            "peek_found"
+          ],
+          "engine": "fun",
+          "bandPortrait": "seed",
+          "isNew": false,
+          "friendCharacter": null
+        },
+        {
+          "id": "song-circle",
+          "title": "Song Circle",
+          "description": "Tap symbols on the beat with Caly.",
+          "durationMinutes": 5,
+          "mode": "song-circle",
+          "minRounds": 7,
+          "voiceIntroKey": "song_circle_intro",
+          "voicePromptKeys": [
+            "song_circle_cue"
+          ],
+          "engine": "fun",
+          "bandPortrait": "seed",
+          "isNew": false,
+          "friendCharacter": null
+        },
+        {
+          "id": "caly-says",
+          "title": "Caly Says",
+          "description": "Listen, then tap the word Caly says.",
+          "durationMinutes": 4,
+          "mode": "caly-says",
+          "minRounds": 8,
+          "voiceIntroKey": "caly_says_intro",
+          "voicePromptKeys": [
+            "caly_says_listen"
+          ],
+          "engine": "play",
+          "bandPortrait": "seed",
+          "isNew": false,
+          "friendCharacter": null
+        },
+        {
+          "id": "parade",
+          "title": "Word Parade",
+          "description": "Watch symbols parade, then find the target word.",
+          "durationMinutes": 4,
+          "mode": "parade",
+          "minRounds": 8,
+          "voiceIntroKey": "parade_intro",
+          "voicePromptKeys": [
+            "tap_prompt"
+          ],
+          "engine": "play",
+          "bandPortrait": "seed",
+          "isNew": false,
+          "friendCharacter": null
+        },
+        {
+          "id": "tap",
+          "title": "Tap the Word",
+          "description": "Find the picture that matches the spoken word.",
+          "durationMinutes": 3,
+          "mode": "tap",
+          "minRounds": 6,
+          "voiceIntroKey": "tap_intro",
+          "voicePromptKeys": [
+            "tap_prompt"
+          ],
+          "engine": "play",
+          "bandPortrait": "seed",
+          "isNew": false,
+          "friendCharacter": null
+        },
+        {
+          "id": "match",
+          "title": "Picture Match",
+          "description": "Match the word to the correct picture.",
+          "durationMinutes": 4,
+          "mode": "match",
+          "minRounds": 8,
+          "voiceIntroKey": "match_intro",
+          "voicePromptKeys": [
+            "match_intro"
+          ],
+          "engine": "play",
+          "bandPortrait": "seed",
+          "isNew": false,
+          "friendCharacter": null
+        },
+        {
+          "id": "category",
+          "title": "Category Quest",
+          "description": "Sort symbols into the right category.",
+          "durationMinutes": 5,
+          "mode": "category",
+          "minRounds": 7,
+          "voiceIntroKey": "category_intro",
+          "voicePromptKeys": [
+            "category_prompt"
+          ],
+          "engine": "play",
+          "bandPortrait": "seed",
+          "isNew": false,
+          "friendCharacter": null
+        },
+        {
+          "id": "gentle-kindness",
+          "title": "Gentle Kindness",
+          "description": "Tap soft kind words with Caly Seed - warm hearts and gentle smiles.",
+          "durationMinutes": 3,
+          "mode": "kindness-chain",
+          "minRounds": 6,
+          "voiceIntroKey": "kindness_chain_intro",
+          "voicePromptKeys": [
+            "kindness_chain_prompt"
+          ],
+          "bandPortrait": "seed",
+          "isNew": true,
+          "friendCharacter": null,
+          "engine": "play"
+        },
+        {
+          "id": "soft-garden",
+          "title": "Soft Word Garden",
+          "description": "Water little word seeds - grow calm, happy symbols.",
+          "durationMinutes": 4,
+          "mode": "word-garden",
+          "minRounds": 7,
+          "voiceIntroKey": "word_garden_intro",
+          "voicePromptKeys": [
+            "word_garden_prompt"
+          ],
+          "bandPortrait": "seed",
+          "isNew": true,
+          "friendCharacter": null,
+          "engine": "play"
+        },
+        {
+          "id": "peek-friends",
+          "title": "Peek with Friends",
+          "description": "Find Caly among friendly faces - gentle peek-a-boo.",
+          "durationMinutes": 3,
+          "mode": "friend-find",
+          "minRounds": 6,
+          "voiceIntroKey": "friend_find_intro",
+          "voicePromptKeys": [
+            "friend_find_prompt"
+          ],
+          "bandPortrait": "seed",
+          "isNew": true,
+          "friendCharacter": null,
+          "engine": "play"
+        },
+        {
+          "id": "pat-rhythm",
+          "title": "Pat & Rhythm",
+          "description": "Pat along with Caly - slow beats and soft words.",
+          "durationMinutes": 4,
+          "mode": "rhythm-words",
+          "minRounds": 7,
+          "voiceIntroKey": "rhythm_words_intro",
+          "voicePromptKeys": [
+            "rhythm_words_prompt"
+          ],
+          "bandPortrait": "seed",
+          "isNew": true,
+          "friendCharacter": null,
+          "engine": "play"
+        },
+        {
+          "id": "thank-you-glow",
+          "title": "Thank You Glow",
+          "description": "Tap thank-you words and watch them glow with gratitude.",
+          "durationMinutes": 3,
+          "mode": "gratitude-glow",
+          "minRounds": 6,
+          "voiceIntroKey": "gratitude_glow_intro",
+          "voicePromptKeys": [
+            "gratitude_glow_prompt"
+          ],
+          "bandPortrait": "seed",
+          "isNew": true,
+          "friendCharacter": null,
+          "engine": "play"
+        }
+      ],
+      "existingCount": 8,
+      "newCount": 5,
+      "totalCount": 13
+    },
+    "toddler": {
+      "bandPortrait": "sprout",
+      "nickname": "Sprout",
+      "games": [
+        {
+          "id": "bubble-pop",
+          "title": "Bubble Pop Words",
+          "description": "Pop the bubble Caly names - playful word practice.",
+          "durationMinutes": 4,
+          "mode": "bubble-pop",
+          "minRounds": 8,
+          "voiceIntroKey": "bubble_intro",
+          "voicePromptKeys": [
+            "bubble_prompt"
+          ],
+          "engine": "fun",
+          "bandPortrait": "sprout",
+          "isNew": false,
+          "friendCharacter": null
+        },
+        {
+          "id": "peek-a-caly",
+          "title": "Peek-a-Caly",
+          "description": "Find where Caly is hiding - turn-taking fun.",
+          "durationMinutes": 4,
+          "mode": "peek-a-caly",
+          "minRounds": 8,
+          "voiceIntroKey": "peek_intro",
+          "voicePromptKeys": [
+            "peek_found"
+          ],
+          "engine": "fun",
+          "bandPortrait": "sprout",
+          "isNew": false,
+          "friendCharacter": null
+        },
+        {
+          "id": "song-circle",
+          "title": "Song Circle",
+          "description": "Tap symbols on the beat with Caly.",
+          "durationMinutes": 5,
+          "mode": "song-circle",
+          "minRounds": 7,
+          "voiceIntroKey": "song_circle_intro",
+          "voicePromptKeys": [
+            "song_circle_cue"
+          ],
+          "engine": "fun",
+          "bandPortrait": "sprout",
+          "isNew": false,
+          "friendCharacter": null
+        },
+        {
+          "id": "caly-says",
+          "title": "Caly Says",
+          "description": "Listen, then tap the word Caly says.",
+          "durationMinutes": 4,
+          "mode": "caly-says",
+          "minRounds": 8,
+          "voiceIntroKey": "caly_says_intro",
+          "voicePromptKeys": [
+            "caly_says_listen"
+          ],
+          "engine": "play",
+          "bandPortrait": "sprout",
+          "isNew": false,
+          "friendCharacter": null
+        },
+        {
+          "id": "parade",
+          "title": "Word Parade",
+          "description": "Watch symbols parade, then find the target word.",
+          "durationMinutes": 4,
+          "mode": "parade",
+          "minRounds": 8,
+          "voiceIntroKey": "parade_intro",
+          "voicePromptKeys": [
+            "tap_prompt"
+          ],
+          "engine": "play",
+          "bandPortrait": "sprout",
+          "isNew": false,
+          "friendCharacter": null
+        },
+        {
+          "id": "tap",
+          "title": "Tap the Word",
+          "description": "Find the picture that matches the spoken word.",
+          "durationMinutes": 3,
+          "mode": "tap",
+          "minRounds": 6,
+          "voiceIntroKey": "tap_intro",
+          "voicePromptKeys": [
+            "tap_prompt"
+          ],
+          "engine": "play",
+          "bandPortrait": "sprout",
+          "isNew": false,
+          "friendCharacter": null
+        },
+        {
+          "id": "match",
+          "title": "Picture Match",
+          "description": "Match the word to the correct picture.",
+          "durationMinutes": 4,
+          "mode": "match",
+          "minRounds": 8,
+          "voiceIntroKey": "match_intro",
+          "voicePromptKeys": [
+            "match_intro"
+          ],
+          "engine": "play",
+          "bandPortrait": "sprout",
+          "isNew": false,
+          "friendCharacter": null
+        },
+        {
+          "id": "category",
+          "title": "Category Quest",
+          "description": "Sort symbols into the right category.",
+          "durationMinutes": 5,
+          "mode": "category",
+          "minRounds": 7,
+          "voiceIntroKey": "category_intro",
+          "voicePromptKeys": [
+            "category_prompt"
+          ],
+          "engine": "play",
+          "bandPortrait": "sprout",
+          "isNew": false,
+          "friendCharacter": null
+        },
+        {
+          "id": "kindness-chain",
+          "title": "Kindness Chain",
+          "description": "Link kind words together - share, help, and care.",
+          "durationMinutes": 4,
+          "mode": "kindness-chain",
+          "minRounds": 8,
+          "voiceIntroKey": "kindness_chain_intro",
+          "voicePromptKeys": [
+            "kindness_chain_prompt"
+          ],
+          "bandPortrait": "sprout",
+          "isNew": true,
+          "friendCharacter": null,
+          "engine": "play"
+        },
+        {
+          "id": "word-garden",
+          "title": "Word Garden",
+          "description": "Plant and grow vocabulary words in Caly's garden.",
+          "durationMinutes": 4,
+          "mode": "word-garden",
+          "minRounds": 8,
+          "voiceIntroKey": "word_garden_intro",
+          "voicePromptKeys": [
+            "word_garden_prompt"
+          ],
+          "bandPortrait": "sprout",
+          "isNew": true,
+          "friendCharacter": null,
+          "engine": "play"
+        },
+        {
+          "id": "friend-find",
+          "title": "Friend Find",
+          "description": "Spot Caly's friend among the symbols.",
+          "durationMinutes": 4,
+          "mode": "friend-find",
+          "minRounds": 8,
+          "voiceIntroKey": "friend_find_intro",
+          "voicePromptKeys": [
+            "friend_find_prompt"
+          ],
+          "bandPortrait": "sprout",
+          "isNew": true,
+          "friendCharacter": null,
+          "engine": "play"
+        },
+        {
+          "id": "rhythm-words",
+          "title": "Rhythm Words",
+          "description": "Clap and tap words on the beat.",
+          "durationMinutes": 5,
+          "mode": "rhythm-words",
+          "minRounds": 7,
+          "voiceIntroKey": "rhythm_words_intro",
+          "voicePromptKeys": [
+            "rhythm_words_prompt"
+          ],
+          "bandPortrait": "sprout",
+          "isNew": true,
+          "friendCharacter": null,
+          "engine": "play"
+        },
+        {
+          "id": "story-pick",
+          "title": "Story Pick",
+          "description": "Choose what happens next in a short Caly story.",
+          "durationMinutes": 5,
+          "mode": "story-pick",
+          "minRounds": 7,
+          "voiceIntroKey": "story_pick_intro",
+          "voicePromptKeys": [
+            "story_pick_prompt"
+          ],
+          "bandPortrait": "sprout",
+          "isNew": true,
+          "friendCharacter": null,
+          "engine": "play"
+        }
+      ],
+      "existingCount": 8,
+      "newCount": 5,
+      "totalCount": 13
+    },
+    "child": {
+      "bandPortrait": "bud",
+      "nickname": "Bud",
+      "games": [
+        {
+          "id": "bubble-pop",
+          "title": "Bubble Pop Words",
+          "description": "Pop the bubble Caly names - playful word practice.",
+          "durationMinutes": 4,
+          "mode": "bubble-pop",
+          "minRounds": 8,
+          "voiceIntroKey": "bubble_intro",
+          "voicePromptKeys": [
+            "bubble_prompt"
+          ],
+          "engine": "fun",
+          "bandPortrait": "bud",
+          "isNew": false,
+          "friendCharacter": null
+        },
+        {
+          "id": "peek-a-caly",
+          "title": "Peek-a-Caly",
+          "description": "Find where Caly is hiding - turn-taking fun.",
+          "durationMinutes": 4,
+          "mode": "peek-a-caly",
+          "minRounds": 8,
+          "voiceIntroKey": "peek_intro",
+          "voicePromptKeys": [
+            "peek_found"
+          ],
+          "engine": "fun",
+          "bandPortrait": "bud",
+          "isNew": false,
+          "friendCharacter": null
+        },
+        {
+          "id": "song-circle",
+          "title": "Song Circle",
+          "description": "Tap symbols on the beat with Caly.",
+          "durationMinutes": 5,
+          "mode": "song-circle",
+          "minRounds": 7,
+          "voiceIntroKey": "song_circle_intro",
+          "voicePromptKeys": [
+            "song_circle_cue"
+          ],
+          "engine": "fun",
+          "bandPortrait": "bud",
+          "isNew": false,
+          "friendCharacter": null
+        },
+        {
+          "id": "caly-says",
+          "title": "Caly Says",
+          "description": "Listen, then tap the word Caly says.",
+          "durationMinutes": 4,
+          "mode": "caly-says",
+          "minRounds": 8,
+          "voiceIntroKey": "caly_says_intro",
+          "voicePromptKeys": [
+            "caly_says_listen"
+          ],
+          "engine": "play",
+          "bandPortrait": "bud",
+          "isNew": false,
+          "friendCharacter": null
+        },
+        {
+          "id": "parade",
+          "title": "Word Parade",
+          "description": "Watch symbols parade, then find the target word.",
+          "durationMinutes": 4,
+          "mode": "parade",
+          "minRounds": 8,
+          "voiceIntroKey": "parade_intro",
+          "voicePromptKeys": [
+            "tap_prompt"
+          ],
+          "engine": "play",
+          "bandPortrait": "bud",
+          "isNew": false,
+          "friendCharacter": null
+        },
+        {
+          "id": "tap",
+          "title": "Tap the Word",
+          "description": "Find the picture that matches the spoken word.",
+          "durationMinutes": 3,
+          "mode": "tap",
+          "minRounds": 6,
+          "voiceIntroKey": "tap_intro",
+          "voicePromptKeys": [
+            "tap_prompt"
+          ],
+          "engine": "play",
+          "bandPortrait": "bud",
+          "isNew": false,
+          "friendCharacter": null
+        },
+        {
+          "id": "match",
+          "title": "Picture Match",
+          "description": "Match the word to the correct picture.",
+          "durationMinutes": 4,
+          "mode": "match",
+          "minRounds": 8,
+          "voiceIntroKey": "match_intro",
+          "voicePromptKeys": [
+            "match_intro"
+          ],
+          "engine": "play",
+          "bandPortrait": "bud",
+          "isNew": false,
+          "friendCharacter": null
+        },
+        {
+          "id": "category",
+          "title": "Category Quest",
+          "description": "Sort symbols into the right category.",
+          "durationMinutes": 5,
+          "mode": "category",
+          "minRounds": 7,
+          "voiceIntroKey": "category_intro",
+          "voicePromptKeys": [
+            "category_prompt"
+          ],
+          "engine": "play",
+          "bandPortrait": "bud",
+          "isNew": false,
+          "friendCharacter": null
+        },
+        {
+          "id": "kindness-chain",
+          "title": "Kindness Chain",
+          "description": "Build a chain of kind actions through symbol choices.",
+          "durationMinutes": 4,
+          "mode": "kindness-chain",
+          "minRounds": 8,
+          "voiceIntroKey": "kindness_chain_intro",
+          "voicePromptKeys": [
+            "kindness_chain_prompt"
+          ],
+          "bandPortrait": "bud",
+          "isNew": true,
+          "friendCharacter": null,
+          "engine": "play"
+        },
+        {
+          "id": "word-garden",
+          "title": "Word Garden",
+          "description": "Grow your word garden by tapping the right symbols.",
+          "durationMinutes": 4,
+          "mode": "word-garden",
+          "minRounds": 8,
+          "voiceIntroKey": "word_garden_intro",
+          "voicePromptKeys": [
+            "word_garden_prompt"
+          ],
+          "bandPortrait": "bud",
+          "isNew": true,
+          "friendCharacter": null,
+          "engine": "play"
+        },
+        {
+          "id": "friend-find",
+          "title": "Friend Find",
+          "description": "Find the friend Caly describes among the choices.",
+          "durationMinutes": 4,
+          "mode": "friend-find",
+          "minRounds": 8,
+          "voiceIntroKey": "friend_find_intro",
+          "voicePromptKeys": [
+            "friend_find_prompt"
+          ],
+          "bandPortrait": "bud",
+          "isNew": true,
+          "friendCharacter": null,
+          "engine": "play"
+        },
+        {
+          "id": "rhythm-words",
+          "title": "Rhythm Words",
+          "description": "Keep the beat and tap the named word.",
+          "durationMinutes": 5,
+          "mode": "rhythm-words",
+          "minRounds": 7,
+          "voiceIntroKey": "rhythm_words_intro",
+          "voicePromptKeys": [
+            "rhythm_words_prompt"
+          ],
+          "bandPortrait": "bud",
+          "isNew": true,
+          "friendCharacter": null,
+          "engine": "play"
+        },
+        {
+          "id": "story-pick",
+          "title": "Story Pick",
+          "description": "Pick the next part of an adventure story.",
+          "durationMinutes": 5,
+          "mode": "story-pick",
+          "minRounds": 7,
+          "voiceIntroKey": "story_pick_intro",
+          "voicePromptKeys": [
+            "story_pick_prompt"
+          ],
+          "bandPortrait": "bud",
+          "isNew": true,
+          "friendCharacter": null,
+          "engine": "play"
+        }
+      ],
+      "existingCount": 8,
+      "newCount": 5,
+      "totalCount": 13
+    },
+    "tween": {
+      "bandPortrait": "sprig",
+      "nickname": "Sprig",
+      "games": [
+        {
+          "id": "bubble-pop",
+          "title": "Bubble Pop Words",
+          "description": "Pop the bubble Caly names - playful word practice.",
+          "durationMinutes": 4,
+          "mode": "bubble-pop",
+          "minRounds": 8,
+          "voiceIntroKey": "bubble_intro",
+          "voicePromptKeys": [
+            "bubble_prompt"
+          ],
+          "engine": "fun",
+          "bandPortrait": "sprig",
+          "isNew": false,
+          "friendCharacter": null
+        },
+        {
+          "id": "peek-a-caly",
+          "title": "Peek-a-Caly",
+          "description": "Find where Caly is hiding - turn-taking fun.",
+          "durationMinutes": 4,
+          "mode": "peek-a-caly",
+          "minRounds": 8,
+          "voiceIntroKey": "peek_intro",
+          "voicePromptKeys": [
+            "peek_found"
+          ],
+          "engine": "fun",
+          "bandPortrait": "sprig",
+          "isNew": false,
+          "friendCharacter": null
+        },
+        {
+          "id": "song-circle",
+          "title": "Song Circle",
+          "description": "Tap symbols on the beat with Caly.",
+          "durationMinutes": 5,
+          "mode": "song-circle",
+          "minRounds": 7,
+          "voiceIntroKey": "song_circle_intro",
+          "voicePromptKeys": [
+            "song_circle_cue"
+          ],
+          "engine": "fun",
+          "bandPortrait": "sprig",
+          "isNew": false,
+          "friendCharacter": null
+        },
+        {
+          "id": "caly-says",
+          "title": "Caly Says",
+          "description": "Listen, then tap the word Caly says.",
+          "durationMinutes": 4,
+          "mode": "caly-says",
+          "minRounds": 8,
+          "voiceIntroKey": "caly_says_intro",
+          "voicePromptKeys": [
+            "caly_says_listen"
+          ],
+          "engine": "play",
+          "bandPortrait": "sprig",
+          "isNew": false,
+          "friendCharacter": null
+        },
+        {
+          "id": "parade",
+          "title": "Word Parade",
+          "description": "Watch symbols parade, then find the target word.",
+          "durationMinutes": 4,
+          "mode": "parade",
+          "minRounds": 8,
+          "voiceIntroKey": "parade_intro",
+          "voicePromptKeys": [
+            "tap_prompt"
+          ],
+          "engine": "play",
+          "bandPortrait": "sprig",
+          "isNew": false,
+          "friendCharacter": null
+        },
+        {
+          "id": "tap",
+          "title": "Tap the Word",
+          "description": "Find the picture that matches the spoken word.",
+          "durationMinutes": 3,
+          "mode": "tap",
+          "minRounds": 6,
+          "voiceIntroKey": "tap_intro",
+          "voicePromptKeys": [
+            "tap_prompt"
+          ],
+          "engine": "play",
+          "bandPortrait": "sprig",
+          "isNew": false,
+          "friendCharacter": null
+        },
+        {
+          "id": "match",
+          "title": "Picture Match",
+          "description": "Match the word to the correct picture.",
+          "durationMinutes": 4,
+          "mode": "match",
+          "minRounds": 8,
+          "voiceIntroKey": "match_intro",
+          "voicePromptKeys": [
+            "match_intro"
+          ],
+          "engine": "play",
+          "bandPortrait": "sprig",
+          "isNew": false,
+          "friendCharacter": null
+        },
+        {
+          "id": "category",
+          "title": "Category Quest",
+          "description": "Sort symbols into the right category.",
+          "durationMinutes": 5,
+          "mode": "category",
+          "minRounds": 7,
+          "voiceIntroKey": "category_intro",
+          "voicePromptKeys": [
+            "category_prompt"
+          ],
+          "engine": "play",
+          "bandPortrait": "sprig",
+          "isNew": false,
+          "friendCharacter": null
+        },
+        {
+          "id": "kindness-chain",
+          "title": "Kindness Chain",
+          "description": "Connect kindness words - patience and encouragement count.",
+          "durationMinutes": 4,
+          "mode": "kindness-chain",
+          "minRounds": 8,
+          "voiceIntroKey": "kindness_chain_intro",
+          "voicePromptKeys": [
+            "kindness_chain_prompt"
+          ],
+          "bandPortrait": "sprig",
+          "isNew": true,
+          "friendCharacter": null,
+          "engine": "play"
+        },
+        {
+          "id": "gratitude-glow",
+          "title": "Gratitude Glow",
+          "description": "Tap grateful words and notice what lights up.",
+          "durationMinutes": 4,
+          "mode": "gratitude-glow",
+          "minRounds": 8,
+          "voiceIntroKey": "gratitude_glow_intro",
+          "voicePromptKeys": [
+            "gratitude_glow_prompt"
+          ],
+          "bandPortrait": "sprig",
+          "isNew": true,
+          "friendCharacter": null,
+          "engine": "play"
+        },
+        {
+          "id": "rhythm-words",
+          "title": "Rhythm Words",
+          "description": "Word rhythms - tap on beat when ready.",
+          "durationMinutes": 5,
+          "mode": "rhythm-words",
+          "minRounds": 7,
+          "voiceIntroKey": "rhythm_words_intro",
+          "voicePromptKeys": [
+            "rhythm_words_prompt"
+          ],
+          "bandPortrait": "sprig",
+          "isNew": true,
+          "friendCharacter": null,
+          "engine": "play"
+        },
+        {
+          "id": "story-pick",
+          "title": "Story Pick",
+          "description": "Shape a short story with your symbol choices.",
+          "durationMinutes": 5,
+          "mode": "story-pick",
+          "minRounds": 7,
+          "voiceIntroKey": "story_pick_intro",
+          "voicePromptKeys": [
+            "story_pick_prompt"
+          ],
+          "bandPortrait": "sprig",
+          "isNew": true,
+          "friendCharacter": null,
+          "engine": "play"
+        },
+        {
+          "id": "friend-find",
+          "title": "Friend Find",
+          "description": "Locate the symbol that fits Caly's clue.",
+          "durationMinutes": 4,
+          "mode": "friend-find",
+          "minRounds": 8,
+          "voiceIntroKey": "friend_find_intro",
+          "voicePromptKeys": [
+            "friend_find_prompt"
+          ],
+          "bandPortrait": "sprig",
+          "isNew": true,
+          "friendCharacter": null,
+          "engine": "play"
+        }
+      ],
+      "existingCount": 8,
+      "newCount": 5,
+      "totalCount": 13
+    },
+    "teen": {
+      "bandPortrait": "vine",
+      "nickname": "Vine",
+      "games": [
+        {
+          "id": "bubble-pop",
+          "title": "Bubble Pop Words",
+          "description": "Pop the bubble Caly names - playful word practice.",
+          "durationMinutes": 4,
+          "mode": "bubble-pop",
+          "minRounds": 8,
+          "voiceIntroKey": "bubble_intro",
+          "voicePromptKeys": [
+            "bubble_prompt"
+          ],
+          "engine": "fun",
+          "bandPortrait": "vine",
+          "isNew": false,
+          "friendCharacter": null
+        },
+        {
+          "id": "peek-a-caly",
+          "title": "Peek-a-Caly",
+          "description": "Find where Caly is hiding - turn-taking fun.",
+          "durationMinutes": 4,
+          "mode": "peek-a-caly",
+          "minRounds": 8,
+          "voiceIntroKey": "peek_intro",
+          "voicePromptKeys": [
+            "peek_found"
+          ],
+          "engine": "fun",
+          "bandPortrait": "vine",
+          "isNew": false,
+          "friendCharacter": null
+        },
+        {
+          "id": "song-circle",
+          "title": "Song Circle",
+          "description": "Tap symbols on the beat with Caly.",
+          "durationMinutes": 5,
+          "mode": "song-circle",
+          "minRounds": 7,
+          "voiceIntroKey": "song_circle_intro",
+          "voicePromptKeys": [
+            "song_circle_cue"
+          ],
+          "engine": "fun",
+          "bandPortrait": "vine",
+          "isNew": false,
+          "friendCharacter": null
+        },
+        {
+          "id": "caly-says",
+          "title": "Caly Says",
+          "description": "Listen, then tap the word Caly says.",
+          "durationMinutes": 4,
+          "mode": "caly-says",
+          "minRounds": 8,
+          "voiceIntroKey": "caly_says_intro",
+          "voicePromptKeys": [
+            "caly_says_listen"
+          ],
+          "engine": "play",
+          "bandPortrait": "vine",
+          "isNew": false,
+          "friendCharacter": null
+        },
+        {
+          "id": "parade",
+          "title": "Word Parade",
+          "description": "Watch symbols parade, then find the target word.",
+          "durationMinutes": 4,
+          "mode": "parade",
+          "minRounds": 8,
+          "voiceIntroKey": "parade_intro",
+          "voicePromptKeys": [
+            "tap_prompt"
+          ],
+          "engine": "play",
+          "bandPortrait": "vine",
+          "isNew": false,
+          "friendCharacter": null
+        },
+        {
+          "id": "tap",
+          "title": "Tap the Word",
+          "description": "Find the picture that matches the spoken word.",
+          "durationMinutes": 3,
+          "mode": "tap",
+          "minRounds": 6,
+          "voiceIntroKey": "tap_intro",
+          "voicePromptKeys": [
+            "tap_prompt"
+          ],
+          "engine": "play",
+          "bandPortrait": "vine",
+          "isNew": false,
+          "friendCharacter": null
+        },
+        {
+          "id": "match",
+          "title": "Picture Match",
+          "description": "Match the word to the correct picture.",
+          "durationMinutes": 4,
+          "mode": "match",
+          "minRounds": 8,
+          "voiceIntroKey": "match_intro",
+          "voicePromptKeys": [
+            "match_intro"
+          ],
+          "engine": "play",
+          "bandPortrait": "vine",
+          "isNew": false,
+          "friendCharacter": null
+        },
+        {
+          "id": "category",
+          "title": "Category Quest",
+          "description": "Sort symbols into the right category.",
+          "durationMinutes": 5,
+          "mode": "category",
+          "minRounds": 7,
+          "voiceIntroKey": "category_intro",
+          "voicePromptKeys": [
+            "category_prompt"
+          ],
+          "engine": "play",
+          "bandPortrait": "vine",
+          "isNew": false,
+          "friendCharacter": null
+        },
+        {
+          "id": "kindness-chain",
+          "title": "Kindness Chain",
+          "description": "Practice kind communication - your pace, your choices.",
+          "durationMinutes": 4,
+          "mode": "kindness-chain",
+          "minRounds": 8,
+          "voiceIntroKey": "kindness_chain_intro",
+          "voicePromptKeys": [
+            "kindness_chain_prompt"
+          ],
+          "bandPortrait": "vine",
+          "isNew": true,
+          "friendCharacter": null,
+          "engine": "play"
+        },
+        {
+          "id": "consent-stop",
+          "title": "Consent & Stop",
+          "description": "Practice stop, pause, and choice - boundaries matter.",
+          "durationMinutes": 4,
+          "mode": "consent-stop",
+          "minRounds": 8,
+          "voiceIntroKey": "consent_stop_intro",
+          "voicePromptKeys": [
+            "consent_stop_prompt"
+          ],
+          "bandPortrait": "vine",
+          "isNew": true,
+          "friendCharacter": null,
+          "engine": "play"
+        },
+        {
+          "id": "gratitude-glow",
+          "title": "Gratitude Glow",
+          "description": "Name what you're grateful for through symbols.",
+          "durationMinutes": 4,
+          "mode": "gratitude-glow",
+          "minRounds": 8,
+          "voiceIntroKey": "gratitude_glow_intro",
+          "voicePromptKeys": [
+            "gratitude_glow_prompt"
+          ],
+          "bandPortrait": "vine",
+          "isNew": true,
+          "friendCharacter": null,
+          "engine": "play"
+        },
+        {
+          "id": "rhythm-words",
+          "title": "Rhythm Words",
+          "description": "Tap words in rhythm - optional, skippable.",
+          "durationMinutes": 5,
+          "mode": "rhythm-words",
+          "minRounds": 7,
+          "voiceIntroKey": "rhythm_words_intro",
+          "voicePromptKeys": [
+            "rhythm_words_prompt"
+          ],
+          "bandPortrait": "vine",
+          "isNew": true,
+          "friendCharacter": null,
+          "engine": "play"
+        },
+        {
+          "id": "story-pick",
+          "title": "Story Pick",
+          "description": "Choose story paths - no wrong answers.",
+          "durationMinutes": 5,
+          "mode": "story-pick",
+          "minRounds": 7,
+          "voiceIntroKey": "story_pick_intro",
+          "voicePromptKeys": [
+            "story_pick_prompt"
+          ],
+          "bandPortrait": "vine",
+          "isNew": true,
+          "friendCharacter": null,
+          "engine": "play"
+        }
+      ],
+      "existingCount": 8,
+      "newCount": 5,
+      "totalCount": 13
+    },
+    "adult": {
+      "bandPortrait": "bloom",
+      "nickname": "Bloom",
+      "games": [
+        {
+          "id": "bubble-pop",
+          "title": "Bubble Pop Words",
+          "description": "Pop the bubble Caly names - playful word practice.",
+          "durationMinutes": 4,
+          "mode": "bubble-pop",
+          "minRounds": 8,
+          "voiceIntroKey": "bubble_intro",
+          "voicePromptKeys": [
+            "bubble_prompt"
+          ],
+          "engine": "fun",
+          "bandPortrait": "bloom",
+          "isNew": false,
+          "friendCharacter": null
+        },
+        {
+          "id": "peek-a-caly",
+          "title": "Peek-a-Caly",
+          "description": "Find where Caly is hiding - turn-taking fun.",
+          "durationMinutes": 4,
+          "mode": "peek-a-caly",
+          "minRounds": 8,
+          "voiceIntroKey": "peek_intro",
+          "voicePromptKeys": [
+            "peek_found"
+          ],
+          "engine": "fun",
+          "bandPortrait": "bloom",
+          "isNew": false,
+          "friendCharacter": null
+        },
+        {
+          "id": "song-circle",
+          "title": "Song Circle",
+          "description": "Tap symbols on the beat with Caly.",
+          "durationMinutes": 5,
+          "mode": "song-circle",
+          "minRounds": 7,
+          "voiceIntroKey": "song_circle_intro",
+          "voicePromptKeys": [
+            "song_circle_cue"
+          ],
+          "engine": "fun",
+          "bandPortrait": "bloom",
+          "isNew": false,
+          "friendCharacter": null
+        },
+        {
+          "id": "caly-says",
+          "title": "Caly Says",
+          "description": "Listen, then tap the word Caly says.",
+          "durationMinutes": 4,
+          "mode": "caly-says",
+          "minRounds": 8,
+          "voiceIntroKey": "caly_says_intro",
+          "voicePromptKeys": [
+            "caly_says_listen"
+          ],
+          "engine": "play",
+          "bandPortrait": "bloom",
+          "isNew": false,
+          "friendCharacter": null
+        },
+        {
+          "id": "parade",
+          "title": "Word Parade",
+          "description": "Watch symbols parade, then find the target word.",
+          "durationMinutes": 4,
+          "mode": "parade",
+          "minRounds": 8,
+          "voiceIntroKey": "parade_intro",
+          "voicePromptKeys": [
+            "tap_prompt"
+          ],
+          "engine": "play",
+          "bandPortrait": "bloom",
+          "isNew": false,
+          "friendCharacter": null
+        },
+        {
+          "id": "tap",
+          "title": "Tap the Word",
+          "description": "Find the picture that matches the spoken word.",
+          "durationMinutes": 3,
+          "mode": "tap",
+          "minRounds": 6,
+          "voiceIntroKey": "tap_intro",
+          "voicePromptKeys": [
+            "tap_prompt"
+          ],
+          "engine": "play",
+          "bandPortrait": "bloom",
+          "isNew": false,
+          "friendCharacter": null
+        },
+        {
+          "id": "match",
+          "title": "Picture Match",
+          "description": "Match the word to the correct picture.",
+          "durationMinutes": 4,
+          "mode": "match",
+          "minRounds": 8,
+          "voiceIntroKey": "match_intro",
+          "voicePromptKeys": [
+            "match_intro"
+          ],
+          "engine": "play",
+          "bandPortrait": "bloom",
+          "isNew": false,
+          "friendCharacter": null
+        },
+        {
+          "id": "category",
+          "title": "Category Quest",
+          "description": "Sort symbols into the right category.",
+          "durationMinutes": 5,
+          "mode": "category",
+          "minRounds": 7,
+          "voiceIntroKey": "category_intro",
+          "voicePromptKeys": [
+            "category_prompt"
+          ],
+          "engine": "play",
+          "bandPortrait": "bloom",
+          "isNew": false,
+          "friendCharacter": null
+        },
+        {
+          "id": "gratitude-glow",
+          "title": "Gratitude Glow",
+          "description": "Quick gratitude practice with AAC symbols.",
+          "durationMinutes": 4,
+          "mode": "gratitude-glow",
+          "minRounds": 8,
+          "voiceIntroKey": "gratitude_glow_intro",
+          "voicePromptKeys": [
+            "gratitude_glow_prompt"
+          ],
+          "bandPortrait": "bloom",
+          "isNew": true,
+          "friendCharacter": null,
+          "engine": "play"
+        },
+        {
+          "id": "schedule-builder",
+          "title": "Schedule Builder",
+          "description": "Order routine steps - planning with patience.",
+          "durationMinutes": 5,
+          "mode": "schedule-builder",
+          "minRounds": 7,
+          "voiceIntroKey": "schedule_builder_intro",
+          "voicePromptKeys": [
+            "schedule_builder_prompt"
+          ],
+          "bandPortrait": "bloom",
+          "isNew": true,
+          "friendCharacter": null,
+          "engine": "play"
+        },
+        {
+          "id": "kindness-chain",
+          "title": "Kindness Chain",
+          "description": "Link kind communication symbols in sequence.",
+          "durationMinutes": 4,
+          "mode": "kindness-chain",
+          "minRounds": 8,
+          "voiceIntroKey": "kindness_chain_intro",
+          "voicePromptKeys": [
+            "kindness_chain_prompt"
+          ],
+          "bandPortrait": "bloom",
+          "isNew": true,
+          "friendCharacter": null,
+          "engine": "play"
+        },
+        {
+          "id": "word-garden",
+          "title": "Word Garden",
+          "description": "Grow vocabulary through symbol matching.",
+          "durationMinutes": 4,
+          "mode": "word-garden",
+          "minRounds": 8,
+          "voiceIntroKey": "word_garden_intro",
+          "voicePromptKeys": [
+            "word_garden_prompt"
+          ],
+          "bandPortrait": "bloom",
+          "isNew": true,
+          "friendCharacter": null,
+          "engine": "play"
+        },
+        {
+          "id": "rhythm-words",
+          "title": "Rhythm Words",
+          "description": "Rhythmic symbol tapping for word recall.",
+          "durationMinutes": 5,
+          "mode": "rhythm-words",
+          "minRounds": 7,
+          "voiceIntroKey": "rhythm_words_intro",
+          "voicePromptKeys": [
+            "rhythm_words_prompt"
+          ],
+          "bandPortrait": "bloom",
+          "isNew": true,
+          "friendCharacter": null,
+          "engine": "play"
+        }
+      ],
+      "existingCount": 8,
+      "newCount": 5,
+      "totalCount": 13
+    },
+    "caregiver": {
+      "bandPortrait": "canopy",
+      "nickname": "Canopy",
+      "games": [
+        {
+          "id": "bubble-pop",
+          "title": "Bubble Pop Words",
+          "description": "Pop the bubble Caly names - playful word practice.",
+          "durationMinutes": 4,
+          "mode": "bubble-pop",
+          "minRounds": 8,
+          "voiceIntroKey": "bubble_intro",
+          "voicePromptKeys": [
+            "bubble_prompt"
+          ],
+          "engine": "fun",
+          "bandPortrait": "canopy",
+          "isNew": false,
+          "friendCharacter": null
+        },
+        {
+          "id": "peek-a-caly",
+          "title": "Peek-a-Caly",
+          "description": "Find where Caly is hiding - turn-taking fun.",
+          "durationMinutes": 4,
+          "mode": "peek-a-caly",
+          "minRounds": 8,
+          "voiceIntroKey": "peek_intro",
+          "voicePromptKeys": [
+            "peek_found"
+          ],
+          "engine": "fun",
+          "bandPortrait": "canopy",
+          "isNew": false,
+          "friendCharacter": null
+        },
+        {
+          "id": "song-circle",
+          "title": "Song Circle",
+          "description": "Tap symbols on the beat with Caly.",
+          "durationMinutes": 5,
+          "mode": "song-circle",
+          "minRounds": 7,
+          "voiceIntroKey": "song_circle_intro",
+          "voicePromptKeys": [
+            "song_circle_cue"
+          ],
+          "engine": "fun",
+          "bandPortrait": "canopy",
+          "isNew": false,
+          "friendCharacter": null
+        },
+        {
+          "id": "caly-says",
+          "title": "Caly Says",
+          "description": "Listen, then tap the word Caly says.",
+          "durationMinutes": 4,
+          "mode": "caly-says",
+          "minRounds": 8,
+          "voiceIntroKey": "caly_says_intro",
+          "voicePromptKeys": [
+            "caly_says_listen"
+          ],
+          "engine": "play",
+          "bandPortrait": "canopy",
+          "isNew": false,
+          "friendCharacter": null
+        },
+        {
+          "id": "parade",
+          "title": "Word Parade",
+          "description": "Watch symbols parade, then find the target word.",
+          "durationMinutes": 4,
+          "mode": "parade",
+          "minRounds": 8,
+          "voiceIntroKey": "parade_intro",
+          "voicePromptKeys": [
+            "tap_prompt"
+          ],
+          "engine": "play",
+          "bandPortrait": "canopy",
+          "isNew": false,
+          "friendCharacter": null
+        },
+        {
+          "id": "tap",
+          "title": "Tap the Word",
+          "description": "Find the picture that matches the spoken word.",
+          "durationMinutes": 3,
+          "mode": "tap",
+          "minRounds": 6,
+          "voiceIntroKey": "tap_intro",
+          "voicePromptKeys": [
+            "tap_prompt"
+          ],
+          "engine": "play",
+          "bandPortrait": "canopy",
+          "isNew": false,
+          "friendCharacter": null
+        },
+        {
+          "id": "match",
+          "title": "Picture Match",
+          "description": "Match the word to the correct picture.",
+          "durationMinutes": 4,
+          "mode": "match",
+          "minRounds": 8,
+          "voiceIntroKey": "match_intro",
+          "voicePromptKeys": [
+            "match_intro"
+          ],
+          "engine": "play",
+          "bandPortrait": "canopy",
+          "isNew": false,
+          "friendCharacter": null
+        },
+        {
+          "id": "category",
+          "title": "Category Quest",
+          "description": "Sort symbols into the right category.",
+          "durationMinutes": 5,
+          "mode": "category",
+          "minRounds": 7,
+          "voiceIntroKey": "category_intro",
+          "voicePromptKeys": [
+            "category_prompt"
+          ],
+          "engine": "play",
+          "bandPortrait": "canopy",
+          "isNew": false,
+          "friendCharacter": null
+        },
+        {
+          "id": "schedule-builder",
+          "title": "Schedule Builder",
+          "description": "Model routine ordering for your learner.",
+          "durationMinutes": 5,
+          "mode": "schedule-builder",
+          "minRounds": 7,
+          "voiceIntroKey": "schedule_builder_intro",
+          "voicePromptKeys": [
+            "schedule_builder_prompt"
+          ],
+          "bandPortrait": "canopy",
+          "isNew": true,
+          "friendCharacter": null,
+          "engine": "play"
+        },
+        {
+          "id": "kindness-chain",
+          "title": "Kindness Chain",
+          "description": "Preview kindness modeling - celebrate attempts.",
+          "durationMinutes": 4,
+          "mode": "kindness-chain",
+          "minRounds": 8,
+          "voiceIntroKey": "kindness_chain_intro",
+          "voicePromptKeys": [
+            "kindness_chain_prompt"
+          ],
+          "bandPortrait": "canopy",
+          "isNew": true,
+          "friendCharacter": null,
+          "engine": "play"
+        },
+        {
+          "id": "gratitude-glow",
+          "title": "Gratitude Glow",
+          "description": "Model gratitude language with symbols.",
+          "durationMinutes": 4,
+          "mode": "gratitude-glow",
+          "minRounds": 8,
+          "voiceIntroKey": "gratitude_glow_intro",
+          "voicePromptKeys": [
+            "gratitude_glow_prompt"
+          ],
+          "bandPortrait": "canopy",
+          "isNew": true,
+          "friendCharacter": null,
+          "engine": "play"
+        },
+        {
+          "id": "story-pick",
+          "title": "Story Pick",
+          "description": "Joint story choices for aided language stimulation.",
+          "durationMinutes": 5,
+          "mode": "story-pick",
+          "minRounds": 7,
+          "voiceIntroKey": "story_pick_intro",
+          "voicePromptKeys": [
+            "story_pick_prompt"
+          ],
+          "bandPortrait": "canopy",
+          "isNew": true,
+          "friendCharacter": null,
+          "engine": "play"
+        },
+        {
+          "id": "consent-stop",
+          "title": "Consent & Stop",
+          "description": "Model assent, pause, and stop - assent-first always.",
+          "durationMinutes": 4,
+          "mode": "consent-stop",
+          "minRounds": 8,
+          "voiceIntroKey": "consent_stop_intro",
+          "voicePromptKeys": [
+            "consent_stop_prompt"
+          ],
+          "bandPortrait": "canopy",
+          "isNew": true,
+          "friendCharacter": null,
+          "engine": "play"
+        }
+      ],
+      "existingCount": 8,
+      "newCount": 5,
+      "totalCount": 13
+    }
+  }
+}
