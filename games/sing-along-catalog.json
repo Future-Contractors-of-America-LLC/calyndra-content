@@ -1,0 +1,1016 @@
+{
+  "id": "sing-along-catalog",
+  "version": "1.0.0",
+  "updatedUtc": "2026-06-23T17:52:58.013451+00:00",
+  "description": "Per-audience Caly Show sing-along episodes - interactive tap-and-sing with mascot.",
+  "audiences": {
+    "baby": {
+      "bandPortrait": "seed",
+      "nickname": "Seed",
+      "episodes": [
+        {
+          "id": "seed-gentle-hello",
+          "title": "Caly Seed's Gentle Hello",
+          "description": "Soft hello song with hi, love, and gentle waves with family warmth.",
+          "durationMs": 165000,
+          "scene": "meadow",
+          "voiceIntroKey": "show_seed_gentle_hello_intro",
+          "voiceBeatKey": "show_seed_gentle_hello_beat",
+          "isNew": true,
+          "beats": [
+            {
+              "ms": 0,
+              "pose": "wave",
+              "lyric": "Hi, hi, hi! Soft hello! Tap HI - God loves you so!",
+              "word": "hi",
+              "mascotCue": "wave"
+            },
+            {
+              "ms": 33000,
+              "pose": "listen-ear",
+              "lyric": "Love, love, love! Warm and bright! Tap LOVE - shine your light!",
+              "word": "love",
+              "mascotCue": "listen"
+            },
+            {
+              "ms": 66000,
+              "pose": "drum-dance",
+              "lyric": "More sweet songs? Gentle and slow! Tap MORE - watch us grow!",
+              "word": "more",
+              "mascotCue": "dance"
+            },
+            {
+              "ms": 99000,
+              "pose": "jump-celebrate",
+              "lyric": "Bye bye, little friend! Rest and glow! Tap BYE - soft and low!",
+              "word": "bye",
+              "mascotCue": "celebrate"
+            }
+          ],
+          "bandPortrait": "seed"
+        },
+        {
+          "id": "seed-night-glow",
+          "title": "Seed's Night Glow Lullaby",
+          "description": "Bedtime lullaby with sleep, love, and peaceful night words.",
+          "durationMs": 195000,
+          "scene": "meadow",
+          "voiceIntroKey": "show_seed_night_glow_intro",
+          "voiceBeatKey": "show_seed_night_glow_beat",
+          "isNew": true,
+          "beats": [
+            {
+              "ms": 0,
+              "pose": "wave",
+              "lyric": "Sleepy time, sleepy time! Tap SLEEP - rest divine!",
+              "word": "sleep",
+              "mascotCue": "wave"
+            },
+            {
+              "ms": 39000,
+              "pose": "listen-ear",
+              "lyric": "Love wraps round you, safe and near! Tap LOVE - angels here!",
+              "word": "love",
+              "mascotCue": "listen"
+            },
+            {
+              "ms": 78000,
+              "pose": "drum-dance",
+              "lyric": "Night night stars begin to show! Tap NIGHT - soft moon glow!",
+              "word": "night",
+              "mascotCue": "dance"
+            },
+            {
+              "ms": 117000,
+              "pose": "jump-celebrate",
+              "lyric": "Bye bye dreams, sweet and slow! Tap BYE - off we go!",
+              "word": "bye",
+              "mascotCue": "celebrate"
+            }
+          ],
+          "bandPortrait": "seed"
+        },
+        {
+          "id": "seed-yummy-praise",
+          "title": "Seed's Yummy Praise Song",
+          "description": "Mealtime joy: eat, drink, more, and thankful all done.",
+          "durationMs": 180000,
+          "scene": "playroom",
+          "voiceIntroKey": "show_seed_yummy_praise_intro",
+          "voiceBeatKey": "show_seed_yummy_praise_beat",
+          "isNew": true,
+          "beats": [
+            {
+              "ms": 0,
+              "pose": "wave",
+              "lyric": "Yummy yum! Bless this bite! Tap EAT - what a delight!",
+              "word": "eat",
+              "mascotCue": "wave"
+            },
+            {
+              "ms": 36000,
+              "pose": "listen-ear",
+              "lyric": "Sip and smile, cool and clear! Tap DRINK - thankful cheer!",
+              "word": "drink",
+              "mascotCue": "listen"
+            },
+            {
+              "ms": 72000,
+              "pose": "drum-dance",
+              "lyric": "More please? Gentle and true! Tap MORE - God cares for you!",
+              "word": "more",
+              "mascotCue": "dance"
+            },
+            {
+              "ms": 108000,
+              "pose": "jump-celebrate",
+              "lyric": "All done! Full and blessed! Tap ALL DONE - happy rest!",
+              "word": "all done",
+              "mascotCue": "celebrate"
+            }
+          ],
+          "bandPortrait": "seed"
+        },
+        {
+          "id": "seed-feelings-soft",
+          "title": "Seed's Soft Feelings Song",
+          "description": "Happy, sad, hugs, and love - feelings are okay with Caly.",
+          "durationMs": 175000,
+          "scene": "meadow",
+          "voiceIntroKey": "show_seed_feelings_soft_intro",
+          "voiceBeatKey": "show_seed_feelings_soft_beat",
+          "isNew": true,
+          "beats": [
+            {
+              "ms": 0,
+              "pose": "wave",
+              "lyric": "Happy face! Joyful day! Tap HAPPY - clap and play!",
+              "word": "happy",
+              "mascotCue": "wave"
+            },
+            {
+              "ms": 35000,
+              "pose": "listen-ear",
+              "lyric": "Sad sometimes - that's okay! Tap SAD - we pray and stay!",
+              "word": "sad",
+              "mascotCue": "listen"
+            },
+            {
+              "ms": 70000,
+              "pose": "drum-dance",
+              "lyric": "Hug please! Warm and tight! Tap HUG PLEASE - love feels right!",
+              "word": "hug please",
+              "mascotCue": "dance"
+            },
+            {
+              "ms": 105000,
+              "pose": "jump-celebrate",
+              "lyric": "Love, love, love from up above! Tap LOVE - gentle dove!",
+              "word": "love",
+              "mascotCue": "celebrate"
+            }
+          ],
+          "bandPortrait": "seed"
+        },
+        {
+          "id": "seed-peek-play",
+          "title": "Seed's Peek and Play",
+          "description": "Playful peek-a-boo with ball, play, and happy yes.",
+          "durationMs": 170000,
+          "scene": "playroom",
+          "voiceIntroKey": "show_seed_peek_play_intro",
+          "voiceBeatKey": "show_seed_peek_play_beat",
+          "isNew": true,
+          "beats": [
+            {
+              "ms": 0,
+              "pose": "wave",
+              "lyric": "Peek peek! Where am I? Tap PEEK - hello sky!",
+              "word": "peek",
+              "mascotCue": "wave"
+            },
+            {
+              "ms": 34000,
+              "pose": "listen-ear",
+              "lyric": "Play time fun for you and me! Tap PLAY - one-two-three!",
+              "word": "play",
+              "mascotCue": "listen"
+            },
+            {
+              "ms": 68000,
+              "pose": "drum-dance",
+              "lyric": "Bouncy ball goes roll and spin! Tap BALL - let's begin!",
+              "word": "ball",
+              "mascotCue": "dance"
+            },
+            {
+              "ms": 102000,
+              "pose": "jump-celebrate",
+              "lyric": "Yes! Yes! Good try today! Tap YES - hooray, hooray!",
+              "word": "yes",
+              "mascotCue": "celebrate"
+            }
+          ],
+          "bandPortrait": "seed"
+        },
+        {
+          "id": "seed-family-circle",
+          "title": "Seed's Family Circle",
+          "description": "Mama, dada, love, and hugs - family circle song.",
+          "durationMs": 185000,
+          "scene": "meadow",
+          "voiceIntroKey": "show_seed_family_circle_intro",
+          "voiceBeatKey": "show_seed_family_circle_beat",
+          "isNew": true,
+          "beats": [
+            {
+              "ms": 0,
+              "pose": "wave",
+              "lyric": "Mama's here with open arms! Tap MAMA - safe from harm!",
+              "word": "mama",
+              "mascotCue": "wave"
+            },
+            {
+              "ms": 37000,
+              "pose": "listen-ear",
+              "lyric": "Dada cheers you brave and strong! Tap DADA - sing along!",
+              "word": "dada",
+              "mascotCue": "listen"
+            },
+            {
+              "ms": 74000,
+              "pose": "drum-dance",
+              "lyric": "Love connects our family tree! Tap LOVE - you and me!",
+              "word": "love",
+              "mascotCue": "dance"
+            },
+            {
+              "ms": 111000,
+              "pose": "jump-celebrate",
+              "lyric": "Hug please! Circle round and round! Tap HUG PLEASE - joy abounds!",
+              "word": "hug please",
+              "mascotCue": "celebrate"
+            }
+          ],
+          "bandPortrait": "seed"
+        }
+      ]
+    },
+    "toddler": {
+      "bandPortrait": "sprout",
+      "nickname": "Sprout",
+      "episodes": [
+        {
+          "id": "caly-hello-song",
+          "title": "Caly's Hello Song",
+          "description": "Sprout's classic hello: hi, help, more, and bye on the beat.",
+          "durationMs": 180000,
+          "scene": "meadow",
+          "voiceIntroKey": "show_caly_hello_song_intro",
+          "voiceBeatKey": "show_caly_hello_song_beat",
+          "isNew": false,
+          "beats": [
+            {
+              "ms": 0,
+              "pose": "wave",
+              "lyric": "Hi, hi, hi! Wave hello! Tap HI - here we go!",
+              "word": "hi",
+              "mascotCue": "wave"
+            },
+            {
+              "ms": 36000,
+              "pose": "listen-ear",
+              "lyric": "Help is here! Friends draw near! Tap HELP - loud and clear!",
+              "word": "I need help",
+              "mascotCue": "listen"
+            },
+            {
+              "ms": 72000,
+              "pose": "drum-dance",
+              "lyric": "More, more, more! Tap the floor! Tap MORE - encore!",
+              "word": "more",
+              "mascotCue": "dance"
+            },
+            {
+              "ms": 108000,
+              "pose": "jump-celebrate",
+              "lyric": "Bye bye bye! Wave up high! Tap BYE - see you sky!",
+              "word": "bye",
+              "mascotCue": "celebrate"
+            }
+          ],
+          "bandPortrait": "sprout"
+        },
+        {
+          "id": "sprout-help-power",
+          "title": "Sprout's Help Power Song",
+          "description": "Ask for help, say please, and celebrate brave tries.",
+          "durationMs": 195000,
+          "scene": "meadow",
+          "voiceIntroKey": "show_sprout_help_power_intro",
+          "voiceBeatKey": "show_sprout_help_power_beat",
+          "isNew": true,
+          "beats": [
+            {
+              "ms": 0,
+              "pose": "wave",
+              "lyric": "Need some help? That's smart and true! Tap HELP - Caly's with you!",
+              "word": "I need help",
+              "mascotCue": "wave"
+            },
+            {
+              "ms": 39000,
+              "pose": "listen-ear",
+              "lyric": "Please and thank you - kind and sweet! Tap PLEASE - polite complete!",
+              "word": "please",
+              "mascotCue": "listen"
+            },
+            {
+              "ms": 78000,
+              "pose": "drum-dance",
+              "lyric": "More fun words? Let's explore! Tap MORE - hear them roar!",
+              "word": "more",
+              "mascotCue": "dance"
+            },
+            {
+              "ms": 117000,
+              "pose": "jump-celebrate",
+              "lyric": "Yes you can! Brave heart beats! Tap YES - victory treats!",
+              "word": "yes",
+              "mascotCue": "celebrate"
+            }
+          ],
+          "bandPortrait": "sprout"
+        },
+        {
+          "id": "sprout-feelings-dance",
+          "title": "Sprout's Feelings Dance",
+          "description": "Happy, sad, love, and hugs - dance your feelings out.",
+          "durationMs": 185000,
+          "scene": "playroom",
+          "voiceIntroKey": "show_sprout_feelings_dance_intro",
+          "voiceBeatKey": "show_sprout_feelings_dance_beat",
+          "isNew": true,
+          "beats": [
+            {
+              "ms": 0,
+              "pose": "wave",
+              "lyric": "Happy dance! Spin around! Tap HAPPY - joyful sound!",
+              "word": "happy",
+              "mascotCue": "wave"
+            },
+            {
+              "ms": 37000,
+              "pose": "listen-ear",
+              "lyric": "Sad days pass - we're still here! Tap SAD - wipe the tear!",
+              "word": "sad",
+              "mascotCue": "listen"
+            },
+            {
+              "ms": 74000,
+              "pose": "drum-dance",
+              "lyric": "Love your neighbor, love your friend! Tap LOVE - hearts ascend!",
+              "word": "love",
+              "mascotCue": "dance"
+            },
+            {
+              "ms": 111000,
+              "pose": "jump-celebrate",
+              "lyric": "Hug please! Squeeze so tight! Tap HUG PLEASE - feels just right!",
+              "word": "hug please",
+              "mascotCue": "celebrate"
+            }
+          ],
+          "bandPortrait": "sprout"
+        },
+        {
+          "id": "sprout-yummy-fun",
+          "title": "Sprout's Yummy Fun Song",
+          "description": "Eat, drink, more, and all done - thankful mealtime fun.",
+          "durationMs": 175000,
+          "scene": "playroom",
+          "voiceIntroKey": "show_sprout_yummy_fun_intro",
+          "voiceBeatKey": "show_sprout_yummy_fun_beat",
+          "isNew": true,
+          "beats": [
+            {
+              "ms": 0,
+              "pose": "wave",
+              "lyric": "Crunch and munch - yummy treat! Tap EAT - can't be beat!",
+              "word": "eat",
+              "mascotCue": "wave"
+            },
+            {
+              "ms": 35000,
+              "pose": "listen-ear",
+              "lyric": "Glug glug drink - cool and fine! Tap DRINK - grape or lime!",
+              "word": "drink",
+              "mascotCue": "listen"
+            },
+            {
+              "ms": 70000,
+              "pose": "drum-dance",
+              "lyric": "More please! Seconds please! Tap MORE - taste the breeze!",
+              "word": "more",
+              "mascotCue": "dance"
+            },
+            {
+              "ms": 105000,
+              "pose": "jump-celebrate",
+              "lyric": "All done plate! What a feast! Tap ALL DONE - happy beast!",
+              "word": "all done",
+              "mascotCue": "celebrate"
+            }
+          ],
+          "bandPortrait": "sprout"
+        },
+        {
+          "id": "sprout-play-outside",
+          "title": "Sprout's Outside Play Song",
+          "description": "Go, play, ball, and dog - outdoor adventure sing-along.",
+          "durationMs": 190000,
+          "scene": "meadow",
+          "voiceIntroKey": "show_sprout_play_outside_intro",
+          "voiceBeatKey": "show_sprout_play_outside_beat",
+          "isNew": true,
+          "beats": [
+            {
+              "ms": 0,
+              "pose": "wave",
+              "lyric": "Let's go go go outside today! Tap GO - run and play!",
+              "word": "go",
+              "mascotCue": "wave"
+            },
+            {
+              "ms": 38000,
+              "pose": "listen-ear",
+              "lyric": "Play ground swings and sunny skies! Tap PLAY - butterflies!",
+              "word": "play",
+              "mascotCue": "listen"
+            },
+            {
+              "ms": 76000,
+              "pose": "drum-dance",
+              "lyric": "Kick the ball - roll and bounce! Tap BALL - count by ounce!",
+              "word": "ball",
+              "mascotCue": "dance"
+            },
+            {
+              "ms": 114000,
+              "pose": "jump-celebrate",
+              "lyric": "Woof woof dog! Furry friend! Tap DOG - play won't end!",
+              "word": "dog",
+              "mascotCue": "celebrate"
+            }
+          ],
+          "bandPortrait": "sprout"
+        },
+        {
+          "id": "sprout-family-song",
+          "title": "Sprout's Family Love Song",
+          "description": "Mommy, daddy, love, and bye - family gratitude song.",
+          "durationMs": 180000,
+          "scene": "meadow",
+          "voiceIntroKey": "show_sprout_family_song_intro",
+          "voiceBeatKey": "show_sprout_family_song_beat",
+          "isNew": true,
+          "beats": [
+            {
+              "ms": 0,
+              "pose": "wave",
+              "lyric": "Mommy loves you day and night! Tap MOMMY - shining light!",
+              "word": "mommy",
+              "mascotCue": "wave"
+            },
+            {
+              "ms": 36000,
+              "pose": "listen-ear",
+              "lyric": "Daddy strong and kind and true! Tap DADDY - hugs for you!",
+              "word": "daddy",
+              "mascotCue": "listen"
+            },
+            {
+              "ms": 72000,
+              "pose": "drum-dance",
+              "lyric": "Love the gift from God above! Tap LOVE - gentle dove!",
+              "word": "love",
+              "mascotCue": "dance"
+            },
+            {
+              "ms": 108000,
+              "pose": "jump-celebrate",
+              "lyric": "Bye for now - see you soon! Tap BYE - afternoon!",
+              "word": "bye",
+              "mascotCue": "celebrate"
+            }
+          ],
+          "bandPortrait": "sprout"
+        },
+        {
+          "id": "sprout-gentle-choice",
+          "title": "Sprout's Gentle Choice Song",
+          "description": "Stop, wait, no, and yes - your body, your choice.",
+          "durationMs": 200000,
+          "scene": "meadow",
+          "voiceIntroKey": "show_sprout_gentle_choice_intro",
+          "voiceBeatKey": "show_sprout_gentle_choice_beat",
+          "isNew": true,
+          "beats": [
+            {
+              "ms": 0,
+              "pose": "wave",
+              "lyric": "Stop and pause - breathe with me! Tap STOP - count to three!",
+              "word": "stop",
+              "mascotCue": "wave"
+            },
+            {
+              "ms": 40000,
+              "pose": "listen-ear",
+              "lyric": "Wait right here - patience grows! Tap WAIT - calm and slow!",
+              "word": "wait",
+              "mascotCue": "listen"
+            },
+            {
+              "ms": 80000,
+              "pose": "drum-dance",
+              "lyric": "No means no - your voice is strong! Tap NO - sing the song!",
+              "word": "no",
+              "mascotCue": "dance"
+            },
+            {
+              "ms": 120000,
+              "pose": "jump-celebrate",
+              "lyric": "Yes when ready - brave and free! Tap YES - that's the key!",
+              "word": "yes",
+              "mascotCue": "celebrate"
+            }
+          ],
+          "bandPortrait": "sprout"
+        }
+      ]
+    },
+    "child": {
+      "bandPortrait": "bud",
+      "nickname": "Bud",
+      "episodes": [
+        {
+          "id": "bud-adventure-hello",
+          "title": "Bud's Adventure Hello",
+          "description": "Quest begins: hi, help, play, and grateful bye.",
+          "durationMs": 185000,
+          "scene": "meadow",
+          "voiceIntroKey": "show_bud_adventure_hello_intro",
+          "voiceBeatKey": "show_bud_adventure_hello_beat",
+          "isNew": true,
+          "beats": [
+            {
+              "ms": 0,
+              "pose": "wave",
+              "lyric": "Hi explorer! Quest begins! Tap HI - adventure wins!",
+              "word": "hi",
+              "mascotCue": "wave"
+            },
+            {
+              "ms": 37000,
+              "pose": "listen-ear",
+              "lyric": "Brave help ask - friends unite! Tap HELP - shining light!",
+              "word": "I need help",
+              "mascotCue": "listen"
+            },
+            {
+              "ms": 74000,
+              "pose": "drum-dance",
+              "lyric": "Play the path through field and stream! Tap PLAY - teamwork dream!",
+              "word": "play",
+              "mascotCue": "dance"
+            },
+            {
+              "ms": 111000,
+              "pose": "jump-celebrate",
+              "lyric": "Bye brave bud - till we meet! Tap BYE - mission complete!",
+              "word": "bye",
+              "mascotCue": "celebrate"
+            }
+          ],
+          "bandPortrait": "bud"
+        },
+        {
+          "id": "bud-kindness-quest",
+          "title": "Bud's Kindness Quest",
+          "description": "Please, love, share spirit - kindness on the beat.",
+          "durationMs": 195000,
+          "scene": "meadow",
+          "voiceIntroKey": "show_bud_kindness_quest_intro",
+          "voiceBeatKey": "show_bud_kindness_quest_beat",
+          "isNew": true,
+          "beats": [
+            {
+              "ms": 0,
+              "pose": "wave",
+              "lyric": "Please and thank you - kindness code! Tap PLEASE - gentle road!",
+              "word": "please",
+              "mascotCue": "wave"
+            },
+            {
+              "ms": 39000,
+              "pose": "listen-ear",
+              "lyric": "Love your neighbor - golden rule! Tap LOVE - Sunday school!",
+              "word": "love",
+              "mascotCue": "listen"
+            },
+            {
+              "ms": 78000,
+              "pose": "drum-dance",
+              "lyric": "Share your toys and share your time! Tap SHARE - rhythm rhyme!",
+              "word": "share",
+              "mascotCue": "dance"
+            },
+            {
+              "ms": 117000,
+              "pose": "jump-celebrate",
+              "lyric": "Thank you God for gifts each day! Tap THANK YOU - hip hooray!",
+              "word": "thank you",
+              "mascotCue": "celebrate"
+            }
+          ],
+          "bandPortrait": "bud"
+        },
+        {
+          "id": "bud-feelings-journey",
+          "title": "Bud's Feelings Journey",
+          "description": "Happy, sad, hurt, and gentle - name what you feel.",
+          "durationMs": 190000,
+          "scene": "playroom",
+          "voiceIntroKey": "show_bud_feelings_journey_intro",
+          "voiceBeatKey": "show_bud_feelings_journey_beat",
+          "isNew": true,
+          "beats": [
+            {
+              "ms": 0,
+              "pose": "wave",
+              "lyric": "Happy beats - drum and cheer! Tap HAPPY - bright and clear!",
+              "word": "happy",
+              "mascotCue": "wave"
+            },
+            {
+              "ms": 38000,
+              "pose": "listen-ear",
+              "lyric": "Sad is real - we understand! Tap SAD - holding hand!",
+              "word": "sad",
+              "mascotCue": "listen"
+            },
+            {
+              "ms": 76000,
+              "pose": "drum-dance",
+              "lyric": "Hurt? Tell someone - brave and true! Tap HURT - Caly's with you!",
+              "word": "hurt",
+              "mascotCue": "dance"
+            },
+            {
+              "ms": 114000,
+              "pose": "jump-celebrate",
+              "lyric": "Gentle breath in - peace flows through! Tap GENTLE - sky so blue!",
+              "word": "gentle",
+              "mascotCue": "celebrate"
+            }
+          ],
+          "bandPortrait": "bud"
+        },
+        {
+          "id": "bud-school-day",
+          "title": "Bud's School Day Song",
+          "description": "Go, book, wait, and all done - school routine sing-along.",
+          "durationMs": 200000,
+          "scene": "playroom",
+          "voiceIntroKey": "show_bud_school_day_intro",
+          "voiceBeatKey": "show_bud_school_day_beat",
+          "isNew": true,
+          "beats": [
+            {
+              "ms": 0,
+              "pose": "wave",
+              "lyric": "Time for school - grab your pack! Tap GO - don't look back!",
+              "word": "go",
+              "mascotCue": "wave"
+            },
+            {
+              "ms": 40000,
+              "pose": "listen-ear",
+              "lyric": "Open book - stories grow! Tap BOOK - read and know!",
+              "word": "book",
+              "mascotCue": "listen"
+            },
+            {
+              "ms": 80000,
+              "pose": "drum-dance",
+              "lyric": "Wait your turn - patience wins! Tap WAIT - calm begins!",
+              "word": "wait",
+              "mascotCue": "dance"
+            },
+            {
+              "ms": 120000,
+              "pose": "jump-celebrate",
+              "lyric": "All done! Homework's through! Tap ALL DONE - proud of you!",
+              "word": "all done",
+              "mascotCue": "celebrate"
+            }
+          ],
+          "bandPortrait": "bud"
+        },
+        {
+          "id": "bud-nature-praise",
+          "title": "Bud's Nature Praise",
+          "description": "Outside, dog, ball, and play - celebrate God's creation.",
+          "durationMs": 175000,
+          "scene": "meadow",
+          "voiceIntroKey": "show_bud_nature_praise_intro",
+          "voiceBeatKey": "show_bud_nature_praise_beat",
+          "isNew": true,
+          "beats": [
+            {
+              "ms": 0,
+              "pose": "wave",
+              "lyric": "Outside air - warm and bright! Tap OUTSIDE - golden light!",
+              "word": "outside",
+              "mascotCue": "wave"
+            },
+            {
+              "ms": 35000,
+              "pose": "listen-ear",
+              "lyric": "Faithful dog - loyal friend! Tap DOG - play won't end!",
+              "word": "dog",
+              "mascotCue": "listen"
+            },
+            {
+              "ms": 70000,
+              "pose": "drum-dance",
+              "lyric": "Bounce the ball - teamwork call! Tap BALL - give your all!",
+              "word": "ball",
+              "mascotCue": "dance"
+            },
+            {
+              "ms": 105000,
+              "pose": "jump-celebrate",
+              "lyric": "Play and laugh - grateful heart! Tap PLAY - joyful art!",
+              "word": "play",
+              "mascotCue": "celebrate"
+            }
+          ],
+          "bandPortrait": "bud"
+        },
+        {
+          "id": "bud-courage-stop",
+          "title": "Bud's Courage and Stop Song",
+          "description": "Stop, no, yes, and help - boundaries and bravery.",
+          "durationMs": 185000,
+          "scene": "meadow",
+          "voiceIntroKey": "show_bud_courage_stop_intro",
+          "voiceBeatKey": "show_bud_courage_stop_beat",
+          "isNew": true,
+          "beats": [
+            {
+              "ms": 0,
+              "pose": "wave",
+              "lyric": "Stop signal - body choice! Tap STOP - use your voice!",
+              "word": "stop",
+              "mascotCue": "wave"
+            },
+            {
+              "ms": 37000,
+              "pose": "listen-ear",
+              "lyric": "No is strong - respect your space! Tap NO - winning race!",
+              "word": "no",
+              "mascotCue": "listen"
+            },
+            {
+              "ms": 74000,
+              "pose": "drum-dance",
+              "lyric": "Yes when ready - try again! Tap YES - sunshine rain!",
+              "word": "yes",
+              "mascotCue": "dance"
+            },
+            {
+              "ms": 111000,
+              "pose": "jump-celebrate",
+              "lyric": "Ask for help - heroes do! Tap HELP - Caly's crew!",
+              "word": "I need help",
+              "mascotCue": "celebrate"
+            }
+          ],
+          "bandPortrait": "bud"
+        }
+      ]
+    },
+    "tween": {
+      "bandPortrait": "sprig",
+      "nickname": "Sprig",
+      "episodes": [
+        {
+          "id": "sprig-vibe-hello",
+          "title": "Sprig's Vibe Hello",
+          "description": "Cool hello: hi, help, go, and bye at your pace.",
+          "durationMs": 170000,
+          "scene": "meadow",
+          "voiceIntroKey": "show_sprig_vibe_hello_intro",
+          "voiceBeatKey": "show_sprig_vibe_hello_beat",
+          "isNew": true,
+          "beats": [
+            {
+              "ms": 0,
+              "pose": "wave",
+              "lyric": "Hey - hi there! Tap HI when ready.",
+              "word": "hi",
+              "mascotCue": "wave"
+            },
+            {
+              "ms": 34000,
+              "pose": "listen-ear",
+              "lyric": "Need help? Totally fine. Tap HELP - you're shining.",
+              "word": "I need help",
+              "mascotCue": "listen"
+            },
+            {
+              "ms": 68000,
+              "pose": "drum-dance",
+              "lyric": "Go for it - your call. Tap GO - standing tall.",
+              "word": "go",
+              "mascotCue": "dance"
+            },
+            {
+              "ms": 102000,
+              "pose": "jump-celebrate",
+              "lyric": "Bye for now - catch you later. Tap BYE - see you, creator.",
+              "word": "bye",
+              "mascotCue": "celebrate"
+            }
+          ],
+          "bandPortrait": "sprig"
+        },
+        {
+          "id": "sprig-gratitude-groove",
+          "title": "Sprig's Gratitude Groove",
+          "description": "Thank you, love, happy, and gentle - grateful groove.",
+          "durationMs": 180000,
+          "scene": "meadow",
+          "voiceIntroKey": "show_sprig_gratitude_groove_intro",
+          "voiceBeatKey": "show_sprig_gratitude_groove_beat",
+          "isNew": true,
+          "beats": [
+            {
+              "ms": 0,
+              "pose": "wave",
+              "lyric": "Grateful heart - name your thanks. Tap THANK YOU - joy in ranks.",
+              "word": "thank you",
+              "mascotCue": "wave"
+            },
+            {
+              "ms": 36000,
+              "pose": "listen-ear",
+              "lyric": "Love is patient, love is kind. Tap LOVE - peace of mind.",
+              "word": "love",
+              "mascotCue": "listen"
+            },
+            {
+              "ms": 72000,
+              "pose": "drum-dance",
+              "lyric": "Happy moment - notice it. Tap HAPPY - legit.",
+              "word": "happy",
+              "mascotCue": "dance"
+            },
+            {
+              "ms": 108000,
+              "pose": "jump-celebrate",
+              "lyric": "Gentle breath - you've got this. Tap GENTLE - gentle bliss.",
+              "word": "gentle",
+              "mascotCue": "celebrate"
+            }
+          ],
+          "bandPortrait": "sprig"
+        },
+        {
+          "id": "sprig-friendship-beat",
+          "title": "Sprig's Friendship Beat",
+          "description": "Share, please, play, and yes - friendship on the beat.",
+          "durationMs": 175000,
+          "scene": "playroom",
+          "voiceIntroKey": "show_sprig_friendship_beat_intro",
+          "voiceBeatKey": "show_sprig_friendship_beat_beat",
+          "isNew": true,
+          "beats": [
+            {
+              "ms": 0,
+              "pose": "wave",
+              "lyric": "Share the moment - pass it on. Tap SHARE - we're strong.",
+              "word": "share",
+              "mascotCue": "wave"
+            },
+            {
+              "ms": 35000,
+              "pose": "listen-ear",
+              "lyric": "Please goes far - kindness art. Tap PLEASE - from the heart.",
+              "word": "please",
+              "mascotCue": "listen"
+            },
+            {
+              "ms": 70000,
+              "pose": "drum-dance",
+              "lyric": "Play together - laugh and learn. Tap PLAY - take your turn.",
+              "word": "play",
+              "mascotCue": "dance"
+            },
+            {
+              "ms": 105000,
+              "pose": "jump-celebrate",
+              "lyric": "Yes to trying - growth is real. Tap YES - how you feel.",
+              "word": "yes",
+              "mascotCue": "celebrate"
+            }
+          ],
+          "bandPortrait": "sprig"
+        },
+        {
+          "id": "sprig-boundary-power",
+          "title": "Sprig's Boundary Power",
+          "description": "Stop, no, wait, and help - your boundaries matter.",
+          "durationMs": 190000,
+          "scene": "meadow",
+          "voiceIntroKey": "show_sprig_boundary_power_intro",
+          "voiceBeatKey": "show_sprig_boundary_power_beat",
+          "isNew": true,
+          "beats": [
+            {
+              "ms": 0,
+              "pose": "wave",
+              "lyric": "Stop - pause when you need space. Tap STOP - steady pace.",
+              "word": "stop",
+              "mascotCue": "wave"
+            },
+            {
+              "ms": 38000,
+              "pose": "listen-ear",
+              "lyric": "No is a full sentence. Tap NO - let it show.",
+              "word": "no",
+              "mascotCue": "listen"
+            },
+            {
+              "ms": 76000,
+              "pose": "drum-dance",
+              "lyric": "Wait - patience is a skill. Tap WAIT - breathe your fill.",
+              "word": "wait",
+              "mascotCue": "dance"
+            },
+            {
+              "ms": 114000,
+              "pose": "jump-celebrate",
+              "lyric": "Help is strength, not weakness. Tap HELP - calm and meekness.",
+              "word": "I need help",
+              "mascotCue": "celebrate"
+            }
+          ],
+          "bandPortrait": "sprig"
+        },
+        {
+          "id": "sprig-creative-flow",
+          "title": "Sprig's Creative Flow",
+          "description": "Book, music, go, and more - creative flow sing-along.",
+          "durationMs": 185000,
+          "scene": "playroom",
+          "voiceIntroKey": "show_sprig_creative_flow_intro",
+          "voiceBeatKey": "show_sprig_creative_flow_beat",
+          "isNew": true,
+          "beats": [
+            {
+              "ms": 0,
+              "pose": "wave",
+              "lyric": "Open book - worlds unfold. Tap BOOK - stories told.",
+              "word": "book",
+              "mascotCue": "wave"
+            },
+            {
+              "ms": 37000,
+              "pose": "listen-ear",
+              "lyric": "Music moves - feel the beat. Tap MUSIC - tap your feet.",
+              "word": "music",
+              "mascotCue": "listen"
+            },
+            {
+              "ms": 74000,
+              "pose": "drum-dance",
+              "lyric": "Go create - make something new. Tap GO - just for you.",
+              "word": "go",
+              "mascotCue": "dance"
+            },
+            {
+              "ms": 111000,
+              "pose": "jump-celebrate",
+              "lyric": "More ideas? Keep them flowing. Tap MORE - keep on growing.",
+              "word": "more",
+              "mascotCue": "celebrate"
+            }
+          ],
+          "bandPortrait": "sprig"
+        }
+      ]
+    }
+  }
+}

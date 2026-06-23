@@ -54,7 +54,19 @@
     ],
     "skip": "Skip anytime. Rest is okay.",
     "streak_3": "Three gentle wins!",
-    "caregiver_cue": "Grown-ups: model slowly. Co-regulate - no rush."
+    "caregiver_cue": "Grown-ups: model slowly. Co-regulate - no rush.",
+    "show_seed_gentle_hello_intro": "Caly Seed's Gentle Hello! Soft sing-along time! I am Caly Seed. Tap words gently with your grown-up!",
+    "show_seed_gentle_hello_beat": "Soft tap for {word}! Gentle and sweet!",
+    "show_seed_night_glow_intro": "Seed's Night Glow Lullaby! Soft sing-along time! I am Caly Seed. Tap words gently with your grown-up!",
+    "show_seed_night_glow_beat": "Soft tap for {word}! Gentle and sweet!",
+    "show_seed_yummy_praise_intro": "Seed's Yummy Praise Song! Soft sing-along time! I am Caly Seed. Tap words gently with your grown-up!",
+    "show_seed_yummy_praise_beat": "Soft tap for {word}! Gentle and sweet!",
+    "show_seed_feelings_soft_intro": "Seed's Soft Feelings Song! Soft sing-along time! I am Caly Seed. Tap words gently with your grown-up!",
+    "show_seed_feelings_soft_beat": "Soft tap for {word}! Gentle and sweet!",
+    "show_seed_peek_play_intro": "Seed's Peek and Play! Soft sing-along time! I am Caly Seed. Tap words gently with your grown-up!",
+    "show_seed_peek_play_beat": "Soft tap for {word}! Gentle and sweet!",
+    "show_seed_family_circle_intro": "Seed's Family Circle! Soft sing-along time! I am Caly Seed. Tap words gently with your grown-up!",
+    "show_seed_family_circle_beat": "Soft tap for {word}! Gentle and sweet!"
   },
   "toddler": {
     "game_intro": "Hi, hi, hi! I am Caly - call me Sprout! Let's play, play, play! Tap the picture you hear!",
@@ -102,7 +114,21 @@
     ],
     "skip": "Skip, skip, skip! That's okay! New word coming!",
     "streak_3": "Three in a row! Three in a row! Word superstar!",
-    "caregiver_cue": "Grown-ups: point and say the word calmly. No pressure!"
+    "caregiver_cue": "Grown-ups: point and say the word calmly. No pressure!",
+    "show_caly_hello_song_intro": "Caly's Hello Song! Sing-along time! I am Caly Sprout! Tap the words on the beat - hooray!",
+    "show_caly_hello_song_beat": "Tap {word}! {word}! On the beat!",
+    "show_sprout_help_power_intro": "Sprout's Help Power Song! Sing-along time! I am Caly Sprout! Tap the words on the beat - hooray!",
+    "show_sprout_help_power_beat": "Tap {word}! {word}! On the beat!",
+    "show_sprout_feelings_dance_intro": "Sprout's Feelings Dance! Sing-along time! I am Caly Sprout! Tap the words on the beat - hooray!",
+    "show_sprout_feelings_dance_beat": "Tap {word}! {word}! On the beat!",
+    "show_sprout_yummy_fun_intro": "Sprout's Yummy Fun Song! Sing-along time! I am Caly Sprout! Tap the words on the beat - hooray!",
+    "show_sprout_yummy_fun_beat": "Tap {word}! {word}! On the beat!",
+    "show_sprout_play_outside_intro": "Sprout's Outside Play Song! Sing-along time! I am Caly Sprout! Tap the words on the beat - hooray!",
+    "show_sprout_play_outside_beat": "Tap {word}! {word}! On the beat!",
+    "show_sprout_family_song_intro": "Sprout's Family Love Song! Sing-along time! I am Caly Sprout! Tap the words on the beat - hooray!",
+    "show_sprout_family_song_beat": "Tap {word}! {word}! On the beat!",
+    "show_sprout_gentle_choice_intro": "Sprout's Gentle Choice Song! Sing-along time! I am Caly Sprout! Tap the words on the beat - hooray!",
+    "show_sprout_gentle_choice_beat": "Tap {word}! {word}! On the beat!"
   },
   "child": {
     "game_intro": "Hey, hey! Caly here - your Bud guide! Ready for a word adventure?",
@@ -148,7 +174,19 @@
     ],
     "skip": "Skip anytime! Your choice matters!",
     "streak_3": "Three quest wins! Amazing streak!",
-    "caregiver_cue": "Caregivers: model if they want help - no pressure."
+    "caregiver_cue": "Caregivers: model if they want help - no pressure.",
+    "show_bud_adventure_hello_intro": "Bud's Adventure Hello - Caly Show time! Bud adventure sing-along - tap words when you hear them!",
+    "show_bud_adventure_hello_beat": "Quest tap: {word}! Go for it!",
+    "show_bud_kindness_quest_intro": "Bud's Kindness Quest - Caly Show time! Bud adventure sing-along - tap words when you hear them!",
+    "show_bud_kindness_quest_beat": "Quest tap: {word}! Go for it!",
+    "show_bud_feelings_journey_intro": "Bud's Feelings Journey - Caly Show time! Bud adventure sing-along - tap words when you hear them!",
+    "show_bud_feelings_journey_beat": "Quest tap: {word}! Go for it!",
+    "show_bud_school_day_intro": "Bud's School Day Song - Caly Show time! Bud adventure sing-along - tap words when you hear them!",
+    "show_bud_school_day_beat": "Quest tap: {word}! Go for it!",
+    "show_bud_nature_praise_intro": "Bud's Nature Praise - Caly Show time! Bud adventure sing-along - tap words when you hear them!",
+    "show_bud_nature_praise_beat": "Quest tap: {word}! Go for it!",
+    "show_bud_courage_stop_intro": "Bud's Courage and Stop Song - Caly Show time! Bud adventure sing-along - tap words when you hear them!",
+    "show_bud_courage_stop_beat": "Quest tap: {word}! Go for it!"
   },
   "tween": {
     "game_intro": "Hey! Caly Sprig here. Word games at your pace - skip anytime.",
@@ -194,7 +232,17 @@
     ],
     "skip": "Skip anytime. Your choice.",
     "streak_3": "Three in a row. On a roll.",
-    "caregiver_cue": "Support only if they ask - no pressure."
+    "caregiver_cue": "Support only if they ask - no pressure.",
+    "show_sprig_vibe_hello_intro": "Sprig's Vibe Hello. Caly Show - Sprig style. Tap words at your pace. Skip anytime.",
+    "show_sprig_vibe_hello_beat": "Tap {word} when you're ready.",
+    "show_sprig_gratitude_groove_intro": "Sprig's Gratitude Groove. Caly Show - Sprig style. Tap words at your pace. Skip anytime.",
+    "show_sprig_gratitude_groove_beat": "Tap {word} when you're ready.",
+    "show_sprig_friendship_beat_intro": "Sprig's Friendship Beat. Caly Show - Sprig style. Tap words at your pace. Skip anytime.",
+    "show_sprig_friendship_beat_beat": "Tap {word} when you're ready.",
+    "show_sprig_boundary_power_intro": "Sprig's Boundary Power. Caly Show - Sprig style. Tap words at your pace. Skip anytime.",
+    "show_sprig_boundary_power_beat": "Tap {word} when you're ready.",
+    "show_sprig_creative_flow_intro": "Sprig's Creative Flow. Caly Show - Sprig style. Tap words at your pace. Skip anytime.",
+    "show_sprig_creative_flow_beat": "Tap {word} when you're ready."
   },
   "teen": {
     "game_intro": "Hey - Caly (Vine) here. Word quest time. Your call if you want to play.",
