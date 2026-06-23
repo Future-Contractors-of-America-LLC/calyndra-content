@@ -1,5 +1,44 @@
 {
-  "updatedUtc": "2026-06-23T02:12:26.667205+00:00",
+  "updatedUtc": "2026-06-23T09:22:52.809059+00:00",
+  "audienceBandMap": {
+    "toddler": {
+      "band": "sprout",
+      "nickname": "Sprout",
+      "age": "2-4"
+    },
+    "child": {
+      "band": "bud",
+      "nickname": "Bud",
+      "age": "5-8"
+    },
+    "tween": {
+      "band": "sprig",
+      "nickname": "Sprig",
+      "age": "9-12"
+    },
+    "teen": {
+      "band": "vine",
+      "nickname": "Vine",
+      "age": "13-17"
+    },
+    "adult": {
+      "band": "bloom",
+      "nickname": "Bloom",
+      "age": "18+"
+    },
+    "caregiver": {
+      "band": "canopy",
+      "nickname": "Canopy",
+      "age": "caregiver"
+    }
+  },
+  "futureAudienceBandMap": {
+    "baby": {
+      "band": "seed",
+      "nickname": "Seed",
+      "age": "0-23mo"
+    }
+  },
   "generatedWords": {
     "again": [
       "sprout",

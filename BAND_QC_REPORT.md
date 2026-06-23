@@ -1,6 +1,6 @@
 # Band art QC report
 
-Generated: **2026-06-23 02:12 UTC**
+Generated: **2026-06-23 09:22 UTC**
 
 ## Summary
 
@@ -9,6 +9,25 @@ Generated: **2026-06-23 02:12 UTC**
 | Band-unique symbols (pass) | 64 |
 | Placeholder copies (fail) | 0 |
 | Issues logged | 0 |
+| Required band folders | 6 |
+| Words checked | 64 |
+
+## Band -> audience mapping
+
+| Band folder | Mascot | Audience | Age band |
+|-------------|--------|----------|----------|
+| `sprout` | Sprout | toddler | 2-4 |
+| `bud` | Bud | child | 5-8 |
+| `sprig` | Sprig | tween | 9-12 |
+| `vine` | Vine | teen | 13-17 |
+| `bloom` | Bloom | adult | 18+ |
+| `canopy` | Canopy | caregiver | caregiver |
+
+### Future (not required in symbol QC yet)
+
+| Band folder | Mascot | Audience | Age band |
+|-------------|--------|----------|----------|
+| `seed` | Seed | baby | 0-23mo |
 
 ## Pass: band-unique words
 
@@ -25,6 +44,7 @@ These still show old Sprout/human/object art for every age band until regenerate
 - Match band portrait reference exactly (Sprout romper, Bud tee, Sprig tendrils, Vine hoodie, Bloom cardigan, Canopy dress).
 - **Do not** use Canopy dress/canopy leaves unless band is `canopy`.
 - Happy expression default; five fingers per visible hand.
+- Each band folder must contain the same word set; hashes must differ across sprout, bud, sprig, vine, bloom, and canopy.
 
 ## Other media (manual check)
 
