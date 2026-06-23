@@ -24,6 +24,12 @@ ACTIONS = {
     "water": "Happy Caly holding shiny water glass and water drop.",
     "hurt": "Soft concerned but hopeful expression, bandage on knee, kind and kid-safe not scary.",
     "milk": "Happy Caly holding cute milk carton with straw.",
+    "juice": "Happy Caly holding bright juice box with straw.",
+    "apple": "Happy Caly holding shiny red apple with leaf.",
+    "please": "Happy Caly with hands together in please gesture, five fingers visible.",
+    "love": "Happy Caly hugging big pink heart with warm smile.",
+    "dog": "Happy Caly beside friendly golden puppy wagging tail.",
+    "cat": "Happy Caly beside friendly orange kitten purring.",
 }
 
 

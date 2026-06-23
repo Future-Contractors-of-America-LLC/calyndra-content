@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """Build a locked GenerateImage prompt for a band symbol word."""
 
 from __future__ import annotations
@@ -57,7 +58,7 @@ def prompt(band: str, word_id: str, action: str) -> str:
     nickname, outfit = BANDS[band]
     forbidden = BAND_FORBIDDEN.get(band, "")
     return (
-        f"AAC symbol tile, square 1:1. Caly {nickname} ONLY — must match band portrait reference exactly "
+        f"AAC symbol tile, square 1:1. Caly {nickname} ONLY - must match band portrait reference exactly "
         f"({outfit}, modest). {forbidden}. "
         f"Do NOT draw Caly Canopy unless band is canopy. "
         f"{expression_clause(word_id)}"
