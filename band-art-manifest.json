@@ -1,0 +1,272 @@
+{
+  "updatedUtc": "2026-06-23T00:40:51.437356+00:00",
+  "generatedWords": {
+    "all-done": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "bathroom": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "down": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "drink": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "eat": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "go": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "happy": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "help": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "home": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "hug": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "hurt": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "milk": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "more": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "no": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "play": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "sad": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "sleep": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "stop": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "up": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "wait": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "water": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "yes": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ]
+  },
+  "placeholderWords": [
+    "again",
+    "apple",
+    "ball",
+    "big",
+    "blanket",
+    "book",
+    "bus",
+    "car",
+    "cat",
+    "clean",
+    "close",
+    "cold",
+    "cookie",
+    "daddy",
+    "dirty",
+    "dog",
+    "dry",
+    "friend",
+    "hot",
+    "hungry",
+    "juice",
+    "listen",
+    "little",
+    "look",
+    "love",
+    "mad",
+    "mommy",
+    "need",
+    "open",
+    "please",
+    "scared",
+    "shoe",
+    "symbol_eat",
+    "symbol_happy",
+    "symbol_help",
+    "symbol_more",
+    "symbol_play",
+    "tired",
+    "toy",
+    "want",
+    "wash",
+    "wet"
+  ],
+  "generatedCount": 22,
+  "placeholderCount": 42,
+  "issueCount": 42,
+  "issues": [
+    "PLACEHOLDER: `again` is identical in all 6 band folders (not band-specific Caly art).",
+    "PLACEHOLDER: `apple` is identical in all 6 band folders (not band-specific Caly art).",
+    "PLACEHOLDER: `ball` is identical in all 6 band folders (not band-specific Caly art).",
+    "PLACEHOLDER: `big` is identical in all 6 band folders (not band-specific Caly art).",
+    "PLACEHOLDER: `blanket` is identical in all 6 band folders (not band-specific Caly art).",
+    "PLACEHOLDER: `book` is identical in all 6 band folders (not band-specific Caly art).",
+    "PLACEHOLDER: `bus` is identical in all 6 band folders (not band-specific Caly art).",
+    "PLACEHOLDER: `car` is identical in all 6 band folders (not band-specific Caly art).",
+    "PLACEHOLDER: `cat` is identical in all 6 band folders (not band-specific Caly art).",
+    "PLACEHOLDER: `clean` is identical in all 6 band folders (not band-specific Caly art).",
+    "PLACEHOLDER: `close` is identical in all 6 band folders (not band-specific Caly art).",
+    "PLACEHOLDER: `cold` is identical in all 6 band folders (not band-specific Caly art).",
+    "PLACEHOLDER: `cookie` is identical in all 6 band folders (not band-specific Caly art).",
+    "PLACEHOLDER: `daddy` is identical in all 6 band folders (not band-specific Caly art).",
+    "PLACEHOLDER: `dirty` is identical in all 6 band folders (not band-specific Caly art).",
+    "PLACEHOLDER: `dog` is identical in all 6 band folders (not band-specific Caly art).",
+    "PLACEHOLDER: `dry` is identical in all 6 band folders (not band-specific Caly art).",
+    "PLACEHOLDER: `friend` is identical in all 6 band folders (not band-specific Caly art).",
+    "PLACEHOLDER: `hot` is identical in all 6 band folders (not band-specific Caly art).",
+    "PLACEHOLDER: `hungry` is identical in all 6 band folders (not band-specific Caly art).",
+    "PLACEHOLDER: `juice` is identical in all 6 band folders (not band-specific Caly art).",
+    "PLACEHOLDER: `listen` is identical in all 6 band folders (not band-specific Caly art).",
+    "PLACEHOLDER: `little` is identical in all 6 band folders (not band-specific Caly art).",
+    "PLACEHOLDER: `look` is identical in all 6 band folders (not band-specific Caly art).",
+    "PLACEHOLDER: `love` is identical in all 6 band folders (not band-specific Caly art).",
+    "PLACEHOLDER: `mad` is identical in all 6 band folders (not band-specific Caly art).",
+    "PLACEHOLDER: `mommy` is identical in all 6 band folders (not band-specific Caly art).",
+    "PLACEHOLDER: `need` is identical in all 6 band folders (not band-specific Caly art).",
+    "PLACEHOLDER: `open` is identical in all 6 band folders (not band-specific Caly art).",
+    "PLACEHOLDER: `please` is identical in all 6 band folders (not band-specific Caly art).",
+    "PLACEHOLDER: `scared` is identical in all 6 band folders (not band-specific Caly art).",
+    "PLACEHOLDER: `shoe` is identical in all 6 band folders (not band-specific Caly art).",
+    "PLACEHOLDER: `symbol_eat` is identical in all 6 band folders (not band-specific Caly art).",
+    "PLACEHOLDER: `symbol_happy` is identical in all 6 band folders (not band-specific Caly art).",
+    "PLACEHOLDER: `symbol_help` is identical in all 6 band folders (not band-specific Caly art).",
+    "PLACEHOLDER: `symbol_more` is identical in all 6 band folders (not band-specific Caly art).",
+    "PLACEHOLDER: `symbol_play` is identical in all 6 band folders (not band-specific Caly art).",
+    "PLACEHOLDER: `tired` is identical in all 6 band folders (not band-specific Caly art).",
+    "PLACEHOLDER: `toy` is identical in all 6 band folders (not band-specific Caly art).",
+    "PLACEHOLDER: `want` is identical in all 6 band folders (not band-specific Caly art).",
+    "PLACEHOLDER: `wash` is identical in all 6 band folders (not band-specific Caly art).",
+    "PLACEHOLDER: `wet` is identical in all 6 band folders (not band-specific Caly art)."
+  ]
+}
