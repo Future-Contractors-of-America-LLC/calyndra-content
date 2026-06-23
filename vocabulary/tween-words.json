@@ -1,7 +1,7 @@
 {
   "id": "tween-words",
   "title": "Tween Vocabulary (9-12)  - Words",
-  "description": "172 basic vocabulary symbols for Caly Sprig.",
+  "description": "187 basic vocabulary symbols for Caly Sprig.",
   "ageBand": "tween",
   "nickname": "Sprig",
   "symbols": [
@@ -542,6 +542,76 @@
       "category": "weather",
       "description": "Functional AAC symbol: snow.",
       "imageAsset": "assets/symbols/sprig/snow.png"
+    },
+    {
+      "id": "hat",
+      "label": "hat",
+      "category": "routine",
+      "description": "Functional AAC symbol: hat.",
+      "imageAsset": "assets/symbols/sprig/hat.png"
+    },
+    {
+      "id": "coat",
+      "label": "coat",
+      "category": "routine",
+      "description": "Functional AAC symbol: coat.",
+      "imageAsset": "assets/symbols/sprig/coat.png"
+    },
+    {
+      "id": "bunny",
+      "label": "bunny",
+      "category": "animals",
+      "description": "Functional AAC symbol: bunny.",
+      "imageAsset": "assets/symbols/sprig/bunny.png"
+    },
+    {
+      "id": "potty",
+      "label": "potty",
+      "category": "routine",
+      "description": "Functional AAC symbol: potty.",
+      "imageAsset": "assets/symbols/sprig/potty.png"
+    },
+    {
+      "id": "bubbles",
+      "label": "bubbles",
+      "category": "activities",
+      "description": "Functional AAC symbol: bubbles.",
+      "imageAsset": "assets/symbols/sprig/bubbles.png"
+    },
+    {
+      "id": "sandbox",
+      "label": "sandbox",
+      "category": "activities",
+      "description": "Functional AAC symbol: sandbox.",
+      "imageAsset": "assets/symbols/sprig/sandbox.png"
+    },
+    {
+      "id": "truck",
+      "label": "truck",
+      "category": "toys",
+      "description": "Functional AAC symbol: truck.",
+      "imageAsset": "assets/symbols/sprig/truck.png"
+    },
+    {
+      "id": "puzzle",
+      "label": "puzzle",
+      "category": "activities",
+      "description": "Functional AAC symbol: puzzle.",
+      "imageAsset": "assets/symbols/sprig/puzzle.png"
+    },
+    {
+      "id": "sticker",
+      "label": "sticker",
+      "category": "activities",
+      "description": "Functional AAC symbol: sticker.",
+      "imageAsset": "assets/symbols/sprig/sticker.png"
+    },
+    {
+      "id": "wagon",
+      "label": "wagon",
+      "category": "toys",
+      "description": "Functional AAC symbol: wagon.",
+      "imageAsset": "assets/symbols/sprig/wagon.png"
     },
     {
       "id": "sick",
@@ -1126,6 +1196,41 @@
       "category": "school",
       "description": "Functional AAC symbol: locker.",
       "imageAsset": "assets/symbols/sprig/locker.png"
+    },
+    {
+      "id": "cafeteria",
+      "label": "cafeteria",
+      "category": "school",
+      "description": "Functional AAC symbol: cafeteria.",
+      "imageAsset": "assets/symbols/sprig/cafeteria.png"
+    },
+    {
+      "id": "project",
+      "label": "project",
+      "category": "school",
+      "description": "Functional AAC symbol: project.",
+      "imageAsset": "assets/symbols/sprig/project.png"
+    },
+    {
+      "id": "club",
+      "label": "club",
+      "category": "activities",
+      "description": "Functional AAC symbol: club.",
+      "imageAsset": "assets/symbols/sprig/club.png"
+    },
+    {
+      "id": "practice",
+      "label": "practice",
+      "category": "activities",
+      "description": "Functional AAC symbol: practice.",
+      "imageAsset": "assets/symbols/sprig/practice.png"
+    },
+    {
+      "id": "schedule-change",
+      "label": "schedule change",
+      "category": "life",
+      "description": "Flag a change in plans.",
+      "imageAsset": "assets/symbols/sprig/schedule-change.png"
     }
   ]
 }

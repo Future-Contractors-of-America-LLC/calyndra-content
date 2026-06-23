@@ -1,7 +1,7 @@
 {
   "id": "caregiver-words",
   "title": "Caregiver Modeling  - Words",
-  "description": "48 basic vocabulary symbols for Caly Canopy.",
+  "description": "58 basic vocabulary symbols for Caly Canopy.",
   "ageBand": "caregiver",
   "nickname": "Canopy",
   "symbols": [
@@ -327,6 +327,76 @@
       "category": "family",
       "description": "Functional AAC symbol: aunt.",
       "imageAsset": "assets/symbols/canopy/aunt.png"
+    },
+    {
+      "id": "uncle",
+      "label": "uncle",
+      "category": "family",
+      "description": "Functional AAC symbol: uncle.",
+      "imageAsset": "assets/symbols/canopy/uncle.png"
+    },
+    {
+      "id": "regulation",
+      "label": "regulation",
+      "category": "coaching",
+      "description": "Functional AAC symbol: regulation.",
+      "imageAsset": "assets/symbols/canopy/regulation.png"
+    },
+    {
+      "id": "patience",
+      "label": "patience",
+      "category": "coaching",
+      "description": "Functional AAC symbol: patience.",
+      "imageAsset": "assets/symbols/canopy/patience.png"
+    },
+    {
+      "id": "breathe",
+      "label": "breathe",
+      "category": "coaching",
+      "description": "Functional AAC symbol: breathe.",
+      "imageAsset": "assets/symbols/canopy/breathe.png"
+    },
+    {
+      "id": "visual-schedule",
+      "label": "visual schedule",
+      "category": "coaching",
+      "description": "Functional AAC symbol: visual schedule.",
+      "imageAsset": "assets/symbols/canopy/visual-schedule.png"
+    },
+    {
+      "id": "celebrate",
+      "label": "celebrate",
+      "category": "coaching",
+      "description": "Functional AAC symbol: celebrate.",
+      "imageAsset": "assets/symbols/canopy/celebrate.png"
+    },
+    {
+      "id": "modeling",
+      "label": "modeling",
+      "category": "coaching",
+      "description": "Functional AAC symbol: modeling.",
+      "imageAsset": "assets/symbols/canopy/modeling.png"
+    },
+    {
+      "id": "scaffold",
+      "label": "scaffold",
+      "category": "coaching",
+      "description": "Functional AAC symbol: scaffold.",
+      "imageAsset": "assets/symbols/canopy/scaffold.png"
+    },
+    {
+      "id": "prompt-wait",
+      "label": "prompt and wait",
+      "category": "coaching",
+      "description": "Functional AAC symbol: prompt and wait.",
+      "imageAsset": "assets/symbols/canopy/prompt-wait.png"
+    },
+    {
+      "id": "reinforcement",
+      "label": "reinforcement",
+      "category": "coaching",
+      "description": "Functional AAC symbol: reinforcement.",
+      "imageAsset": "assets/symbols/canopy/reinforcement.png"
     }
   ]
 }

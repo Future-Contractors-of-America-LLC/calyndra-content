@@ -8,13 +8,13 @@ Outputs per band: combined `{band}-vocab.json`, split `{band}-words.json`, `{ban
 
 | Band | Ages | Words | Phrases | Mascot | File |
 |------|------|-------|---------|--------|------|
-| Baby | 0-23 mo | 40 | 10 nursery | Seed | `baby-vocab.json` |
-| Toddler | 2-4 | 70 | 18 short | Sprout | `toddler-core.json` |
-| Child | 5-8 | 100 | 20 | Bud | `child-vocab.json` |
-| Tween | 9-12 | 160 | 15 | Sprig | `tween-vocab.json` |
-| Teen | 13-17 | 200 | 15 | Vine | `teen-vocab.json` |
-| Adult | 18+ | 200 | 12 | Bloom | `adult-vocab.json` |
-| Caregiver | all ages | 40 model words | 12 coaching | Canopy | caregiver-vocab.json |
+| Baby | 0-23 mo | 55 | 12 nursery | Seed | `baby-vocab.json` |
+| Toddler | 2-4 | 88 | 20 short | Sprout | `toddler-core.json` |
+| Child | 5-8 | 120 | 22 | Bud | `child-vocab.json` |
+| Tween | 9-12 | 187 | 18 | Sprig | `tween-vocab.json` |
+| Teen | 13-17 | 230 | 18 | Vine | `teen-vocab.json` |
+| Adult | 18+ | 245 | 14 | Bloom | `adult-vocab.json` |
+| Caregiver | all ages | 58 model words | 14 coaching | Canopy | caregiver-vocab.json |
 
 ## JSON shape
 

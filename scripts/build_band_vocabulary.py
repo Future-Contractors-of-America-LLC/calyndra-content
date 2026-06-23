@@ -46,19 +46,19 @@ BAND_DIR = {
 
 WORD_TARGETS = {
 
-    "baby": 45,
+    "baby": 55,
 
-    "toddler": 78,
+    "toddler": 88,
 
-    "child": 110,
+    "child": 120,
 
-    "tween": 172,
+    "tween": 187,
 
-    "teen": 215,
+    "teen": 230,
 
-    "adult": 215,
+    "adult": 245,
 
-    "caregiver": 48,
+    "caregiver": 58,
 
 }
 
@@ -237,6 +237,170 @@ EXTRA_SYMBOLS: dict[str, dict[str, str]] = {
     "coworker": {"label": "coworker", "category": "work"},
 
     "supervisor": {"label": "supervisor", "category": "work"},
+
+    "crib": {"label": "crib", "category": "nursery"},
+
+    "blocks": {"label": "blocks", "category": "nursery"},
+
+    "splash": {"label": "splash", "category": "nursery"},
+
+    "clap": {"label": "clap", "category": "nursery"},
+
+    "peek": {"label": "peek", "category": "nursery"},
+
+    "cuddle": {"label": "cuddle", "category": "nursery"},
+
+    "lullaby": {"label": "lullaby", "category": "nursery"},
+
+    "yum": {"label": "yum", "category": "food"},
+
+    "owie": {"label": "owie", "category": "health"},
+
+    "blankie": {"label": "blankie", "category": "nursery"},
+
+    "potty": {"label": "potty", "category": "routine"},
+
+    "bubbles": {"label": "bubbles", "category": "activities"},
+
+    "sandbox": {"label": "sandbox", "category": "activities"},
+
+    "truck": {"label": "truck", "category": "toys"},
+
+    "puzzle": {"label": "puzzle", "category": "activities"},
+
+    "sticker": {"label": "sticker", "category": "activities"},
+
+    "wagon": {"label": "wagon", "category": "toys"},
+
+    "cereal": {"label": "cereal", "category": "food"},
+
+    "yogurt": {"label": "yogurt", "category": "food"},
+
+    "tricycle": {"label": "tricycle", "category": "toys"},
+
+    "science": {"label": "science", "category": "school"},
+
+    "guitar": {"label": "guitar", "category": "activities"},
+
+    "soccer": {"label": "soccer", "category": "activities"},
+
+    "birthday": {"label": "birthday", "category": "social"},
+
+    "museum": {"label": "museum", "category": "places"},
+
+    "camping": {"label": "camping", "category": "activities"},
+
+    "scooter": {"label": "scooter", "category": "activities"},
+
+    "tablet": {"label": "tablet", "category": "functional"},
+
+    "spelling": {"label": "spelling", "category": "school"},
+
+    "kite": {"label": "kite", "category": "activities"},
+
+    "algebra": {"label": "algebra", "category": "school"},
+
+    "presentation": {"label": "presentation", "category": "school"},
+
+    "permission": {"label": "permission", "category": "school"},
+
+    "detention": {"label": "detention", "category": "school"},
+
+    "orchestra": {"label": "orchestra", "category": "activities"},
+
+    "robotics": {"label": "robotics", "category": "school"},
+
+    "podcast": {"label": "podcast", "category": "functional"},
+
+    "charger": {"label": "charger", "category": "functional"},
+
+    "earbuds": {"label": "earbuds", "category": "functional"},
+
+    "debate": {"label": "debate", "category": "school"},
+
+    "volunteer": {"label": "volunteer", "category": "social"},
+
+    "mindfulness": {"label": "mindfulness", "category": "regulation"},
+
+    "syllabus": {"label": "syllabus", "category": "school"},
+
+    "textbook": {"label": "textbook", "category": "school"},
+
+    "yearbook": {"label": "yearbook", "category": "school"},
+
+    "drivers-license": {"label": "driver's license", "category": "functional"},
+
+    "internship": {"label": "internship", "category": "work"},
+
+    "scholarship": {"label": "scholarship", "category": "school"},
+
+    "credit-card": {"label": "credit card", "category": "functional"},
+
+    "rideshare": {"label": "rideshare", "category": "functional"},
+
+    "diploma": {"label": "diploma", "category": "school"},
+
+    "tuition": {"label": "tuition", "category": "functional"},
+
+    "roommate": {"label": "roommate", "category": "social"},
+
+    "budget": {"label": "budget", "category": "functional"},
+
+    "streaming": {"label": "streaming", "category": "functional"},
+
+    "social-media": {"label": "social media", "category": "functional"},
+
+    "part-time": {"label": "part time job", "category": "work"},
+
+    "parking": {"label": "parking", "category": "functional"},
+
+    "copay": {"label": "copay", "category": "health"},
+
+    "gig-work": {"label": "gig work", "category": "work"},
+
+    "mortgage": {"label": "mortgage", "category": "functional"},
+
+    "retirement": {"label": "retirement", "category": "functional"},
+
+    "taxes": {"label": "taxes", "category": "functional"},
+
+    "benefits": {"label": "benefits", "category": "work"},
+
+    "pension": {"label": "pension", "category": "functional"},
+
+    "warranty": {"label": "warranty", "category": "functional"},
+
+    "subscription": {"label": "subscription", "category": "functional"},
+
+    "direct-deposit": {"label": "direct deposit", "category": "functional"},
+
+    "overtime": {"label": "overtime", "category": "work"},
+
+    "performance-review": {"label": "performance review", "category": "work"},
+
+    "onboarding": {"label": "onboarding", "category": "work"},
+
+    "hr": {"label": "HR", "category": "work"},
+
+    "contractor": {"label": "contractor", "category": "work"},
+
+    "regulation": {"label": "regulation", "category": "coaching"},
+
+    "patience": {"label": "patience", "category": "coaching"},
+
+    "breathe": {"label": "breathe", "category": "coaching"},
+
+    "visual-schedule": {"label": "visual schedule", "category": "coaching"},
+
+    "celebrate": {"label": "celebrate", "category": "coaching"},
+
+    "modeling": {"label": "modeling", "category": "coaching"},
+
+    "scaffold": {"label": "scaffold", "category": "coaching"},
+
+    "prompt-wait": {"label": "prompt and wait", "category": "coaching"},
+
+    "reinforcement": {"label": "reinforcement", "category": "coaching"},
 
 }
 
@@ -528,6 +692,8 @@ BABY_IDS = [
 
     "rattle", "bib", "stroller", "spoon", "banana", "duck", "star", "moon", "sun", "bear",
 
+    "crib", "blocks", "splash", "clap", "peek", "cuddle", "lullaby", "yum", "owie", "blankie",
+
 ]
 
 
@@ -539,6 +705,8 @@ TODDLER_EXTRA_IDS = [
     "brush-teeth", "teeth", "sock", "shirt", "pants", "night", "gentle", "diaper", "bottle",
 
     "snack", "playground", "crayon", "swing", "slide", "rain", "snow", "hat", "coat", "bunny",
+
+    "potty", "bubbles", "sandbox", "truck", "puzzle", "sticker", "wagon", "cereal", "yogurt", "tricycle",
 
 ]
 
@@ -555,6 +723,8 @@ CHILD_EXTRA_IDS = [
     "finished", "alone", "together",
 
     "pencil", "backpack", "lunchbox", "recess", "cousin", "aunt", "uncle", "neighbor", "tickle",
+
+    "science", "guitar", "soccer", "birthday", "museum", "camping", "scooter", "tablet", "spelling", "kite",
 
 ]
 
@@ -578,6 +748,10 @@ TWEEN_EXTRA_IDS = [
 
     "locker", "cafeteria", "project", "club", "practice", "schedule-change", "work",
 
+    "algebra", "presentation", "permission", "detention", "orchestra", "robotics", "podcast",
+
+    "charger", "earbuds", "debate", "volunteer", "mindfulness", "syllabus", "textbook", "yearbook",
+
 ]
 
 
@@ -600,6 +774,10 @@ TEEN_EXTRA_IDS = [
 
     "deadline", "feedback", "restaurant",
 
+    "drivers-license", "internship", "scholarship", "credit-card", "rideshare", "diploma",
+
+    "tuition", "roommate", "budget", "streaming", "social-media", "part-time", "parking", "copay", "gig-work",
+
 ]
 
 
@@ -620,6 +798,10 @@ ADULT_EXTRA_IDS = [
 
     "utility", "deadline", "feedback", "coworker", "supervisor", "restaurant",
 
+    "mortgage", "retirement", "taxes", "benefits", "pension", "warranty", "subscription",
+
+    "direct-deposit", "overtime", "performance-review", "onboarding", "hr", "contractor",
+
 ]
 
 
@@ -635,6 +817,10 @@ CAREGIVER_IDS = [
     "choice", "gentle", "schedule", "need", "want", "open", "close", "again", "friend", "wash",
 
     "tickle", "snack", "practice", "project", "feedback", "neighbor", "cousin", "aunt", "uncle",
+
+    "regulation", "patience", "breathe", "visual-schedule", "celebrate", "modeling",
+
+    "scaffold", "prompt-wait", "reinforcement",
 
 ]
 

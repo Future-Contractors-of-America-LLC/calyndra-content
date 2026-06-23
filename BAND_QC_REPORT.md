@@ -1,16 +1,16 @@
 # Band art QC report
 
-Generated: **2026-06-23 17:15 UTC**
+Generated: **2026-06-23 17:33 UTC**
 
 ## Summary
 
 | Status | Count |
 |--------|-------|
-| Band-unique symbols (pass) | 64 |
+| Band-unique symbols (pass) | 146 |
 | Placeholder copies (fail) | 0 |
 | Issues logged | 0 |
 | Required band folders | 6 |
-| Words checked | 64 |
+| Words checked | 146 |
 
 ## Band -> audience mapping
 
@@ -27,11 +27,11 @@ Generated: **2026-06-23 17:15 UTC**
 
 | Band folder | Mascot | Audience | Age band |
 |-------------|--------|----------|----------|
-| `seed` | Seed | baby | 0-23mo (64 png) |
+| `seed` | Seed | baby | 0-23mo (146 png) |
 
 ## Pass: band-unique words
 
-`again`, `all-done`, `apple`, `ball`, `bathroom`, `big`, `blanket`, `book`, `bus`, `car`, `cat`, `clean`, `close`, `cold`, `cookie`, `daddy`, `dirty`, `dog`, `down`, `drink`, `dry`, `eat`, `friend`, `go`, `happy`, `help`, `home`, `hot`, `hug`, `hungry`, `hurt`, `juice`, `listen`, `little`, `look`, `love`, `mad`, `milk`, `mommy`, `more`, `need`, `no`, `open`, `play`, `please`, `sad`, `scared`, `shoe`, `sleep`, `stop`, `symbol_eat`, `symbol_happy`, `symbol_help`, `symbol_more`, `symbol_play`, `tired`, `toy`, `up`, `wait`, `want`, `wash`, `water`, `wet`, `yes`
+`again`, `algebra`, `all-done`, `apple`, `ball`, `bathroom`, `benefits`, `big`, `birthday`, `blanket`, `blankie`, `blocks`, `book`, `breathe`, `bubbles`, `budget`, `bus`, `camping`, `car`, `cat`, `celebrate`, `cereal`, `charger`, `clap`, `clean`, `close`, `cold`, `contractor`, `cookie`, `copay`, `credit-card`, `crib`, `cuddle`, `daddy`, `debate`, `detention`, `diploma`, `direct-deposit`, `dirty`, `dog`, `down`, `drink`, `drivers-license`, `dry`, `earbuds`, `eat`, `friend`, `gig-work`, `go`, `guitar`, `happy`, `help`, `home`, `hot`, `hr`, `hug`, `hungry`, `hurt`, `internship`, `juice`, `kite`, `listen`, `little`, `look`, `love`, `lullaby`, `mad`, `milk`, `mindfulness`, `modeling`, `mommy`, `more`, `mortgage`, `museum`, `need`, `no`, `onboarding`, `open`, `orchestra`, `overtime`, `owie`, `parking`, `part-time`, `patience`, `peek`, `pension`, `performance-review`, `permission`, `play`, `please`, `podcast`, `potty`, `presentation`, `prompt-wait`, `puzzle`, `regulation`, `reinforcement`, `retirement`, `rideshare`, `robotics`, `roommate`, `sad`, `sandbox`, `scaffold`, `scared`, `scholarship`, `science`, `scooter`, `shoe`, `sleep`, `soccer`, `social-media`, `spelling`, `splash`, `sticker`, `stop`, `streaming`, `subscription`, `syllabus`, `symbol_eat`, `symbol_happy`, `symbol_help`, `symbol_more`, `symbol_play`, `tablet`, `taxes`, `textbook`, `tired`, `toy`, `tricycle`, `truck`, `tuition`, `up`, `visual-schedule`, `volunteer`, `wagon`, `wait`, `want`, `warranty`, `wash`, `water`, `wet`, `yearbook`, `yes`, `yogurt`, `yum`
 
 ## Fail: placeholder (same file in every band folder)
 

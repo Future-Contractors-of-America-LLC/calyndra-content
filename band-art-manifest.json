@@ -1,5 +1,5 @@
 {
-  "updatedUtc": "2026-06-23T17:15:37.651880+00:00",
+  "updatedUtc": "2026-06-23T17:33:57.919745+00:00",
   "audienceBandMap": {
     "baby": {
       "band": "seed",
@@ -50,6 +50,14 @@
       "bloom",
       "canopy"
     ],
+    "algebra": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
     "all-done": [
       "sprout",
       "bud",
@@ -82,7 +90,23 @@
       "bloom",
       "canopy"
     ],
+    "benefits": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
     "big": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "birthday": [
       "sprout",
       "bud",
       "sprig",
@@ -98,6 +122,22 @@
       "bloom",
       "canopy"
     ],
+    "blankie": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "blocks": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
     "book": [
       "sprout",
       "bud",
@@ -106,7 +146,39 @@
       "bloom",
       "canopy"
     ],
+    "breathe": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "bubbles": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "budget": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
     "bus": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "camping": [
       "sprout",
       "bud",
       "sprig",
@@ -123,6 +195,38 @@
       "canopy"
     ],
     "cat": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "celebrate": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "cereal": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "charger": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "clap": [
       "sprout",
       "bud",
       "sprig",
@@ -154,6 +258,14 @@
       "bloom",
       "canopy"
     ],
+    "contractor": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
     "cookie": [
       "sprout",
       "bud",
@@ -162,7 +274,71 @@
       "bloom",
       "canopy"
     ],
+    "copay": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "credit-card": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "crib": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "cuddle": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
     "daddy": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "debate": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "detention": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "diploma": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "direct-deposit": [
       "sprout",
       "bud",
       "sprig",
@@ -202,7 +378,23 @@
       "bloom",
       "canopy"
     ],
+    "drivers-license": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
     "dry": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "earbuds": [
       "sprout",
       "bud",
       "sprig",
@@ -226,7 +418,23 @@
       "bloom",
       "canopy"
     ],
+    "gig-work": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
     "go": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "guitar": [
       "sprout",
       "bud",
       "sprig",
@@ -266,6 +474,14 @@
       "bloom",
       "canopy"
     ],
+    "hr": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
     "hug": [
       "sprout",
       "bud",
@@ -290,7 +506,23 @@
       "bloom",
       "canopy"
     ],
+    "internship": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
     "juice": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "kite": [
       "sprout",
       "bud",
       "sprig",
@@ -330,6 +562,14 @@
       "bloom",
       "canopy"
     ],
+    "lullaby": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
     "mad": [
       "sprout",
       "bud",
@@ -339,6 +579,22 @@
       "canopy"
     ],
     "milk": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "mindfulness": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "modeling": [
       "sprout",
       "bud",
       "sprig",
@@ -362,6 +618,22 @@
       "bloom",
       "canopy"
     ],
+    "mortgage": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "museum": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
     "need": [
       "sprout",
       "bud",
@@ -378,7 +650,95 @@
       "bloom",
       "canopy"
     ],
+    "onboarding": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
     "open": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "orchestra": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "overtime": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "owie": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "parking": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "part-time": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "patience": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "peek": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "pension": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "performance-review": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "permission": [
       "sprout",
       "bud",
       "sprig",
@@ -402,6 +762,94 @@
       "bloom",
       "canopy"
     ],
+    "podcast": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "potty": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "presentation": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "prompt-wait": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "puzzle": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "regulation": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "reinforcement": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "retirement": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "rideshare": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "robotics": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "roommate": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
     "sad": [
       "sprout",
       "bud",
@@ -410,7 +858,47 @@
       "bloom",
       "canopy"
     ],
+    "sandbox": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "scaffold": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
     "scared": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "scholarship": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "science": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "scooter": [
       "sprout",
       "bud",
       "sprig",
@@ -434,7 +922,71 @@
       "bloom",
       "canopy"
     ],
+    "soccer": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "social-media": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "spelling": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "splash": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "sticker": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
     "stop": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "streaming": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "subscription": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "syllabus": [
       "sprout",
       "bud",
       "sprig",
@@ -482,6 +1034,30 @@
       "bloom",
       "canopy"
     ],
+    "tablet": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "taxes": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "textbook": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
     "tired": [
       "sprout",
       "bud",
@@ -498,7 +1074,55 @@
       "bloom",
       "canopy"
     ],
+    "tricycle": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "truck": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "tuition": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
     "up": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "visual-schedule": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "volunteer": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "wagon": [
       "sprout",
       "bud",
       "sprig",
@@ -515,6 +1139,14 @@
       "canopy"
     ],
     "want": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "warranty": [
       "sprout",
       "bud",
       "sprig",
@@ -546,7 +1178,31 @@
       "bloom",
       "canopy"
     ],
+    "yearbook": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
     "yes": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "yogurt": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "yum": [
       "sprout",
       "bud",
       "sprig",
@@ -556,7 +1212,7 @@
     ]
   },
   "placeholderWords": [],
-  "generatedCount": 64,
+  "generatedCount": 146,
   "placeholderCount": 0,
   "issueCount": 0,
   "issues": []

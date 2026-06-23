@@ -1,7 +1,7 @@
 {
   "id": "adult-words",
   "title": "Adult Vocabulary (18+)  - Words",
-  "description": "215 basic vocabulary symbols for Caly Bloom.",
+  "description": "245 basic vocabulary symbols for Caly Bloom.",
   "ageBand": "adult",
   "nickname": "Bloom",
   "symbols": [
@@ -542,6 +542,76 @@
       "category": "weather",
       "description": "Functional AAC symbol: snow.",
       "imageAsset": "assets/symbols/bloom/snow.png"
+    },
+    {
+      "id": "hat",
+      "label": "hat",
+      "category": "routine",
+      "description": "Functional AAC symbol: hat.",
+      "imageAsset": "assets/symbols/bloom/hat.png"
+    },
+    {
+      "id": "coat",
+      "label": "coat",
+      "category": "routine",
+      "description": "Functional AAC symbol: coat.",
+      "imageAsset": "assets/symbols/bloom/coat.png"
+    },
+    {
+      "id": "bunny",
+      "label": "bunny",
+      "category": "animals",
+      "description": "Functional AAC symbol: bunny.",
+      "imageAsset": "assets/symbols/bloom/bunny.png"
+    },
+    {
+      "id": "potty",
+      "label": "potty",
+      "category": "routine",
+      "description": "Functional AAC symbol: potty.",
+      "imageAsset": "assets/symbols/bloom/potty.png"
+    },
+    {
+      "id": "bubbles",
+      "label": "bubbles",
+      "category": "activities",
+      "description": "Functional AAC symbol: bubbles.",
+      "imageAsset": "assets/symbols/bloom/bubbles.png"
+    },
+    {
+      "id": "sandbox",
+      "label": "sandbox",
+      "category": "activities",
+      "description": "Functional AAC symbol: sandbox.",
+      "imageAsset": "assets/symbols/bloom/sandbox.png"
+    },
+    {
+      "id": "truck",
+      "label": "truck",
+      "category": "toys",
+      "description": "Functional AAC symbol: truck.",
+      "imageAsset": "assets/symbols/bloom/truck.png"
+    },
+    {
+      "id": "puzzle",
+      "label": "puzzle",
+      "category": "activities",
+      "description": "Functional AAC symbol: puzzle.",
+      "imageAsset": "assets/symbols/bloom/puzzle.png"
+    },
+    {
+      "id": "sticker",
+      "label": "sticker",
+      "category": "activities",
+      "description": "Functional AAC symbol: sticker.",
+      "imageAsset": "assets/symbols/bloom/sticker.png"
+    },
+    {
+      "id": "wagon",
+      "label": "wagon",
+      "category": "toys",
+      "description": "Functional AAC symbol: wagon.",
+      "imageAsset": "assets/symbols/bloom/wagon.png"
     },
     {
       "id": "sick",
@@ -1128,6 +1198,41 @@
       "imageAsset": "assets/symbols/bloom/locker.png"
     },
     {
+      "id": "cafeteria",
+      "label": "cafeteria",
+      "category": "school",
+      "description": "Functional AAC symbol: cafeteria.",
+      "imageAsset": "assets/symbols/bloom/cafeteria.png"
+    },
+    {
+      "id": "project",
+      "label": "project",
+      "category": "school",
+      "description": "Functional AAC symbol: project.",
+      "imageAsset": "assets/symbols/bloom/project.png"
+    },
+    {
+      "id": "club",
+      "label": "club",
+      "category": "activities",
+      "description": "Functional AAC symbol: club.",
+      "imageAsset": "assets/symbols/bloom/club.png"
+    },
+    {
+      "id": "practice",
+      "label": "practice",
+      "category": "activities",
+      "description": "Functional AAC symbol: practice.",
+      "imageAsset": "assets/symbols/bloom/practice.png"
+    },
+    {
+      "id": "schedule-change",
+      "label": "schedule change",
+      "category": "life",
+      "description": "Flag a change in plans.",
+      "imageAsset": "assets/symbols/bloom/schedule-change.png"
+    },
+    {
       "id": "not-now",
       "label": "not now",
       "category": "core",
@@ -1427,6 +1532,111 @@
       "category": "functional",
       "description": "Functional AAC symbol: paycheck.",
       "imageAsset": "assets/symbols/bloom/paycheck.png"
+    },
+    {
+      "id": "invoice",
+      "label": "invoice",
+      "category": "functional",
+      "description": "Functional AAC symbol: invoice.",
+      "imageAsset": "assets/symbols/bloom/invoice.png"
+    },
+    {
+      "id": "extension",
+      "label": "extension",
+      "category": "work",
+      "description": "Functional AAC symbol: extension.",
+      "imageAsset": "assets/symbols/bloom/extension.png"
+    },
+    {
+      "id": "work",
+      "label": "work",
+      "category": "life",
+      "description": "Functional AAC symbol: work.",
+      "imageAsset": "assets/symbols/bloom/work.png"
+    },
+    {
+      "id": "prescription",
+      "label": "prescription",
+      "category": "health",
+      "description": "Functional AAC symbol: prescription.",
+      "imageAsset": "assets/symbols/bloom/prescription.png"
+    },
+    {
+      "id": "refill",
+      "label": "refill",
+      "category": "health",
+      "description": "Functional AAC symbol: refill.",
+      "imageAsset": "assets/symbols/bloom/refill.png"
+    },
+    {
+      "id": "landlord",
+      "label": "landlord",
+      "category": "functional",
+      "description": "Functional AAC symbol: landlord.",
+      "imageAsset": "assets/symbols/bloom/landlord.png"
+    },
+    {
+      "id": "lease",
+      "label": "lease",
+      "category": "functional",
+      "description": "Functional AAC symbol: lease.",
+      "imageAsset": "assets/symbols/bloom/lease.png"
+    },
+    {
+      "id": "utility",
+      "label": "utility bill",
+      "category": "functional",
+      "description": "Functional AAC symbol: utility bill.",
+      "imageAsset": "assets/symbols/bloom/utility.png"
+    },
+    {
+      "id": "deadline",
+      "label": "deadline",
+      "category": "work",
+      "description": "Functional AAC symbol: deadline.",
+      "imageAsset": "assets/symbols/bloom/deadline.png"
+    },
+    {
+      "id": "feedback",
+      "label": "feedback",
+      "category": "work",
+      "description": "Functional AAC symbol: feedback.",
+      "imageAsset": "assets/symbols/bloom/feedback.png"
+    },
+    {
+      "id": "coworker",
+      "label": "coworker",
+      "category": "work",
+      "description": "Functional AAC symbol: coworker.",
+      "imageAsset": "assets/symbols/bloom/coworker.png"
+    },
+    {
+      "id": "supervisor",
+      "label": "supervisor",
+      "category": "work",
+      "description": "Functional AAC symbol: supervisor.",
+      "imageAsset": "assets/symbols/bloom/supervisor.png"
+    },
+    {
+      "id": "mortgage",
+      "label": "mortgage",
+      "category": "functional",
+      "description": "Functional AAC symbol: mortgage.",
+      "imageAsset": "assets/symbols/bloom/mortgage.png"
+    },
+    {
+      "id": "retirement",
+      "label": "retirement",
+      "category": "functional",
+      "description": "Functional AAC symbol: retirement.",
+      "imageAsset": "assets/symbols/bloom/retirement.png"
+    },
+    {
+      "id": "taxes",
+      "label": "taxes",
+      "category": "functional",
+      "description": "Functional AAC symbol: taxes.",
+      "imageAsset": "assets/symbols/bloom/taxes.png"
     }
   ]
 }

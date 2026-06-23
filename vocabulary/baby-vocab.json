@@ -3,7 +3,7 @@
   "title": "Baby Nursery (0-23 mo)",
   "nickname": "Seed",
   "ageBand": "baby",
-  "description": "45 words + 12 phrases for Caly Seed.",
+  "description": "55 words + 12 phrases for Caly Seed.",
   "symbols": [
     {
       "id": "help",
@@ -318,6 +318,76 @@
       "category": "food",
       "description": "Functional AAC symbol: banana.",
       "imageAsset": "assets/symbols/seed/banana.png"
+    },
+    {
+      "id": "duck",
+      "label": "duck",
+      "category": "animals",
+      "description": "Functional AAC symbol: duck.",
+      "imageAsset": "assets/symbols/seed/duck.png"
+    },
+    {
+      "id": "star",
+      "label": "star",
+      "category": "nursery",
+      "description": "Functional AAC symbol: star.",
+      "imageAsset": "assets/symbols/seed/star.png"
+    },
+    {
+      "id": "moon",
+      "label": "moon",
+      "category": "nursery",
+      "description": "Functional AAC symbol: moon.",
+      "imageAsset": "assets/symbols/seed/moon.png"
+    },
+    {
+      "id": "sun",
+      "label": "sun",
+      "category": "nursery",
+      "description": "Functional AAC symbol: sun.",
+      "imageAsset": "assets/symbols/seed/sun.png"
+    },
+    {
+      "id": "bear",
+      "label": "bear",
+      "category": "animals",
+      "description": "Functional AAC symbol: bear.",
+      "imageAsset": "assets/symbols/seed/bear.png"
+    },
+    {
+      "id": "crib",
+      "label": "crib",
+      "category": "nursery",
+      "description": "Functional AAC symbol: crib.",
+      "imageAsset": "assets/symbols/seed/crib.png"
+    },
+    {
+      "id": "blocks",
+      "label": "blocks",
+      "category": "nursery",
+      "description": "Functional AAC symbol: blocks.",
+      "imageAsset": "assets/symbols/seed/blocks.png"
+    },
+    {
+      "id": "splash",
+      "label": "splash",
+      "category": "nursery",
+      "description": "Functional AAC symbol: splash.",
+      "imageAsset": "assets/symbols/seed/splash.png"
+    },
+    {
+      "id": "clap",
+      "label": "clap",
+      "category": "nursery",
+      "description": "Functional AAC symbol: clap.",
+      "imageAsset": "assets/symbols/seed/clap.png"
+    },
+    {
+      "id": "peek",
+      "label": "peek",
+      "category": "nursery",
+      "description": "Functional AAC symbol: peek.",
+      "imageAsset": "assets/symbols/seed/peek.png"
     }
   ],
   "phrases": [

@@ -3,7 +3,7 @@
   "title": "Teen Vocabulary (13-17)",
   "nickname": "Vine",
   "ageBand": "teen",
-  "description": "215 words + 18 phrases for Caly Vine.",
+  "description": "230 words + 18 phrases for Caly Vine.",
   "symbols": [
     {
       "id": "help",
@@ -542,6 +542,76 @@
       "category": "weather",
       "description": "Functional AAC symbol: snow.",
       "imageAsset": "assets/symbols/vine/snow.png"
+    },
+    {
+      "id": "hat",
+      "label": "hat",
+      "category": "routine",
+      "description": "Functional AAC symbol: hat.",
+      "imageAsset": "assets/symbols/vine/hat.png"
+    },
+    {
+      "id": "coat",
+      "label": "coat",
+      "category": "routine",
+      "description": "Functional AAC symbol: coat.",
+      "imageAsset": "assets/symbols/vine/coat.png"
+    },
+    {
+      "id": "bunny",
+      "label": "bunny",
+      "category": "animals",
+      "description": "Functional AAC symbol: bunny.",
+      "imageAsset": "assets/symbols/vine/bunny.png"
+    },
+    {
+      "id": "potty",
+      "label": "potty",
+      "category": "routine",
+      "description": "Functional AAC symbol: potty.",
+      "imageAsset": "assets/symbols/vine/potty.png"
+    },
+    {
+      "id": "bubbles",
+      "label": "bubbles",
+      "category": "activities",
+      "description": "Functional AAC symbol: bubbles.",
+      "imageAsset": "assets/symbols/vine/bubbles.png"
+    },
+    {
+      "id": "sandbox",
+      "label": "sandbox",
+      "category": "activities",
+      "description": "Functional AAC symbol: sandbox.",
+      "imageAsset": "assets/symbols/vine/sandbox.png"
+    },
+    {
+      "id": "truck",
+      "label": "truck",
+      "category": "toys",
+      "description": "Functional AAC symbol: truck.",
+      "imageAsset": "assets/symbols/vine/truck.png"
+    },
+    {
+      "id": "puzzle",
+      "label": "puzzle",
+      "category": "activities",
+      "description": "Functional AAC symbol: puzzle.",
+      "imageAsset": "assets/symbols/vine/puzzle.png"
+    },
+    {
+      "id": "sticker",
+      "label": "sticker",
+      "category": "activities",
+      "description": "Functional AAC symbol: sticker.",
+      "imageAsset": "assets/symbols/vine/sticker.png"
+    },
+    {
+      "id": "wagon",
+      "label": "wagon",
+      "category": "toys",
+      "description": "Functional AAC symbol: wagon.",
+      "imageAsset": "assets/symbols/vine/wagon.png"
     },
     {
       "id": "sick",
@@ -1126,6 +1196,41 @@
       "category": "school",
       "description": "Functional AAC symbol: locker.",
       "imageAsset": "assets/symbols/vine/locker.png"
+    },
+    {
+      "id": "cafeteria",
+      "label": "cafeteria",
+      "category": "school",
+      "description": "Functional AAC symbol: cafeteria.",
+      "imageAsset": "assets/symbols/vine/cafeteria.png"
+    },
+    {
+      "id": "project",
+      "label": "project",
+      "category": "school",
+      "description": "Functional AAC symbol: project.",
+      "imageAsset": "assets/symbols/vine/project.png"
+    },
+    {
+      "id": "club",
+      "label": "club",
+      "category": "activities",
+      "description": "Functional AAC symbol: club.",
+      "imageAsset": "assets/symbols/vine/club.png"
+    },
+    {
+      "id": "practice",
+      "label": "practice",
+      "category": "activities",
+      "description": "Functional AAC symbol: practice.",
+      "imageAsset": "assets/symbols/vine/practice.png"
+    },
+    {
+      "id": "schedule-change",
+      "label": "schedule change",
+      "category": "life",
+      "description": "Flag a change in plans.",
+      "imageAsset": "assets/symbols/vine/schedule-change.png"
     },
     {
       "id": "not-now",
