@@ -1,7 +1,7 @@
 {
   "id": "tween-phrases",
   "title": "Tween Vocabulary (9-12)  - Phrases",
-  "description": "17 phrases for Caly Sprig.",
+  "description": "18 phrases for Caly Sprig.",
   "ageBand": "tween",
   "nickname": "Sprig",
   "phrases": [
@@ -106,6 +106,12 @@
       "label": "This is too much for me",
       "category": "regulation",
       "speakText": "This is too much for me."
+    },
+    {
+      "id": "need-break-tween",
+      "label": "I need a short break",
+      "category": "regulation",
+      "speakText": "I need a short break."
     }
   ]
 }

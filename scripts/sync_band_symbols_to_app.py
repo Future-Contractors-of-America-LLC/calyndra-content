@@ -9,7 +9,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 APP = ROOT.parent / "calyndra-app"
 FLUTTER = ROOT.parent / "calyndra-mobile-flutter"
-BANDS = ("sprout", "bud", "sprig", "vine", "bloom", "canopy")
+BANDS = ("seed", "sprout", "bud", "sprig", "vine", "bloom", "canopy")
 
 
 def sync_band(band: str) -> int:

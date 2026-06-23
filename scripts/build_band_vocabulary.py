@@ -400,6 +400,8 @@ PHRASES = {
 
         {"id": "too-much", "label": "This is too much for me", "category": "regulation", "speakText": "This is too much for me."},
 
+        {"id": "need-break-tween", "label": "I need a short break", "category": "regulation", "speakText": "I need a short break."},
+
     ],
 
     "teen": [
@@ -437,6 +439,8 @@ PHRASES = {
         {"id": "need-break-teen", "label": "I need a break from this", "category": "regulation", "speakText": "I need a break from this."},
 
         {"id": "pick-me-up", "label": "Can you pick me up?", "category": "functional", "speakText": "Can you pick me up?"},
+
+        {"id": "running-errands", "label": "I am running errands", "category": "functional", "speakText": "I am running errands."},
 
     ],
 

@@ -3,7 +3,7 @@
   "title": "Teen Vocabulary (13-17)",
   "nickname": "Vine",
   "ageBand": "teen",
-  "description": "215 words + 17 phrases for Caly Vine.",
+  "description": "215 words + 18 phrases for Caly Vine.",
   "symbols": [
     {
       "id": "help",
@@ -1531,6 +1531,12 @@
       "label": "Can you pick me up?",
       "category": "functional",
       "speakText": "Can you pick me up?"
+    },
+    {
+      "id": "running-errands",
+      "label": "I am running errands",
+      "category": "functional",
+      "speakText": "I am running errands."
     }
   ]
 }

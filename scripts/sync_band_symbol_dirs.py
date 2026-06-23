@@ -9,7 +9,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 APP_SYMBOLS = ROOT / "calyndra-app" / "assets" / "symbols"
 CONTENT_SYMBOLS = ROOT / "calyndra-content" / "symbols" / "images"
-BANDS = ("sprout", "bud", "sprig", "vine", "bloom", "canopy")
+BANDS = ("seed", "sprout", "bud", "sprig", "vine", "bloom", "canopy")
 SOURCE = "sprout"
 
 

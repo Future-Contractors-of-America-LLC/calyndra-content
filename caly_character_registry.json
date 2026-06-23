@@ -4,6 +4,7 @@
   "characterCanon": "CALY_CHARACTER_AGING.md",
   "primaryName": "Caly",
   "nicknamesByBand": {
+    "baby": "Seed",
     "toddler": "Sprout",
     "child": "Bud",
     "tween": "Sprig",
@@ -12,6 +13,7 @@
     "caregiver": "Canopy"
   },
   "ageRangesByBand": {
+    "baby": "0-23mo",
     "toddler": "2-4",
     "child": "5-8",
     "tween": "9-12",
@@ -20,6 +22,7 @@
     "caregiver": "care team"
   },
   "bandPortraits": {
+    "baby": { "path": "assets/caly-bands/seed.png", "nickname": "Seed", "nameOnArt": true, "bootstrapNote": "may copy sprout.png until dedicated art" },
     "toddler": { "path": "assets/caly-bands/sprout.png", "nickname": "Sprout", "nameOnArt": true },
     "child": { "path": "assets/caly-bands/bud.png", "nickname": "Bud", "nameOnArt": true },
     "tween": { "path": "assets/caly-bands/sprig.png", "nickname": "Sprig", "nameOnArt": true },
@@ -28,6 +31,7 @@
     "caregiver": { "path": "assets/caly-bands/canopy.png", "nickname": "Canopy", "nameOnArt": true }
   },
   "agingBands": {
+    "baby": { "portrait": "assets/caly-bands/seed.png", "poseSet": "sprout", "nickname": "Seed", "defaultPose": "wave" },
     "toddler": { "portrait": "assets/caly-bands/sprout.png", "poseSet": "sprout", "nickname": "Sprout", "defaultPose": "wave" },
     "child": { "portrait": "assets/caly-bands/bud.png", "poseSet": "sprout", "nickname": "Bud", "defaultPose": "jump-celebrate" },
     "tween": { "portrait": "assets/caly-bands/sprig.png", "poseSet": "sprout", "nickname": "Sprig", "defaultPose": "jump-celebrate" },
@@ -53,6 +57,7 @@
     "caly-adult/portrait.png": "human adult experiment"
   },
   "assets": [
+    { "id": "band-seed", "path": "assets/caly-bands/seed.png", "type": "band-portrait", "band": "baby", "status": "bootstrap", "generatedUtc": "2026-06-22T12:25:00Z", "note": "bootstrap from sprout until dedicated Seed art" },
     { "id": "band-sprout", "path": "assets/caly-bands/sprout.png", "type": "band-portrait", "band": "toddler", "status": "live", "generatedUtc": "2026-06-22T16:00:00Z" },
     { "id": "band-bud", "path": "assets/caly-bands/bud.png", "type": "band-portrait", "band": "child", "status": "live", "generatedUtc": "2026-06-22T16:00:00Z" },
     { "id": "band-sprig", "path": "assets/caly-bands/sprig.png", "type": "band-portrait", "band": "tween", "status": "live", "generatedUtc": "2026-06-22T18:00:00Z" },

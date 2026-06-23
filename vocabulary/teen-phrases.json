@@ -1,7 +1,7 @@
 {
   "id": "teen-phrases",
   "title": "Teen Vocabulary (13-17)  - Phrases",
-  "description": "17 phrases for Caly Vine.",
+  "description": "18 phrases for Caly Vine.",
   "ageBand": "teen",
   "nickname": "Vine",
   "phrases": [
@@ -106,6 +106,12 @@
       "label": "Can you pick me up?",
       "category": "functional",
       "speakText": "Can you pick me up?"
+    },
+    {
+      "id": "running-errands",
+      "label": "I am running errands",
+      "category": "functional",
+      "speakText": "I am running errands."
     }
   ]
 }
