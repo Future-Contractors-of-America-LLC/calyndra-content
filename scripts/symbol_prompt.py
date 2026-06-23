@@ -41,7 +41,7 @@ BAND_FORBIDDEN = {
 }
 
 NON_HAPPY = {
-    "sad", "mad", "scared", "anxious", "frustrated", "overwhelmed",
+    "sad", "mad", "scared", "tired", "anxious", "frustrated", "overwhelmed",
     "uncomfortable", "pain", "nausea", "dont-like", "hurt",
 }
 

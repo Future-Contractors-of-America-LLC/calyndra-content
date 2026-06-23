@@ -1,6 +1,14 @@
 {
-  "updatedUtc": "2026-06-23T00:58:10.767497+00:00",
+  "updatedUtc": "2026-06-23T02:00:38.565254+00:00",
   "generatedWords": {
+    "again": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
     "all-done": [
       "sprout",
       "bud",
@@ -17,6 +25,14 @@
       "bloom",
       "canopy"
     ],
+    "ball": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
     "bathroom": [
       "sprout",
       "bud",
@@ -25,7 +41,95 @@
       "bloom",
       "canopy"
     ],
+    "big": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "blanket": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "book": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "bus": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "car": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
     "cat": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "clean": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "close": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "cold": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "cookie": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "daddy": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "dirty": [
       "sprout",
       "bud",
       "sprig",
@@ -57,7 +161,23 @@
       "bloom",
       "canopy"
     ],
+    "dry": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
     "eat": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "friend": [
       "sprout",
       "bud",
       "sprig",
@@ -97,7 +217,23 @@
       "bloom",
       "canopy"
     ],
+    "hot": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
     "hug": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "hungry": [
       "sprout",
       "bud",
       "sprig",
@@ -121,7 +257,39 @@
       "bloom",
       "canopy"
     ],
+    "listen": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "little": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "look": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
     "love": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "mad": [
       "sprout",
       "bud",
       "sprig",
@@ -137,6 +305,14 @@
       "bloom",
       "canopy"
     ],
+    "mommy": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
     "more": [
       "sprout",
       "bud",
@@ -145,7 +321,23 @@
       "bloom",
       "canopy"
     ],
+    "need": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
     "no": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "open": [
       "sprout",
       "bud",
       "sprig",
@@ -177,6 +369,22 @@
       "bloom",
       "canopy"
     ],
+    "scared": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "shoe": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
     "sleep": [
       "sprout",
       "bud",
@@ -186,6 +394,62 @@
       "canopy"
     ],
     "stop": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "symbol_eat": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "symbol_happy": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "symbol_help": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "symbol_more": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "symbol_play": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "tired": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "toy": [
       "sprout",
       "bud",
       "sprig",
@@ -209,7 +473,31 @@
       "bloom",
       "canopy"
     ],
+    "want": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "wash": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
     "water": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "wet": [
       "sprout",
       "bud",
       "sprig",
@@ -226,83 +514,9 @@
       "canopy"
     ]
   },
-  "placeholderWords": [
-    "again",
-    "ball",
-    "big",
-    "blanket",
-    "book",
-    "bus",
-    "car",
-    "clean",
-    "close",
-    "cold",
-    "cookie",
-    "daddy",
-    "dirty",
-    "dry",
-    "friend",
-    "hot",
-    "hungry",
-    "listen",
-    "little",
-    "look",
-    "mad",
-    "mommy",
-    "need",
-    "open",
-    "scared",
-    "shoe",
-    "symbol_eat",
-    "symbol_happy",
-    "symbol_help",
-    "symbol_more",
-    "symbol_play",
-    "tired",
-    "toy",
-    "want",
-    "wash",
-    "wet"
-  ],
-  "generatedCount": 28,
-  "placeholderCount": 36,
-  "issueCount": 36,
-  "issues": [
-    "PLACEHOLDER: `again` is identical in all 6 band folders (not band-specific Caly art).",
-    "PLACEHOLDER: `ball` is identical in all 6 band folders (not band-specific Caly art).",
-    "PLACEHOLDER: `big` is identical in all 6 band folders (not band-specific Caly art).",
-    "PLACEHOLDER: `blanket` is identical in all 6 band folders (not band-specific Caly art).",
-    "PLACEHOLDER: `book` is identical in all 6 band folders (not band-specific Caly art).",
-    "PLACEHOLDER: `bus` is identical in all 6 band folders (not band-specific Caly art).",
-    "PLACEHOLDER: `car` is identical in all 6 band folders (not band-specific Caly art).",
-    "PLACEHOLDER: `clean` is identical in all 6 band folders (not band-specific Caly art).",
-    "PLACEHOLDER: `close` is identical in all 6 band folders (not band-specific Caly art).",
-    "PLACEHOLDER: `cold` is identical in all 6 band folders (not band-specific Caly art).",
-    "PLACEHOLDER: `cookie` is identical in all 6 band folders (not band-specific Caly art).",
-    "PLACEHOLDER: `daddy` is identical in all 6 band folders (not band-specific Caly art).",
-    "PLACEHOLDER: `dirty` is identical in all 6 band folders (not band-specific Caly art).",
-    "PLACEHOLDER: `dry` is identical in all 6 band folders (not band-specific Caly art).",
-    "PLACEHOLDER: `friend` is identical in all 6 band folders (not band-specific Caly art).",
-    "PLACEHOLDER: `hot` is identical in all 6 band folders (not band-specific Caly art).",
-    "PLACEHOLDER: `hungry` is identical in all 6 band folders (not band-specific Caly art).",
-    "PLACEHOLDER: `listen` is identical in all 6 band folders (not band-specific Caly art).",
-    "PLACEHOLDER: `little` is identical in all 6 band folders (not band-specific Caly art).",
-    "PLACEHOLDER: `look` is identical in all 6 band folders (not band-specific Caly art).",
-    "PLACEHOLDER: `mad` is identical in all 6 band folders (not band-specific Caly art).",
-    "PLACEHOLDER: `mommy` is identical in all 6 band folders (not band-specific Caly art).",
-    "PLACEHOLDER: `need` is identical in all 6 band folders (not band-specific Caly art).",
-    "PLACEHOLDER: `open` is identical in all 6 band folders (not band-specific Caly art).",
-    "PLACEHOLDER: `scared` is identical in all 6 band folders (not band-specific Caly art).",
-    "PLACEHOLDER: `shoe` is identical in all 6 band folders (not band-specific Caly art).",
-    "PLACEHOLDER: `symbol_eat` is identical in all 6 band folders (not band-specific Caly art).",
-    "PLACEHOLDER: `symbol_happy` is identical in all 6 band folders (not band-specific Caly art).",
-    "PLACEHOLDER: `symbol_help` is identical in all 6 band folders (not band-specific Caly art).",
-    "PLACEHOLDER: `symbol_more` is identical in all 6 band folders (not band-specific Caly art).",
-    "PLACEHOLDER: `symbol_play` is identical in all 6 band folders (not band-specific Caly art).",
-    "PLACEHOLDER: `tired` is identical in all 6 band folders (not band-specific Caly art).",
-    "PLACEHOLDER: `toy` is identical in all 6 band folders (not band-specific Caly art).",
-    "PLACEHOLDER: `want` is identical in all 6 band folders (not band-specific Caly art).",
-    "PLACEHOLDER: `wash` is identical in all 6 band folders (not band-specific Caly art).",
-    "PLACEHOLDER: `wet` is identical in all 6 band folders (not band-specific Caly art)."
-  ]
+  "placeholderWords": [],
+  "generatedCount": 64,
+  "placeholderCount": 0,
+  "issueCount": 0,
+  "issues": []
 }
