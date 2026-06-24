@@ -1,7 +1,7 @@
 {
   "version": 1,
   "series": "Caly and Friends",
-  "lockedUtc": "2026-06-24T23:14:43Z",
+  "lockedUtc": "2026-06-24T23:29:42Z",
   "durationTargetsSec": {
     "baby": 300,
     "toddler": 600,
@@ -24,7 +24,10 @@
       "webm": "pip_gentle_hello_long.webm",
       "lesson": "You are wonderfully made and deeply loved.",
       "pilot": true,
-      "status": "complete"
+      "status": "complete",
+      "videoResolution": "1280x720",
+      "videoProfile": "draft",
+      "videoFps": 12
     },
     {
       "id": "fern_garden_share_long",
@@ -38,7 +41,10 @@
       "webm": "fern_garden_share_long.webm",
       "lesson": "Sharing joy makes friendship grow.",
       "pilot": true,
-      "status": "complete"
+      "status": "complete",
+      "videoResolution": "1280x720",
+      "videoProfile": "draft",
+      "videoFps": 12
     },
     {
       "id": "moss_kindness_trail_long",
@@ -52,7 +58,10 @@
       "webm": "moss_kindness_trail_long.webm",
       "lesson": "Small acts of kindness light the path for everyone.",
       "pilot": true,
-      "status": "complete"
+      "status": "complete",
+      "videoResolution": "1280x720",
+      "videoProfile": "draft",
+      "videoFps": 12
     },
     {
       "id": "reed_wisdom_perch_long",
@@ -66,7 +75,10 @@
       "webm": "reed_wisdom_perch_long.webm",
       "lesson": "Wisdom listens before it speaks.",
       "pilot": false,
-      "status": "complete"
+      "status": "complete",
+      "videoResolution": "1280x720",
+      "videoProfile": "draft",
+      "videoFps": 12
     },
     {
       "id": "sage_crossroads_long",
@@ -80,7 +92,10 @@
       "webm": "sage_crossroads_long.webm",
       "lesson": "Choose integrity even when it is hard.",
       "pilot": false,
-      "status": "complete"
+      "status": "complete",
+      "videoResolution": "1280x720",
+      "videoProfile": "draft",
+      "videoFps": 12
     },
     {
       "id": "laurel_morning_song_long",
@@ -94,7 +109,10 @@
       "webm": "laurel_morning_song_long.webm",
       "lesson": "Gratitude turns ordinary mornings into gifts.",
       "pilot": false,
-      "status": "complete"
+      "status": "complete",
+      "videoResolution": "1280x720",
+      "videoProfile": "draft",
+      "videoFps": 12
     },
     {
       "id": "pip_soft_breeze_long",
@@ -108,7 +126,10 @@
       "webm": "pip_soft_breeze_long.webm",
       "lesson": "God's gentle touch is everywhere you feel safe.",
       "pilot": false,
-      "status": "complete"
+      "status": "complete",
+      "videoResolution": "1280x720",
+      "videoProfile": "draft",
+      "videoFps": 12
     },
     {
       "id": "pip_moonlight_snuggle_long",
@@ -122,7 +143,10 @@
       "webm": "pip_moonlight_snuggle_long.webm",
       "lesson": "You are held in love even when the day grows quiet.",
       "pilot": false,
-      "status": "complete"
+      "status": "complete",
+      "videoResolution": "1280x720",
+      "videoProfile": "draft",
+      "videoFps": 12
     },
     {
       "id": "pip_twinkle_toes_long",
@@ -136,7 +160,10 @@
       "webm": "pip_twinkle_toes_long.webm",
       "lesson": "Your body is a gift to move with joy.",
       "pilot": false,
-      "status": "complete"
+      "status": "complete",
+      "videoResolution": "1280x720",
+      "videoProfile": "draft",
+      "videoFps": 12
     },
     {
       "id": "pip_rainbow_wave_long",
@@ -150,7 +177,10 @@
       "webm": "pip_rainbow_wave_long.webm",
       "lesson": "After rain comes color and hope.",
       "pilot": false,
-      "status": "complete"
+      "status": "complete",
+      "videoResolution": "1280x720",
+      "videoProfile": "draft",
+      "videoFps": 12
     },
     {
       "id": "pip_heartbeat_lullaby_long",
@@ -164,7 +194,10 @@
       "webm": "pip_heartbeat_lullaby_long.webm",
       "lesson": "You are loved with a steady, never-ending heart.",
       "pilot": false,
-      "status": "complete"
+      "status": "complete",
+      "videoResolution": "1280x720",
+      "videoProfile": "draft",
+      "videoFps": 12
     },
     {
       "id": "fern_flower_surprise_long",
@@ -178,7 +211,10 @@
       "webm": "fern_flower_surprise_long.webm",
       "lesson": "Small surprises can brighten someone's whole day.",
       "pilot": false,
-      "status": "complete"
+      "status": "complete",
+      "videoResolution": "1280x720",
+      "videoProfile": "draft",
+      "videoFps": 12
     },
     {
       "id": "fern_patience_pots_long",
@@ -192,7 +228,10 @@
       "webm": "fern_patience_pots_long.webm",
       "lesson": "Good things grow when we wait with hope.",
       "pilot": false,
-      "status": "complete"
+      "status": "complete",
+      "videoResolution": "1280x720",
+      "videoProfile": "draft",
+      "videoFps": 12
     },
     {
       "id": "fern_butterfly_visit_long",
@@ -206,7 +245,10 @@
       "webm": "fern_butterfly_visit_long.webm",
       "lesson": "Be gentle with delicate things and people.",
       "pilot": false,
-      "status": "complete"
+      "status": "complete",
+      "videoResolution": "1280x720",
+      "videoProfile": "draft",
+      "videoFps": 12
     },
     {
       "id": "fern_weeding_teamwork_long",
@@ -220,7 +262,10 @@
       "webm": "fern_weeding_teamwork_long.webm",
       "lesson": "Working together makes hard jobs feel lighter.",
       "pilot": false,
-      "status": "complete"
+      "status": "complete",
+      "videoResolution": "1280x720",
+      "videoProfile": "draft",
+      "videoFps": 12
     },
     {
       "id": "fern_seed_gift_long",
@@ -234,7 +279,10 @@
       "webm": "fern_seed_gift_long.webm",
       "lesson": "Giving something you love can grow more love.",
       "pilot": false,
-      "status": "complete"
+      "status": "complete",
+      "videoResolution": "1280x720",
+      "videoProfile": "draft",
+      "videoFps": 12
     },
     {
       "id": "moss_bridge_builders_long",
@@ -248,7 +296,10 @@
       "webm": "moss_bridge_builders_long.webm",
       "lesson": "Building bridges connects hearts across differences.",
       "pilot": false,
-      "status": "complete"
+      "status": "complete",
+      "videoResolution": "1280x720",
+      "videoProfile": "draft",
+      "videoFps": 12
     },
     {
       "id": "moss_lost_and_found_long",

@@ -16,6 +16,37 @@ APP_CATALOG = ROOT.parent / "calyndra-app" / "content" / "videos" / "caly_friend
 FLUTTER_VIDEOS = ROOT.parent / "calyndra-mobile-flutter" / "assets" / "videos"
 MIN_BYTES = 500_000
 
+try:
+    from caly_video_quality import FFMPEG, PROFILE_NAME, VIDEO_FPS, VIDEO_HEIGHT, VIDEO_WIDTH
+except ImportError:
+    FFMPEG = "ffmpeg"
+    PROFILE_NAME = "hd"
+    VIDEO_WIDTH, VIDEO_HEIGHT, VIDEO_FPS = 1920, 1080, 24
+
+
+def probe_webm(webm: Path) -> dict[str, object]:
+    meta: dict[str, object] = {}
+    try:
+        r = subprocess.run([FFMPEG, "-i", str(webm)], capture_output=True, text=True)
+        import re
+
+        m = re.search(r"(\d{3,4})x(\d{3,4})", r.stderr)
+        if m:
+            meta["videoResolution"] = f"{m.group(1)}x{m.group(2)}"
+            w, h = int(m.group(1)), int(m.group(2))
+            if w >= 3840:
+                meta["videoProfile"] = "uhd"
+            elif w >= 1920:
+                meta["videoProfile"] = "hd"
+            else:
+                meta["videoProfile"] = "draft"
+        m = re.search(r"(\d+(?:\.\d+)?)\s*fps", r.stderr)
+        if m:
+            meta["videoFps"] = int(float(m.group(1)))
+    except Exception:
+        pass
+    return meta
+
 
 def main() -> int:
     catalog = json.loads(CATALOG.read_text(encoding="utf-8"))
@@ -23,11 +54,16 @@ def main() -> int:
     for ep in catalog["episodes"]:
         webm = APP_VIDEOS / ep["webm"]
         if webm.is_file() and webm.stat().st_size >= MIN_BYTES:
+            probed = probe_webm(webm)
             if ep.get("status") != "complete":
                 ep["status"] = "complete"
                 ep["pilot"] = False
                 ep["renderedUtc"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
                 updated += 1
+            for key, val in probed.items():
+                if ep.get(key) != val:
+                    ep[key] = val
+                    updated += 1
             FLUTTER_VIDEOS.mkdir(parents=True, exist_ok=True)
             dest = FLUTTER_VIDEOS / ep["webm"]
             if not dest.exists() or dest.stat().st_size < webm.stat().st_size:
