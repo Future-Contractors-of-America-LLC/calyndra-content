@@ -1,7 +1,7 @@
 {
   "version": 1,
   "series": "Caly and Friends",
-  "lockedUtc": "2026-06-24T12:00:00Z",
+  "lockedUtc": "2026-06-24T23:01:57Z",
   "durationTargetsSec": {
     "baby": 300,
     "toddler": 600,
@@ -234,7 +234,7 @@
       "webm": "fern_seed_gift_long.webm",
       "lesson": "Giving something you love can grow more love.",
       "pilot": false,
-      "status": "script-only"
+      "status": "complete"
     },
     {
       "id": "moss_bridge_builders_long",
