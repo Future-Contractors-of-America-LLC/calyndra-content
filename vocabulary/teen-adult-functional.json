@@ -9,105 +9,105 @@
       "label": "I need help",
       "category": "core",
       "description": "Functional AAC symbol: I need help.",
-      "imageAsset": "assets/symbols/spark/help.png"
+      "imageAsset": "assets/symbols/vine/help.png"
     },
     {
       "id": "stop",
       "label": "stop",
       "category": "core",
       "description": "Functional AAC symbol: stop.",
-      "imageAsset": "assets/symbols/spark/stop.png"
+      "imageAsset": "assets/symbols/vine/stop.png"
     },
     {
       "id": "yes",
       "label": "yes",
       "category": "core",
       "description": "Functional AAC symbol: yes.",
-      "imageAsset": "assets/symbols/spark/yes.png"
+      "imageAsset": "assets/symbols/vine/yes.png"
     },
     {
       "id": "no",
       "label": "no",
       "category": "core",
       "description": "Functional AAC symbol: no.",
-      "imageAsset": "assets/symbols/spark/no.png"
+      "imageAsset": "assets/symbols/vine/no.png"
     },
     {
       "id": "not-now",
       "label": "not now",
       "category": "core",
       "description": "Functional AAC symbol: not now.",
-      "imageAsset": "assets/symbols/spark/not-now.png"
+      "imageAsset": "assets/symbols/vine/not-now.png"
     },
     {
       "id": "later",
       "label": "later",
       "category": "core",
       "description": "Functional AAC symbol: later.",
-      "imageAsset": "assets/symbols/spark/later.png"
+      "imageAsset": "assets/symbols/vine/later.png"
     },
     {
       "id": "break",
       "label": "I need a break",
       "category": "regulation",
       "description": "Functional AAC symbol: I need a break.",
-      "imageAsset": "assets/symbols/spark/break.png"
+      "imageAsset": "assets/symbols/vine/break.png"
     },
     {
       "id": "overwhelmed",
       "label": "overwhelmed",
       "category": "regulation",
       "description": "Functional AAC symbol: overwhelmed.",
-      "imageAsset": "assets/symbols/spark/overwhelmed.png"
+      "imageAsset": "assets/symbols/vine/overwhelmed.png"
     },
     {
       "id": "pain",
       "label": "pain",
       "category": "health",
       "description": "Functional AAC symbol: pain.",
-      "imageAsset": "assets/symbols/spark/pain.png"
+      "imageAsset": "assets/symbols/vine/pain.png"
     },
     {
       "id": "doctor",
       "label": "see doctor",
       "category": "health",
       "description": "Functional AAC symbol: see doctor.",
-      "imageAsset": "assets/symbols/spark/doctor.png"
+      "imageAsset": "assets/symbols/vine/doctor.png"
     },
     {
       "id": "medication",
       "label": "medication",
       "category": "health",
       "description": "Functional AAC symbol: medication.",
-      "imageAsset": "assets/symbols/spark/medication.png"
+      "imageAsset": "assets/symbols/vine/medication.png"
     },
     {
       "id": "bathroom",
       "label": "bathroom",
       "category": "routine",
       "description": "Functional AAC symbol: bathroom.",
-      "imageAsset": "assets/symbols/spark/bathroom.png"
+      "imageAsset": "assets/symbols/vine/bathroom.png"
     },
     {
       "id": "eat",
       "label": "eat",
       "category": "routine",
       "description": "Functional AAC symbol: eat.",
-      "imageAsset": "assets/symbols/spark/eat.png"
+      "imageAsset": "assets/symbols/vine/eat.png"
     },
     {
       "id": "drink",
       "label": "drink",
       "category": "routine",
       "description": "Functional AAC symbol: drink.",
-      "imageAsset": "assets/symbols/spark/drink.png"
+      "imageAsset": "assets/symbols/vine/drink.png"
     },
     {
       "id": "sleep",
       "label": "sleep",
       "category": "routine",
       "description": "Functional AAC symbol: sleep.",
-      "imageAsset": "assets/symbols/spark/sleep.png"
+      "imageAsset": "assets/symbols/vine/sleep.png"
     },
     {
       "id": "work",
@@ -149,112 +149,112 @@
       "label": "call someone",
       "category": "communication",
       "description": "Functional AAC symbol: call someone.",
-      "imageAsset": "assets/symbols/spark/phone.png"
+      "imageAsset": "assets/symbols/vine/phone.png"
     },
     {
       "id": "text",
       "label": "text message",
       "category": "communication",
       "description": "Functional AAC symbol: text message.",
-      "imageAsset": "assets/symbols/spark/text.png"
+      "imageAsset": "assets/symbols/vine/text.png"
     },
     {
       "id": "email",
       "label": "email",
       "category": "communication",
       "description": "Functional AAC symbol: email.",
-      "imageAsset": "assets/symbols/spark/email.png"
+      "imageAsset": "assets/symbols/vine/email.png"
     },
     {
       "id": "repeat",
       "label": "say that again",
       "category": "communication",
       "description": "Functional AAC symbol: say that again.",
-      "imageAsset": "assets/symbols/spark/repeat.png"
+      "imageAsset": "assets/symbols/vine/repeat.png"
     },
     {
       "id": "slow",
       "label": "slow down",
       "category": "communication",
       "description": "Functional AAC symbol: slow down.",
-      "imageAsset": "assets/symbols/spark/slow.png"
+      "imageAsset": "assets/symbols/vine/slow.png"
     },
     {
       "id": "write",
       "label": "write it down",
       "category": "communication",
       "description": "Functional AAC symbol: write it down.",
-      "imageAsset": "assets/symbols/spark/write.png"
+      "imageAsset": "assets/symbols/vine/write.png"
     },
     {
       "id": "friend",
       "label": "friend",
       "category": "social",
       "description": "Functional AAC symbol: friend.",
-      "imageAsset": "assets/symbols/spark/friend.png"
+      "imageAsset": "assets/symbols/vine/friend.png"
     },
     {
       "id": "privacy",
       "label": "privacy please",
       "category": "social",
       "description": "Functional AAC symbol: privacy please.",
-      "imageAsset": "assets/symbols/spark/privacy.png"
+      "imageAsset": "assets/symbols/vine/privacy.png"
     },
     {
       "id": "consent",
       "label": "I don't consent",
       "category": "social",
       "description": "Functional AAC symbol: I don't consent.",
-      "imageAsset": "assets/symbols/spark/consent.png"
+      "imageAsset": "assets/symbols/vine/consent.png"
     },
     {
       "id": "uncomfortable",
       "label": "uncomfortable",
       "category": "feelings",
       "description": "Functional AAC symbol: uncomfortable.",
-      "imageAsset": "assets/symbols/spark/uncomfortable.png"
+      "imageAsset": "assets/symbols/vine/uncomfortable.png"
     },
     {
       "id": "happy",
       "label": "happy",
       "category": "feelings",
       "description": "Functional AAC symbol: happy.",
-      "imageAsset": "assets/symbols/spark/happy.png"
+      "imageAsset": "assets/symbols/vine/happy.png"
     },
     {
       "id": "sad",
       "label": "sad",
       "category": "feelings",
       "description": "Functional AAC symbol: sad.",
-      "imageAsset": "assets/symbols/spark/sad.png"
+      "imageAsset": "assets/symbols/vine/sad.png"
     },
     {
       "id": "anxious",
       "label": "anxious",
       "category": "feelings",
       "description": "Functional AAC symbol: anxious.",
-      "imageAsset": "assets/symbols/spark/anxious.png"
+      "imageAsset": "assets/symbols/vine/anxious.png"
     },
     {
       "id": "excited",
       "label": "excited",
       "category": "feelings",
       "description": "Functional AAC symbol: excited.",
-      "imageAsset": "assets/symbols/spark/excited.png"
+      "imageAsset": "assets/symbols/vine/excited.png"
     },
     {
       "id": "frustrated",
       "label": "frustrated",
       "category": "feelings",
       "description": "Functional AAC symbol: frustrated.",
-      "imageAsset": "assets/symbols/spark/frustrated.png"
+      "imageAsset": "assets/symbols/vine/frustrated.png"
     },
     {
       "id": "explain",
       "label": "explain more",
       "category": "questions",
       "description": "Functional AAC symbol: explain more.",
-      "imageAsset": "assets/symbols/spark/explain.png"
+      "imageAsset": "assets/symbols/vine/explain.png"
     },
     {
       "id": "choice",
@@ -282,147 +282,147 @@
       "label": "emergency (call 911)",
       "category": "safety",
       "description": "Functional AAC symbol: emergency (call 911).",
-      "imageAsset": "assets/symbols/spark/emergency.png"
+      "imageAsset": "assets/symbols/vine/emergency.png"
     },
     {
       "id": "wait",
       "label": "wait",
       "category": "core",
       "description": "Ask for time before responding or acting.",
-      "imageAsset": "assets/symbols/spark/wait.png"
+      "imageAsset": "assets/symbols/vine/wait.png"
     },
     {
       "id": "listen",
       "label": "please listen",
       "category": "communication",
       "description": "Request full attention respectfully.",
-      "imageAsset": "assets/symbols/spark/listen.png"
+      "imageAsset": "assets/symbols/vine/listen.png"
     },
     {
       "id": "repeat-slower",
       "label": "repeat slower",
       "category": "communication",
       "description": "Ask someone to slow down and repeat.",
-      "imageAsset": "assets/symbols/spark/repeat-slower.png"
+      "imageAsset": "assets/symbols/vine/repeat-slower.png"
     },
     {
       "id": "clarify",
       "label": "I don't understand",
       "category": "communication",
       "description": "Signal confusion without blame.",
-      "imageAsset": "assets/symbols/spark/clarify.png"
+      "imageAsset": "assets/symbols/vine/clarify.png"
     },
     {
       "id": "topic-change",
       "label": "change topic",
       "category": "communication",
       "description": "Redirect conversation comfortably.",
-      "imageAsset": "assets/symbols/spark/topic-change.png"
+      "imageAsset": "assets/symbols/vine/topic-change.png"
     },
     {
       "id": "leave",
       "label": "I want to leave",
       "category": "autonomy",
       "description": "Exit a space or situation.",
-      "imageAsset": "assets/symbols/spark/leave.png"
+      "imageAsset": "assets/symbols/vine/leave.png"
     },
     {
       "id": "stay",
       "label": "I want to stay",
       "category": "autonomy",
       "description": "Remain where you feel safe.",
-      "imageAsset": "assets/symbols/spark/stay.png"
+      "imageAsset": "assets/symbols/vine/stay.png"
     },
     {
       "id": "space",
       "label": "need space",
       "category": "regulation",
       "description": "Request physical or emotional distance.",
-      "imageAsset": "assets/symbols/spark/space.png"
+      "imageAsset": "assets/symbols/vine/space.png"
     },
     {
       "id": "hug",
       "label": "hug please",
       "category": "social",
       "description": "Ask for consensual comfort.",
-      "imageAsset": "assets/symbols/spark/hug.png"
+      "imageAsset": "assets/symbols/vine/hug.png"
     },
     {
       "id": "high-five",
       "label": "high five",
       "category": "social",
       "description": "Celebrate without pressure.",
-      "imageAsset": "assets/symbols/spark/high-five.png"
+      "imageAsset": "assets/symbols/vine/high-five.png"
     },
     {
       "id": "introduce",
       "label": "introduce me",
       "category": "social",
       "description": "Support in social introductions.",
-      "imageAsset": "assets/symbols/spark/introduce.png"
+      "imageAsset": "assets/symbols/vine/introduce.png"
     },
     {
       "id": "schedule-change",
       "label": "schedule change",
       "category": "life",
       "description": "Flag a change in plans.",
-      "imageAsset": "assets/symbols/spark/schedule-change.png"
+      "imageAsset": "assets/symbols/vine/schedule-change.png"
     },
     {
       "id": "running-late",
       "label": "running late",
       "category": "life",
       "description": "Communicate delay proactively.",
-      "imageAsset": "assets/symbols/spark/running-late.png"
+      "imageAsset": "assets/symbols/vine/running-late.png"
     },
     {
       "id": "cancel",
       "label": "cancel plans",
       "category": "life",
       "description": "Opt out of plans respectfully.",
-      "imageAsset": "assets/symbols/spark/cancel.png"
+      "imageAsset": "assets/symbols/vine/cancel.png"
     },
     {
       "id": "grocery",
       "label": "grocery store",
       "category": "life",
       "description": "Community errand vocabulary.",
-      "imageAsset": "assets/symbols/spark/grocery.png"
+      "imageAsset": "assets/symbols/vine/grocery.png"
     },
     {
       "id": "restaurant",
       "label": "restaurant",
       "category": "life",
       "description": "Dining out communication.",
-      "imageAsset": "assets/symbols/spark/restaurant.png"
+      "imageAsset": "assets/symbols/vine/restaurant.png"
     },
     {
       "id": "order",
       "label": "my order",
       "category": "life",
       "description": "State food or item choice.",
-      "imageAsset": "assets/symbols/spark/order.png"
+      "imageAsset": "assets/symbols/vine/order.png"
     },
     {
       "id": "allergy",
       "label": "food allergy",
       "category": "health",
       "description": "Disclose dietary needs clearly.",
-      "imageAsset": "assets/symbols/spark/allergy.png"
+      "imageAsset": "assets/symbols/vine/allergy.png"
     },
     {
       "id": "nausea",
       "label": "feel sick",
       "category": "health",
       "description": "Report illness without diagnosis.",
-      "imageAsset": "assets/symbols/spark/nausea.png"
+      "imageAsset": "assets/symbols/vine/nausea.png"
     },
     {
       "id": "rest",
       "label": "need rest",
       "category": "regulation",
       "description": "Request downtime for recovery.",
-      "imageAsset": "assets/symbols/spark/rest.png"
+      "imageAsset": "assets/symbols/vine/rest.png"
     }
   ]
 }

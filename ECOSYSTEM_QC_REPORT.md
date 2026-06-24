@@ -1,6 +1,6 @@
 # Ecosystem QC report
 
-Generated: **2026-06-24 17:38 UTC**
+Generated: **2026-06-24 17:40 UTC**
 
 **Overall:** PASS (0 issue(s))
 
@@ -175,36 +175,36 @@ QC summary
   Episodes: 36
   Errors: 0
   Warnings: 30
-  WARN: Script-only (no webm yet): pip_soft_breeze_long.webm
-  WARN: Script-only (no webm yet): pip_moonlight_snuggle_long.webm
-  WARN: Script-only (no webm yet): pip_twinkle_toes_long.webm
-  WARN: Script-only (no webm yet): pip_rainbow_wave_long.webm
-  WARN: Script-only (no webm yet): pip_heartbeat_lullaby_long.webm
-  WARN: Script-only (no webm yet): fern_flower_surprise_long.webm
-  WARN: Script-only (no webm yet): fern_patience_pots_long.webm
-  WARN: Script-only (no webm yet): fern_butterfly_visit_long.webm
-  WARN: Script-only (no webm yet): fern_weeding_teamwork_long.webm
-  WARN: Script-only (no webm yet): fern_seed_gift_long.webm
-  WARN: Script-only (no webm yet): moss_bridge_builders_long.webm
-  WARN: Script-only (no webm yet): moss_lost_and_found_long.webm
-  WARN: Script-only (no webm yet): moss_campfire_stories_long.webm
-  WARN: Script-only (no webm yet): moss_apology_path_long.webm
-  WARN: Script-only (no webm yet): moss_team_harvest_long.webm
-  WARN: Script-only (no webm yet): reed_rumor_mist_long.webm
-  WARN: Script-only (no webm yet): reed_patience_listeners_long.webm
-  WARN: Script-only (no webm yet): reed_honest_feather_long.webm
-  WARN: Script-only (no webm yet): reed_storm_shelter_long.webm
-  WARN: Script-only (no webm yet): reed_mentor_circle_long.webm
-  WARN: Script-only (no webm yet): sage_truth_telling_long.webm
-  WARN: Script-only (no webm yet): sage_peer_pressure_long.webm
-  WARN: Script-only (no webm yet): sage_forgiveness_trail_long.webm
-  WARN: Script-only (no webm yet): sage_service_saturday_long.webm
-  WARN: Script-only (no webm yet): sage_steady_anchor_long.webm
-  WARN: Script-only (no webm yet): laurel_evening_rest_long.webm
-  WARN: Script-only (no webm yet): laurel_caregiver_breath_long.webm
-  WARN: Script-only (no webm yet): laurel_gratitude_journal_long.webm
-  WARN: Script-only (no webm yet): laurel_community_table_long.webm
-  WARN: Script-only (no webm yet): laurel_legacy_roots_long.webm
+  WARN: pip_soft_breeze_long.webm: placeholder 5s (target 300s full)
+  WARN: pip_moonlight_snuggle_long.webm: placeholder 5s (target 300s full)
+  WARN: pip_twinkle_toes_long.webm: placeholder 5s (target 300s full)
+  WARN: pip_rainbow_wave_long.webm: placeholder 5s (target 300s full)
+  WARN: pip_heartbeat_lullaby_long.webm: placeholder 5s (target 300s full)
+  WARN: fern_flower_surprise_long.webm: placeholder 5s (target 600s full)
+  WARN: fern_patience_pots_long.webm: placeholder 5s (target 600s full)
+  WARN: fern_butterfly_visit_long.webm: placeholder 5s (target 600s full)
+  WARN: fern_weeding_teamwork_long.webm: placeholder 5s (target 600s full)
+  WARN: fern_seed_gift_long.webm: placeholder 5s (target 600s full)
+  WARN: moss_bridge_builders_long.webm: placeholder 5s (target 900s full)
+  WARN: moss_lost_and_found_long.webm: placeholder 5s (target 900s full)
+  WARN: moss_campfire_stories_long.webm: placeholder 5s (target 900s full)
+  WARN: moss_apology_path_long.webm: placeholder 5s (target 900s full)
+  WARN: moss_team_harvest_long.webm: placeholder 5s (target 900s full)
+  WARN: reed_rumor_mist_long.webm: placeholder 5s (target 1200s full)
+  WARN: reed_patience_listeners_long.webm: placeholder 5s (target 1200s full)
+  WARN: reed_honest_feather_long.webm: placeholder 5s (target 1200s full)
+  WARN: reed_storm_shelter_long.webm: placeholder 5s (target 1200s full)
+  WARN: reed_mentor_circle_long.webm: placeholder 5s (target 1200s full)
+  WARN: sage_truth_telling_long.webm: placeholder 5s (target 1800s full)
+  WARN: sage_peer_pressure_long.webm: placeholder 5s (target 1800s full)
+  WARN: sage_forgiveness_trail_long.webm: placeholder 5s (target 1800s full)
+  WARN: sage_service_saturday_long.webm: placeholder 5s (target 1800s full)
+  WARN: sage_steady_anchor_long.webm: placeholder 5s (target 1800s full)
+  WARN: laurel_evening_rest_long.webm: placeholder 5s (target 2700s full)
+  WARN: laurel_caregiver_breath_long.webm: placeholder 5s (target 2700s full)
+  WARN: laurel_gratitude_journal_long.webm: placeholder 5s (target 2700s full)
+  WARN: laurel_community_table_long.webm: placeholder 5s (target 2700s full)
+  WARN: laurel_legacy_roots_long.webm: placeholder 5s (target 2700s full)
 ```
 
 
