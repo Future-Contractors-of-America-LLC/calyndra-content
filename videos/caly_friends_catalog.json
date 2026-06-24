@@ -24,7 +24,7 @@
       "webm": "pip_gentle_hello_long.webm",
       "lesson": "You are wonderfully made and deeply loved.",
       "pilot": true,
-      "status": "pilot"
+      "status": "complete"
     },
     {
       "id": "fern_garden_share_long",
@@ -38,7 +38,7 @@
       "webm": "fern_garden_share_long.webm",
       "lesson": "Sharing joy makes friendship grow.",
       "pilot": true,
-      "status": "pilot"
+      "status": "complete"
     },
     {
       "id": "moss_kindness_trail_long",
@@ -52,7 +52,7 @@
       "webm": "moss_kindness_trail_long.webm",
       "lesson": "Small acts of kindness light the path for everyone.",
       "pilot": true,
-      "status": "pilot"
+      "status": "complete"
     },
     {
       "id": "reed_wisdom_perch_long",
@@ -66,7 +66,7 @@
       "webm": "reed_wisdom_perch_long.webm",
       "lesson": "Wisdom listens before it speaks.",
       "pilot": false,
-      "status": "script-only"
+      "status": "complete"
     },
     {
       "id": "sage_crossroads_long",
@@ -80,7 +80,7 @@
       "webm": "sage_crossroads_long.webm",
       "lesson": "Choose integrity even when it is hard.",
       "pilot": false,
-      "status": "script-only"
+      "status": "complete"
     },
     {
       "id": "laurel_morning_song_long",
@@ -94,7 +94,7 @@
       "webm": "laurel_morning_song_long.webm",
       "lesson": "Gratitude turns ordinary mornings into gifts.",
       "pilot": false,
-      "status": "script-only"
+      "status": "complete"
     }
   ]
 }
