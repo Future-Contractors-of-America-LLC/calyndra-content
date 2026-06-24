@@ -1,7 +1,7 @@
 {
   "version": 1,
   "series": "Caly and Friends",
-  "lockedUtc": "2026-06-24T23:29:42Z",
+  "lockedUtc": "2026-06-24T23:48:12Z",
   "durationTargetsSec": {
     "baby": 300,
     "toddler": 600,
@@ -297,9 +297,9 @@
       "lesson": "Building bridges connects hearts across differences.",
       "pilot": false,
       "status": "complete",
-      "videoResolution": "1280x720",
-      "videoProfile": "draft",
-      "videoFps": 12
+      "videoProfile": "hd",
+      "videoResolution": "1920x1080",
+      "videoFps": 24
     },
     {
       "id": "moss_lost_and_found_long",
