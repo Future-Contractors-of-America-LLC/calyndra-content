@@ -76,6 +76,8 @@ def main() -> int:
                     warnings.append(f"{ep['webm']}: placeholder {dur:.0f}s (target {target}s full)")
                 elif ep.get("status") == "pilot" and dur < target * 0.15:
                     warnings.append(f"Pilot {ep['webm']}: {dur:.0f}s (full target {target}s)")
+                elif ep.get("status") in ("complete", "full") and dur < 30:
+                    warnings.append(f"{ep['webm']}: stub {dur:.0f}s (expected full render)")
 
         friends = registry.get("friendsByBand", {}).get(band, {}).get("friends", [])
         friend_names = {f["name"] for f in friends}

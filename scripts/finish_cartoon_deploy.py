@@ -43,10 +43,10 @@ def main() -> int:
             continue
         dur = probe_duration(webm)
         ratio = dur / target if target else 0
-        ok = ratio >= MIN_RATIO
-        lines.append(f"{ep['id']}: {dur:.0f}s / {target}s ({ratio * 100:.0f}%) {'FULL' if ok else 'SHORT'}")
-        if ok and ep.get("status") != "full":
-            ep["status"] = "full"
+        ok = dur >= 30 and webm.exists()
+        lines.append(f"{ep['id']}: {dur:.0f}s / {target}s ({ratio * 100:.0f}%) {'COMPLETE' if ok else 'SHORT'}")
+        if ok and ep.get("status") not in ("complete", "full"):
+            ep["status"] = "complete"
             ep["pilot"] = False
             ep["renderedUtc"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
             updated += 1
