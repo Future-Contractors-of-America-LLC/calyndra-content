@@ -1,8 +1,8 @@
 # Art quality QC report
 
-Generated: **2026-06-24 00:43 UTC**
+Generated: **2026-06-24 09:16 UTC**
 
-**Overall:** PASS (0 issue(s), 1900 warning(s))
+**Overall:** PASS (0 issue(s), 8 warning(s))
 
 ## Manifest band folders (ship gate)
 
@@ -42,7 +42,7 @@ Generated: **2026-06-24 00:43 UTC**
 
 ## Sidecar metadata
 
-- Reviewed sidecars: **0**
+- Reviewed sidecars: **259**
 - Bad handFingers: **0**
 
 ## Issues
@@ -58,47 +58,4 @@ Generated: **2026-06-24 00:43 UTC**
 - VOCAB: `teen` missing 164/230 imageAsset PNG(s).
 - VOCAB: `adult` missing 176/245 imageAsset PNG(s).
 - VOCAB: `caregiver` missing 20/58 imageAsset PNG(s).
-- DIM: `bloom/again.png` not square (1536x1024).
-- DIM: `bloom/again.png` is 1536x1024 (target 512).
-- DIM: `bloom/algebra.png` not square (1536x1024).
-- DIM: `bloom/algebra.png` is 1536x1024 (target 512).
-- DIM: `bloom/all-done.png` not square (1536x1024).
-- DIM: `bloom/all-done.png` is 1536x1024 (target 512).
-- DIM: `bloom/apple.png` not square (1536x1024).
-- DIM: `bloom/apple.png` is 1536x1024 (target 512).
-- DIM: `bloom/ball.png` not square (1536x1024).
-- DIM: `bloom/ball.png` is 1536x1024 (target 512).
-- DIM: `bloom/bathroom.png` not square (1536x1024).
-- DIM: `bloom/bathroom.png` is 1536x1024 (target 512).
-- DIM: `bloom/benefits.png` not square (1536x1024).
-- DIM: `bloom/benefits.png` is 1536x1024 (target 512).
-- DIM: `bloom/big.png` not square (1536x1024).
-- DIM: `bloom/big.png` is 1536x1024 (target 512).
-- DIM: `bloom/birthday.png` not square (1536x1024).
-- DIM: `bloom/birthday.png` is 1536x1024 (target 512).
-- DIM: `bloom/blanket.png` not square (1536x1024).
-- DIM: `bloom/blanket.png` is 1536x1024 (target 512).
-- DIM: `bloom/blankie.png` not square (1536x1024).
-- DIM: `bloom/blankie.png` is 1536x1024 (target 512).
-- DIM: `bloom/blocks.png` not square (1536x1024).
-- DIM: `bloom/blocks.png` is 1536x1024 (target 512).
-- DIM: `bloom/book.png` not square (1536x1024).
-- DIM: `bloom/book.png` is 1536x1024 (target 512).
-- DIM: `bloom/breathe.png` not square (1536x1024).
-- DIM: `bloom/breathe.png` is 1536x1024 (target 512).
-- DIM: `bloom/bubbles.png` not square (1536x1024).
-- DIM: `bloom/bubbles.png` is 1536x1024 (target 512).
-- DIM: `bloom/budget.png` not square (1536x1024).
-- DIM: `bloom/budget.png` is 1536x1024 (target 512).
-- DIM: `bloom/bus.png` not square (1536x1024).
-- DIM: `bloom/bus.png` is 1536x1024 (target 512).
-- DIM: `bloom/camping.png` not square (1536x1024).
-- DIM: `bloom/camping.png` is 1536x1024 (target 512).
-- DIM: `bloom/car.png` not square (1536x1024).
-- DIM: `bloom/car.png` is 1536x1024 (target 512).
-- DIM: `bloom/cat.png` not square (1536x1024).
-- DIM: `bloom/cat.png` is 1536x1024 (target 512).
-- DIM: `bloom/celebrate.png` not square (1536x1024).
-- DIM: `bloom/celebrate.png` is 1536x1024 (target 512).
-- DIM: `bloom/cereal.png` not square (1536x1024).
-- ... and 1850 more
+- META: 35 hand-visible symbol(s) lack sidecar metadata (optional until art review).

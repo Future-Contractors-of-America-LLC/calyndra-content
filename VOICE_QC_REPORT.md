@@ -1,11 +1,11 @@
 # Voice profile QC report
 
-Generated: **2026-06-24 00:43 UTC**
+Generated: **2026-06-24 09:16 UTC**
 
-**Overall:** PASS (0 issue(s), 5 warning(s))
+**Overall:** PASS (0 issue(s), 0 warning(s))
 
 - App VOICE_PROFILE_VERSION: **2**
-- Manifest clips: **1003**
+- Manifest clips: **2788**
 - Manifest generated: **True**
 
 ## Azure Neural profiles (speech_tts.py)
@@ -26,8 +26,4 @@ Generated: **2026-06-24 00:43 UTC**
 
 ## Warnings
 
-- VOICE: manifest missing pregenerated clips for `baby`.
-- VOICE: manifest missing pregenerated clips for `tween`.
-- VOICE: manifest missing pregenerated clips for `teen`.
-- VOICE: manifest missing pregenerated clips for `adult`.
-- VOICE: manifest missing pregenerated clips for `caregiver`.
+- None

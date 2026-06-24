@@ -1,6 +1,6 @@
 # Ecosystem QC report
 
-Generated: **2026-06-24 00:43 UTC**
+Generated: **2026-06-24 09:16 UTC**
 
 **Overall:** PASS (0 issue(s))
 
@@ -125,14 +125,14 @@ Wrote band-art-manifest.json and BAND_QC_REPORT.md
 ### qc_art_quality.py (exit 0)
 
 ```
-Art QC: PASS - 0 issue(s), 1900 warning(s)
+Art QC: PASS - 0 issue(s), 8 warning(s)
 Wrote ART_QC_REPORT.md
 ```
 
 ### qc_voice_profiles.py (exit 0)
 
 ```
-Voice QC: PASS - 0 issue(s), 5 warning(s)
+Voice QC: PASS - 0 issue(s), 0 warning(s)
 Wrote VOICE_QC_REPORT.md
 ```
 

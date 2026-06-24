@@ -1,0 +1,8 @@
+{
+  "wordId": "help",
+  "band": "sprig",
+  "handFingers": 5,
+  "expression": "happy",
+  "reviewedUtc": "2026-06-24T09:11:59Z",
+  "source": "render_hand_visible_symbols.py"
+}

@@ -10,7 +10,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 APP = ROOT.parent / "calyndra-app"
 CURSOR_ASSETS = Path.home() / ".cursor" / "projects" / "c-Users-Auricrux-OneDrive-Future-Contractors-of-America-LLC" / "assets"
-BANDS = ("sprout", "bud", "sprig", "vine", "bloom", "canopy")
+BANDS = ("seed", "sprout", "bud", "sprig", "vine", "bloom", "canopy")
 
 
 def parse_stem(stem: str) -> tuple[str, str] | None:
@@ -31,10 +31,10 @@ def install(src_dir: Path) -> int:
         if not parsed:
             continue
         word, band = parsed
-        for base in (ROOT / "symbols" / "images", APP / "assets" / "symbols"):
-            dest = base / band / f"{word}.png"
-            dest.parent.mkdir(parents=True, exist_ok=True)
-            shutil.copy2(png, dest)
+        dest = APP / "assets" / "symbols" / band / f"{word}.png"
+        dest.parent.mkdir(parents=True, exist_ok=True)
+        data = png.read_bytes()
+        dest.write_bytes(data)
         n += 1
         print(f"  {word}.png -> {band}/")
     return n
