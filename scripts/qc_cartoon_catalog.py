@@ -20,6 +20,7 @@ except Exception:
     FFMPEG = "ffmpeg"
 
 BANDS = ("baby", "toddler", "child", "tween", "teen", "adult")
+MIN_EPISODES_PER_BAND = 6
 TOLERANCE = 0.35
 
 
@@ -88,6 +89,10 @@ def main() -> int:
         eps = by_band[band]
         if not eps:
             errors.append(f"No Caly and Friends episode for band: {band}")
+        elif len(eps) < MIN_EPISODES_PER_BAND:
+            errors.append(
+                f"Band `{band}` has {len(eps)} episode(s) (need {MIN_EPISODES_PER_BAND})"
+            )
         else:
             titles = ", ".join(e["title"] for e in eps)
             print(f"  {band}: {len(eps)} episode(s) - {titles}")

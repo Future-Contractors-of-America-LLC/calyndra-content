@@ -23,6 +23,7 @@ YOUNGER_BANDS = ("baby", "toddler", "child")
 CARTOON_BANDS = ("baby", "toddler", "child", "tween", "teen", "adult")
 MIN_NEW_GAMES = 5
 MIN_SING_ALONG = 5
+MIN_CARTOON_EPISODES = 6
 
 QC_SCRIPTS = (
     "qc_band_assets.py",
@@ -112,9 +113,11 @@ def check_cartoon_catalog(issues: list[str]) -> list[tuple[str, int, str]]:
     rows: list[tuple[str, int, str]] = []
     for band in CARTOON_BANDS:
         count = by_band[band]
-        status = "PASS" if count >= 1 else "FAIL"
-        if count < 1:
-            issues.append(f"CARTOON: no Caly and Friends episode for band `{band}`.")
+        status = "PASS" if count >= MIN_CARTOON_EPISODES else "FAIL"
+        if count < MIN_CARTOON_EPISODES:
+            issues.append(
+                f"CARTOON: band `{band}` has {count} episode(s) (need {MIN_CARTOON_EPISODES}+)."
+            )
         rows.append((band, count, status))
     if not episodes:
         issues.append("CARTOON: caly_friends_catalog.json has zero episodes.")

@@ -1,6 +1,6 @@
 # Ecosystem QC report
 
-Generated: **2026-06-24 17:27 UTC**
+Generated: **2026-06-24 17:38 UTC**
 
 **Overall:** PASS (0 issue(s))
 
@@ -61,12 +61,12 @@ Generated: **2026-06-24 17:27 UTC**
 
 | Band | Episodes | Status |
 |------|----------|--------|
-| baby | 1 | PASS |
-| toddler | 1 | PASS |
-| child | 1 | PASS |
-| tween | 1 | PASS |
-| teen | 1 | PASS |
-| adult | 1 | PASS |
+| baby | 6 | PASS |
+| toddler | 6 | PASS |
+| child | 6 | PASS |
+| tween | 6 | PASS |
+| teen | 6 | PASS |
+| adult | 6 | PASS |
 
 ## Symbol folders vs manifest
 
@@ -164,17 +164,47 @@ Wrote SING_ALONG_QC_REPORT.md
 ### qc_cartoon_catalog.py (exit 0)
 
 ```
-baby: 1 episode(s) - Pip's Gentle Hello
-  toddler: 1 episode(s) - Fern's Garden Share
-  child: 1 episode(s) - Moss and the Kindness Trail
-  tween: 1 episode(s) - Reed's Wisdom Perch
-  teen: 1 episode(s) - Sage at the Crossroads
-  adult: 1 episode(s) - Laurel's Morning Song
+baby: 6 episode(s) - Pip's Gentle Hello, Pip and the Soft Breeze, Pip's Moonlight Snuggle, Pip's Twinkle Toes, Pip's Rainbow Wave, Pip's Heartbeat Lullaby
+  toddler: 6 episode(s) - Fern's Garden Share, Fern's Flower Surprise, Fern's Patience Pots, Fern's Butterfly Visit, Fern's Weeding Teamwork, Fern's Seed Gift
+  child: 6 episode(s) - Moss and the Kindness Trail, Moss the Bridge Builders, Moss Lost and Found, Moss's Campfire Stories, Moss and the Apology Path, Moss's Team Harvest
+  tween: 6 episode(s) - Reed's Wisdom Perch, Reed and the Rumor Mist, Reed's Patience Listeners, Reed's Honest Feather, Reed's Storm Shelter, Reed's Mentor Circle
+  teen: 6 episode(s) - Sage at the Crossroads, Sage and Truth Telling, Sage and Peer Pressure, Sage's Forgiveness Trail, Sage's Service Saturday, Sage's Steady Anchor
+  adult: 6 episode(s) - Laurel's Morning Song, Laurel's Evening Rest, Laurel's Caregiver Breath, Laurel's Gratitude Journal, Laurel's Community Table, Laurel's Legacy Roots
 
 QC summary
-  Episodes: 6
+  Episodes: 36
   Errors: 0
-  Warnings: 0
+  Warnings: 30
+  WARN: Script-only (no webm yet): pip_soft_breeze_long.webm
+  WARN: Script-only (no webm yet): pip_moonlight_snuggle_long.webm
+  WARN: Script-only (no webm yet): pip_twinkle_toes_long.webm
+  WARN: Script-only (no webm yet): pip_rainbow_wave_long.webm
+  WARN: Script-only (no webm yet): pip_heartbeat_lullaby_long.webm
+  WARN: Script-only (no webm yet): fern_flower_surprise_long.webm
+  WARN: Script-only (no webm yet): fern_patience_pots_long.webm
+  WARN: Script-only (no webm yet): fern_butterfly_visit_long.webm
+  WARN: Script-only (no webm yet): fern_weeding_teamwork_long.webm
+  WARN: Script-only (no webm yet): fern_seed_gift_long.webm
+  WARN: Script-only (no webm yet): moss_bridge_builders_long.webm
+  WARN: Script-only (no webm yet): moss_lost_and_found_long.webm
+  WARN: Script-only (no webm yet): moss_campfire_stories_long.webm
+  WARN: Script-only (no webm yet): moss_apology_path_long.webm
+  WARN: Script-only (no webm yet): moss_team_harvest_long.webm
+  WARN: Script-only (no webm yet): reed_rumor_mist_long.webm
+  WARN: Script-only (no webm yet): reed_patience_listeners_long.webm
+  WARN: Script-only (no webm yet): reed_honest_feather_long.webm
+  WARN: Script-only (no webm yet): reed_storm_shelter_long.webm
+  WARN: Script-only (no webm yet): reed_mentor_circle_long.webm
+  WARN: Script-only (no webm yet): sage_truth_telling_long.webm
+  WARN: Script-only (no webm yet): sage_peer_pressure_long.webm
+  WARN: Script-only (no webm yet): sage_forgiveness_trail_long.webm
+  WARN: Script-only (no webm yet): sage_service_saturday_long.webm
+  WARN: Script-only (no webm yet): sage_steady_anchor_long.webm
+  WARN: Script-only (no webm yet): laurel_evening_rest_long.webm
+  WARN: Script-only (no webm yet): laurel_caregiver_breath_long.webm
+  WARN: Script-only (no webm yet): laurel_gratitude_journal_long.webm
+  WARN: Script-only (no webm yet): laurel_community_table_long.webm
+  WARN: Script-only (no webm yet): laurel_legacy_roots_long.webm
 ```
 
 
