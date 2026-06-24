@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import json
+import re
 import shutil
 import subprocess
 import sys
@@ -25,6 +26,8 @@ MIN_SING_ALONG = 5
 
 QC_SCRIPTS = (
     "qc_band_assets.py",
+    "qc_art_quality.py",
+    "qc_voice_profiles.py",
     "qc_games_catalog.py",
     "qc_sing_along_catalog.py",
     "qc_cartoon_catalog.py",
@@ -155,15 +158,24 @@ def check_baby_in_index(issues: list[str]) -> tuple[str, str]:
     return "app/index.html", "FAIL"
 
 
-def check_speech_tts_baby(issues: list[str]) -> tuple[str, str]:
+def check_speech_tts_all_neural(issues: list[str]) -> tuple[str, str]:
+    """All seven audiences must use Azure Neural voices with human-like styles."""
     if not CENTRAL_TTS.is_file():
         issues.append("TTS: calyndra-central/speech_tts.py not found.")
-        return "speech_tts.py baby profile", "FAIL"
+        return "speech_tts.py neural profiles (7 bands)", "FAIL"
     text = CENTRAL_TTS.read_text(encoding="utf-8")
-    if '"baby"' in text and "VOICE_PROFILES" in text and "Caly-baby" in text:
-        return "speech_tts.py baby profile", "PASS"
-    issues.append("TTS: baby profile missing or broken in speech_tts.py.")
-    return "speech_tts.py baby profile", "FAIL"
+    ok = True
+    for aud in AUDIENCES:
+        if f'"{aud}"' not in text:
+            issues.append(f"TTS: missing `{aud}` in VOICE_PROFILES.")
+            ok = False
+            continue
+        # crude but fast: each audience block should reference Neural voice
+        block = re.search(rf'"{aud}"\s*:\s*\{{[^}}]+\}}', text, re.DOTALL)
+        if not block or "Neural" not in block.group(0):
+            issues.append(f"TTS: `{aud}` profile missing Azure Neural voice.")
+            ok = False
+    return "speech_tts.py neural profiles (7 bands)", "PASS" if ok else "FAIL"
 
 
 def sync_manifests_to_app() -> list[str]:
@@ -194,6 +206,8 @@ def write_report(
     symbol_rows: list[tuple[str, int, int, str]],
     index_check: tuple[str, str],
     tts_check: tuple[str, str],
+    art_qc: tuple[str, str],
+    voice_qc: tuple[str, str],
     synced: list[str],
     issues: list[str],
 ) -> None:
@@ -221,6 +235,8 @@ def write_report(
     lines.append(f"| Symbol PNG counts vs manifest | {'PASS' if all(r[3]=='PASS' for r in symbol_rows) else 'FAIL'} |")
     lines.append(f"| {index_check[0]} baby audience | {index_check[1]} |")
     lines.append(f"| {tts_check[0]} | {tts_check[1]} |")
+    lines.append(f"| Art quality (`qc_art_quality.py`) | {art_qc[1]} |")
+    lines.append(f"| Voice profiles (`qc_voice_profiles.py`) | {voice_qc[1]} |")
     lines.append(f"| Manifest sync to calyndra-app/content | {len(synced)} file(s) |")
 
     lines.extend(["", "## Vocabulary", "", "| Band | words.json | Status |", "|------|------------|--------|"])
@@ -292,7 +308,11 @@ def main() -> int:
     cartoon_rows = check_cartoon_catalog(issues)
     symbol_rows = check_symbol_counts(issues)
     index_check = check_baby_in_index(issues)
-    tts_check = check_speech_tts_baby(issues)
+    tts_check = check_speech_tts_all_neural(issues)
+    art_exit = next((c for n, c, _ in qc_results if n == "qc_art_quality.py"), 1)
+    voice_exit = next((c for n, c, _ in qc_results if n == "qc_voice_profiles.py"), 1)
+    art_qc = ("qc_art_quality.py", "PASS" if art_exit == 0 else "FAIL")
+    voice_qc = ("qc_voice_profiles.py", "PASS" if voice_exit == 0 else "FAIL")
 
     print("\n=== Syncing manifests to calyndra-app/content ===")
     synced = sync_manifests_to_app()
@@ -307,6 +327,8 @@ def main() -> int:
         symbol_rows,
         index_check,
         tts_check,
+        art_qc,
+        voice_qc,
         synced,
         issues,
     )

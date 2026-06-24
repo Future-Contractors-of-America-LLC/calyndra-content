@@ -5,6 +5,10 @@
 from __future__ import annotations
 
 BANDS = {
+    "seed": (
+        "Seed",
+        "baby 0-23mo: soft onesie, ONE tiny leaf bud on head, chubbiest infant proportions, lullaby warmth",
+    ),
     "sprout": (
         "Sprout",
         "toddler: mint romper over pale pink tee, ONE small leaf on head, chubby youngest proportions",
@@ -32,6 +36,7 @@ BANDS = {
 }
 
 BAND_FORBIDDEN = {
+    "seed": "NO dress, NO canopy leaves, NO teen hoodie, NO adult cardigan, NO toddler romper copy errors",
     "sprout": "NO dress, NO canopy leaves, NO teen hoodie, NO adult cardigan",
     "bud": "NO romper, NO dress, NO canopy, NO hoodie",
     "sprig": "NO romper, NO dress, NO canopy, NO adult cardigan",

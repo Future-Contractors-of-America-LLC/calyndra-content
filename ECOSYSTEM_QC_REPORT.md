@@ -1,6 +1,6 @@
 # Ecosystem QC report
 
-Generated: **2026-06-23 18:27 UTC**
+Generated: **2026-06-24 00:43 UTC**
 
 **Overall:** PASS (0 issue(s))
 
@@ -9,6 +9,8 @@ Generated: **2026-06-23 18:27 UTC**
 | Check | Result |
 |-------|--------|
 | `qc_band_assets.py` | PASS |
+| `qc_art_quality.py` | PASS |
+| `qc_voice_profiles.py` | PASS |
 | `qc_games_catalog.py` | PASS |
 | `qc_sing_along_catalog.py` | PASS |
 | `qc_cartoon_catalog.py` | PASS |
@@ -18,7 +20,9 @@ Generated: **2026-06-23 18:27 UTC**
 | Caly and Friends episodes | PASS |
 | Symbol PNG counts vs manifest | PASS |
 | app/index.html baby audience | PASS |
-| speech_tts.py baby profile | PASS |
+| speech_tts.py neural profiles (7 bands) | PASS |
+| Art quality (`qc_art_quality.py`) | PASS |
+| Voice profiles (`qc_voice_profiles.py`) | PASS |
 | Manifest sync to calyndra-app/content | 30 file(s) |
 
 ## Vocabulary
@@ -116,6 +120,20 @@ Generated: **2026-06-23 18:27 UTC**
 ```
 QC: 146 pass, 0 placeholder, 0 issues
 Wrote band-art-manifest.json and BAND_QC_REPORT.md
+```
+
+### qc_art_quality.py (exit 0)
+
+```
+Art QC: PASS - 0 issue(s), 1900 warning(s)
+Wrote ART_QC_REPORT.md
+```
+
+### qc_voice_profiles.py (exit 0)
+
+```
+Voice QC: PASS - 0 issue(s), 5 warning(s)
+Wrote VOICE_QC_REPORT.md
 ```
 
 ### qc_games_catalog.py (exit 0)
