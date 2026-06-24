@@ -42,6 +42,8 @@ function Ship-Episode($webmName) {
     git -c http.postBuffer=524288000 push origin main
     Write-Log "Pushed flutter video $webmName"
   }
+
+  Set-Location $content
 }
 
 Write-Log "=== pending render start ==="
@@ -59,6 +61,7 @@ $ids = @($pendingJson -split "`n" | Where-Object { $_ -match '\S' })
 Write-Log "Pending episodes: $($ids.Count)"
 
 foreach ($id in $ids) {
+  Set-Location $content
   Write-Log "Rendering $id ..."
   python scripts/generate_caly_friends_episodes.py --id $id 2>&1 | Tee-Object -FilePath $log -Append
   if ($LASTEXITCODE -ne 0) {
@@ -75,6 +78,7 @@ foreach ($id in $ids) {
   }
 }
 
+Set-Location $content
 python scripts/qc_cartoon_catalog.py 2>&1 | Tee-Object -FilePath $log -Append
 python scripts/qc_ecosystem.py 2>&1 | Tee-Object -FilePath $log -Append
 Write-Log "=== pending render done ==="
