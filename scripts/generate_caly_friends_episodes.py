@@ -153,30 +153,105 @@ def _font(size: int):
     return ImageFont.load_default()
 
 
+def _load_rgba(path: Path, target_h: int) -> Image.Image | None:
+    if not path.is_file():
+        return None
+    img = Image.open(path).convert("RGBA")
+    scale = target_h / img.size[1]
+    return img.resize((int(img.size[0] * scale), target_h), Image.Resampling.LANCZOS)
+
+
+def _paste_centered(base: Image.Image, sprite: Image.Image, cx: int, bottom: int) -> None:
+    x = cx - sprite.size[0] // 2
+    y = bottom - sprite.size[1]
+    base.paste(sprite, (x, y), sprite)
+
+
 def friend_frame_name(ep_id: str, tag: str) -> str:
     return f"friends_{ep_id}_{tag}.png"
 
 
-def ensure_friend_frame(ep_id: str, tag: str, title: str, friend: str) -> str:
+def ensure_friend_frame(
+    ep_id: str,
+    tag: str,
+    title: str,
+    friend: str,
+    *,
+    force: bool = False,
+) -> str:
     FRIENDS_FRAMES.mkdir(parents=True, exist_ok=True)
     fname = friend_frame_name(ep_id, tag)
     path = FRIENDS_FRAMES / fname
-    if path.exists():
+    if path.exists() and not force:
         return fname
+
+    band = EP_BAND.get(ep_id, "sprout")
+    style = TAG_STYLE.get(tag, TAG_STYLE["welcome"])
     w, h = 1280, 720
     img = Image.new("RGB", (w, h), PALETTE["cream"])
     d = ImageDraw.Draw(img)
-    d.rounded_rectangle((80, 60, w - 80, h - 140), radius=40, fill=PALETTE["mint"], outline=PALETTE["outline"], width=6)
-    d.ellipse((w // 2 - 120, 120, w // 2 + 120, 360), fill=PALETTE["skyBlue"], outline=PALETTE["outline"], width=5)
-    title_font = _font(44)
-    sub_font = _font(28)
-    d.text((w // 2 - d.textlength(title, font=title_font) / 2, 400), title, fill=PALETTE["outline"], font=title_font)
-    sub = f"Caly and Friends - {friend}"
-    d.text((w // 2 - d.textlength(sub, font=sub_font) / 2, 460), sub, fill=PALETTE["outline"], font=sub_font)
+
+    for y in range(h):
+        t = y / h
+        r = int(255 * (1 - t) + 184 * t)
+        g = int(248 * (1 - t) + 240 * t)
+        b = int(232 * (1 - t) + 216 * t)
+        d.line([(0, y), (w, y)], fill=(r, g, b))
+
+    d.rounded_rectangle((60, 50, w - 60, h - 110), radius=36, fill=style["fill"], outline=PALETTE["outline"], width=5)
+    d.rounded_rectangle((90, 80, w - 90, h - 200), radius=28, fill="#ffffff", outline=PALETTE["outline"], width=3)
+
+    caly = _load_rgba(BANDS_DIR / f"{band}.png", 320)
+    if caly:
+        _paste_centered(img, caly, 340, h - 220)
+    else:
+        d.ellipse((220, 120, 460, 360), fill=PALETTE["skyBlue"], outline=PALETTE["outline"], width=5)
+
+    friend_file = FRIEND_PORTRAIT.get(friend)
+    if tag == "mentor":
+        friend_sprite = _load_rgba(FRIENDS_DIR / "elder-oak-caregiver.png", 300)
+    elif friend_file:
+        friend_sprite = _load_rgba(FRIENDS_DIR / friend_file, 300)
+    else:
+        friend_sprite = None
+    if friend_sprite:
+        _paste_centered(img, friend_sprite, 940, h - 220)
+    else:
+        d.ellipse((820, 140, 1060, 380), fill=PALETTE["mint"], outline=PALETTE["outline"], width=5)
+
     tag_text = tag.replace("_", " ").title()
-    d.text((w // 2 - d.textlength(tag_text, font=sub_font) / 2, 520), tag_text, fill=PALETTE["coral"], font=sub_font)
+    pill_w = max(180, d.textlength(tag_text, font=_font(26)) + 70)
+    pill_x = w - pill_w - 100
+    d.rounded_rectangle((pill_x, 70, pill_x + pill_w, 120), radius=20, fill=style["accent"], outline=PALETTE["outline"], width=3)
+    glyph_font = _font(22)
+    title_font = _font(44)
+    sub_font = _font(26)
+    d.text((pill_x + 16, 82), style["glyph"], fill="#ffffff", font=glyph_font)
+    d.text((pill_x + 48, 84), tag_text, fill="#ffffff", font=sub_font)
+
+    d.text((w // 2 - d.textlength(title, font=title_font) / 2, h - 175), title, fill=PALETTE["outline"], font=title_font)
+    sub = f"Caly and Friends · {friend}"
+    d.text((w // 2 - d.textlength(sub, font=sub_font) / 2, h - 125), sub, fill=PALETTE["outline"], font=sub_font)
+    d.line([(120, h - 95), (w - 120, h - 95)], fill=style["accent"], width=3)
+
     img.save(path)
     return fname
+
+
+def pregenerate_all_frames(*, force: bool = False) -> int:
+    catalog = load_catalog()
+    made = 0
+    for ep in catalog["episodes"]:
+        ep_id = ep["id"]
+        beats = STORY_BEATS.get(ep_id, [])
+        seen: set[str] = set()
+        for _caption, tag in beats:
+            if tag in seen:
+                continue
+            seen.add(tag)
+            ensure_friend_frame(ep_id, tag, ep["title"], ep["friend"], force=force)
+            made += 1
+    return made
 
 
 def expand_scenes(ep_meta: dict, pilot: bool = False) -> list[tuple[str, str, str]]:
@@ -265,11 +340,19 @@ def main() -> None:
     parser.add_argument("--all", action="store_true", help="Render all episodes (long-running)")
     parser.add_argument("--placeholder", action="store_true", help="Write stub webm for script-only episodes")
     parser.add_argument("--id", help="Render a single episode id")
+    parser.add_argument("--pregenerate-frames", action="store_true", help="Build polished frames for all STORY_BEATS tags")
+    parser.add_argument("--force-frames", action="store_true", help="Regenerate frames even if PNG exists")
     args = parser.parse_args()
 
     catalog = load_catalog()
     WEB_VIDEOS.mkdir(parents=True, exist_ok=True)
     FRAMES.mkdir(parents=True, exist_ok=True)
+
+    if args.pregenerate_frames:
+        n = pregenerate_all_frames(force=args.force_frames)
+        print(f"Pregenerated {n} friend frame(s) -> {FRIENDS_FRAMES}")
+        if not args.pilot and not args.all and not args.id and not args.placeholder:
+            return
 
     def write_script_placeholders() -> None:
         for ep_meta in catalog["episodes"]:

@@ -203,12 +203,12 @@
     { "id": "band-vine", "path": "assets/caly-bands/vine.png", "type": "band-portrait", "band": "teen", "status": "live", "generatedUtc": "2026-06-22T16:00:00Z" },
     { "id": "band-bloom", "path": "assets/caly-bands/bloom.png", "type": "band-portrait", "band": "adult", "status": "live", "generatedUtc": "2026-06-22T16:00:00Z" },
     { "id": "band-canopy", "path": "assets/caly-bands/canopy.png", "type": "band-portrait", "band": "caregiver", "status": "live", "generatedUtc": "2026-06-22T16:00:00Z" },
-    { "id": "friend-pip-baby", "path": "assets/caly-friends/pip-baby.png", "type": "friend-portrait", "band": "baby", "status": "placeholder", "generatedUtc": "2026-06-23T12:00:00Z" },
-    { "id": "friend-fern-toddler", "path": "assets/caly-friends/fern-toddler.png", "type": "friend-portrait", "band": "toddler", "status": "placeholder", "generatedUtc": "2026-06-23T12:00:00Z" },
-    { "id": "friend-moss-child", "path": "assets/caly-friends/moss-child.png", "type": "friend-portrait", "band": "child", "status": "placeholder", "generatedUtc": "2026-06-23T12:00:00Z" },
-    { "id": "friend-reed-tween", "path": "assets/caly-friends/reed-tween.png", "type": "friend-portrait", "band": "tween", "status": "placeholder", "generatedUtc": "2026-06-23T12:00:00Z" },
-    { "id": "friend-sage-teen", "path": "assets/caly-friends/sage-teen.png", "type": "friend-portrait", "band": "teen", "status": "placeholder", "generatedUtc": "2026-06-23T12:00:00Z" },
-    { "id": "friend-laurel-adult", "path": "assets/caly-friends/laurel-adult.png", "type": "friend-portrait", "band": "adult", "status": "placeholder", "generatedUtc": "2026-06-23T12:00:00Z" },
-    { "id": "friend-elder-oak", "path": "assets/caly-friends/elder-oak-caregiver.png", "type": "friend-portrait", "band": "caregiver", "status": "placeholder", "generatedUtc": "2026-06-23T12:00:00Z" }
+    { "id": "friend-pip-baby", "path": "assets/caly-friends/pip-baby.png", "type": "friend-portrait", "band": "baby", "status": "generated", "generatedUtc": "2026-06-24T18:00:00Z" },
+    { "id": "friend-fern-toddler", "path": "assets/caly-friends/fern-toddler.png", "type": "friend-portrait", "band": "toddler", "status": "generated", "generatedUtc": "2026-06-24T18:00:00Z" },
+    { "id": "friend-moss-child", "path": "assets/caly-friends/moss-child.png", "type": "friend-portrait", "band": "child", "status": "generated", "generatedUtc": "2026-06-24T18:00:00Z" },
+    { "id": "friend-reed-tween", "path": "assets/caly-friends/reed-tween.png", "type": "friend-portrait", "band": "tween", "status": "generated", "generatedUtc": "2026-06-24T18:00:00Z" },
+    { "id": "friend-sage-teen", "path": "assets/caly-friends/sage-teen.png", "type": "friend-portrait", "band": "teen", "status": "generated", "generatedUtc": "2026-06-24T18:00:00Z" },
+    { "id": "friend-laurel-adult", "path": "assets/caly-friends/laurel-adult.png", "type": "friend-portrait", "band": "adult", "status": "generated", "generatedUtc": "2026-06-24T18:00:00Z" },
+    { "id": "friend-elder-oak", "path": "assets/caly-friends/elder-oak-caregiver.png", "type": "friend-portrait", "band": "caregiver", "status": "generated", "generatedUtc": "2026-06-24T18:00:00Z" }
   ]
 }
