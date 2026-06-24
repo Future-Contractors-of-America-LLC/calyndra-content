@@ -1,7 +1,7 @@
 {
   "version": 1,
   "series": "Caly and Friends",
-  "lockedUtc": "2026-06-24T19:11:12Z",
+  "lockedUtc": "2026-06-24T12:00:00Z",
   "durationTargetsSec": {
     "baby": 300,
     "toddler": 600,
@@ -220,7 +220,7 @@
       "webm": "fern_weeding_teamwork_long.webm",
       "lesson": "Working together makes hard jobs feel lighter.",
       "pilot": false,
-      "status": "script-only"
+      "status": "complete"
     },
     {
       "id": "fern_seed_gift_long",
