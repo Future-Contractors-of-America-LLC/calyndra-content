@@ -189,21 +189,27 @@ def animate_frame(base: Image.Image, caption: str, t: float, motion: str) -> Ima
     return canvas
 
 
-def fetch_tts(text: str, audience: str, dest: Path) -> bool:
+def fetch_tts(text: str, audience: str, dest: Path, retries: int = 4) -> bool:
     body = json.dumps({"text": text, "audience": audience}).encode("utf-8")
-    req = urllib.request.Request(
-        SPEAK_API,
-        data=body,
-        headers={"Content-Type": "application/json"},
-        method="POST",
-    )
-    try:
-        with urllib.request.urlopen(req, timeout=60) as resp:
-            dest.write_bytes(resp.read())
-        return dest.stat().st_size > 1000
-    except Exception as exc:
-        print(f"    TTS fail: {exc}")
-        return False
+    for attempt in range(retries):
+        req = urllib.request.Request(
+            SPEAK_API,
+            data=body,
+            headers={"Content-Type": "application/json"},
+            method="POST",
+        )
+        try:
+            with urllib.request.urlopen(req, timeout=90) as resp:
+                dest.write_bytes(resp.read())
+            if dest.stat().st_size > 1000:
+                return True
+        except Exception as exc:
+            wait = min(2 ** attempt, 16)
+            print(f"    TTS fail (attempt {attempt + 1}/{retries}): {exc}")
+            if attempt + 1 < retries:
+                import time
+                time.sleep(wait)
+    return False
 
 
 def audio_duration_sec(path: Path) -> float:

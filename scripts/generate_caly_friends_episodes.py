@@ -20,6 +20,7 @@ CATALOG = ROOT / "videos" / "caly_friends_catalog.json"
 FRAMES = ROOT / "videos" / "frames"
 FRIENDS_FRAMES = FRAMES / "caly-friends"
 WEB_VIDEOS = APP / "videos"
+FLUTTER_VIDEOS = ROOT.parent / "calyndra-mobile-flutter" / "assets" / "videos"
 BANDS_DIR = APP / "assets" / "caly-bands"
 FRIENDS_DIR = APP / "assets" / "caly-friends"
 
@@ -387,6 +388,8 @@ def main() -> None:
             dest = WEB_VIDEOS / ep_meta["webm"]
             if result and result.exists():
                 shutil.copy(result, dest)
+                FLUTTER_VIDEOS.mkdir(parents=True, exist_ok=True)
+                shutil.copy(result, FLUTTER_VIDEOS / ep_meta["webm"])
                 print(f"  OK {dest.name}")
             else:
                 print(f"  TTS/render failed - writing placeholder for {ep_id}")
