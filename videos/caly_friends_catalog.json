@@ -1,7 +1,7 @@
 {
   "version": 1,
   "series": "Caly and Friends",
-  "lockedUtc": "2026-06-24T12:00:00Z",
+  "lockedUtc": "2026-06-24T19:11:12Z",
   "durationTargetsSec": {
     "baby": 300,
     "toddler": 600,
@@ -108,7 +108,7 @@
       "webm": "pip_soft_breeze_long.webm",
       "lesson": "God's gentle touch is everywhere you feel safe.",
       "pilot": false,
-      "status": "script-only"
+      "status": "complete"
     },
     {
       "id": "pip_moonlight_snuggle_long",
@@ -122,7 +122,7 @@
       "webm": "pip_moonlight_snuggle_long.webm",
       "lesson": "You are held in love even when the day grows quiet.",
       "pilot": false,
-      "status": "script-only"
+      "status": "complete"
     },
     {
       "id": "pip_twinkle_toes_long",
@@ -136,7 +136,7 @@
       "webm": "pip_twinkle_toes_long.webm",
       "lesson": "Your body is a gift to move with joy.",
       "pilot": false,
-      "status": "script-only"
+      "status": "complete"
     },
     {
       "id": "pip_rainbow_wave_long",
@@ -150,7 +150,7 @@
       "webm": "pip_rainbow_wave_long.webm",
       "lesson": "After rain comes color and hope.",
       "pilot": false,
-      "status": "script-only"
+      "status": "complete"
     },
     {
       "id": "pip_heartbeat_lullaby_long",
@@ -164,7 +164,7 @@
       "webm": "pip_heartbeat_lullaby_long.webm",
       "lesson": "You are loved with a steady, never-ending heart.",
       "pilot": false,
-      "status": "script-only"
+      "status": "complete"
     },
     {
       "id": "fern_flower_surprise_long",
@@ -178,7 +178,7 @@
       "webm": "fern_flower_surprise_long.webm",
       "lesson": "Small surprises can brighten someone's whole day.",
       "pilot": false,
-      "status": "script-only"
+      "status": "complete"
     },
     {
       "id": "fern_patience_pots_long",
@@ -192,7 +192,7 @@
       "webm": "fern_patience_pots_long.webm",
       "lesson": "Good things grow when we wait with hope.",
       "pilot": false,
-      "status": "script-only"
+      "status": "complete"
     },
     {
       "id": "fern_butterfly_visit_long",
@@ -206,7 +206,7 @@
       "webm": "fern_butterfly_visit_long.webm",
       "lesson": "Be gentle with delicate things and people.",
       "pilot": false,
-      "status": "script-only"
+      "status": "complete"
     },
     {
       "id": "fern_weeding_teamwork_long",
