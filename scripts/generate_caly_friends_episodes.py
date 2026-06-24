@@ -15,10 +15,13 @@ from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 
 ROOT = Path(__file__).resolve().parents[1]
+APP = ROOT.parent / "calyndra-app"
 CATALOG = ROOT / "videos" / "caly_friends_catalog.json"
 FRAMES = ROOT / "videos" / "frames"
 FRIENDS_FRAMES = FRAMES / "caly-friends"
-WEB_VIDEOS = ROOT.parent / "calyndra-app" / "videos"
+WEB_VIDEOS = APP / "videos"
+BANDS_DIR = APP / "assets" / "caly-bands"
+FRIENDS_DIR = APP / "assets" / "caly-friends"
 
 _v4_path = ROOT / "scripts" / "generate_videos_v4_long.py"
 _spec = importlib.util.spec_from_file_location("v4", _v4_path)
@@ -104,6 +107,40 @@ MOTION_BY_TAG = {
     "repair": "zoom",
     "celebrate": "celebrate",
     "farewell": "bounce",
+}
+
+EP_BAND: dict[str, str] = {
+    "pip_gentle_hello_long": "seed",
+    "fern_garden_share_long": "sprout",
+    "moss_kindness_trail_long": "bud",
+    "reed_wisdom_perch_long": "sprig",
+    "sage_crossroads_long": "vine",
+    "laurel_morning_song_long": "bloom",
+}
+
+FRIEND_PORTRAIT: dict[str, str] = {
+    "Pip": "pip-baby.png",
+    "Fern": "fern-toddler.png",
+    "Moss": "moss-child.png",
+    "Reed": "reed-tween.png",
+    "Sage": "sage-teen.png",
+    "Laurel": "laurel-adult.png",
+}
+
+TAG_STYLE: dict[str, dict[str, str]] = {
+    "welcome": {"fill": "#d8f3dc", "accent": "#52b788", "glyph": "☀"},
+    "friend": {"fill": "#ffe0ec", "accent": "#ff8fab", "glyph": "♥"},
+    "mentor": {"fill": "#e9edc9", "accent": "#588157", "glyph": "🌿"},
+    "caregiver": {"fill": "#e0f2fe", "accent": "#7ec8ff", "glyph": "🤝"},
+    "play": {"fill": "#fff3bf", "accent": "#ffd43b", "glyph": "★"},
+    "lesson": {"fill": "#e7f5ff", "accent": "#4dabf7", "glyph": "✦"},
+    "rest": {"fill": "#ede7f6", "accent": "#b197fc", "glyph": "☾"},
+    "share": {"fill": "#fff0f6", "accent": "#f783ac", "glyph": "⇄"},
+    "interactive": {"fill": "#e6fcf5", "accent": "#38d9a9", "glyph": "◎"},
+    "include": {"fill": "#fff4e6", "accent": "#ffa94d", "glyph": "＋"},
+    "repair": {"fill": "#f3f0ff", "accent": "#9775fa", "glyph": "↺"},
+    "celebrate": {"fill": "#fff9db", "accent": "#fab005", "glyph": "✧"},
+    "farewell": {"fill": "#f8f0fc", "accent": "#da77f2", "glyph": "♡"},
 }
 
 
@@ -257,12 +294,6 @@ def main() -> None:
         if args.id and ep_id != args.id:
             continue
         if args.pilot and not ep_meta.get("pilot"):
-            continue
-        if args.all and ep_meta.get("status") == "script-only" and not args.id:
-            dest = WEB_VIDEOS / ep_meta["webm"]
-            if not dest.exists():
-                write_placeholder_webm(dest, ep_meta["title"], seconds=5.0)
-                print(f"Placeholder {dest.name}")
             continue
 
         pilot = bool(args.pilot and ep_meta.get("pilot"))
