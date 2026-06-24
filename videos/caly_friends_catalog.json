@@ -1,7 +1,7 @@
 {
   "version": 1,
   "series": "Caly and Friends",
-  "lockedUtc": "2026-06-24T23:01:57Z",
+  "lockedUtc": "2026-06-24T23:14:43Z",
   "durationTargetsSec": {
     "baby": 300,
     "toddler": 600,
@@ -248,7 +248,7 @@
       "webm": "moss_bridge_builders_long.webm",
       "lesson": "Building bridges connects hearts across differences.",
       "pilot": false,
-      "status": "script-only"
+      "status": "complete"
     },
     {
       "id": "moss_lost_and_found_long",
