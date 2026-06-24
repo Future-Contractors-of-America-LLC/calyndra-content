@@ -674,6 +674,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Generate Caly and Friends cartoon episodes")
     parser.add_argument("--pilot", action="store_true", help="Render 12-scene pilots for baby/toddler/child")
     parser.add_argument("--all", action="store_true", help="Render all episodes (long-running)")
+    parser.add_argument("--pending", action="store_true", help="Render script-only episodes only")
     parser.add_argument("--placeholder", action="store_true", help="Write stub webm for script-only episodes")
     parser.add_argument("--id", help="Render a single episode id")
     parser.add_argument("--pregenerate-frames", action="store_true", help="Build polished frames for all STORY_BEATS tags")
@@ -700,17 +701,22 @@ def main() -> None:
             ok = write_placeholder_webm(dest, ep_meta["title"], seconds=5.0)
             print(f"Placeholder {'OK' if ok else 'FAIL'} {dest.name}")
 
-    if args.placeholder and not args.pilot and not args.all and not args.id:
+    if args.placeholder and not args.pilot and not args.all and not args.id and not args.pending:
         write_script_placeholders()
         return
 
-    if not args.pilot and not args.all and not args.id:
+    if not args.pilot and not args.all and not args.id and not args.pending:
         parser.print_help()
         return
+
+    def save_catalog() -> None:
+        CATALOG.write_text(json.dumps(catalog, indent=2) + "\n", encoding="utf-8")
 
     for ep_meta in catalog["episodes"]:
         ep_id = ep_meta["id"]
         if args.id and ep_id != args.id:
+            continue
+        if args.pending and ep_meta.get("status") != "script-only":
             continue
         if args.pilot and not ep_meta.get("pilot"):
             continue
@@ -725,6 +731,10 @@ def main() -> None:
                 shutil.copy(result, dest)
                 FLUTTER_VIDEOS.mkdir(parents=True, exist_ok=True)
                 shutil.copy(result, FLUTTER_VIDEOS / ep_meta["webm"])
+                if ep_meta.get("status") == "script-only":
+                    ep_meta["status"] = "complete"
+                    ep_meta["pilot"] = False
+                    save_catalog()
                 print(f"  OK {dest.name}")
             else:
                 print(f"  TTS/render failed - writing placeholder for {ep_id}")
