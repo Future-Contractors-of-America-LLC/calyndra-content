@@ -16,6 +16,7 @@ import json
 import os
 import re
 import sys
+import time
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -151,6 +152,10 @@ def main() -> int:
                 total_ok += 1
                 continue
             audio, err, _ = synthesize_speech(spoken, audience)
+            if err and "429" in str(err):
+                time.sleep(2.0)
+                audio, err, _ = synthesize_speech(spoken, audience)
+            time.sleep(0.12)
             if err or not audio:
                 print(f"  FAIL {file_key}: {err}")
                 total_fail += 1

@@ -1,11 +1,11 @@
 # Voice profile QC report
 
-Generated: **2026-06-24 09:16 UTC**
+Generated: **2026-06-24 11:55 UTC**
 
 **Overall:** PASS (0 issue(s), 0 warning(s))
 
 - App VOICE_PROFILE_VERSION: **2**
-- Manifest clips: **2788**
+- Manifest clips: **2966**
 - Manifest generated: **True**
 
 ## Azure Neural profiles (speech_tts.py)
