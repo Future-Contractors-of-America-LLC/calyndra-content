@@ -16,13 +16,6 @@ from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFont
 
-try:
-    import imageio_ffmpeg
-
-    FFMPEG = imageio_ffmpeg.get_ffmpeg_exe()
-except Exception:
-    FFMPEG = "ffmpeg"
-
 ROOT = Path(__file__).resolve().parents[1]
 ASSETS = Path.home() / ".cursor" / "projects" / "c-Users-Auricrux-OneDrive-Future-Contractors-of-America-LLC" / "assets"
 FRAMES = ROOT / "videos" / "frames"
@@ -30,7 +23,21 @@ OUT = ROOT / "videos"
 WEB = ROOT.parent / "calyndra-app"
 FLUTTER = ROOT.parent / "calyndra-mobile-flutter"
 SPEAK_API = "https://calyndra-central.azurewebsites.net/api/caly/speak"
-FPS = 12
+
+from caly_video_quality import (  # noqa: E402
+    AUDIO_BITRATE,
+    FFMPEG,
+    PROFILE_NAME,
+    VIDEO_FPS,
+    VIDEO_HEIGHT,
+    VIDEO_WIDTH,
+    fit_frame,
+    mux_av as _mux_av,
+    scale,
+    write_segment,
+)
+
+FPS = VIDEO_FPS
 
 # Toddler episode ~2.5 min when narrated slowly
 MEET_CALY_SPROUT_LONG = {
@@ -142,27 +149,27 @@ def load_frame(name: str) -> Image.Image:
     for base in (FRAMES, ASSETS):
         p = base / name
         if p.exists():
-            return Image.open(p).convert("RGB").resize((1280, 720), Image.Resampling.LANCZOS)
+            return fit_frame(Image.open(p).convert("RGB"))
     raise FileNotFoundError(name)
 
 
 def animate_frame(base: Image.Image, caption: str, t: float, motion: str) -> Image.Image:
-    w, h = 1280, 720
+    w, h = VIDEO_WIDTH, VIDEO_HEIGHT
     if motion == "bounce":
         zoom = 1.0 + 0.03 * math.sin(t * math.pi * 2)
-        dy = int(8 * math.sin(t * math.pi * 2))
+        dy = int(scale(8) * math.sin(t * math.pi * 2))
     elif motion == "zoom":
         zoom = 1.0 + 0.06 * t
         dy = 0
     elif motion == "pan":
         zoom = 1.08
-        dy = int(12 * math.sin(t * math.pi))
+        dy = int(scale(12) * math.sin(t * math.pi))
     elif motion == "pulse":
         zoom = 1.0 + 0.05 * math.sin(t * math.pi * 4)
         dy = 0
     elif motion == "celebrate":
         zoom = 1.0 + 0.04 * math.sin(t * math.pi * 3)
-        dy = int(6 * math.sin(t * math.pi * 6))
+        dy = int(scale(6) * math.sin(t * math.pi * 6))
     else:
         zoom, dy = 1.02, 0
 
@@ -175,15 +182,24 @@ def animate_frame(base: Image.Image, caption: str, t: float, motion: str) -> Ima
     d = ImageDraw.Draw(canvas)
     if motion == "celebrate":
         for i in range(8):
-            cx = int(200 + (w - 400) * ((i * 0.13 + t) % 1))
-            cy = int(80 + 40 * math.sin(t * 10 + i))
+            cx = int(scale(200) + (w - scale(400)) * ((i * 0.13 + t) % 1))
+            cy = int(scale(80) + scale(40) * math.sin(t * 10 + i))
             colors = ["#ff6b6b", "#ffd93d", "#6bcb77", "#74b9ff"]
-            d.ellipse((cx - 6, cy - 6, cx + 6, cy + 6), fill=colors[i % 4])
+            r = scale(6)
+            d.ellipse((cx - r, cy - r, cx + r, cy + r), fill=colors[i % 4])
 
-    bar_h = 88
-    d.rounded_rectangle((40, h - bar_h - 24, w - 40, h - 24), radius=22, fill=(255, 255, 255))
-    d.rounded_rectangle((40, h - bar_h - 24, w - 40, h - 24), radius=22, outline=(255, 200, 100), width=4)
-    font = _font(32)
+    bar_h = scale(88)
+    pad = scale(40)
+    gap = scale(24)
+    radius = scale(22)
+    d.rounded_rectangle((pad, h - bar_h - gap, w - pad, h - gap), radius=radius, fill=(255, 255, 255))
+    d.rounded_rectangle(
+        (pad, h - bar_h - gap, w - pad, h - gap),
+        radius=radius,
+        outline=(255, 200, 100),
+        width=max(scale(4), 2),
+    )
+    font = _font(scale(32))
     tw = d.textlength(caption, font=font)
     d.text(((w - tw) / 2, h - bar_h - 4), caption, fill=(45, 55, 65), font=font)
     return canvas
@@ -237,25 +253,11 @@ def run_ffmpeg(args: list[str]) -> subprocess.CompletedProcess:
     return subprocess.run([FFMPEG, *args], capture_output=True, text=True, check=True)
 
 
-def write_segment(frames: list[Image.Image], path: Path) -> None:
-    import imageio.v3 as iio
-    import numpy as np
-
-    iio.imwrite(path, [np.array(f) for f in frames], fps=FPS, codec="libvpx-vp9", quality=8)
-
-
 def mux_av(video: Path, audio: Path, out: Path) -> bool:
-    try:
-        run_ffmpeg([
-            "-y", "-i", str(video), "-i", str(audio),
-            "-c:v", "copy", "-c:a", "libopus", "-b:a", "96k",
-            "-shortest", str(out),
-        ])
+    if _mux_av(video, audio, out):
         return True
-    except Exception as exc:
-        print(f"    mux fail: {exc}")
-        shutil.copy(video, out)
-        return False
+    shutil.copy(video, out)
+    return False
 
 
 def build_episode(ep: dict, work: Path) -> Path | None:
@@ -297,6 +299,7 @@ def build_episode(ep: dict, work: Path) -> Path | None:
 
 
 def main() -> None:
+    print(f"Video profile: {PROFILE_NAME} ({VIDEO_WIDTH}x{VIDEO_HEIGHT} @ {VIDEO_FPS}fps, CRF via caly_video_quality)")
     FRAMES.mkdir(parents=True, exist_ok=True)
     OUT.mkdir(parents=True, exist_ok=True)
     for ep in EPISODES:

@@ -14,6 +14,8 @@ from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFont
 
+from caly_video_quality import fit_frame, scale, encode_still_webm, VIDEO_HEIGHT, VIDEO_WIDTH, PROFILE_NAME, VIDEO_FPS
+
 ROOT = Path(__file__).resolve().parents[1]
 APP = ROOT.parent / "calyndra-app"
 CATALOG = ROOT / "videos" / "caly_friends_catalog.json"
@@ -519,11 +521,16 @@ def ensure_friend_frame(
     fname = friend_frame_name(ep_id, tag)
     path = FRIENDS_FRAMES / fname
     if path.exists() and not force:
-        return fname
+        try:
+            with Image.open(path) as existing:
+                if existing.size == (VIDEO_WIDTH, VIDEO_HEIGHT):
+                    return fname
+        except OSError:
+            pass
 
     band = EP_BAND.get(ep_id, "sprout")
     style = TAG_STYLE.get(tag, TAG_STYLE["welcome"])
-    w, h = 1280, 720
+    w, h = VIDEO_WIDTH, VIDEO_HEIGHT
     img = Image.new("RGB", (w, h), PALETTE["cream"])
     d = ImageDraw.Draw(img)
 
@@ -534,41 +541,69 @@ def ensure_friend_frame(
         b = int(232 * (1 - t) + 216 * t)
         d.line([(0, y), (w, y)], fill=(r, g, b))
 
-    d.rounded_rectangle((60, 50, w - 60, h - 110), radius=36, fill=style["fill"], outline=PALETTE["outline"], width=5)
-    d.rounded_rectangle((90, 80, w - 90, h - 200), radius=28, fill="#ffffff", outline=PALETTE["outline"], width=3)
+    d.rounded_rectangle(
+        (scale(60), scale(50), w - scale(60), h - scale(110)),
+        radius=scale(36),
+        fill=style["fill"],
+        outline=PALETTE["outline"],
+        width=max(scale(5), 2),
+    )
+    d.rounded_rectangle(
+        (scale(90), scale(80), w - scale(90), h - scale(200)),
+        radius=scale(28),
+        fill="#ffffff",
+        outline=PALETTE["outline"],
+        width=max(scale(3), 2),
+    )
 
-    caly = _load_rgba(BANDS_DIR / f"{band}.png", 320)
+    caly = _load_rgba(BANDS_DIR / f"{band}.png", scale(320))
     if caly:
-        _paste_centered(img, caly, 340, h - 220)
+        _paste_centered(img, caly, scale(340), h - scale(220))
     else:
-        d.ellipse((220, 120, 460, 360), fill=PALETTE["skyBlue"], outline=PALETTE["outline"], width=5)
+        d.ellipse(
+            (scale(220), scale(120), scale(460), scale(360)),
+            fill=PALETTE["skyBlue"],
+            outline=PALETTE["outline"],
+            width=max(scale(5), 2),
+        )
 
     friend_file = FRIEND_PORTRAIT.get(friend)
     if tag == "mentor":
-        friend_sprite = _load_rgba(FRIENDS_DIR / "elder-oak-caregiver.png", 300)
+        friend_sprite = _load_rgba(FRIENDS_DIR / "elder-oak-caregiver.png", scale(300))
     elif friend_file:
-        friend_sprite = _load_rgba(FRIENDS_DIR / friend_file, 300)
+        friend_sprite = _load_rgba(FRIENDS_DIR / friend_file, scale(300))
     else:
         friend_sprite = None
     if friend_sprite:
-        _paste_centered(img, friend_sprite, 940, h - 220)
+        _paste_centered(img, friend_sprite, scale(940), h - scale(220))
     else:
-        d.ellipse((820, 140, 1060, 380), fill=PALETTE["mint"], outline=PALETTE["outline"], width=5)
+        d.ellipse(
+            (scale(820), scale(140), scale(1060), scale(380)),
+            fill=PALETTE["mint"],
+            outline=PALETTE["outline"],
+            width=max(scale(5), 2),
+        )
 
     tag_text = tag.replace("_", " ").title()
-    pill_w = max(180, d.textlength(tag_text, font=_font(26)) + 70)
-    pill_x = w - pill_w - 100
-    d.rounded_rectangle((pill_x, 70, pill_x + pill_w, 120), radius=20, fill=style["accent"], outline=PALETTE["outline"], width=3)
-    glyph_font = _font(22)
-    title_font = _font(44)
-    sub_font = _font(26)
-    d.text((pill_x + 16, 82), style["glyph"], fill="#ffffff", font=glyph_font)
-    d.text((pill_x + 48, 84), tag_text, fill="#ffffff", font=sub_font)
+    pill_w = max(scale(180), int(d.textlength(tag_text, font=_font(scale(26))) + scale(70)))
+    pill_x = w - pill_w - scale(100)
+    d.rounded_rectangle(
+        (pill_x, scale(70), pill_x + pill_w, scale(120)),
+        radius=scale(20),
+        fill=style["accent"],
+        outline=PALETTE["outline"],
+        width=max(scale(3), 2),
+    )
+    glyph_font = _font(scale(22))
+    title_font = _font(scale(44))
+    sub_font = _font(scale(26))
+    d.text((pill_x + scale(16), scale(82)), style["glyph"], fill="#ffffff", font=glyph_font)
+    d.text((pill_x + scale(48), scale(84)), tag_text, fill="#ffffff", font=sub_font)
 
-    d.text((w // 2 - d.textlength(title, font=title_font) / 2, h - 175), title, fill=PALETTE["outline"], font=title_font)
+    d.text((w // 2 - d.textlength(title, font=title_font) / 2, h - scale(175)), title, fill=PALETTE["outline"], font=title_font)
     sub = f"Caly and Friends · {friend}"
-    d.text((w // 2 - d.textlength(sub, font=sub_font) / 2, h - 125), sub, fill=PALETTE["outline"], font=sub_font)
-    d.line([(120, h - 95), (w - 120, h - 95)], fill=style["accent"], width=3)
+    d.text((w // 2 - d.textlength(sub, font=sub_font) / 2, h - scale(125)), sub, fill=PALETTE["outline"], font=sub_font)
+    d.line([(scale(120), h - scale(95)), (w - scale(120), h - scale(95))], fill=style["accent"], width=max(scale(3), 2))
 
     img.save(path)
     return fname
@@ -617,42 +652,22 @@ def load_frame_patched(name: str) -> Image.Image:
     for base in (FRAMES, FRIENDS_FRAMES):
         p = base / name.replace("caly-friends/", "")
         if p.exists():
-            return Image.open(p).convert("RGB").resize((1280, 720), Image.Resampling.LANCZOS)
+            return fit_frame(Image.open(p).convert("RGB"))
     raise FileNotFoundError(name)
 
 
 def write_placeholder_webm(dest: Path, title: str, seconds: float = 3.0) -> bool:
-    try:
-        ffmpeg = v4.FFMPEG
-    except Exception:
-        return False
-    work = dest.parent
-    png = work / f"_placeholder_{dest.stem}.png"
-    w, h = 1280, 720
+    w, h = VIDEO_WIDTH, VIDEO_HEIGHT
     img = Image.new("RGB", (w, h), PALETTE["cream"])
     d = ImageDraw.Draw(img)
-    font = _font(36)
+    font = _font(scale(36))
     msg = f"{title}\n(render pending)"
     lines = msg.split("\n")
-    y = h // 2 - 40
+    y = h // 2 - scale(40)
     for line in lines:
         d.text((w // 2 - d.textlength(line, font=font) / 2, y), line, fill=PALETTE["outline"], font=font)
-        y += 44
-    img.save(png)
-    try:
-        subprocess.run(
-            [
-                ffmpeg, "-y", "-loop", "1", "-i", str(png),
-                "-c:v", "libvpx-vp9", "-t", str(seconds), "-pix_fmt", "yuv420p",
-                str(dest),
-            ],
-            check=True,
-            capture_output=True,
-        )
-        png.unlink(missing_ok=True)
-        return dest.exists()
-    except Exception:
-        return False
+        y += scale(44)
+    return encode_still_webm(dest, img, seconds)
 
 
 def build_episode_local(ep_meta: dict, scenes: list[tuple[str, str, str]], work: Path) -> Path | None:
@@ -679,7 +694,15 @@ def main() -> None:
     parser.add_argument("--id", help="Render a single episode id")
     parser.add_argument("--pregenerate-frames", action="store_true", help="Build polished frames for all STORY_BEATS tags")
     parser.add_argument("--force-frames", action="store_true", help="Regenerate frames even if PNG exists")
+    parser.add_argument("--force", action="store_true", help="Re-render even if episode is already complete")
+    parser.add_argument(
+        "--upgrade-hd",
+        action="store_true",
+        help="Re-render complete episodes that are not yet at the current video profile",
+    )
     args = parser.parse_args()
+
+    print(f"Video profile: {PROFILE_NAME} ({VIDEO_WIDTH}x{VIDEO_HEIGHT} @ {VIDEO_FPS}fps)")
 
     catalog = load_catalog()
     WEB_VIDEOS.mkdir(parents=True, exist_ok=True)
@@ -705,7 +728,7 @@ def main() -> None:
         write_script_placeholders()
         return
 
-    if not args.pilot and not args.all and not args.id and not args.pending:
+    if not args.pilot and not args.all and not args.id and not args.pending and not args.upgrade_hd:
         parser.print_help()
         return
 
@@ -718,7 +741,20 @@ def main() -> None:
             continue
         if args.pending and ep_meta.get("status") != "script-only":
             continue
+        if args.upgrade_hd:
+            if ep_meta.get("status") != "complete":
+                continue
+            if ep_meta.get("videoProfile") == PROFILE_NAME:
+                continue
         if args.pilot and not ep_meta.get("pilot"):
+            continue
+        if (
+            not args.force
+            and not args.upgrade_hd
+            and ep_meta.get("status") == "complete"
+            and ep_meta.get("videoProfile") == PROFILE_NAME
+            and not args.pilot
+        ):
             continue
 
         pilot = bool(args.pilot and ep_meta.get("pilot"))
@@ -731,10 +767,12 @@ def main() -> None:
                 shutil.copy(result, dest)
                 FLUTTER_VIDEOS.mkdir(parents=True, exist_ok=True)
                 shutil.copy(result, FLUTTER_VIDEOS / ep_meta["webm"])
-                if ep_meta.get("status") == "script-only":
-                    ep_meta["status"] = "complete"
-                    ep_meta["pilot"] = False
-                    save_catalog()
+                ep_meta["status"] = "complete"
+                ep_meta["pilot"] = False
+                ep_meta["videoProfile"] = PROFILE_NAME
+                ep_meta["videoResolution"] = f"{VIDEO_WIDTH}x{VIDEO_HEIGHT}"
+                ep_meta["videoFps"] = VIDEO_FPS
+                save_catalog()
                 print(f"  OK {dest.name}")
             else:
                 print(f"  TTS/render failed - writing placeholder for {ep_id}")
