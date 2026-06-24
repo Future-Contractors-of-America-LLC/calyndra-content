@@ -1,7 +1,7 @@
 {
   "id": "sing-along-catalog",
   "version": "1.0.0",
-  "updatedUtc": "2026-06-23T17:52:58.013451+00:00",
+  "updatedUtc": "2026-06-24T12:31:05.377711+00:00",
   "description": "Per-audience Caly Show sing-along episodes - interactive tap-and-sing with mascot.",
   "audiences": {
     "baby": {
