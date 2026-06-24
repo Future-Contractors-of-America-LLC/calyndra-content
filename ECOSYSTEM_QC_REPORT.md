@@ -1,6 +1,6 @@
 # Ecosystem QC report
 
-Generated: **2026-06-24 13:10 UTC**
+Generated: **2026-06-24 17:27 UTC**
 
 **Overall:** PASS (0 issue(s))
 
@@ -174,11 +174,7 @@ baby: 1 episode(s) - Pip's Gentle Hello
 QC summary
   Episodes: 6
   Errors: 0
-  Warnings: 4
-  WARN: Pilot moss_kindness_trail_long.webm: 49s (full target 900s)
-  WARN: reed_wisdom_perch_long.webm: placeholder 5s (target 1200s full)
-  WARN: sage_crossroads_long.webm: placeholder 5s (target 1800s full)
-  WARN: laurel_morning_song_long.webm: placeholder 5s (target 2700s full)
+  Warnings: 0
 ```
 
 
