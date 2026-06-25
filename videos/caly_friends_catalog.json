@@ -1,7 +1,7 @@
 {
   "version": 1,
   "series": "Caly and Friends",
-  "lockedUtc": "2026-06-25T03:36:01Z",
+  "lockedUtc": "2026-06-25T05:57:05Z",
   "durationTargetsSec": {
     "baby": 300,
     "toddler": 600,
@@ -438,7 +438,10 @@
       "webm": "reed_mentor_circle_long.webm",
       "lesson": "Learning from elders and teaching younger ones completes the circle.",
       "pilot": false,
-      "status": "script-only"
+      "status": "complete",
+      "videoProfile": "hd",
+      "videoResolution": "1920x1080",
+      "videoFps": 24
     },
     {
       "id": "sage_truth_telling_long",
