@@ -1,7 +1,7 @@
 {
   "version": 1,
   "series": "Caly and Friends",
-  "lockedUtc": "2026-06-25T06:29:09Z",
+  "lockedUtc": "2026-06-25T23:33:49Z",
   "durationTargetsSec": {
     "baby": 300,
     "toddler": 600,
@@ -23,11 +23,11 @@
       "script": "videos/scripts/06-pip-gentle-hello.md",
       "webm": "pip_gentle_hello_long.webm",
       "lesson": "You are wonderfully made and deeply loved.",
-      "pilot": true,
+      "pilot": false,
       "status": "complete",
-      "videoResolution": "1280x720",
-      "videoProfile": "hd",
-      "videoFps": 12
+      "videoResolution": "3840x2160",
+      "videoProfile": "uhd",
+      "videoFps": 24
     },
     {
       "id": "fern_garden_share_long",
@@ -43,7 +43,7 @@
       "pilot": true,
       "status": "complete",
       "videoResolution": "1280x720",
-      "videoProfile": "hd",
+      "videoProfile": "draft",
       "videoFps": 12
     },
     {
@@ -60,7 +60,7 @@
       "pilot": true,
       "status": "complete",
       "videoResolution": "1280x720",
-      "videoProfile": "hd",
+      "videoProfile": "draft",
       "videoFps": 12
     },
     {
@@ -77,7 +77,7 @@
       "pilot": false,
       "status": "complete",
       "videoResolution": "1280x720",
-      "videoProfile": "hd",
+      "videoProfile": "draft",
       "videoFps": 12
     },
     {
@@ -94,7 +94,7 @@
       "pilot": false,
       "status": "complete",
       "videoResolution": "1280x720",
-      "videoProfile": "hd",
+      "videoProfile": "draft",
       "videoFps": 12
     },
     {
@@ -111,7 +111,7 @@
       "pilot": false,
       "status": "complete",
       "videoResolution": "1280x720",
-      "videoProfile": "hd",
+      "videoProfile": "draft",
       "videoFps": 12
     },
     {
@@ -128,7 +128,7 @@
       "pilot": false,
       "status": "complete",
       "videoResolution": "1280x720",
-      "videoProfile": "hd",
+      "videoProfile": "draft",
       "videoFps": 12
     },
     {
@@ -145,7 +145,7 @@
       "pilot": false,
       "status": "complete",
       "videoResolution": "1280x720",
-      "videoProfile": "hd",
+      "videoProfile": "draft",
       "videoFps": 12
     },
     {
@@ -162,7 +162,7 @@
       "pilot": false,
       "status": "complete",
       "videoResolution": "1280x720",
-      "videoProfile": "hd",
+      "videoProfile": "draft",
       "videoFps": 12
     },
     {
@@ -179,7 +179,7 @@
       "pilot": false,
       "status": "complete",
       "videoResolution": "1280x720",
-      "videoProfile": "hd",
+      "videoProfile": "draft",
       "videoFps": 12
     },
     {
@@ -196,7 +196,7 @@
       "pilot": false,
       "status": "complete",
       "videoResolution": "1280x720",
-      "videoProfile": "hd",
+      "videoProfile": "draft",
       "videoFps": 12
     },
     {
@@ -213,7 +213,7 @@
       "pilot": false,
       "status": "complete",
       "videoResolution": "1280x720",
-      "videoProfile": "hd",
+      "videoProfile": "draft",
       "videoFps": 12
     },
     {
@@ -230,7 +230,7 @@
       "pilot": false,
       "status": "complete",
       "videoResolution": "1280x720",
-      "videoProfile": "hd",
+      "videoProfile": "draft",
       "videoFps": 12
     },
     {
@@ -247,7 +247,7 @@
       "pilot": false,
       "status": "complete",
       "videoResolution": "1280x720",
-      "videoProfile": "hd",
+      "videoProfile": "draft",
       "videoFps": 12
     },
     {
@@ -264,7 +264,7 @@
       "pilot": false,
       "status": "complete",
       "videoResolution": "1280x720",
-      "videoProfile": "hd",
+      "videoProfile": "draft",
       "videoFps": 12
     },
     {
@@ -281,7 +281,7 @@
       "pilot": false,
       "status": "complete",
       "videoResolution": "1280x720",
-      "videoProfile": "hd",
+      "videoProfile": "draft",
       "videoFps": 12
     },
     {
@@ -297,9 +297,9 @@
       "lesson": "Building bridges connects hearts across differences.",
       "pilot": false,
       "status": "complete",
-      "videoResolution": "1920x1080",
-      "videoProfile": "hd",
-      "videoFps": 24
+      "videoResolution": "1280x720",
+      "videoProfile": "draft",
+      "videoFps": 12
     },
     {
       "id": "moss_lost_and_found_long",
