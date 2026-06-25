@@ -181,6 +181,23 @@ def check_speech_tts_all_neural(issues: list[str]) -> tuple[str, str]:
     return "speech_tts.py neural profiles (7 bands)", "PASS" if ok else "FAIL"
 
 
+def check_symbol_paths(issues: list[str]) -> None:
+    """Fail QC when vocab JSON references legacy or missing symbol dirs."""
+    legacy = ("quest/", "spark/", "core/", "guide/")
+    for src in sorted((ROOT / "vocabulary").glob("*.json")):
+        text = src.read_text(encoding="utf-8")
+        for leg in legacy:
+            if leg in text:
+                issues.append(f"SYMBOL_PATH: `{src.name}` references legacy `{leg}` — use current band dirs.")
+    app_content = APP_CONTENT
+    if app_content.is_dir():
+        for src in sorted(app_content.glob("*.json")):
+            text = src.read_text(encoding="utf-8")
+            for leg in legacy:
+                if leg in text:
+                    issues.append(f"SYMBOL_PATH: app content `{src.name}` references legacy `{leg}`.")
+
+
 def sync_manifests_to_app() -> list[str]:
     copied: list[str] = []
     for src_rel, dest_rel in SYNC_FILES:
@@ -310,6 +327,7 @@ def main() -> int:
     sing_rows = check_sing_along(issues)
     cartoon_rows = check_cartoon_catalog(issues)
     symbol_rows = check_symbol_counts(issues)
+    check_symbol_paths(issues)
     index_check = check_baby_in_index(issues)
     tts_check = check_speech_tts_all_neural(issues)
     art_exit = next((c for n, c, _ in qc_results if n == "qc_art_quality.py"), 1)

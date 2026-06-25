@@ -114,35 +114,35 @@
       "label": "work",
       "category": "life",
       "description": "Functional AAC symbol: work.",
-      "imageAsset": "assets/symbols/core/work.png"
+      "imageAsset": "assets/symbols/bloom/work.png"
     },
     {
       "id": "school",
       "label": "school",
       "category": "life",
       "description": "Functional AAC symbol: school.",
-      "imageAsset": "assets/symbols/core/school.png"
+      "imageAsset": "assets/symbols/bloom/school.png"
     },
     {
       "id": "appointment",
       "label": "appointment",
       "category": "life",
       "description": "Functional AAC symbol: appointment.",
-      "imageAsset": "assets/symbols/core/appointment.png"
+      "imageAsset": "assets/symbols/bloom/appointment.png"
     },
     {
       "id": "transport",
       "label": "ride",
       "category": "life",
       "description": "Functional AAC symbol: ride.",
-      "imageAsset": "assets/symbols/core/transport.png"
+      "imageAsset": "assets/symbols/bloom/transport.png"
     },
     {
       "id": "money",
       "label": "money",
       "category": "life",
       "description": "Functional AAC symbol: money.",
-      "imageAsset": "assets/symbols/core/money.png"
+      "imageAsset": "assets/symbols/bloom/money.png"
     },
     {
       "id": "phone",
@@ -261,21 +261,21 @@
       "label": "my choice",
       "category": "autonomy",
       "description": "Functional AAC symbol: my choice.",
-      "imageAsset": "assets/symbols/core/choice.png"
+      "imageAsset": "assets/symbols/bloom/choice.png"
     },
     {
       "id": "support",
       "label": "support person",
       "category": "autonomy",
       "description": "Functional AAC symbol: support person.",
-      "imageAsset": "assets/symbols/core/support.png"
+      "imageAsset": "assets/symbols/bloom/support.png"
     },
     {
       "id": "accommodation",
       "label": "accommodation",
       "category": "autonomy",
       "description": "Functional AAC symbol: accommodation.",
-      "imageAsset": "assets/symbols/core/accommodation.png"
+      "imageAsset": "assets/symbols/bloom/accommodation.png"
     },
     {
       "id": "emergency",

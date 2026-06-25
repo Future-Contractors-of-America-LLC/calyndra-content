@@ -1,0 +1,84 @@
+name: Ship Calyndra Ecosystem
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: calyndra-ship-ecosystem
+  cancel-in-progress: false
+
+jobs:
+  ship:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: calyndra-content
+
+      - uses: actions/checkout@v4
+        with:
+          repository: Future-Contractors-of-America-LLC/calyndra-app
+          path: calyndra-app
+          token: ${{ secrets.CALYNDRA_SHIP_TOKEN || secrets.GITHUB_TOKEN }}
+
+      - uses: actions/checkout@v4
+        with:
+          repository: Future-Contractors-of-America-LLC/calyndra-mobile-flutter
+          path: calyndra-mobile-flutter
+          token: ${{ secrets.CALYNDRA_SHIP_TOKEN || secrets.GITHUB_TOKEN }}
+
+      - uses: actions/checkout@v4
+        with:
+          repository: Future-Contractors-of-America-LLC/calyndra-central
+          path: calyndra-central
+          token: ${{ secrets.CALYNDRA_SHIP_TOKEN || secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Azure Speech SDK dependency
+        run: pip install azure-cognitiveservices-speech
+
+      - name: Run unified ship (QC → voice → symbols → push)
+        env:
+          CALYNDRA_CALYNDRA_APP_ROOT: ${{ github.workspace }}/calyndra-app
+          CALYNDRA_CALYNDRA_MOBILE_FLUTTER_ROOT: ${{ github.workspace }}/calyndra-mobile-flutter
+          CALYNDRA_CALYNDRA_CENTRAL_ROOT: ${{ github.workspace }}/calyndra-central
+          AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
+          AZURE_SPEECH_REGION: ${{ secrets.AZURE_SPEECH_REGION || 'eastus2' }}
+          GIT_AUTHOR_NAME: calyndra-ship-bot
+          GIT_AUTHOR_EMAIL: ship-bot@calystracaly.com
+          GIT_COMMITTER_NAME: calyndra-ship-bot
+          GIT_COMMITTER_EMAIL: ship-bot@calystracaly.com
+        working-directory: calyndra-content
+        run: |
+          git config --global user.name "calyndra-ship-bot"
+          git config --global user.email "ship-bot@calystracaly.com"
+          python scripts/ship_ecosystem.py
+
+      - name: Commit ship receipt to calyndra-central
+        env:
+          GITHUB_TOKEN: ${{ secrets.CALYNDRA_SHIP_TOKEN || secrets.GITHUB_TOKEN }}
+        working-directory: calyndra-central
+        run: |
+          git config user.name "calyndra-ship-bot"
+          git config user.email "ship-bot@calystracaly.com"
+          git add calyndra/system/ship_receipts/
+          git diff --cached --quiet || git commit -m "Ship receipt from content workflow"
+          git push origin main || echo "::warning::Could not push ship receipt (token may lack central write)"
+
+      - name: Dispatch Flutter release workflow
+        env:
+          GH_TOKEN: ${{ secrets.CALYNDRA_SHIP_TOKEN || secrets.GITHUB_TOKEN }}
+        run: |
+          gh api repos/Future-Contractors-of-America-LLC/calyndra-mobile-flutter/dispatches \
+            -f event_type=content-shipped || \
+            gh workflow run release.yml -R Future-Contractors-of-America-LLC/calyndra-mobile-flutter || \
+            echo "::warning::Flutter release workflow dispatch skipped"

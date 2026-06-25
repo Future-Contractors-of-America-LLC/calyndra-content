@@ -1,8 +1,8 @@
 # Art quality QC report
 
-Generated: **2026-06-24 17:40 UTC**
+Generated: **2026-06-25 16:52 UTC**
 
-**Overall:** PASS (0 issue(s), 8 warning(s))
+**Overall:** PASS (0 issue(s), 56 warning(s))
 
 ## Manifest band folders (ship gate)
 
@@ -58,4 +58,47 @@ Generated: **2026-06-24 17:40 UTC**
 - VOCAB: `teen` missing 164/230 imageAsset PNG(s).
 - VOCAB: `adult` missing 176/245 imageAsset PNG(s).
 - VOCAB: `caregiver` missing 20/58 imageAsset PNG(s).
-- META: 35 hand-visible symbol(s) lack sidecar metadata (optional until art review).
+- DIM: `bloom/algebra.png` not square (1536x1024).
+- DIM: `bloom/algebra.png` is 1536x1024 (target 512).
+- DIM: `bloom/all-done.png` not square (1536x1024).
+- DIM: `bloom/all-done.png` is 1536x1024 (target 512).
+- DIM: `bloom/apple.png` not square (1536x1024).
+- DIM: `bloom/apple.png` is 1536x1024 (target 512).
+- DIM: `bloom/ball.png` not square (1536x1024).
+- DIM: `bloom/ball.png` is 1536x1024 (target 512).
+- DIM: `bud/algebra.png` not square (1536x1024).
+- DIM: `bud/algebra.png` is 1536x1024 (target 512).
+- DIM: `bud/all-done.png` not square (1536x1024).
+- DIM: `bud/all-done.png` is 1536x1024 (target 512).
+- DIM: `bud/apple.png` not square (1536x1024).
+- DIM: `bud/apple.png` is 1536x1024 (target 512).
+- DIM: `bud/ball.png` not square (1536x1024).
+- DIM: `bud/ball.png` is 1536x1024 (target 512).
+- DIM: `canopy/algebra.png` not square (1536x1024).
+- DIM: `canopy/algebra.png` is 1536x1024 (target 512).
+- DIM: `canopy/all-done.png` not square (1536x1024).
+- DIM: `canopy/all-done.png` is 1536x1024 (target 512).
+- DIM: `canopy/apple.png` not square (1536x1024).
+- DIM: `canopy/apple.png` is 1536x1024 (target 512).
+- DIM: `canopy/ball.png` not square (1536x1024).
+- DIM: `canopy/ball.png` is 1536x1024 (target 512).
+- DIM: `sprig/algebra.png` not square (1536x1024).
+- DIM: `sprig/algebra.png` is 1536x1024 (target 512).
+- DIM: `sprig/all-done.png` not square (1536x1024).
+- DIM: `sprig/all-done.png` is 1536x1024 (target 512).
+- DIM: `sprig/apple.png` not square (1536x1024).
+- DIM: `sprig/apple.png` is 1536x1024 (target 512).
+- DIM: `sprig/ball.png` not square (1536x1024).
+- DIM: `sprig/ball.png` is 1536x1024 (target 512).
+- DIM: `sprout/algebra.png` not square (1536x1024).
+- DIM: `sprout/algebra.png` is 1536x1024 (target 512).
+- DIM: `sprout/all-done.png` not square (1536x1024).
+- DIM: `sprout/all-done.png` is 1536x1024 (target 512).
+- DIM: `sprout/apple.png` not square (1536x1024).
+- DIM: `sprout/apple.png` is 1536x1024 (target 512).
+- DIM: `sprout/ball.png` not square (1536x1024).
+- DIM: `sprout/ball.png` is 1536x1024 (target 512).
+- DIM: `vine/algebra.png` not square (1536x1024).
+- DIM: `vine/algebra.png` is 1536x1024 (target 512).
+- DIM: `vine/all-done.png` not square (1536x1024).
+- ... and 6 more

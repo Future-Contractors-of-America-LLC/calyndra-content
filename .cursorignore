@@ -1,0 +1,36 @@
+# Build / deps
+**/node_modules/
+**/dist/
+**/dist-ssr/
+**/build/
+**/.next/
+**/.turbo/
+**/.cache/
+**/.venv/
+**/__pycache__/
+
+# Secrets
+**/.env
+**/.env.*
+**/local.settings.json
+
+# Large generated / proof artifacts
+**/generated/
+**/api_generated/
+**/docs/runtime-proof/
+**/*-proof-*.json
+**/*-proof-*.md
+
+# Large static academy media
+**/public/academy/media/
+
+# Binary / media
+**/*.png
+**/*.jpg
+**/*.jpeg
+**/*.gif
+**/*.webp
+**/*.mp4
+**/*.mp3
+**/*.pdf
+**/*.zip
