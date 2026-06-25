@@ -59,6 +59,23 @@ def git_has_changes(repo: Path) -> bool:
     return bool(r.stdout.strip())
 
 
+def configure_git_push_auth(repo: Path) -> None:
+    """Use PAT for cross-repo push in CI (GITHUB_TOKEN cannot push to sibling private repos)."""
+    token = os.environ.get("CALYNDRA_SHIP_TOKEN") or os.environ.get("GITHUB_TOKEN")
+    if not token:
+        return
+    r = run(["git", "remote", "get-url", "origin"], cwd=repo)
+    remote = (r.stdout or "").strip()
+    if not remote or token in remote:
+        return
+    if remote.startswith("https://github.com/"):
+        path = remote.replace("https://github.com/", "").rstrip("/")
+        if path.endswith(".git"):
+            path = path[:-4]
+        authed = f"https://x-access-token:{token}@github.com/{path}.git"
+        run(["git", "remote", "set-url", "origin", authed], cwd=repo)
+
+
 def git_commit_push(repo: Path, message: str, *, dry_run: bool) -> dict:
     if not repo.is_dir():
         return {"repo": str(repo), "status": "skipped", "reason": "missing"}
@@ -66,6 +83,7 @@ def git_commit_push(repo: Path, message: str, *, dry_run: bool) -> dict:
         return {"repo": repo.name, "status": "unchanged"}
     if dry_run:
         return {"repo": repo.name, "status": "dry-run-would-commit"}
+    configure_git_push_auth(repo)
     run(["git", "add", "-A"], cwd=repo)
     r = run(["git", "commit", "-m", message], cwd=repo)
     if r.returncode != 0:

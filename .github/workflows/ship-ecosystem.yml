@@ -53,6 +53,8 @@ jobs:
           CALYNDRA_CALYNDRA_CENTRAL_ROOT: ${{ github.workspace }}/calyndra-central
           AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
           AZURE_SPEECH_REGION: ${{ secrets.AZURE_SPEECH_REGION || 'eastus2' }}
+          CALYNDRA_SHIP_TOKEN: ${{ secrets.CALYNDRA_SHIP_TOKEN || secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.CALYNDRA_SHIP_TOKEN || secrets.GITHUB_TOKEN }}
           GIT_AUTHOR_NAME: calyndra-ship-bot
           GIT_AUTHOR_EMAIL: ship-bot@calystracaly.com
           GIT_COMMITTER_NAME: calyndra-ship-bot
