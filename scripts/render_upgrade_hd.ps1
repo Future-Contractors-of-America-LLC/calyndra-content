@@ -1,58 +1,30 @@
-# Re-render complete episodes that are not yet Full HD; ship each after success.
+# Re-render complete episodes that are not yet at the target profile; ship each after success.
 $root = "C:\Users\Auricrux\OneDrive - Future Contractors of America LLC"
 $content = Join-Path $root "calyndra-content"
 $stamp = Get-Date -Format "yyyyMMdd-HHmmss"
 $log = Join-Path $content "videos\upgrade_hd_$stamp.log"
 $env:PYTHONUNBUFFERED = "1"
-$env:CALY_VIDEO_PROFILE = "hd"
+$env:CALY_VIDEO_PROFILE = if ($env:CALY_VIDEO_PROFILE) { $env:CALY_VIDEO_PROFILE } else { "hd" }
+
+. (Join-Path $content "scripts\render_ship_utils.ps1")
 
 function Write-Log($msg) {
-  $line = "$(Get-Date -Format o) $msg"
-  Write-Host $line
-  $line | Out-File $log -Append -Encoding utf8
+  Write-RenderLog $msg $log
 }
 
-function Ship-Episode($webmName) {
-  $app = Join-Path $root "calyndra-app"
-  $flutter = Join-Path $root "calyndra-mobile-flutter"
-  Set-Location $content
-  python scripts/sync_cartoon_catalog_from_webms.py 2>&1 | Out-File $log -Append -Encoding utf8
-  git add videos/caly_friends_catalog.json
-  git diff --cached --quiet
-  if (-not $?) {
-    git commit -m "Upgrade $webmName to Full HD catalog metadata."
-    git push origin main
-  }
-  Set-Location $app
-  git pull --rebase origin main 2>&1 | Out-File $log -Append -Encoding utf8
-  git add content/videos/caly_friends_catalog.json "videos/$webmName"
-  git diff --cached --quiet
-  if (-not $?) {
-    git commit -m "Ship Full HD upgrade $webmName."
-    git -c http.postBuffer=524288000 push origin main
-  }
-  Set-Location $flutter
-  git pull --rebase origin main 2>&1 | Out-File $log -Append -Encoding utf8
-  git add "assets/videos/$webmName"
-  git diff --cached --quiet
-  if (-not $?) {
-    git commit -m "Sync Full HD upgrade $webmName to mobile."
-    git -c http.postBuffer=524288000 push origin main
-  }
-  Set-Location $content
-}
-
-Write-Log "=== HD upgrade start ==="
+Write-Log "=== quality upgrade start (profile=$env:CALY_VIDEO_PROFILE) ==="
 Set-Location $content
 python scripts/sync_cartoon_catalog_from_webms.py 2>&1 | Out-File $log -Append -Encoding utf8
 
+$target = $env:CALY_VIDEO_PROFILE
 $upgradeJson = python -c @"
-import json
+import json, os
 from pathlib import Path
+target = os.environ.get('CALY_VIDEO_PROFILE', 'hd')
 c = json.loads(Path('videos/caly_friends_catalog.json').read_text(encoding='utf-8'))
 ids = [
     e['id'] for e in c['episodes']
-    if e.get('status') == 'complete' and e.get('videoProfile') != 'hd' and e.get('videoProfile') != 'uhd'
+    if e.get('status') == 'complete' and e.get('videoProfile') != target
 ]
 print('\n'.join(ids))
 "@
@@ -62,12 +34,12 @@ Write-Log "Episodes to upgrade: $($ids.Count)"
 
 foreach ($id in $ids) {
   Set-Location $content
-  Write-Log "Upgrading $id to Full HD ..."
+  Write-Log "Upgrading $id to $target ..."
   python scripts/generate_caly_friends_episodes.py --upgrade-hd --id $id 2>&1 | Tee-Object -FilePath $log -Append
   $catalog = Get-Content (Join-Path $content "videos\caly_friends_catalog.json") -Raw | ConvertFrom-Json
   $ep = $catalog.episodes | Where-Object { $_.id -eq $id } | Select-Object -First 1
-  if ($ep.videoProfile -eq "hd" -or $ep.videoProfile -eq "uhd") {
-    Ship-Episode $ep.webm
+  if ($ep.videoProfile -eq $target) {
+    Ship-Episode -Root $root -Content $content -WebmName $ep.webm -Log $log -CommitLabel "$target upgrade"
     Write-Log "Upgraded $id"
   } else {
     Write-Log "SKIP upgrade ship: $id profile=$($ep.videoProfile)"
@@ -75,4 +47,4 @@ foreach ($id in $ids) {
 }
 
 python scripts/qc_cartoon_catalog.py 2>&1 | Tee-Object -FilePath $log -Append
-Write-Log "=== HD upgrade done ==="
+Write-Log "=== quality upgrade done ==="

@@ -20,19 +20,22 @@ _PROFILE = os.environ.get("CALY_VIDEO_PROFILE", "hd").strip().lower()
 if _PROFILE in ("uhd", "4k", "ultra"):
     VIDEO_WIDTH = 3840
     VIDEO_HEIGHT = 2160
-    VP9_CRF = 22
+    VP9_CRF = 20
+    VP9_TILE_COLUMNS = 3
     AUDIO_BITRATE = "256k"
     PROFILE_NAME = "uhd"
 elif _PROFILE in ("draft", "preview"):
     VIDEO_WIDTH = 1280
     VIDEO_HEIGHT = 720
     VP9_CRF = 32
+    VP9_TILE_COLUMNS = 1
     AUDIO_BITRATE = "96k"
     PROFILE_NAME = "draft"
 else:
     VIDEO_WIDTH = 1920
     VIDEO_HEIGHT = 1080
     VP9_CRF = 18
+    VP9_TILE_COLUMNS = 2
     AUDIO_BITRATE = "192k"
     PROFILE_NAME = "hd"
 
@@ -81,7 +84,7 @@ def write_segment(frames: list[Image.Image], path: Path) -> None:
         "-row-mt",
         "1",
         "-tile-columns",
-        "2",
+        str(VP9_TILE_COLUMNS),
         "-pix_fmt",
         "yuv420p",
         str(path),

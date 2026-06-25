@@ -1,51 +1,15 @@
 # Renders script-only Caly and Friends episodes one at a time; ships each to git after success.
 $root = "C:\Users\Auricrux\OneDrive - Future Contractors of America LLC"
 $content = Join-Path $root "calyndra-content"
-$app = Join-Path $root "calyndra-app"
-$flutter = Join-Path $root "calyndra-mobile-flutter"
 $stamp = Get-Date -Format "yyyyMMdd-HHmmss"
 $log = Join-Path $content "videos\pending_render_$stamp.log"
 $env:PYTHONUNBUFFERED = "1"
 $env:CALY_VIDEO_PROFILE = "hd"
 
+. (Join-Path $content "scripts\render_ship_utils.ps1")
+
 function Write-Log($msg) {
-  $line = "$(Get-Date -Format o) $msg"
-  Write-Host $line
-  $line | Out-File $log -Append -Encoding utf8
-}
-
-function Ship-Episode($webmName) {
-  Set-Location $content
-  python scripts/sync_cartoon_catalog_from_webms.py 2>&1 | Out-File $log -Append -Encoding utf8
-  git add videos/caly_friends_catalog.json
-  git diff --cached --quiet
-  if (-not $?) {
-    git commit -m "Mark $webmName complete after full render."
-    git push origin main
-    Write-Log "Pushed content catalog for $webmName"
-  }
-
-  Set-Location $app
-  git pull --rebase origin main 2>&1 | Out-File $log -Append -Encoding utf8
-  git add content/videos/caly_friends_catalog.json "videos/$webmName"
-  git diff --cached --quiet
-  if (-not $?) {
-    git commit -m "Ship full render $webmName."
-    git -c http.postBuffer=524288000 push origin main
-    Write-Log "Pushed app video $webmName (triggers SWA + blob deploy)"
-  }
-
-  Set-Location $flutter
-  git pull --rebase origin main 2>&1 | Out-File $log -Append -Encoding utf8
-  git add "assets/videos/$webmName"
-  git diff --cached --quiet
-  if (-not $?) {
-    git commit -m "Sync full render $webmName to mobile."
-    git -c http.postBuffer=524288000 push origin main
-    Write-Log "Pushed flutter video $webmName"
-  }
-
-  Set-Location $content
+  Write-RenderLog $msg $log
 }
 
 Write-Log "=== pending render start ==="
@@ -73,7 +37,7 @@ foreach ($id in $ids) {
   $catalog = Get-Content (Join-Path $content "videos\caly_friends_catalog.json") -Raw | ConvertFrom-Json
   $ep = $catalog.episodes | Where-Object { $_.id -eq $id } | Select-Object -First 1
   if ($ep.status -eq "complete") {
-    Ship-Episode $ep.webm
+    Ship-Episode -Root $root -Content $content -WebmName $ep.webm -Log $log -CommitLabel "full render"
     Write-Log "Shipped $id"
   } else {
     Write-Log "SKIP ship: $id still not complete"
@@ -85,5 +49,5 @@ python scripts/qc_cartoon_catalog.py 2>&1 | Tee-Object -FilePath $log -Append
 python scripts/qc_ecosystem.py 2>&1 | Tee-Object -FilePath $log -Append
 Write-Log "=== pending render done ==="
 
-Write-Log "=== starting HD upgrade pass for legacy SD episodes ==="
-& (Join-Path $content "scripts\render_upgrade_hd.ps1")
+Write-Log "=== hand off to continuous Ultra HD pipeline ==="
+& (Join-Path $content "scripts\render_continuous_ultra.ps1")
