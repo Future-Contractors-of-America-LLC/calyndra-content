@@ -30,7 +30,7 @@ while (-not (Test-AllUltra)) {
   $run++
   Log "Launch run #$run ..."
   $proc = Start-Process -FilePath "powershell.exe" `
-    -ArgumentList @("-NoProfile", "-ExecutionPolicy", "Bypass", "-File", $script) `
+    -ArgumentList "-NoProfile", "-ExecutionPolicy", "Bypass", "-File", "`"$script`"" `
     -WorkingDirectory $content `
     -PassThru -Wait -NoNewWindow
   Log "Run #$run exited code=$($proc.ExitCode)"
