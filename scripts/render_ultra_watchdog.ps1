@@ -1,4 +1,4 @@
-# Watchdog: restart Ultra HD specialist pipeline until all 36 episodes are UHD + on-length.
+# Watchdog: restart Ultra HD specialist pipeline until all 72 episodes are UHD + on-length.
 $root = "C:\Users\Auricrux\OneDrive - Future Contractors of America LLC"
 $content = Join-Path $root "calyndra-content"
 $log = Join-Path $content "videos\ultra_watchdog.log"
@@ -43,12 +43,17 @@ while ((Get-RemainingCount) -gt 0) {
   $remaining = Get-RemainingCount
   Log "Launch run #$run (remaining=$remaining) ..."
   Set-Location $content
-  & $pipeline
-  $code = $LASTEXITCODE
-  if ($null -eq $code) { $code = 0 }
+  $code = 0
+  try {
+    & powershell.exe -NoProfile -ExecutionPolicy Bypass -File $pipeline 2>&1 | Tee-Object -FilePath $log -Append
+    if ($null -ne $LASTEXITCODE) { $code = $LASTEXITCODE }
+  } catch {
+    Log "ERROR run #$run : $($_.Exception.Message)"
+    $code = 1
+  }
   Log "Run #$run exited code=$code"
   if ((Get-RemainingCount) -eq 0) { break }
-  Log "Not all UHD/on-length yet — restarting in 30s"
+  Log "Not all UHD/on-length yet - restarting in 30s"
   Start-Sleep -Seconds 30
 }
 
