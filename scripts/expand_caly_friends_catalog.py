@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Add 5 Caly and Friends episodes per age band (baby-adult) to catalog + scripts + beats."""
+# -*- coding: utf-8 -*-
+"""Add 6 Caly and Friends episodes per age band (baby-adult) to catalog + scripts + beats."""
 from __future__ import annotations
 
 import json
@@ -98,6 +99,21 @@ NEW_EPISODES: dict[str, list[tuple]] = {
                 ("Bye-bye, splashy friend!", "farewell"),
             ],
         ),
+        (
+            "nuzzle_soft_hum",
+            "Nuzzle's Soft Hum",
+            "Nuzzle",
+            "Gentle rhythms remind us God holds us close.",
+            [
+                ("Shhh. Nuzzle found a quiet corner.", "welcome"),
+                ("I'm Nuzzle the lamb. Hum with me.", "friend"),
+                ("Elder Oak sways a slow lullaby.", "mentor"),
+                ("Your grown-up can hum a soft tune.", "caregiver"),
+                ("God's love is steady like a heartbeat.", "lesson"),
+                ("Rest your eyes. You are safe.", "rest"),
+                ("Sweet dreams, humming friend.", "farewell"),
+            ],
+        ),
     ],
     "toddler": [
         (
@@ -138,7 +154,7 @@ NEW_EPISODES: dict[str, list[tuple]] = {
             [
                 ("Petal flutters through rainbow petals.", "welcome"),
                 ("I'm Petal the butterfly. Dance with me!", "friend"),
-                ("Red, yellow, blue ó all on purpose.", "lesson"),
+                ("Red, yellow, blue ¬ù all on purpose.", "lesson"),
                 ("Spin when you hear your favorite color.", "interactive"),
                 ("Elder Oak loves every hue you are.", "mentor"),
                 ("Beautiful dancing, friend!", "celebrate"),
@@ -166,13 +182,28 @@ NEW_EPISODES: dict[str, list[tuple]] = {
             "Hazel",
             "Being found means you are loved.",
             [
-                ("One, two, three ó hide with Hazel!", "welcome"),
+                ("One, two, three ¬ù hide with Hazel!", "welcome"),
                 ("I'm Hazel the hedgehog. Peek-a-boo!", "friend"),
                 ("Your grown-up can seek you gently.", "caregiver"),
                 ("Found you! Hugs are always okay.", "play"),
                 ("God sees you even when you hide.", "lesson"),
                 ("Elder Oak giggles in the leaves.", "mentor"),
                 ("Bye-bye, hiding friend!", "farewell"),
+            ],
+        ),
+        (
+            "sprout_rain_boots",
+            "Sprout's Rain Boots",
+            "Sprout",
+            "Joyful play in hard weather builds resilience.",
+            [
+                ("Rain drops! Sprout pulls on bright boots.", "welcome"),
+                ("I'm Sprout the frog. Splish, splash!", "friend"),
+                ("Puddles are for jumping, not hiding.", "lesson"),
+                ("Jump when you hear SPLASH!", "play"),
+                ("Elder Oak laughs under the rain hat.", "mentor"),
+                ("You turned a gray day bright.", "celebrate"),
+                ("Boot stomp goodbye!", "farewell"),
             ],
         ),
     ],
@@ -252,6 +283,21 @@ NEW_EPISODES: dict[str, list[tuple]] = {
                 ("Hop home, helper friend.", "farewell"),
             ],
         ),
+        (
+            "thistle_trail_markers",
+            "Thistle's Trail Markers",
+            "Thistle",
+            "Leaving kind markers helps others find their way.",
+            [
+                ("Thistle marks a winding forest trail.", "welcome"),
+                ("I'm Thistle the fox. Follow the kind signs.", "friend"),
+                ("Small markers can guide big journeys.", "lesson"),
+                ("Tap MARK when you spot a trail sign.", "interactive"),
+                ("Elder Oak says help others find the path.", "mentor"),
+                ("You guided a friend today.", "celebrate"),
+                ("Trail marker goodbye!", "farewell"),
+            ],
+        ),
     ],
     "tween": [
         (
@@ -327,6 +373,21 @@ NEW_EPISODES: dict[str, list[tuple]] = {
                 ("Elder Oak makes space for both voices.", "mentor"),
                 ("You mended something important.", "celebrate"),
                 ("Gentle goodbye, healing friend.", "farewell"),
+            ],
+        ),
+        (
+            "lane_crosswalk_care",
+            "Lane's Crosswalk Care",
+            "Lane",
+            "Looking out for others is leadership in action.",
+            [
+                ("Lane waits at a busy crosswalk.", "welcome"),
+                ("I'm Lane the deer. We go together.", "friend"),
+                ("Notice who needs an extra pause.", "lesson"),
+                ("Offer your arm. Slow is okay.", "include"),
+                ("Elder Oak says care slows us down on purpose.", "mentor"),
+                ("You led with kindness today.", "celebrate"),
+                ("Safe crossing, care friend.", "farewell"),
             ],
         ),
     ],
@@ -406,6 +467,21 @@ NEW_EPISODES: dict[str, list[tuple]] = {
                 ("Soar onward, servant friend.", "farewell"),
             ],
         ),
+        (
+            "cipher_digital_pause",
+            "Cipher's Digital Pause",
+            "Cipher",
+            "Pausing before posting protects people and peace.",
+            [
+                ("Cipher sees a heated thread growing fast.", "welcome"),
+                ("I'm Cipher the owl. Pause before you post.", "friend"),
+                ("Words online travel farther than we think.", "lesson"),
+                ("Breathe. Reread. Choose kindness.", "interactive"),
+                ("Elder Oak says wisdom waits one beat.", "mentor"),
+                ("You chose peace over speed.", "celebrate"),
+                ("Log off with grace, pause friend.", "farewell"),
+            ],
+        ),
     ],
     "adult": [
         (
@@ -481,6 +557,21 @@ NEW_EPISODES: dict[str, list[tuple]] = {
                 ("Elder Oak has prayed through every season.", "mentor"),
                 ("Steadfast heart, well done.", "celebrate"),
                 ("Peaceful goodbye, prayer friend.", "farewell"),
+            ],
+        ),
+        (
+            "root_deep_gratitude",
+            "Root's Deep Gratitude",
+            "Root",
+            "Gratitude rooted deep sustains us through every season.",
+            [
+                ("Root kneels by old roots at dusk.", "welcome"),
+                ("I'm Root the badger. Name what held you today.", "friend"),
+                ("Gratitude is not denial. It is strength.", "lesson"),
+                ("Write one mercy before sleep.", "interactive"),
+                ("Elder Oak remembers every planter's hands.", "mentor"),
+                ("Your thankful heart roots deep.", "celebrate"),
+                ("Rest well, grateful friend.", "farewell"),
             ],
         ),
     ],

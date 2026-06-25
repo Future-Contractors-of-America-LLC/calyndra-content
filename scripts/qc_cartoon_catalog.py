@@ -20,7 +20,7 @@ except Exception:
     FFMPEG = "ffmpeg"
 
 BANDS = ("baby", "toddler", "child", "tween", "teen", "adult")
-MIN_EPISODES_PER_BAND = 6
+MIN_EPISODES_PER_BAND = 12
 from caly_episode_duration import MIN_DURATION_RATIO, probe_duration
 
 

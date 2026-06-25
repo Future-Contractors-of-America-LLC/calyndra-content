@@ -1,5 +1,5 @@
 {
-  "version": 6,
+  "version": 7,
   "theme": "caly-unified",
   "characterCanon": "CALY_CHARACTER_AGING.md",
   "primaryName": "Caly",
@@ -22,22 +22,87 @@
     "caregiver": "care team"
   },
   "bandPortraits": {
-    "baby": { "path": "assets/caly-bands/seed.png", "nickname": "Seed", "nameOnArt": true, "bootstrapNote": "may copy sprout.png until dedicated art" },
-    "toddler": { "path": "assets/caly-bands/sprout.png", "nickname": "Sprout", "nameOnArt": true },
-    "child": { "path": "assets/caly-bands/bud.png", "nickname": "Bud", "nameOnArt": true },
-    "tween": { "path": "assets/caly-bands/sprig.png", "nickname": "Sprig", "nameOnArt": true },
-    "teen": { "path": "assets/caly-bands/vine.png", "nickname": "Vine", "nameOnArt": true },
-    "adult": { "path": "assets/caly-bands/bloom.png", "nickname": "Bloom", "nameOnArt": true },
-    "caregiver": { "path": "assets/caly-bands/canopy.png", "nickname": "Canopy", "nameOnArt": true }
+    "baby": {
+      "path": "assets/caly-bands/seed.png",
+      "nickname": "Seed",
+      "nameOnArt": true,
+      "bootstrapNote": "may copy sprout.png until dedicated art"
+    },
+    "toddler": {
+      "path": "assets/caly-bands/sprout.png",
+      "nickname": "Sprout",
+      "nameOnArt": true
+    },
+    "child": {
+      "path": "assets/caly-bands/bud.png",
+      "nickname": "Bud",
+      "nameOnArt": true
+    },
+    "tween": {
+      "path": "assets/caly-bands/sprig.png",
+      "nickname": "Sprig",
+      "nameOnArt": true
+    },
+    "teen": {
+      "path": "assets/caly-bands/vine.png",
+      "nickname": "Vine",
+      "nameOnArt": true
+    },
+    "adult": {
+      "path": "assets/caly-bands/bloom.png",
+      "nickname": "Bloom",
+      "nameOnArt": true
+    },
+    "caregiver": {
+      "path": "assets/caly-bands/canopy.png",
+      "nickname": "Canopy",
+      "nameOnArt": true
+    }
   },
   "agingBands": {
-    "baby": { "portrait": "assets/caly-bands/seed.png", "poseSet": "sprout", "nickname": "Seed", "defaultPose": "wave" },
-    "toddler": { "portrait": "assets/caly-bands/sprout.png", "poseSet": "sprout", "nickname": "Sprout", "defaultPose": "wave" },
-    "child": { "portrait": "assets/caly-bands/bud.png", "poseSet": "sprout", "nickname": "Bud", "defaultPose": "jump-celebrate" },
-    "tween": { "portrait": "assets/caly-bands/sprig.png", "poseSet": "sprout", "nickname": "Sprig", "defaultPose": "jump-celebrate" },
-    "teen": { "portrait": "assets/caly-bands/vine.png", "poseSet": "sprout", "nickname": "Vine", "defaultPose": "listen-ear" },
-    "adult": { "portrait": "assets/caly-bands/bloom.png", "poseSet": "sprout", "nickname": "Bloom", "defaultPose": "drum-dance" },
-    "caregiver": { "portrait": "assets/caly-bands/canopy.png", "poseSet": "sprout", "nickname": "Canopy", "defaultPose": "wave", "voiceNote": "same voice base as adult; friendly professional SSML" }
+    "baby": {
+      "portrait": "assets/caly-bands/seed.png",
+      "poseSet": "sprout",
+      "nickname": "Seed",
+      "defaultPose": "wave"
+    },
+    "toddler": {
+      "portrait": "assets/caly-bands/sprout.png",
+      "poseSet": "sprout",
+      "nickname": "Sprout",
+      "defaultPose": "wave"
+    },
+    "child": {
+      "portrait": "assets/caly-bands/bud.png",
+      "poseSet": "sprout",
+      "nickname": "Bud",
+      "defaultPose": "jump-celebrate"
+    },
+    "tween": {
+      "portrait": "assets/caly-bands/sprig.png",
+      "poseSet": "sprout",
+      "nickname": "Sprig",
+      "defaultPose": "jump-celebrate"
+    },
+    "teen": {
+      "portrait": "assets/caly-bands/vine.png",
+      "poseSet": "sprout",
+      "nickname": "Vine",
+      "defaultPose": "listen-ear"
+    },
+    "adult": {
+      "portrait": "assets/caly-bands/bloom.png",
+      "poseSet": "sprout",
+      "nickname": "Bloom",
+      "defaultPose": "drum-dance"
+    },
+    "caregiver": {
+      "portrait": "assets/caly-bands/canopy.png",
+      "poseSet": "sprout",
+      "nickname": "Canopy",
+      "defaultPose": "wave",
+      "voiceNote": "same voice base as adult; friendly professional SSML"
+    }
   },
   "friendsByBand": {
     "baby": {
@@ -49,6 +114,60 @@
           "role": "gentle peek-a-boo playmate",
           "agesWithBand": "0-23mo",
           "lessonTheme": "wonderfully made"
+        },
+        {
+          "name": "Wren",
+          "species": "chick",
+          "portrait": "assets/caly-friends/wren-baby.png",
+          "role": "Wren story friend",
+          "agesWithBand": "0-23mo",
+          "lessonTheme": "God's love shelters us like a warm nest.",
+          "status": "bootstrap"
+        },
+        {
+          "name": "Dot",
+          "species": "ladybug",
+          "portrait": "assets/caly-friends/dot-baby.png",
+          "role": "Dot story friend",
+          "agesWithBand": "0-23mo",
+          "lessonTheme": "Small beauties remind us God sees every detail.",
+          "status": "bootstrap"
+        },
+        {
+          "name": "Pebble",
+          "species": "turtle",
+          "portrait": "assets/caly-friends/pebble-baby.png",
+          "role": "Pebble story friend",
+          "agesWithBand": "0-23mo",
+          "lessonTheme": "Patience is a gift we can practice together.",
+          "status": "bootstrap"
+        },
+        {
+          "name": "Lumi",
+          "species": "firefly",
+          "portrait": "assets/caly-friends/lumi-baby.png",
+          "role": "Lumi story friend",
+          "agesWithBand": "0-23mo",
+          "lessonTheme": "Even a small light pushes back the dark.",
+          "status": "bootstrap"
+        },
+        {
+          "name": "Coco",
+          "species": "duckling",
+          "portrait": "assets/caly-friends/coco-baby.png",
+          "role": "Coco story friend",
+          "agesWithBand": "0-23mo",
+          "lessonTheme": "Simple joys are gifts to thank God for.",
+          "status": "bootstrap"
+        },
+        {
+          "name": "Nuzzle",
+          "species": "lamb",
+          "portrait": "assets/caly-friends/nuzzle-baby.png",
+          "role": "Nuzzle story friend",
+          "agesWithBand": "0-23mo",
+          "lessonTheme": "Gentle rhythms remind us God holds us close.",
+          "status": "bootstrap"
         }
       ],
       "mentor": {
@@ -69,6 +188,60 @@
           "role": "garden sharing buddy",
           "agesWithBand": "2-4",
           "lessonTheme": "joy of sharing"
+        },
+        {
+          "name": "Maple",
+          "species": "squirrel",
+          "portrait": "assets/caly-friends/maple-toddler.png",
+          "role": "Maple story friend",
+          "agesWithBand": "2-4",
+          "lessonTheme": "Giving something away can grow friendship.",
+          "status": "bootstrap"
+        },
+        {
+          "name": "Sunny",
+          "species": "bee",
+          "portrait": "assets/caly-friends/sunny-toddler.png",
+          "role": "Sunny story friend",
+          "agesWithBand": "2-4",
+          "lessonTheme": "We each have work that helps the whole garden.",
+          "status": "bootstrap"
+        },
+        {
+          "name": "Petal",
+          "species": "butterfly",
+          "portrait": "assets/caly-friends/petal-toddler.png",
+          "role": "Petal story friend",
+          "agesWithBand": "2-4",
+          "lessonTheme": "God made colors to celebrate life.",
+          "status": "bootstrap"
+        },
+        {
+          "name": "Brook",
+          "species": "otter",
+          "portrait": "assets/caly-friends/brook-toddler.png",
+          "role": "Brook story friend",
+          "agesWithBand": "2-4",
+          "lessonTheme": "Kindness at the stream ripples outward.",
+          "status": "bootstrap"
+        },
+        {
+          "name": "Hazel",
+          "species": "hedgehog",
+          "portrait": "assets/caly-friends/hazel-toddler.png",
+          "role": "Hazel story friend",
+          "agesWithBand": "2-4",
+          "lessonTheme": "Being found means you are loved.",
+          "status": "bootstrap"
+        },
+        {
+          "name": "Sprout",
+          "species": "frog",
+          "portrait": "assets/caly-friends/sprout-toddler.png",
+          "role": "Sprout story friend",
+          "agesWithBand": "2-4",
+          "lessonTheme": "Joyful play in hard weather builds resilience.",
+          "status": "bootstrap"
         }
       ],
       "mentor": {
@@ -89,6 +262,60 @@
           "role": "kindness trail guide",
           "agesWithBand": "5-8",
           "lessonTheme": "small acts of kindness"
+        },
+        {
+          "name": "River",
+          "species": "beaver",
+          "portrait": "assets/caly-friends/river-child.png",
+          "role": "River story friend",
+          "agesWithBand": "5-8",
+          "lessonTheme": "Working together honors how God made community.",
+          "status": "bootstrap"
+        },
+        {
+          "name": "Sky",
+          "species": "blue jay",
+          "portrait": "assets/caly-friends/sky-child.png",
+          "role": "Sky story friend",
+          "agesWithBand": "5-8",
+          "lessonTheme": "Truth spoken kindly builds trust.",
+          "status": "bootstrap"
+        },
+        {
+          "name": "Clover",
+          "species": "deer",
+          "portrait": "assets/caly-friends/clover-child.png",
+          "role": "Clover story friend",
+          "agesWithBand": "5-8",
+          "lessonTheme": "Including others reflects God's welcome.",
+          "status": "bootstrap"
+        },
+        {
+          "name": "Flint",
+          "species": "owl",
+          "portrait": "assets/caly-friends/flint-child.png",
+          "role": "Flint story friend",
+          "agesWithBand": "5-8",
+          "lessonTheme": "Courage means trying even when we feel unsure.",
+          "status": "bootstrap"
+        },
+        {
+          "name": "Briar",
+          "species": "rabbit",
+          "portrait": "assets/caly-friends/briar-child.png",
+          "role": "Briar story friend",
+          "agesWithBand": "5-8",
+          "lessonTheme": "Helping across a gap is love in action.",
+          "status": "bootstrap"
+        },
+        {
+          "name": "Thistle",
+          "species": "fox",
+          "portrait": "assets/caly-friends/thistle-child.png",
+          "role": "Thistle story friend",
+          "agesWithBand": "5-8",
+          "lessonTheme": "Leaving kind markers helps others find their way.",
+          "status": "bootstrap"
         }
       ],
       "mentor": {
@@ -109,6 +336,60 @@
           "role": "wisdom perch listener",
           "agesWithBand": "9-12",
           "lessonTheme": "listen before speaking"
+        },
+        {
+          "name": "Ash",
+          "species": "raccoon",
+          "portrait": "assets/caly-friends/ash-tween.png",
+          "role": "Ash story friend",
+          "agesWithBand": "9-12",
+          "lessonTheme": "What we repeat online should be true and kind.",
+          "status": "bootstrap"
+        },
+        {
+          "name": "Pike",
+          "species": "heron",
+          "portrait": "assets/caly-friends/pike-tween.png",
+          "role": "Pike story friend",
+          "agesWithBand": "9-12",
+          "lessonTheme": "Listening well is a superpower.",
+          "status": "bootstrap"
+        },
+        {
+          "name": "Juniper",
+          "species": "fox",
+          "portrait": "assets/caly-friends/juniper-tween.png",
+          "role": "Juniper story friend",
+          "agesWithBand": "9-12",
+          "lessonTheme": "Choices show who we are becoming.",
+          "status": "bootstrap"
+        },
+        {
+          "name": "Ridge",
+          "species": "hawk",
+          "portrait": "assets/caly-friends/ridge-tween.png",
+          "role": "Ridge story friend",
+          "agesWithBand": "9-12",
+          "lessonTheme": "Teams win when patience meets practice.",
+          "status": "bootstrap"
+        },
+        {
+          "name": "Willow",
+          "species": "deer",
+          "portrait": "assets/caly-friends/willow-tween.png",
+          "role": "Willow story friend",
+          "agesWithBand": "9-12",
+          "lessonTheme": "A real apology heals friendships.",
+          "status": "bootstrap"
+        },
+        {
+          "name": "Lane",
+          "species": "deer",
+          "portrait": "assets/caly-friends/lane-tween.png",
+          "role": "Lane story friend",
+          "agesWithBand": "9-12",
+          "lessonTheme": "Looking out for others is leadership in action.",
+          "status": "bootstrap"
         }
       ],
       "mentor": {
@@ -129,6 +410,60 @@
           "role": "integrity companion at crossroads",
           "agesWithBand": "13-17",
           "lessonTheme": "choose what is right"
+        },
+        {
+          "name": "Atlas",
+          "species": "wolf",
+          "portrait": "assets/caly-friends/atlas-teen.png",
+          "role": "Atlas story friend",
+          "agesWithBand": "13-17",
+          "lessonTheme": "Integrity means matching actions to values.",
+          "status": "bootstrap"
+        },
+        {
+          "name": "Nova",
+          "species": "raven",
+          "portrait": "assets/caly-friends/nova-teen.png",
+          "role": "Nova story friend",
+          "agesWithBand": "13-17",
+          "lessonTheme": "Truth protects people we care about.",
+          "status": "bootstrap"
+        },
+        {
+          "name": "Ember",
+          "species": "fox",
+          "portrait": "assets/caly-friends/ember-teen.png",
+          "role": "Ember story friend",
+          "agesWithBand": "13-17",
+          "lessonTheme": "Standing up can still be gentle.",
+          "status": "bootstrap"
+        },
+        {
+          "name": "Harbor",
+          "species": "seal",
+          "portrait": "assets/caly-friends/harbor-teen.png",
+          "role": "Harbor story friend",
+          "agesWithBand": "13-17",
+          "lessonTheme": "Peace is a practice we can choose daily.",
+          "status": "bootstrap"
+        },
+        {
+          "name": "Summit",
+          "species": "eagle",
+          "portrait": "assets/caly-friends/summit-teen.png",
+          "role": "Summit story friend",
+          "agesWithBand": "13-17",
+          "lessonTheme": "Service turns gratitude into action.",
+          "status": "bootstrap"
+        },
+        {
+          "name": "Cipher",
+          "species": "owl",
+          "portrait": "assets/caly-friends/cipher-teen.png",
+          "role": "Cipher story friend",
+          "agesWithBand": "13-17",
+          "lessonTheme": "Pausing before posting protects people and peace.",
+          "status": "bootstrap"
         }
       ],
       "mentor": {
@@ -149,6 +484,60 @@
           "role": "morning song gratitude partner",
           "agesWithBand": "18+",
           "lessonTheme": "gratitude and service"
+        },
+        {
+          "name": "Dawn",
+          "species": "songbird",
+          "portrait": "assets/caly-friends/dawn-adult.png",
+          "role": "Dawn story friend",
+          "agesWithBand": "18+",
+          "lessonTheme": "Gratitude turns ordinary mornings into gifts.",
+          "status": "bootstrap"
+        },
+        {
+          "name": "Cedar",
+          "species": "stag",
+          "portrait": "assets/caly-friends/cedar-adult.png",
+          "role": "Cedar story friend",
+          "agesWithBand": "18+",
+          "lessonTheme": "What we give outlives what we keep.",
+          "status": "bootstrap"
+        },
+        {
+          "name": "Meadow",
+          "species": "sheep",
+          "portrait": "assets/caly-friends/meadow-adult.png",
+          "role": "Meadow story friend",
+          "agesWithBand": "18+",
+          "lessonTheme": "Mercy restores what shame tries to steal.",
+          "status": "bootstrap"
+        },
+        {
+          "name": "Harbor",
+          "species": "dolphin",
+          "portrait": "assets/caly-friends/harbor-adult.png",
+          "role": "Harbor story friend",
+          "agesWithBand": "18+",
+          "lessonTheme": "Hope shared becomes hope multiplied.",
+          "status": "bootstrap"
+        },
+        {
+          "name": "Stone",
+          "species": "crane",
+          "portrait": "assets/caly-friends/stone-adult.png",
+          "role": "Stone story friend",
+          "agesWithBand": "18+",
+          "lessonTheme": "Steadfast prayer anchors busy lives.",
+          "status": "bootstrap"
+        },
+        {
+          "name": "Root",
+          "species": "badger",
+          "portrait": "assets/caly-friends/root-adult.png",
+          "role": "Root story friend",
+          "agesWithBand": "18+",
+          "lessonTheme": "Gratitude rooted deep sustains us through every season.",
+          "status": "bootstrap"
         }
       ],
       "mentor": {
@@ -178,7 +567,7 @@
       "generator": "scripts/generate_caly_friends_episodes.py"
     }
   },
-  "lockedUtc": "2026-06-23T12:00:00Z",
+  "lockedUtc": "2026-06-25T02:23:42Z",
   "palette": {
     "mint": "#b8f0d8",
     "skyBlue": "#7ec8ff",
@@ -188,7 +577,7 @@
   },
   "masterPromptRef": "ILLUSTRATION_STYLE.md",
   "quarantined": {
-    "caly_quest.png": "fox character — not Caly plant",
+    "caly_quest.png": "fox character \u2014 not Caly plant",
     "caly_spark.png": "broken placeholder",
     "caly_core.png": "camera icon placeholder",
     "caly_guide.png": "generic avatar placeholder",
@@ -196,19 +585,442 @@
     "caly-adult/portrait.png": "human adult experiment"
   },
   "assets": [
-    { "id": "band-seed", "path": "assets/caly-bands/seed.png", "type": "band-portrait", "band": "baby", "status": "bootstrap", "generatedUtc": "2026-06-22T12:25:00Z", "note": "bootstrap from sprout until dedicated Seed art" },
-    { "id": "band-sprout", "path": "assets/caly-bands/sprout.png", "type": "band-portrait", "band": "toddler", "status": "live", "generatedUtc": "2026-06-22T16:00:00Z" },
-    { "id": "band-bud", "path": "assets/caly-bands/bud.png", "type": "band-portrait", "band": "child", "status": "live", "generatedUtc": "2026-06-22T16:00:00Z" },
-    { "id": "band-sprig", "path": "assets/caly-bands/sprig.png", "type": "band-portrait", "band": "tween", "status": "live", "generatedUtc": "2026-06-22T18:00:00Z" },
-    { "id": "band-vine", "path": "assets/caly-bands/vine.png", "type": "band-portrait", "band": "teen", "status": "live", "generatedUtc": "2026-06-22T16:00:00Z" },
-    { "id": "band-bloom", "path": "assets/caly-bands/bloom.png", "type": "band-portrait", "band": "adult", "status": "live", "generatedUtc": "2026-06-22T16:00:00Z" },
-    { "id": "band-canopy", "path": "assets/caly-bands/canopy.png", "type": "band-portrait", "band": "caregiver", "status": "live", "generatedUtc": "2026-06-22T16:00:00Z" },
-    { "id": "friend-pip-baby", "path": "assets/caly-friends/pip-baby.png", "type": "friend-portrait", "band": "baby", "status": "generated", "generatedUtc": "2026-06-24T18:00:00Z" },
-    { "id": "friend-fern-toddler", "path": "assets/caly-friends/fern-toddler.png", "type": "friend-portrait", "band": "toddler", "status": "generated", "generatedUtc": "2026-06-24T18:00:00Z" },
-    { "id": "friend-moss-child", "path": "assets/caly-friends/moss-child.png", "type": "friend-portrait", "band": "child", "status": "generated", "generatedUtc": "2026-06-24T18:00:00Z" },
-    { "id": "friend-reed-tween", "path": "assets/caly-friends/reed-tween.png", "type": "friend-portrait", "band": "tween", "status": "generated", "generatedUtc": "2026-06-24T18:00:00Z" },
-    { "id": "friend-sage-teen", "path": "assets/caly-friends/sage-teen.png", "type": "friend-portrait", "band": "teen", "status": "generated", "generatedUtc": "2026-06-24T18:00:00Z" },
-    { "id": "friend-laurel-adult", "path": "assets/caly-friends/laurel-adult.png", "type": "friend-portrait", "band": "adult", "status": "generated", "generatedUtc": "2026-06-24T18:00:00Z" },
-    { "id": "friend-elder-oak", "path": "assets/caly-friends/elder-oak-caregiver.png", "type": "friend-portrait", "band": "caregiver", "status": "generated", "generatedUtc": "2026-06-24T18:00:00Z" }
+    {
+      "id": "band-seed",
+      "path": "assets/caly-bands/seed.png",
+      "type": "band-portrait",
+      "band": "baby",
+      "status": "bootstrap",
+      "generatedUtc": "2026-06-22T12:25:00Z",
+      "note": "bootstrap from sprout until dedicated Seed art"
+    },
+    {
+      "id": "band-sprout",
+      "path": "assets/caly-bands/sprout.png",
+      "type": "band-portrait",
+      "band": "toddler",
+      "status": "live",
+      "generatedUtc": "2026-06-22T16:00:00Z"
+    },
+    {
+      "id": "band-bud",
+      "path": "assets/caly-bands/bud.png",
+      "type": "band-portrait",
+      "band": "child",
+      "status": "live",
+      "generatedUtc": "2026-06-22T16:00:00Z"
+    },
+    {
+      "id": "band-sprig",
+      "path": "assets/caly-bands/sprig.png",
+      "type": "band-portrait",
+      "band": "tween",
+      "status": "live",
+      "generatedUtc": "2026-06-22T18:00:00Z"
+    },
+    {
+      "id": "band-vine",
+      "path": "assets/caly-bands/vine.png",
+      "type": "band-portrait",
+      "band": "teen",
+      "status": "live",
+      "generatedUtc": "2026-06-22T16:00:00Z"
+    },
+    {
+      "id": "band-bloom",
+      "path": "assets/caly-bands/bloom.png",
+      "type": "band-portrait",
+      "band": "adult",
+      "status": "live",
+      "generatedUtc": "2026-06-22T16:00:00Z"
+    },
+    {
+      "id": "band-canopy",
+      "path": "assets/caly-bands/canopy.png",
+      "type": "band-portrait",
+      "band": "caregiver",
+      "status": "live",
+      "generatedUtc": "2026-06-22T16:00:00Z"
+    },
+    {
+      "id": "friend-pip-baby",
+      "path": "assets/caly-friends/pip-baby.png",
+      "type": "friend-portrait",
+      "band": "baby",
+      "status": "generated",
+      "generatedUtc": "2026-06-24T18:00:00Z"
+    },
+    {
+      "id": "friend-fern-toddler",
+      "path": "assets/caly-friends/fern-toddler.png",
+      "type": "friend-portrait",
+      "band": "toddler",
+      "status": "generated",
+      "generatedUtc": "2026-06-24T18:00:00Z"
+    },
+    {
+      "id": "friend-moss-child",
+      "path": "assets/caly-friends/moss-child.png",
+      "type": "friend-portrait",
+      "band": "child",
+      "status": "generated",
+      "generatedUtc": "2026-06-24T18:00:00Z"
+    },
+    {
+      "id": "friend-reed-tween",
+      "path": "assets/caly-friends/reed-tween.png",
+      "type": "friend-portrait",
+      "band": "tween",
+      "status": "generated",
+      "generatedUtc": "2026-06-24T18:00:00Z"
+    },
+    {
+      "id": "friend-sage-teen",
+      "path": "assets/caly-friends/sage-teen.png",
+      "type": "friend-portrait",
+      "band": "teen",
+      "status": "generated",
+      "generatedUtc": "2026-06-24T18:00:00Z"
+    },
+    {
+      "id": "friend-laurel-adult",
+      "path": "assets/caly-friends/laurel-adult.png",
+      "type": "friend-portrait",
+      "band": "adult",
+      "status": "generated",
+      "generatedUtc": "2026-06-24T18:00:00Z"
+    },
+    {
+      "id": "friend-elder-oak",
+      "path": "assets/caly-friends/elder-oak-caregiver.png",
+      "type": "friend-portrait",
+      "band": "caregiver",
+      "status": "generated",
+      "generatedUtc": "2026-06-24T18:00:00Z"
+    },
+    {
+      "id": "friend-wren-baby",
+      "path": "assets/caly-friends/wren-baby.png",
+      "type": "friend-portrait",
+      "band": "baby",
+      "status": "bootstrap",
+      "generatedUtc": "2026-06-25T02:23:42Z",
+      "note": "bootstrap portrait pending dedicated art"
+    },
+    {
+      "id": "friend-dot-baby",
+      "path": "assets/caly-friends/dot-baby.png",
+      "type": "friend-portrait",
+      "band": "baby",
+      "status": "bootstrap",
+      "generatedUtc": "2026-06-25T02:23:42Z",
+      "note": "bootstrap portrait pending dedicated art"
+    },
+    {
+      "id": "friend-pebble-baby",
+      "path": "assets/caly-friends/pebble-baby.png",
+      "type": "friend-portrait",
+      "band": "baby",
+      "status": "bootstrap",
+      "generatedUtc": "2026-06-25T02:23:42Z",
+      "note": "bootstrap portrait pending dedicated art"
+    },
+    {
+      "id": "friend-lumi-baby",
+      "path": "assets/caly-friends/lumi-baby.png",
+      "type": "friend-portrait",
+      "band": "baby",
+      "status": "bootstrap",
+      "generatedUtc": "2026-06-25T02:23:42Z",
+      "note": "bootstrap portrait pending dedicated art"
+    },
+    {
+      "id": "friend-coco-baby",
+      "path": "assets/caly-friends/coco-baby.png",
+      "type": "friend-portrait",
+      "band": "baby",
+      "status": "bootstrap",
+      "generatedUtc": "2026-06-25T02:23:42Z",
+      "note": "bootstrap portrait pending dedicated art"
+    },
+    {
+      "id": "friend-nuzzle-baby",
+      "path": "assets/caly-friends/nuzzle-baby.png",
+      "type": "friend-portrait",
+      "band": "baby",
+      "status": "bootstrap",
+      "generatedUtc": "2026-06-25T02:23:42Z",
+      "note": "bootstrap portrait pending dedicated art"
+    },
+    {
+      "id": "friend-maple-toddler",
+      "path": "assets/caly-friends/maple-toddler.png",
+      "type": "friend-portrait",
+      "band": "toddler",
+      "status": "bootstrap",
+      "generatedUtc": "2026-06-25T02:23:42Z",
+      "note": "bootstrap portrait pending dedicated art"
+    },
+    {
+      "id": "friend-sunny-toddler",
+      "path": "assets/caly-friends/sunny-toddler.png",
+      "type": "friend-portrait",
+      "band": "toddler",
+      "status": "bootstrap",
+      "generatedUtc": "2026-06-25T02:23:42Z",
+      "note": "bootstrap portrait pending dedicated art"
+    },
+    {
+      "id": "friend-petal-toddler",
+      "path": "assets/caly-friends/petal-toddler.png",
+      "type": "friend-portrait",
+      "band": "toddler",
+      "status": "bootstrap",
+      "generatedUtc": "2026-06-25T02:23:42Z",
+      "note": "bootstrap portrait pending dedicated art"
+    },
+    {
+      "id": "friend-brook-toddler",
+      "path": "assets/caly-friends/brook-toddler.png",
+      "type": "friend-portrait",
+      "band": "toddler",
+      "status": "bootstrap",
+      "generatedUtc": "2026-06-25T02:23:42Z",
+      "note": "bootstrap portrait pending dedicated art"
+    },
+    {
+      "id": "friend-hazel-toddler",
+      "path": "assets/caly-friends/hazel-toddler.png",
+      "type": "friend-portrait",
+      "band": "toddler",
+      "status": "bootstrap",
+      "generatedUtc": "2026-06-25T02:23:42Z",
+      "note": "bootstrap portrait pending dedicated art"
+    },
+    {
+      "id": "friend-sprout-toddler",
+      "path": "assets/caly-friends/sprout-toddler.png",
+      "type": "friend-portrait",
+      "band": "toddler",
+      "status": "bootstrap",
+      "generatedUtc": "2026-06-25T02:23:42Z",
+      "note": "bootstrap portrait pending dedicated art"
+    },
+    {
+      "id": "friend-river-child",
+      "path": "assets/caly-friends/river-child.png",
+      "type": "friend-portrait",
+      "band": "child",
+      "status": "bootstrap",
+      "generatedUtc": "2026-06-25T02:23:42Z",
+      "note": "bootstrap portrait pending dedicated art"
+    },
+    {
+      "id": "friend-sky-child",
+      "path": "assets/caly-friends/sky-child.png",
+      "type": "friend-portrait",
+      "band": "child",
+      "status": "bootstrap",
+      "generatedUtc": "2026-06-25T02:23:42Z",
+      "note": "bootstrap portrait pending dedicated art"
+    },
+    {
+      "id": "friend-clover-child",
+      "path": "assets/caly-friends/clover-child.png",
+      "type": "friend-portrait",
+      "band": "child",
+      "status": "bootstrap",
+      "generatedUtc": "2026-06-25T02:23:42Z",
+      "note": "bootstrap portrait pending dedicated art"
+    },
+    {
+      "id": "friend-flint-child",
+      "path": "assets/caly-friends/flint-child.png",
+      "type": "friend-portrait",
+      "band": "child",
+      "status": "bootstrap",
+      "generatedUtc": "2026-06-25T02:23:42Z",
+      "note": "bootstrap portrait pending dedicated art"
+    },
+    {
+      "id": "friend-briar-child",
+      "path": "assets/caly-friends/briar-child.png",
+      "type": "friend-portrait",
+      "band": "child",
+      "status": "bootstrap",
+      "generatedUtc": "2026-06-25T02:23:42Z",
+      "note": "bootstrap portrait pending dedicated art"
+    },
+    {
+      "id": "friend-thistle-child",
+      "path": "assets/caly-friends/thistle-child.png",
+      "type": "friend-portrait",
+      "band": "child",
+      "status": "bootstrap",
+      "generatedUtc": "2026-06-25T02:23:42Z",
+      "note": "bootstrap portrait pending dedicated art"
+    },
+    {
+      "id": "friend-ash-tween",
+      "path": "assets/caly-friends/ash-tween.png",
+      "type": "friend-portrait",
+      "band": "tween",
+      "status": "bootstrap",
+      "generatedUtc": "2026-06-25T02:23:42Z",
+      "note": "bootstrap portrait pending dedicated art"
+    },
+    {
+      "id": "friend-pike-tween",
+      "path": "assets/caly-friends/pike-tween.png",
+      "type": "friend-portrait",
+      "band": "tween",
+      "status": "bootstrap",
+      "generatedUtc": "2026-06-25T02:23:42Z",
+      "note": "bootstrap portrait pending dedicated art"
+    },
+    {
+      "id": "friend-juniper-tween",
+      "path": "assets/caly-friends/juniper-tween.png",
+      "type": "friend-portrait",
+      "band": "tween",
+      "status": "bootstrap",
+      "generatedUtc": "2026-06-25T02:23:42Z",
+      "note": "bootstrap portrait pending dedicated art"
+    },
+    {
+      "id": "friend-ridge-tween",
+      "path": "assets/caly-friends/ridge-tween.png",
+      "type": "friend-portrait",
+      "band": "tween",
+      "status": "bootstrap",
+      "generatedUtc": "2026-06-25T02:23:42Z",
+      "note": "bootstrap portrait pending dedicated art"
+    },
+    {
+      "id": "friend-willow-tween",
+      "path": "assets/caly-friends/willow-tween.png",
+      "type": "friend-portrait",
+      "band": "tween",
+      "status": "bootstrap",
+      "generatedUtc": "2026-06-25T02:23:42Z",
+      "note": "bootstrap portrait pending dedicated art"
+    },
+    {
+      "id": "friend-lane-tween",
+      "path": "assets/caly-friends/lane-tween.png",
+      "type": "friend-portrait",
+      "band": "tween",
+      "status": "bootstrap",
+      "generatedUtc": "2026-06-25T02:23:42Z",
+      "note": "bootstrap portrait pending dedicated art"
+    },
+    {
+      "id": "friend-atlas-teen",
+      "path": "assets/caly-friends/atlas-teen.png",
+      "type": "friend-portrait",
+      "band": "teen",
+      "status": "bootstrap",
+      "generatedUtc": "2026-06-25T02:23:42Z",
+      "note": "bootstrap portrait pending dedicated art"
+    },
+    {
+      "id": "friend-nova-teen",
+      "path": "assets/caly-friends/nova-teen.png",
+      "type": "friend-portrait",
+      "band": "teen",
+      "status": "bootstrap",
+      "generatedUtc": "2026-06-25T02:23:42Z",
+      "note": "bootstrap portrait pending dedicated art"
+    },
+    {
+      "id": "friend-ember-teen",
+      "path": "assets/caly-friends/ember-teen.png",
+      "type": "friend-portrait",
+      "band": "teen",
+      "status": "bootstrap",
+      "generatedUtc": "2026-06-25T02:23:42Z",
+      "note": "bootstrap portrait pending dedicated art"
+    },
+    {
+      "id": "friend-harbor-teen",
+      "path": "assets/caly-friends/harbor-teen.png",
+      "type": "friend-portrait",
+      "band": "teen",
+      "status": "bootstrap",
+      "generatedUtc": "2026-06-25T02:23:42Z",
+      "note": "bootstrap portrait pending dedicated art"
+    },
+    {
+      "id": "friend-summit-teen",
+      "path": "assets/caly-friends/summit-teen.png",
+      "type": "friend-portrait",
+      "band": "teen",
+      "status": "bootstrap",
+      "generatedUtc": "2026-06-25T02:23:42Z",
+      "note": "bootstrap portrait pending dedicated art"
+    },
+    {
+      "id": "friend-cipher-teen",
+      "path": "assets/caly-friends/cipher-teen.png",
+      "type": "friend-portrait",
+      "band": "teen",
+      "status": "bootstrap",
+      "generatedUtc": "2026-06-25T02:23:42Z",
+      "note": "bootstrap portrait pending dedicated art"
+    },
+    {
+      "id": "friend-dawn-adult",
+      "path": "assets/caly-friends/dawn-adult.png",
+      "type": "friend-portrait",
+      "band": "adult",
+      "status": "bootstrap",
+      "generatedUtc": "2026-06-25T02:23:42Z",
+      "note": "bootstrap portrait pending dedicated art"
+    },
+    {
+      "id": "friend-cedar-adult",
+      "path": "assets/caly-friends/cedar-adult.png",
+      "type": "friend-portrait",
+      "band": "adult",
+      "status": "bootstrap",
+      "generatedUtc": "2026-06-25T02:23:42Z",
+      "note": "bootstrap portrait pending dedicated art"
+    },
+    {
+      "id": "friend-meadow-adult",
+      "path": "assets/caly-friends/meadow-adult.png",
+      "type": "friend-portrait",
+      "band": "adult",
+      "status": "bootstrap",
+      "generatedUtc": "2026-06-25T02:23:42Z",
+      "note": "bootstrap portrait pending dedicated art"
+    },
+    {
+      "id": "friend-harbor-adult",
+      "path": "assets/caly-friends/harbor-adult.png",
+      "type": "friend-portrait",
+      "band": "adult",
+      "status": "bootstrap",
+      "generatedUtc": "2026-06-25T02:23:42Z",
+      "note": "bootstrap portrait pending dedicated art"
+    },
+    {
+      "id": "friend-stone-adult",
+      "path": "assets/caly-friends/stone-adult.png",
+      "type": "friend-portrait",
+      "band": "adult",
+      "status": "bootstrap",
+      "generatedUtc": "2026-06-25T02:23:42Z",
+      "note": "bootstrap portrait pending dedicated art"
+    },
+    {
+      "id": "friend-root-adult",
+      "path": "assets/caly-friends/root-adult.png",
+      "type": "friend-portrait",
+      "band": "adult",
+      "status": "bootstrap",
+      "generatedUtc": "2026-06-25T02:23:42Z",
+      "note": "bootstrap portrait pending dedicated art"
+    }
   ]
 }

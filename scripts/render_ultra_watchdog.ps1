@@ -52,5 +52,5 @@ while ((Get-RemainingCount) -gt 0) {
   Start-Sleep -Seconds 30
 }
 
-Log "=== All 36 episodes Ultra HD and on-length — production complete ==="
+Log "=== All 72 episodes Ultra HD and on-length - production complete ==="
 python scripts/qc_ecosystem.py 2>&1 | Out-File $log -Append -Encoding utf8
