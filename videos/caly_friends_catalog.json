@@ -1,7 +1,7 @@
 {
   "version": 1,
   "series": "Caly and Friends",
-  "lockedUtc": "2026-06-25T00:41:48Z",
+  "lockedUtc": "2026-06-25T02:20:33Z",
   "durationTargetsSec": {
     "baby": 300,
     "toddler": 600,
@@ -361,7 +361,10 @@
       "webm": "moss_team_harvest_long.webm",
       "lesson": "Sharing the harvest blesses everyone at the table.",
       "pilot": false,
-      "status": "script-only"
+      "status": "complete",
+      "videoProfile": "hd",
+      "videoResolution": "1920x1080",
+      "videoFps": 24
     },
     {
       "id": "reed_rumor_mist_long",
