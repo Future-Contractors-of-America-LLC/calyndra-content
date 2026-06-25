@@ -43,8 +43,8 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install Azure Speech SDK dependency
-        run: pip install azure-cognitiveservices-speech
+      - name: Install ship script dependencies
+        run: pip install azure-cognitiveservices-speech pillow requests
 
       - name: Run unified ship (QC → voice → symbols → push)
         env:
