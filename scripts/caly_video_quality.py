@@ -106,6 +106,13 @@ def write_segment(frames: list[Image.Image], path: Path) -> None:
 
 
 def mux_av(video: Path, audio: Path, out: Path) -> bool:
+    """Mux with mastered narration and optional scene fade-in."""
+    try:
+        from caly_audio_master import master_narration
+
+        mastered = master_narration(audio, audio.parent / f"{audio.stem}_m.mp3")
+    except Exception:
+        mastered = audio
     try:
         subprocess.run(
             [
@@ -114,9 +121,19 @@ def mux_av(video: Path, audio: Path, out: Path) -> bool:
                 "-i",
                 str(video),
                 "-i",
-                str(audio),
+                str(mastered),
+                "-filter_complex",
+                "[0:v]fade=t=in:st=0:d=0.25[v]",
+                "-map",
+                "[v]",
+                "-map",
+                "1:a",
                 "-c:v",
-                "copy",
+                "libvpx-vp9",
+                "-crf",
+                str(VP9_CRF),
+                "-b:v",
+                "0",
                 "-c:a",
                 "libopus",
                 "-b:a",
@@ -130,7 +147,31 @@ def mux_av(video: Path, audio: Path, out: Path) -> bool:
         )
         return True
     except subprocess.CalledProcessError:
-        return False
+        try:
+            subprocess.run(
+                [
+                    FFMPEG,
+                    "-y",
+                    "-i",
+                    str(video),
+                    "-i",
+                    str(mastered),
+                    "-c:v",
+                    "copy",
+                    "-c:a",
+                    "libopus",
+                    "-b:a",
+                    AUDIO_BITRATE,
+                    "-shortest",
+                    str(out),
+                ],
+                capture_output=True,
+                text=True,
+                check=True,
+            )
+            return True
+        except subprocess.CalledProcessError:
+            return False
 
 
 def encode_still_webm(dest: Path, img: Image.Image, seconds: float) -> bool:

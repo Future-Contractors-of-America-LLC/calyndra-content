@@ -24,7 +24,7 @@ WEB = ROOT.parent / "calyndra-app"
 FLUTTER = ROOT.parent / "calyndra-mobile-flutter"
 SPEAK_API = "https://calyndra-central.azurewebsites.net/api/caly/speak"
 
-from caly_video_quality import (  # noqa: E402
+from caly_video_quality import (
     AUDIO_BITRATE,
     FFMPEG,
     PROFILE_NAME,
@@ -36,6 +36,7 @@ from caly_video_quality import (  # noqa: E402
     scale,
     write_segment,
 )
+from caly_animation import draw_caption_bar, draw_celebration_particles, motion_params
 
 FPS = VIDEO_FPS
 
@@ -155,23 +156,7 @@ def load_frame(name: str) -> Image.Image:
 
 def animate_frame(base: Image.Image, caption: str, t: float, motion: str) -> Image.Image:
     w, h = VIDEO_WIDTH, VIDEO_HEIGHT
-    if motion == "bounce":
-        zoom = 1.0 + 0.03 * math.sin(t * math.pi * 2)
-        dy = int(scale(8) * math.sin(t * math.pi * 2))
-    elif motion == "zoom":
-        zoom = 1.0 + 0.06 * t
-        dy = 0
-    elif motion == "pan":
-        zoom = 1.08
-        dy = int(scale(12) * math.sin(t * math.pi))
-    elif motion == "pulse":
-        zoom = 1.0 + 0.05 * math.sin(t * math.pi * 4)
-        dy = 0
-    elif motion == "celebrate":
-        zoom = 1.0 + 0.04 * math.sin(t * math.pi * 3)
-        dy = int(scale(6) * math.sin(t * math.pi * 6))
-    else:
-        zoom, dy = 1.02, 0
+    zoom, dy, et = motion_params(motion, t, scale)
 
     zw, zh = int(w * zoom), int(h * zoom)
     scaled = base.resize((zw, zh), Image.Resampling.LANCZOS)
@@ -179,29 +164,11 @@ def animate_frame(base: Image.Image, caption: str, t: float, motion: str) -> Ima
     y0 = max(0, min((zh - h) // 2 + dy, zh - h))
     canvas = scaled.crop((x0, y0, x0 + w, y0 + h))
 
-    d = ImageDraw.Draw(canvas)
     if motion == "celebrate":
-        for i in range(8):
-            cx = int(scale(200) + (w - scale(400)) * ((i * 0.13 + t) % 1))
-            cy = int(scale(80) + scale(40) * math.sin(t * 10 + i))
-            colors = ["#ff6b6b", "#ffd93d", "#6bcb77", "#74b9ff"]
-            r = scale(6)
-            d.ellipse((cx - r, cy - r, cx + r, cy + r), fill=colors[i % 4])
+        d = ImageDraw.Draw(canvas)
+        draw_celebration_particles(d, w, h, et, scale)
 
-    bar_h = scale(88)
-    pad = scale(40)
-    gap = scale(24)
-    radius = scale(22)
-    d.rounded_rectangle((pad, h - bar_h - gap, w - pad, h - gap), radius=radius, fill=(255, 255, 255))
-    d.rounded_rectangle(
-        (pad, h - bar_h - gap, w - pad, h - gap),
-        radius=radius,
-        outline=(255, 200, 100),
-        width=max(scale(4), 2),
-    )
-    font = _font(scale(32))
-    tw = d.textlength(caption, font=font)
-    d.text(((w - tw) / 2, h - bar_h - 4), caption, fill=(45, 55, 65), font=font)
+    draw_caption_bar(canvas, caption, t=et, scale_fn=scale, font_loader=_font)
     return canvas
 
 
