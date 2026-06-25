@@ -106,7 +106,7 @@ def write_segment(frames: list[Image.Image], path: Path) -> None:
 
 
 def mux_av(video: Path, audio: Path, out: Path) -> bool:
-    """Mux with mastered narration and optional scene fade-in."""
+    """Mux mastered narration; copy video stream (fade applied during frame gen)."""
     try:
         from caly_audio_master import master_narration
 
@@ -122,18 +122,8 @@ def mux_av(video: Path, audio: Path, out: Path) -> bool:
                 str(video),
                 "-i",
                 str(mastered),
-                "-filter_complex",
-                "[0:v]fade=t=in:st=0:d=0.25[v]",
-                "-map",
-                "[v]",
-                "-map",
-                "1:a",
                 "-c:v",
-                "libvpx-vp9",
-                "-crf",
-                str(VP9_CRF),
-                "-b:v",
-                "0",
+                "copy",
                 "-c:a",
                 "libopus",
                 "-b:a",
@@ -147,31 +137,7 @@ def mux_av(video: Path, audio: Path, out: Path) -> bool:
         )
         return True
     except subprocess.CalledProcessError:
-        try:
-            subprocess.run(
-                [
-                    FFMPEG,
-                    "-y",
-                    "-i",
-                    str(video),
-                    "-i",
-                    str(mastered),
-                    "-c:v",
-                    "copy",
-                    "-c:a",
-                    "libopus",
-                    "-b:a",
-                    AUDIO_BITRATE,
-                    "-shortest",
-                    str(out),
-                ],
-                capture_output=True,
-                text=True,
-                check=True,
-            )
-            return True
-        except subprocess.CalledProcessError:
-            return False
+        return False
 
 
 def encode_still_webm(dest: Path, img: Image.Image, seconds: float) -> bool:

@@ -40,9 +40,9 @@ function Render-One {
   Set-Location $content
   Write-RenderLog "Rendering $Id (upgrade=$Upgrade) ..." $log
   if ($Upgrade) {
-    python scripts/generate_caly_friends_episodes.py --upgrade-hd --id $Id 2>&1 | Tee-Object -FilePath $log -Append
+    python -u scripts/generate_caly_friends_episodes.py --upgrade-hd --id $Id 2>&1 | Tee-Object -FilePath $log -Append
   } else {
-    python scripts/generate_caly_friends_episodes.py --id $Id 2>&1 | Tee-Object -FilePath $log -Append
+    python -u scripts/generate_caly_friends_episodes.py --id $Id 2>&1 | Tee-Object -FilePath $log -Append
   }
   if ($LASTEXITCODE -ne 0) {
     Write-RenderLog "WARN: render exit $LASTEXITCODE for $Id" $log
