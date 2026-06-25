@@ -1,8 +1,12 @@
-# Watchdog: restart Ultra HD specialist pipeline until all 36 episodes are UHD.
+# Watchdog: restart Ultra HD specialist pipeline until all 36 episodes are UHD + on-length.
 $root = "C:\Users\Auricrux\OneDrive - Future Contractors of America LLC"
 $content = Join-Path $root "calyndra-content"
 $log = Join-Path $content "videos\ultra_watchdog.log"
-$script = Join-Path $content "scripts\render_media_specialists.ps1"
+$pipeline = Join-Path $content "scripts\render_continuous_ultra.ps1"
+
+$env:PYTHONUNBUFFERED = "1"
+$env:CALY_VIDEO_PROFILE = "uhd"
+$env:CALY_MEDIA_SPECIALISTS = "1"
 
 function Log($msg) {
   $line = "$(Get-Date -Format o) $msg"
@@ -10,34 +14,43 @@ function Log($msg) {
   $line | Out-File $log -Append -Encoding utf8
 }
 
-function Test-AllUltra {
+function Get-RemainingCount {
   Set-Location $content
   $n = python -c @"
-import json
+import json, sys
 from pathlib import Path
+sys.path.insert(0, 'scripts')
+from caly_episode_duration import meets_duration_target
 c = json.loads(Path('videos/caly_friends_catalog.json').read_text(encoding='utf-8'))
-eps = c['episodes']
-pending = sum(1 for e in eps if e.get('status') != 'complete')
-not_uhd = sum(1 for e in eps if e.get('videoProfile') != 'uhd')
-print(not_uhd + pending)
+app = Path('..') / 'calyndra-app' / 'videos'
+n = 0
+for e in c['episodes']:
+    if e.get('status') != 'complete':
+        n += 1
+        continue
+    webm = app / e['webm']
+    if e.get('videoProfile') != 'uhd' or not meets_duration_target(e, webm):
+        n += 1
+print(n)
 "@
-  return ([int]$n -eq 0)
+  return [int]$n
 }
 
-Log "=== Ultra HD watchdog start ==="
+Log "=== Ultra HD watchdog start (animation + audio + video specialists) ==="
 $run = 0
-while (-not (Test-AllUltra)) {
+while ((Get-RemainingCount) -gt 0) {
   $run++
-  Log "Launch run #$run ..."
-  $proc = Start-Process -FilePath "powershell.exe" `
-    -ArgumentList "-NoProfile", "-ExecutionPolicy", "Bypass", "-File", "`"$script`"" `
-    -WorkingDirectory $content `
-    -PassThru -Wait -NoNewWindow
-  Log "Run #$run exited code=$($proc.ExitCode)"
-  if (Test-AllUltra) { break }
-  Log "Not all UHD yet — restarting in 15s"
-  Start-Sleep -Seconds 15
+  $remaining = Get-RemainingCount
+  Log "Launch run #$run (remaining=$remaining) ..."
+  Set-Location $content
+  & $pipeline
+  $code = $LASTEXITCODE
+  if ($null -eq $code) { $code = 0 }
+  Log "Run #$run exited code=$code"
+  if ((Get-RemainingCount) -eq 0) { break }
+  Log "Not all UHD/on-length yet — restarting in 30s"
+  Start-Sleep -Seconds 30
 }
 
-Log "=== All media at Ultra HD — watchdog done ==="
+Log "=== All 36 episodes Ultra HD and on-length — production complete ==="
 python scripts/qc_ecosystem.py 2>&1 | Out-File $log -Append -Encoding utf8
