@@ -45,7 +45,7 @@ while ((Get-RemainingCount) -gt 0) {
   Set-Location $content
   $code = 0
   try {
-    & powershell.exe -NoProfile -ExecutionPolicy Bypass -File $pipeline 2>&1 | Tee-Object -FilePath $log -Append
+    & $pipeline 2>&1 | Tee-Object -FilePath $log -Append
     if ($null -ne $LASTEXITCODE) { $code = $LASTEXITCODE }
   } catch {
     Log "ERROR run #$run : $($_.Exception.Message)"

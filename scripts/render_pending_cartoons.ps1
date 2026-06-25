@@ -4,7 +4,7 @@ $content = Join-Path $root "calyndra-content"
 $stamp = Get-Date -Format "yyyyMMdd-HHmmss"
 $log = Join-Path $content "videos\pending_render_$stamp.log"
 $env:PYTHONUNBUFFERED = "1"
-$env:CALY_VIDEO_PROFILE = "hd"
+$env:CALY_VIDEO_PROFILE = "uhd"
 
 . (Join-Path $content "scripts\render_ship_utils.ps1")
 
