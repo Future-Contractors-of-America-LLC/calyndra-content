@@ -14,6 +14,7 @@ from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFont
 
+from caly_episode_duration import SCENE_PACING_SEC, meets_duration_target
 from caly_video_quality import fit_frame, scale, encode_still_webm, VIDEO_HEIGHT, VIDEO_WIDTH, PROFILE_NAME, VIDEO_FPS
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -670,13 +671,16 @@ def write_placeholder_webm(dest: Path, title: str, seconds: float = 3.0) -> bool
     return encode_still_webm(dest, img, seconds)
 
 
-def build_episode_local(ep_meta: dict, scenes: list[tuple[str, str, str]], work: Path) -> Path | None:
+def build_episode_local(ep_meta: dict, scenes: list[tuple[str, str, str]], work: Path, catalog: dict | None = None) -> Path | None:
     v4.load_frame = load_frame_patched
+    pacing = float((catalog or {}).get("scenePacingSec", SCENE_PACING_SEC))
     ep = {
         "id": ep_meta["id"],
         "audience": ep_meta["band"],
         "title": ep_meta["title"],
         "scenes": scenes,
+        "scenePacingSec": pacing,
+        "targetDurationSec": ep_meta.get("targetDurationSec"),
     }
     return v4.build_episode(ep, work)
 
@@ -744,7 +748,8 @@ def main() -> None:
         if args.upgrade_hd:
             if ep_meta.get("status") != "complete":
                 continue
-            if ep_meta.get("videoProfile") == PROFILE_NAME:
+            dest = WEB_VIDEOS / ep_meta["webm"]
+            if ep_meta.get("videoProfile") == PROFILE_NAME and meets_duration_target(ep_meta, dest):
                 continue
         if args.pilot and not ep_meta.get("pilot"):
             continue
@@ -761,7 +766,7 @@ def main() -> None:
         scenes = expand_scenes(ep_meta, pilot=pilot)
         print(f"Building {ep_id} ({len(scenes)} scenes, pilot={pilot})...")
         with tempfile.TemporaryDirectory() as td:
-            result = build_episode_local(ep_meta, scenes, Path(td))
+            result = build_episode_local(ep_meta, scenes, Path(td), catalog)
             dest = WEB_VIDEOS / ep_meta["webm"]
             if result and result.exists():
                 shutil.copy(result, dest)

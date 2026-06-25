@@ -230,6 +230,8 @@ def mux_av(video: Path, audio: Path, out: Path) -> bool:
 def build_episode(ep: dict, work: Path) -> Path | None:
     scene_videos: list[Path] = []
     audience = ep["audience"]
+    pacing = float(ep.get("scenePacingSec", 6.0))
+    target = float(ep.get("targetDurationSec") or 0)
 
     for i, (caption, frame_file, motion) in enumerate(ep["scenes"]):
         print(f"  scene {i+1}/{len(ep['scenes'])}: {caption[:50]}...")
@@ -238,7 +240,7 @@ def build_episode(ep: dict, work: Path) -> Path | None:
         if not fetch_tts(caption, audience, mp3):
             print("    skip scene (no TTS)")
             continue
-        dur = audio_duration_sec(mp3) + 1.0
+        dur = max(audio_duration_sec(mp3) + 1.0, pacing)
         n_frames = max(int(dur * FPS), FPS * 2)
         frames = [animate_frame(base, caption, t / max(n_frames - 1, 1), motion) for t in range(n_frames)]
         seg_v = work / f"s{i}.webm"
@@ -262,6 +264,11 @@ def build_episode(ep: dict, work: Path) -> Path | None:
         ])
     except Exception:
         shutil.copy(scene_videos[0], final)
+
+    if target > 0 and final.exists():
+        actual = audio_duration_sec(final)
+        pct = actual / target * 100
+        print(f"  duration {actual:.0f}s / {target:.0f}s target ({pct:.0f}%)")
     return final
 
 

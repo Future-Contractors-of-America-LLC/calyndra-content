@@ -21,27 +21,13 @@ except Exception:
 
 BANDS = ("baby", "toddler", "child", "tween", "teen", "adult")
 MIN_EPISODES_PER_BAND = 6
-TOLERANCE = 0.35
+from caly_episode_duration import MIN_DURATION_RATIO, probe_duration
 
 
 def probe_duration(path: Path) -> float | None:
-    if not path.exists():
-        return None
-    try:
-        r = subprocess.run(
-            [FFMPEG, "-i", str(path)],
-            capture_output=True,
-            text=True,
-        )
-        import re
+    from caly_episode_duration import probe_duration as _probe
 
-        m = re.search(r"Duration:\s*(\d+):(\d+):([\d.]+)", r.stderr)
-        if m:
-            h, mn, s = m.groups()
-            return float(h) * 3600 + float(mn) * 60 + float(s)
-    except Exception:
-        pass
-    return None
+    return _probe(path)
 
 
 def main() -> int:
@@ -77,8 +63,14 @@ def main() -> int:
                     warnings.append(f"{ep['webm']}: placeholder {dur:.0f}s (target {target}s full)")
                 elif ep.get("status") == "pilot" and dur < target * 0.15:
                     warnings.append(f"Pilot {ep['webm']}: {dur:.0f}s (full target {target}s)")
-                elif ep.get("status") in ("complete", "full") and dur < 30:
-                    warnings.append(f"{ep['webm']}: stub {dur:.0f}s (expected full render)")
+                elif ep.get("status") in ("complete", "full"):
+                    if dur < 30:
+                        warnings.append(f"{ep['webm']}: stub {dur:.0f}s (expected full render)")
+                    elif dur < target * MIN_DURATION_RATIO:
+                        warnings.append(
+                            f"{ep['webm']}: {dur:.0f}s < {target * MIN_DURATION_RATIO:.0f}s "
+                            f"({MIN_DURATION_RATIO:.0%} of {target}s target) — re-render needed"
+                        )
 
         friends = registry.get("friendsByBand", {}).get(band, {}).get("friends", [])
         friend_names = {f["name"] for f in friends}

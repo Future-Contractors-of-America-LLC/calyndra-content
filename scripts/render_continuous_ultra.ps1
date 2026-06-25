@@ -11,14 +11,22 @@ $env:CALY_VIDEO_PROFILE = "uhd"
 function Get-EpisodeQueues {
   Set-Location $content
   $json = python -c @"
-import json
+import json, sys
 from pathlib import Path
+sys.path.insert(0, 'scripts')
+from caly_episode_duration import meets_duration_target
 c = json.loads(Path('videos/caly_friends_catalog.json').read_text(encoding='utf-8'))
+app = Path('..') / 'calyndra-app' / 'videos'
 pending = [e['id'] for e in c['episodes'] if e.get('status') == 'script-only']
-upgrade = [
-    e['id'] for e in c['episodes']
-    if e.get('status') == 'complete' and e.get('videoProfile') != 'uhd'
-]
+upgrade = []
+for e in c['episodes']:
+    if e.get('status') != 'complete':
+        continue
+    webm = app / e['webm']
+    if e.get('videoProfile') == 'uhd' and meets_duration_target(e, webm):
+        continue
+    if e.get('videoProfile') != 'uhd' or not meets_duration_target(e, webm):
+        upgrade.append(e['id'])
 print('PENDING:' + '|'.join(pending))
 print('UPGRADE:' + '|'.join(upgrade))
 "@
@@ -68,7 +76,7 @@ while ($true) {
   $q = Get-EpisodeQueues
   $pendingCount = $q.Pending.Count
   $upgradeCount = $q.Upgrade.Count
-  Write-RenderLog "Cycle $cycle ó pending=$pendingCount upgrade=$upgradeCount" $log
+  Write-RenderLog "Cycle $cycle ù pending=$pendingCount upgrade=$upgradeCount" $log
 
   if ($pendingCount -eq 0 -and $upgradeCount -eq 0) {
     Write-RenderLog "All 36 episodes complete at Ultra HD." $log
