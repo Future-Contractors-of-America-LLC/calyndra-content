@@ -1,6 +1,6 @@
 # Ecosystem QC report
 
-Generated: **2026-06-25 16:52 UTC**
+Generated: **2026-06-25 20:01 UTC**
 
 **Overall:** PASS (0 issue(s))
 
@@ -14,9 +14,11 @@ Generated: **2026-06-25 16:52 UTC**
 | `qc_games_catalog.py` | PASS |
 | `qc_sing_along_catalog.py` | PASS |
 | `qc_cartoon_catalog.py` | PASS |
+| `qc_cinematic_catalog.py` | PASS |
+| `qc_style_consistency.py` | PASS |
 | Vocabulary files (words per band) | PASS |
 | Games catalog (5+ new per band) | PASS |
-| Sing-along (5+ baby/toddler/child) | PASS |
+| Sing-along (5+ per band) | PASS |
 | Caly and Friends episodes | PASS |
 | Symbol PNG counts vs manifest | PASS |
 | app/index.html baby audience | PASS |
@@ -56,6 +58,10 @@ Generated: **2026-06-25 16:52 UTC**
 | baby | 6 | PASS |
 | toddler | 7 | PASS |
 | child | 6 | PASS |
+| tween | 5 | PASS |
+| teen | 5 | PASS |
+| adult | 5 | PASS |
+| caregiver | 5 | PASS |
 
 ## Caly and Friends
 
@@ -72,13 +78,13 @@ Generated: **2026-06-25 16:52 UTC**
 
 | Band folder | PNG count | Manifest expected | Status |
 |-------------|-----------|-------------------|--------|
-| `seed` | 146 | 146 | PASS |
-| `sprout` | 146 | 146 | PASS |
-| `bud` | 146 | 146 | PASS |
-| `sprig` | 146 | 146 | PASS |
-| `vine` | 146 | 146 | PASS |
-| `bloom` | 146 | 146 | PASS |
-| `canopy` | 146 | 146 | PASS |
+| `seed` | 161 | 150 | PASS |
+| `sprout` | 168 | 150 | PASS |
+| `bud` | 202 | 150 | PASS |
+| `sprig` | 269 | 150 | PASS |
+| `vine` | 312 | 150 | PASS |
+| `bloom` | 324 | 150 | PASS |
+| `canopy` | 168 | 150 | PASS |
 
 ## Synced to calyndra-app/content
 
@@ -118,14 +124,14 @@ Generated: **2026-06-25 16:52 UTC**
 ### qc_band_assets.py (exit 0)
 
 ```
-QC: 146 pass, 0 placeholder, 0 issues
+QC: 150 pass, 0 placeholder, 0 issues
 Wrote band-art-manifest.json and BAND_QC_REPORT.md
 ```
 
 ### qc_art_quality.py (exit 0)
 
 ```
-Art QC: PASS - 0 issue(s), 56 warning(s)
+Art QC: PASS - 0 issue(s), 2 warning(s)
 Wrote ART_QC_REPORT.md
 ```
 
@@ -153,12 +159,15 @@ Wrote GAMES_QC_REPORT.md
 ### qc_sing_along_catalog.py (exit 0)
 
 ```
-QC: 4 audiences, 0 issues
+QC: 7 audiences, 0 issues
 Wrote SING_ALONG_QC_REPORT.md
   baby: 6 episodes (6 new)
   toddler: 7 episodes (6 new)
   child: 6 episodes (6 new)
   tween: 5 episodes (5 new)
+  teen: 5 episodes (5 new)
+  adult: 5 episodes (5 new)
+  caregiver: 5 episodes (5 new)
 ```
 
 ### qc_cartoon_catalog.py (exit 0)
@@ -175,6 +184,33 @@ QC summary
   Episodes: 36
   Errors: 0
   Warnings: 0
+```
+
+### qc_cinematic_catalog.py (exit 0)
+
+```
+Cinematic QC: 36 episodes checked.
+  WARN: pip_gentle_hello_long: pilot resolution 1280x720 — schedule UHD re-render.
+  WARN: fern_garden_share_long: pilot resolution 1280x720 — schedule UHD re-render.
+  WARN: moss_kindness_trail_long: pilot resolution 1280x720 — schedule UHD re-render.
+  WARN: reed_wisdom_perch_long: resolution 1280x720 — HD upgrade pending (target 1920x1080+).
+  WARN: sage_crossroads_long: resolution 1280x720 — HD upgrade pending (target 1920x1080+).
+  WARN: laurel_morning_song_long: resolution 1280x720 — HD upgrade pending (target 1920x1080+).
+  WARN: pip_soft_breeze_long: resolution 1280x720 — HD upgrade pending (target 1920x1080+).
+  WARN: pip_moonlight_snuggle_long: resolution 1280x720 — HD upgrade pending (target 1920x1080+).
+  WARN: pip_twinkle_toes_long: resolution 1280x720 — HD upgrade pending (target 1920x1080+).
+  WARN: pip_rainbow_wave_long: resolution 1280x720 — HD upgrade pending (target 1920x1080+).
+  WARN: pip_heartbeat_lullaby_long: resolution 1280x720 — HD upgrade pending (target 1920x1080+).
+  WARN: fern_flower_surprise_long: resolution 1280x720 — HD upgrade pending (target 1920x1080+).
+  WARN: fern_patience_pots_long: resolution 1280x720 — HD upgrade pending (target 1920x1080+).
+  WARN: fern_butterfly_visit_long: resolution 1280x720 — HD upgrade pending (target 1920x1080+).
+  WARN: fern_weeding_teamwork_long: resolution 1280x720 — HD upgrade pending (target 1920x1080+).
+```
+
+### qc_style_consistency.py (exit 0)
+
+```
+Style QC: 0 issue(s), 0 warning(s).
 ```
 
 

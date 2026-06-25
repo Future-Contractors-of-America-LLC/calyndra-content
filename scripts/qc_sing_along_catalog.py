@@ -13,7 +13,7 @@ VOICE = ROOT / "games" / "caly-voice-scripts.json"
 OUT_REPORT = ROOT / "SING_ALONG_QC_REPORT.md"
 
 YOUNGER_BANDS = ("baby", "toddler", "child")
-OPTIONAL_BANDS = ("tween",)
+ALL_BANDS = ("baby", "toddler", "child", "tween", "teen", "adult", "caregiver")
 MIN_EPISODES = 5
 DURATION_MIN_MS = 120_000
 DURATION_MAX_MS = 240_000
@@ -35,7 +35,7 @@ def main() -> int:
     audiences = catalog.get("audiences", {})
     summary_rows: list[tuple[str, int, int, int]] = []
 
-    check_bands = list(YOUNGER_BANDS) + list(OPTIONAL_BANDS)
+    check_bands = list(ALL_BANDS)
     for aud in check_bands:
         block = audiences.get(aud)
         if not block:
@@ -46,7 +46,7 @@ def main() -> int:
         new_eps = [e for e in episodes if e.get("isNew", True)]
         existing = [e for e in episodes if not e.get("isNew", True)]
 
-        if aud in YOUNGER_BANDS and len(episodes) < MIN_EPISODES:
+        if len(episodes) < MIN_EPISODES:
             issues.append(
                 f"INSUFFICIENT: `{aud}` has {len(episodes)} episodes (need {MIN_EPISODES}+)."
             )
@@ -84,6 +84,8 @@ def main() -> int:
                         f"VOICE KEY ABSENT: `{aud}/{eid}` key `{vk}` not in caly-voice-scripts.json."
                     )
 
+            if not ep.get("musicBed"):
+                issues.append(f"MUSIC BED: `{aud}/{eid}` missing musicBed path.")
             if not ep.get("bandPortrait"):
                 issues.append(f"PORTRAIT MISSING: `{aud}/{eid}` has no bandPortrait.")
 
@@ -101,8 +103,8 @@ def main() -> int:
         "|----------|-------|----------|-----|--------|",
     ]
     for aud, total, existing, new in summary_rows:
-        required = aud in YOUNGER_BANDS
-        status = "PASS" if (not required or total >= MIN_EPISODES) else "FAIL"
+        required = True
+        status = "PASS" if total >= MIN_EPISODES else "FAIL"
         lines.append(f"| {aud} | {total} | {existing} | {new} | {status} |")
 
     lines.extend([
@@ -111,7 +113,7 @@ def main() -> int:
         "",
         "## Rules checked",
         "",
-        f"- At least {MIN_EPISODES} episodes per baby/toddler/child",
+        f"- At least {MIN_EPISODES} episodes per audience band (all 7)",
         f"- `durationMs` in [{DURATION_MIN_MS}, {DURATION_MAX_MS}] (~2-4 min)",
         "- Each episode has 4+ beats with ms/pose/lyric/word/mascotCue",
         "- All `show_*` voice keys present in `caly-voice-scripts.json` per audience",

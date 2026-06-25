@@ -104,6 +104,33 @@
       "voiceNote": "same voice base as adult; friendly professional SSML"
     }
   },
+  "familyMembers": {
+    "mommy": {
+      "displayName": "Mom",
+      "relation": "Caly's mother",
+      "artStyle": "caly-universe-plant",
+      "symbolWord": "mommy",
+      "appearsFromBand": "seed",
+      "note": "Taller mature Caly plant variant with flower crown — never photorealistic human."
+    },
+    "daddy": {
+      "displayName": "Dad",
+      "relation": "Caly's father",
+      "artStyle": "caly-universe-plant",
+      "symbolWord": "daddy",
+      "appearsFromBand": "seed",
+      "note": "Taller mature Caly plant variant with leaf cap — never photorealistic human."
+    },
+    "littleBrother": {
+      "displayName": "Little Brother",
+      "relation": "Caly's younger brother",
+      "artStyle": "caly-universe-plant",
+      "symbolWord": "little_brother",
+      "appearsFromBand": "child",
+      "band": "bud",
+      "note": "Smaller Caly Bud-era sibling — introduced when Caly is Child (Bud)."
+    }
+  },
   "friendsByBand": {
     "baby": {
       "friends": [
@@ -267,10 +294,12 @@
           "name": "River",
           "species": "beaver",
           "portrait": "assets/caly-friends/river-child.png",
-          "role": "River story friend",
+          "role": "Caly's best friend — thinks deeply, communicates in his own way",
           "agesWithBand": "5-8",
-          "lessonTheme": "Working together honors how God made community.",
-          "status": "bootstrap"
+          "lessonTheme": "Different minds are gifts; patience and inclusion build true friendship.",
+          "bestFriend": true,
+          "neurodiversityProfile": "autistic",
+          "status": "canon"
         },
         {
           "name": "Sky",

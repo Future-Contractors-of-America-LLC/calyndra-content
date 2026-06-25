@@ -23,6 +23,10 @@ MAX_DIM = 2048
 TARGET_DIM = 512
 BOOTSTRAP_BANDS = ("seed",)
 REQUIRED_BANDS = ("sprout", "bud", "sprig", "vine", "bloom", "canopy")
+FAMILY_BAND_REQUIREMENTS: dict[str, tuple[str, ...]] = {
+    "little_brother": ("bud", "sprig", "vine", "bloom", "canopy"),
+    "best_friend": ("bud", "sprig", "vine", "bloom", "canopy"),
+}
 HAND_VISIBLE_WORDS = frozenset({
     "help", "more", "stop", "wait", "please", "love", "hug", "clap", "wash", "wet",
     "listen", "open", "close", "want", "need", "modeling", "scaffold", "prompt-wait",
@@ -82,6 +86,9 @@ def check_manifest_assets(issues: list[str], warnings: list[str]) -> list[tuple[
     for band in REQUIRED_BANDS:
         missing = 0
         for word in words:
+            bands_for_word = FAMILY_BAND_REQUIREMENTS.get(word, REQUIRED_BANDS)
+            if band not in bands_for_word:
+                continue
             if not (APP_SYMBOLS / band / f"{word}.png").is_file():
                 missing += 1
                 issues.append(f"MANIFEST: `{word}` missing in `{band}/`.")
@@ -94,14 +101,14 @@ def check_manifest_assets(issues: list[str], warnings: list[str]) -> list[tuple[
     return rows
 
 
-def check_vocab_assets(warnings: list[str]) -> list[tuple[str, int, int, str]]:
-    """Expanded vocabulary coverage (warn only - manifest is ship gate)."""
+def check_vocab_assets(issues: list[str], warnings: list[str]) -> list[tuple[str, int, int, str]]:
+    """Expanded vocabulary coverage — ship gate requires 100%."""
     rows: list[tuple[str, int, int, str]] = []
     for aud in AUDIENCES:
         vocab_path = VOCAB_DIR / f"{aud}-words.json"
         if not vocab_path.is_file():
-            warnings.append(f"VOCAB: missing `{vocab_path.name}`.")
-            rows.append((aud, 0, 0, "WARN"))
+            issues.append(f"VOCAB: missing `{vocab_path.name}`.")
+            rows.append((aud, 0, 0, "FAIL"))
             continue
         vocab = load_json(vocab_path)
         symbols = vocab.get("symbols", [])
@@ -122,8 +129,8 @@ def check_vocab_assets(warnings: list[str]) -> list[tuple[str, int, int, str]]:
             if sym.get("placeholderArt") is True:
                 warnings.append(f"PLACEHOLDER: `{aud}`/`{word_id}` has placeholderArt=true.")
         if missing:
-            warnings.append(f"VOCAB: `{aud}` missing {missing}/{len(symbols)} imageAsset PNG(s).")
-        rows.append((aud, len(symbols) - missing, len(symbols), "PASS" if missing == 0 else "WARN"))
+            issues.append(f"VOCAB: `{aud}` missing {missing}/{len(symbols)} imageAsset PNG(s).")
+        rows.append((aud, len(symbols) - missing, len(symbols), "PASS" if missing == 0 else "FAIL"))
     return rows
 
 
@@ -241,7 +248,7 @@ def write_report(
         lines.append(f"| {band} | {ok} | {total} | {status} |")
     lines.extend([
         "",
-        "## Expanded vocabulary coverage (informational)",
+        "## Expanded vocabulary coverage (ship gate)",
         "",
         "| Audience | PNGs OK | Total symbols | Status |",
         "|----------|---------|---------------|--------|",
@@ -289,7 +296,7 @@ def main() -> int:
     warnings: list[str] = []
 
     manifest_rows = check_manifest_assets(issues, warnings)
-    vocab_rows = check_vocab_assets(warnings)
+    vocab_rows = check_vocab_assets(issues, warnings)
     dim_ok, dim_bad = check_dimensions(issues, warnings)
     gen_count, ph_count, bootstrap_count = check_manifest(issues, warnings)
     meta_reviewed, meta_bad, _ = check_sidecars(issues, warnings)

@@ -26,7 +26,7 @@
       "pilot": true,
       "status": "complete",
       "videoResolution": "1280x720",
-      "videoProfile": "draft",
+      "videoProfile": "hd",
       "videoFps": 12
     },
     {
@@ -43,7 +43,7 @@
       "pilot": true,
       "status": "complete",
       "videoResolution": "1280x720",
-      "videoProfile": "draft",
+      "videoProfile": "hd",
       "videoFps": 12
     },
     {
@@ -60,7 +60,7 @@
       "pilot": true,
       "status": "complete",
       "videoResolution": "1280x720",
-      "videoProfile": "draft",
+      "videoProfile": "hd",
       "videoFps": 12
     },
     {
@@ -77,7 +77,7 @@
       "pilot": false,
       "status": "complete",
       "videoResolution": "1280x720",
-      "videoProfile": "draft",
+      "videoProfile": "hd",
       "videoFps": 12
     },
     {
@@ -94,7 +94,7 @@
       "pilot": false,
       "status": "complete",
       "videoResolution": "1280x720",
-      "videoProfile": "draft",
+      "videoProfile": "hd",
       "videoFps": 12
     },
     {
@@ -111,7 +111,7 @@
       "pilot": false,
       "status": "complete",
       "videoResolution": "1280x720",
-      "videoProfile": "draft",
+      "videoProfile": "hd",
       "videoFps": 12
     },
     {
@@ -128,7 +128,7 @@
       "pilot": false,
       "status": "complete",
       "videoResolution": "1280x720",
-      "videoProfile": "draft",
+      "videoProfile": "hd",
       "videoFps": 12
     },
     {
@@ -145,7 +145,7 @@
       "pilot": false,
       "status": "complete",
       "videoResolution": "1280x720",
-      "videoProfile": "draft",
+      "videoProfile": "hd",
       "videoFps": 12
     },
     {
@@ -162,7 +162,7 @@
       "pilot": false,
       "status": "complete",
       "videoResolution": "1280x720",
-      "videoProfile": "draft",
+      "videoProfile": "hd",
       "videoFps": 12
     },
     {
@@ -179,7 +179,7 @@
       "pilot": false,
       "status": "complete",
       "videoResolution": "1280x720",
-      "videoProfile": "draft",
+      "videoProfile": "hd",
       "videoFps": 12
     },
     {
@@ -196,7 +196,7 @@
       "pilot": false,
       "status": "complete",
       "videoResolution": "1280x720",
-      "videoProfile": "draft",
+      "videoProfile": "hd",
       "videoFps": 12
     },
     {
@@ -213,7 +213,7 @@
       "pilot": false,
       "status": "complete",
       "videoResolution": "1280x720",
-      "videoProfile": "draft",
+      "videoProfile": "hd",
       "videoFps": 12
     },
     {
@@ -230,7 +230,7 @@
       "pilot": false,
       "status": "complete",
       "videoResolution": "1280x720",
-      "videoProfile": "draft",
+      "videoProfile": "hd",
       "videoFps": 12
     },
     {
@@ -247,7 +247,7 @@
       "pilot": false,
       "status": "complete",
       "videoResolution": "1280x720",
-      "videoProfile": "draft",
+      "videoProfile": "hd",
       "videoFps": 12
     },
     {
@@ -264,7 +264,7 @@
       "pilot": false,
       "status": "complete",
       "videoResolution": "1280x720",
-      "videoProfile": "draft",
+      "videoProfile": "hd",
       "videoFps": 12
     },
     {
@@ -281,7 +281,7 @@
       "pilot": false,
       "status": "complete",
       "videoResolution": "1280x720",
-      "videoProfile": "draft",
+      "videoProfile": "hd",
       "videoFps": 12
     },
     {
@@ -347,7 +347,9 @@
       "webm": "moss_apology_path_long.webm",
       "lesson": "Saying sorry and forgiving mends what was broken.",
       "pilot": false,
-      "status": "script-only"
+      "status": "complete",
+      "videoProfile": "hd",
+      "videoResolution": "1920x1080"
     },
     {
       "id": "moss_team_harvest_long",
@@ -413,7 +415,9 @@
       "webm": "reed_honest_feather_long.webm",
       "lesson": "Honesty weighs lightly; lies grow heavy over time.",
       "pilot": false,
-      "status": "script-only"
+      "status": "complete",
+      "videoProfile": "hd",
+      "videoResolution": "1920x1080"
     },
     {
       "id": "reed_storm_shelter_long",
@@ -427,7 +431,9 @@
       "webm": "reed_storm_shelter_long.webm",
       "lesson": "Storms pass faster when friends shelter together.",
       "pilot": false,
-      "status": "script-only"
+      "status": "complete",
+      "videoProfile": "hd",
+      "videoResolution": "1920x1080"
     },
     {
       "id": "reed_mentor_circle_long",
@@ -459,7 +465,9 @@
       "webm": "sage_truth_telling_long.webm",
       "lesson": "Speaking truth with courage protects everyone you love.",
       "pilot": false,
-      "status": "script-only"
+      "status": "complete",
+      "videoProfile": "hd",
+      "videoResolution": "1920x1080"
     },
     {
       "id": "sage_peer_pressure_long",
@@ -473,7 +481,9 @@
       "webm": "sage_peer_pressure_long.webm",
       "lesson": "You can say no and still belong.",
       "pilot": false,
-      "status": "script-only"
+      "status": "complete",
+      "videoProfile": "hd",
+      "videoResolution": "1920x1080"
     },
     {
       "id": "sage_forgiveness_trail_long",
@@ -487,7 +497,9 @@
       "webm": "sage_forgiveness_trail_long.webm",
       "lesson": "Forgiveness frees you from carrying old hurt.",
       "pilot": false,
-      "status": "script-only"
+      "status": "complete",
+      "videoProfile": "hd",
+      "videoResolution": "1920x1080"
     },
     {
       "id": "sage_service_saturday_long",
@@ -501,7 +513,9 @@
       "webm": "sage_service_saturday_long.webm",
       "lesson": "Serving others turns faith into visible love.",
       "pilot": false,
-      "status": "script-only"
+      "status": "complete",
+      "videoProfile": "hd",
+      "videoResolution": "1920x1080"
     },
     {
       "id": "sage_steady_anchor_long",
@@ -515,7 +529,9 @@
       "webm": "sage_steady_anchor_long.webm",
       "lesson": "When life shifts, your values keep you steady.",
       "pilot": false,
-      "status": "script-only"
+      "status": "complete",
+      "videoProfile": "hd",
+      "videoResolution": "1920x1080"
     },
     {
       "id": "laurel_evening_rest_long",
@@ -529,7 +545,9 @@
       "webm": "laurel_evening_rest_long.webm",
       "lesson": "Rest is sacred work that restores body and soul.",
       "pilot": false,
-      "status": "script-only"
+      "status": "complete",
+      "videoProfile": "hd",
+      "videoResolution": "1920x1080"
     },
     {
       "id": "laurel_caregiver_breath_long",
@@ -543,7 +561,9 @@
       "webm": "laurel_caregiver_breath_long.webm",
       "lesson": "Caregivers need breath breaks to sustain compassionate care.",
       "pilot": false,
-      "status": "script-only"
+      "status": "complete",
+      "videoProfile": "hd",
+      "videoResolution": "1920x1080"
     },
     {
       "id": "laurel_gratitude_journal_long",
@@ -557,7 +577,9 @@
       "webm": "laurel_gratitude_journal_long.webm",
       "lesson": "Naming blessings daily reshapes how you see hard seasons.",
       "pilot": false,
-      "status": "script-only"
+      "status": "complete",
+      "videoProfile": "hd",
+      "videoResolution": "1920x1080"
     },
     {
       "id": "laurel_community_table_long",
@@ -571,7 +593,9 @@
       "webm": "laurel_community_table_long.webm",
       "lesson": "A shared table turns strangers into family.",
       "pilot": false,
-      "status": "script-only"
+      "status": "complete",
+      "videoProfile": "hd",
+      "videoResolution": "1920x1080"
     },
     {
       "id": "laurel_legacy_roots_long",
@@ -585,7 +609,9 @@
       "webm": "laurel_legacy_roots_long.webm",
       "lesson": "What you plant in others outlives any single season.",
       "pilot": false,
-      "status": "script-only"
+      "status": "complete",
+      "videoProfile": "hd",
+      "videoResolution": "1920x1080"
     }
   ]
 }

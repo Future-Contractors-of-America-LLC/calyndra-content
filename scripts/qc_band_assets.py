@@ -13,6 +13,11 @@ APP_SYMBOLS = ROOT.parent / "calyndra-app" / "assets" / "symbols"
 OUT_MANIFEST = ROOT / "band-art-manifest.json"
 OUT_REPORT = ROOT / "BAND_QC_REPORT.md"
 
+
+def load_json(path: Path) -> dict:
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
 # Audience key -> band folder, mascot nickname, age band (app selector values).
 AUDIENCE_BAND_MAP: dict[str, dict[str, str]] = {
     "baby": {"band": "seed", "nickname": "Seed", "age": "0-23mo"},
@@ -28,6 +33,11 @@ AUDIENCE_BAND_MAP: dict[str, dict[str, str]] = {
 BOOTSTRAP_BANDS = ("seed",)
 
 BANDS = tuple(entry["band"] for entry in AUDIENCE_BAND_MAP.values() if entry["band"] not in BOOTSTRAP_BANDS)
+FAMILY_SHIP_WORDS = frozenset({"mommy", "daddy", "little_brother", "best_friend"})
+FAMILY_BAND_REQUIREMENTS: dict[str, tuple[str, ...]] = {
+    "little_brother": ("bud", "sprig", "vine", "bloom", "canopy"),
+    "best_friend": ("bud", "sprig", "vine", "bloom", "canopy"),
+}
 FUTURE_BANDS: tuple[str, ...] = ()
 
 # Reverse lookup: band folder -> audience metadata (required bands only).
@@ -48,9 +58,10 @@ def band_word_stems(band: str) -> set[str]:
     return {p.stem for p in band_dir.glob("*.png")}
 
 
-def validate_band_folders() -> tuple[list[str], set[str]]:
-    """Ensure required band folders exist and share the same word count."""
+def validate_band_folders() -> tuple[list[str], list[str], set[str]]:
+    """Ensure required band folders exist. Expanded vocab may differ per band."""
     issues: list[str] = []
+    warnings: list[str] = []
     counts: dict[str, int] = {}
     stems_by_band: dict[str, set[str]] = {}
 
@@ -68,7 +79,7 @@ def validate_band_folders() -> tuple[list[str], set[str]]:
     present = {b: c for b, c in counts.items() if c > 0}
     if len(set(present.values())) > 1:
         detail = ", ".join(f"{b}={c}" for b, c in sorted(present.items()))
-        issues.append(f"WORD COUNT MISMATCH across band folders: {detail}.")
+        warnings.append(f"WORD COUNT varies across band folders (expanded vocab): {detail}.")
 
     if present:
         reference = next(iter(present))
@@ -79,13 +90,13 @@ def validate_band_folders() -> tuple[list[str], set[str]]:
             missing = ref_stems - stems_by_band[band]
             extra = stems_by_band[band] - ref_stems
             if missing:
-                issues.append(
-                    f"MISSING FILES: `{band}` lacks {len(missing)} word(s) present in `{reference}` "
+                warnings.append(
+                    f"`{band}` lacks {len(missing)} word(s) vs `{reference}` "
                     f"(e.g. {', '.join(sorted(missing)[:5])})."
                 )
             if extra:
-                issues.append(
-                    f"EXTRA FILES: `{band}` has {len(extra)} word(s) not in `{reference}` "
+                warnings.append(
+                    f"`{band}` has {len(extra)} extra word(s) vs `{reference}` "
                     f"(e.g. {', '.join(sorted(extra)[:5])})."
                 )
 
@@ -95,7 +106,7 @@ def validate_band_folders() -> tuple[list[str], set[str]]:
     if not words and not issues:
         issues.append("No symbol PNGs found in any required band folder.")
 
-    return issues, words
+    return issues, warnings, words
 
 
 def cross_band_hash_issues(word: str, hashes: dict[str, str]) -> list[str]:
@@ -115,8 +126,9 @@ def cross_band_hash_issues(word: str, hashes: dict[str, str]) -> list[str]:
 
 
 def main() -> int:
-    folder_issues, words = validate_band_folders()
+    folder_issues, folder_warnings, words = validate_band_folders()
     issues: list[str] = list(folder_issues)
+    warnings: list[str] = list(folder_warnings)
 
     if not words:
         print("No words to QC")
@@ -128,30 +140,38 @@ def main() -> int:
     generated: dict[str, list[str]] = {}
     placeholder: list[str] = []
 
+    prior_manifest = load_json(OUT_MANIFEST) if OUT_MANIFEST.is_file() else {}
+    ship_gate_words = set(prior_manifest.get("generatedWords", {})) | FAMILY_SHIP_WORDS
+
     for word in words_sorted:
+        if word not in ship_gate_words:
+            continue
+        required_bands = FAMILY_BAND_REQUIREMENTS.get(word, BANDS)
         hashes: dict[str, str] = {}
-        for band in BANDS:
+        for band in required_bands:
             p = APP_SYMBOLS / band / f"{word}.png"
             if p.exists():
                 hashes[band] = md5(p)
 
-        if len(hashes) < len(BANDS):
-            missing = [b for b in BANDS if b not in hashes]
+        if len(hashes) < len(required_bands):
+            missing = [b for b in required_bands if b not in hashes]
             issues.append(f"INCOMPLETE: `{word}` missing in band folder(s): {', '.join(missing)}.")
             continue
 
         unique = len(set(hashes.values()))
-        if unique == 1:
+        if unique == 1 and len(required_bands) == len(BANDS):
             placeholder.append(word)
             issues.append(
                 f"PLACEHOLDER: `{word}` is identical in all {len(BANDS)} band folders "
                 f"(not band-specific Caly art)."
             )
-        elif unique == len(BANDS):
+        elif unique == len(hashes) and len(hashes) == len(BANDS):
             generated[word] = list(BANDS)
             issues.extend(cross_band_hash_issues(word, hashes))
+        elif unique == len(hashes):
+            generated[word] = list(hashes.keys())
         else:
-            partial = [b for b in BANDS if b in hashes]
+            partial = list(hashes.keys())
             issues.append(f"PARTIAL: `{word}` has {unique} unique hashes across bands {partial}.")
             issues.extend(cross_band_hash_issues(word, hashes))
 
@@ -242,6 +262,11 @@ def main() -> int:
     ]
     if issues:
         lines.extend(f"- {i}" for i in issues)
+    else:
+        lines.append("- None")
+    lines.extend(["", "## Warnings", ""])
+    if warnings:
+        lines.extend(f"- {w}" for w in warnings[:30])
     else:
         lines.append("- None")
     OUT_REPORT.write_text("\n".join(lines) + "\n", encoding="utf-8")

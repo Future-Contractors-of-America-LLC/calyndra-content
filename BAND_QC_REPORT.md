@@ -1,16 +1,16 @@
 # Band art QC report
 
-Generated: **2026-06-25 16:52 UTC**
+Generated: **2026-06-25 20:01 UTC**
 
 ## Summary
 
 | Status | Count |
 |--------|-------|
-| Band-unique symbols (pass) | 146 |
+| Band-unique symbols (pass) | 150 |
 | Placeholder copies (fail) | 0 |
 | Issues logged | 0 |
 | Required band folders | 6 |
-| Words checked | 146 |
+| Words checked | 329 |
 
 ## Band -> audience mapping
 
@@ -27,11 +27,11 @@ Generated: **2026-06-25 16:52 UTC**
 
 | Band folder | Mascot | Audience | Age band |
 |-------------|--------|----------|----------|
-| `seed` | Seed | baby | 0-23mo (146 png) |
+| `seed` | Seed | baby | 0-23mo (161 png) |
 
 ## Pass: band-unique words
 
-`again`, `algebra`, `all-done`, `apple`, `ball`, `bathroom`, `benefits`, `big`, `birthday`, `blanket`, `blankie`, `blocks`, `book`, `breathe`, `bubbles`, `budget`, `bus`, `camping`, `car`, `cat`, `celebrate`, `cereal`, `charger`, `clap`, `clean`, `close`, `cold`, `contractor`, `cookie`, `copay`, `credit-card`, `crib`, `cuddle`, `daddy`, `debate`, `detention`, `diploma`, `direct-deposit`, `dirty`, `dog`, `down`, `drink`, `drivers-license`, `dry`, `earbuds`, `eat`, `friend`, `gig-work`, `go`, `guitar`, `happy`, `help`, `home`, `hot`, `hr`, `hug`, `hungry`, `hurt`, `internship`, `juice`, `kite`, `listen`, `little`, `look`, `love`, `lullaby`, `mad`, `milk`, `mindfulness`, `modeling`, `mommy`, `more`, `mortgage`, `museum`, `need`, `no`, `onboarding`, `open`, `orchestra`, `overtime`, `owie`, `parking`, `part-time`, `patience`, `peek`, `pension`, `performance-review`, `permission`, `play`, `please`, `podcast`, `potty`, `presentation`, `prompt-wait`, `puzzle`, `regulation`, `reinforcement`, `retirement`, `rideshare`, `robotics`, `roommate`, `sad`, `sandbox`, `scaffold`, `scared`, `scholarship`, `science`, `scooter`, `shoe`, `sleep`, `soccer`, `social-media`, `spelling`, `splash`, `sticker`, `stop`, `streaming`, `subscription`, `syllabus`, `symbol_eat`, `symbol_happy`, `symbol_help`, `symbol_more`, `symbol_play`, `tablet`, `taxes`, `textbook`, `tired`, `toy`, `tricycle`, `truck`, `tuition`, `up`, `visual-schedule`, `volunteer`, `wagon`, `wait`, `want`, `warranty`, `wash`, `water`, `wet`, `yearbook`, `yes`, `yogurt`, `yum`
+`again`, `algebra`, `all-done`, `apple`, `ball`, `bathroom`, `benefits`, `best_friend`, `big`, `birthday`, `blanket`, `blankie`, `blocks`, `book`, `breathe`, `bubbles`, `budget`, `bus`, `camping`, `car`, `cat`, `celebrate`, `cereal`, `charger`, `clap`, `clean`, `close`, `cold`, `contractor`, `cookie`, `copay`, `credit-card`, `crib`, `cuddle`, `daddy`, `debate`, `detention`, `diploma`, `direct-deposit`, `dirty`, `dog`, `down`, `drink`, `drivers-license`, `dry`, `earbuds`, `eat`, `friend`, `gentle`, `gig-work`, `go`, `guitar`, `happy`, `help`, `home`, `hot`, `hr`, `hug`, `hungry`, `hurt`, `internship`, `juice`, `kite`, `listen`, `little`, `little_brother`, `look`, `love`, `lullaby`, `mad`, `milk`, `mindfulness`, `modeling`, `mommy`, `more`, `mortgage`, `museum`, `need`, `no`, `onboarding`, `open`, `orchestra`, `overtime`, `owie`, `parking`, `part-time`, `patience`, `peek`, `pension`, `performance-review`, `permission`, `play`, `please`, `podcast`, `potty`, `presentation`, `prompt-wait`, `puzzle`, `regulation`, `reinforcement`, `retirement`, `rideshare`, `robotics`, `roommate`, `sad`, `sandbox`, `scaffold`, `scared`, `scholarship`, `science`, `scooter`, `shoe`, `sleep`, `snack`, `soccer`, `social-media`, `spelling`, `splash`, `sticker`, `stop`, `streaming`, `subscription`, `syllabus`, `symbol_eat`, `symbol_happy`, `symbol_help`, `symbol_more`, `symbol_play`, `tablet`, `taxes`, `textbook`, `tired`, `toy`, `tricycle`, `truck`, `tuition`, `up`, `visual-schedule`, `volunteer`, `wagon`, `wait`, `want`, `warranty`, `wash`, `water`, `wet`, `yearbook`, `yes`, `yogurt`, `yum`
 
 ## Fail: placeholder (same file in every band folder)
 
@@ -54,3 +54,13 @@ These still show old Sprout/human/object art for every age band until regenerate
 ## Issues
 
 - None
+
+## Warnings
+
+- WORD COUNT varies across band folders (expanded vocab): bloom=324, bud=202, canopy=168, sprig=269, sprout=168, vine=312.
+- `bud` has 34 extra word(s) vs `sprout` (e.g. alone, backpack, best_friend, break, brother).
+- `sprig` has 101 extra word(s) vs `sprout` (e.g. alarm, alone, appointment, baby, backpack).
+- `vine` has 144 extra word(s) vs `sprout` (e.g. accommodation, alarm, allergy, alone, anxious).
+- `bloom` has 156 extra word(s) vs `sprout` (e.g. accommodation, alarm, allergy, alone, anxious).
+- `canopy` lacks 20 word(s) vs `sprout` (e.g. bottle, brush-teeth, bunny, bye, coat).
+- `canopy` has 20 extra word(s) vs `sprout` (e.g. aunt, best_friend, break, choice, cousin).

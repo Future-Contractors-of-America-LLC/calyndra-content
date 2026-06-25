@@ -111,6 +111,20 @@ def main() -> int:
     parser.add_argument("--skip-voice", action="store_true", help="Skip voice pregeneration")
     args = parser.parse_args()
 
+    print("=== Ship ecosystem: completeness prep ===")
+    os.environ.setdefault("CALY_SHIP", "1")
+    for prep in (
+        "render_caly_family_symbols.py",
+        "generate_expanded_vocab_symbols.py",
+        "gen_sing_along_catalog.py",
+        "generate_sing_along_music.py",
+        "sync_cartoon_catalog_status.py",
+    ):
+        if not run_script(prep):
+            write_receipt({"ok": False, "generatedUtc": utc_now(), "stage": "prep", "script": prep})
+            print(f"SHIP BLOCKED: prep failed ({prep})")
+            return 1
+
     print("=== Ship ecosystem: QC gate ===")
     ok, qc_out = run_qc()
     if not ok:

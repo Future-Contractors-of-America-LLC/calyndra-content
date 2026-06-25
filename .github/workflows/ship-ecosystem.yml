@@ -48,6 +48,8 @@ jobs:
 
       - name: Run unified ship (QC → voice → symbols → push)
         env:
+          CALY_SHIP: "1"
+          CALY_VIDEO_PROFILE: uhd
           CALYNDRA_CALYNDRA_APP_ROOT: ${{ github.workspace }}/calyndra-app
           CALYNDRA_CALYNDRA_MOBILE_FLUTTER_ROOT: ${{ github.workspace }}/calyndra-mobile-flutter
           CALYNDRA_CALYNDRA_CENTRAL_ROOT: ${{ github.workspace }}/calyndra-central

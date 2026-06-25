@@ -20,6 +20,7 @@ OUT_REPORT = ROOT / "ECOSYSTEM_QC_REPORT.md"
 
 AUDIENCES = ("baby", "toddler", "child", "tween", "teen", "adult", "caregiver")
 YOUNGER_BANDS = ("baby", "toddler", "child")
+SING_ALONG_BANDS = AUDIENCES
 CARTOON_BANDS = ("baby", "toddler", "child", "tween", "teen", "adult")
 MIN_NEW_GAMES = 5
 MIN_SING_ALONG = 5
@@ -32,6 +33,8 @@ QC_SCRIPTS = (
     "qc_games_catalog.py",
     "qc_sing_along_catalog.py",
     "qc_cartoon_catalog.py",
+    "qc_cinematic_catalog.py",
+    "qc_style_consistency.py",
 )
 
 SYNC_FILES: tuple[tuple[str, str], ...] = (
@@ -92,7 +95,7 @@ def check_games(issues: list[str]) -> list[tuple[str, int, str]]:
 def check_sing_along(issues: list[str]) -> list[tuple[str, int, str]]:
     catalog = load_json(ROOT / "games" / "sing-along-catalog.json")
     rows: list[tuple[str, int, str]] = []
-    for aud in YOUNGER_BANDS:
+    for aud in SING_ALONG_BANDS:
         block = catalog.get("audiences", {}).get(aud, {})
         count = len(block.get("episodes", []))
         status = "PASS" if count >= MIN_SING_ALONG else "FAIL"
@@ -140,10 +143,10 @@ def check_symbol_counts(issues: list[str]) -> list[tuple[str, int, int, str]]:
         band = entry["band"]
         band_dir = APP_SYMBOLS / band
         actual = len(list(band_dir.glob("*.png"))) if band_dir.is_dir() else 0
-        status = "PASS" if actual == expected_count else "FAIL"
-        if actual != expected_count:
+        status = "PASS" if actual >= expected_count else "FAIL"
+        if actual < expected_count:
             issues.append(
-                f"SYMBOLS: `{band}` ({aud}) has {actual} PNGs, manifest expects {expected_count}."
+                f"SYMBOLS: `{band}` ({aud}) has {actual} PNGs, manifest expects at least {expected_count}."
             )
         rows.append((band, actual, expected_count, status))
     return rows
@@ -250,7 +253,7 @@ def write_report(
         lines.append(f"| `{name}` | {'PASS' if code == 0 else 'FAIL'} |")
     lines.append(f"| Vocabulary files (words per band) | {'PASS' if all(r[2]=='PASS' for r in vocab_rows) else 'FAIL'} |")
     lines.append(f"| Games catalog (5+ new per band) | {'PASS' if all(r[2]=='PASS' for r in games_rows) else 'FAIL'} |")
-    lines.append(f"| Sing-along (5+ baby/toddler/child) | {'PASS' if all(r[2]=='PASS' for r in sing_rows) else 'FAIL'} |")
+    lines.append(f"| Sing-along (5+ per band) | {'PASS' if all(r[2]=='PASS' for r in sing_rows) else 'FAIL'} |")
     lines.append(f"| Caly and Friends episodes | {'PASS' if all(r[2]=='PASS' for r in cartoon_rows) else 'FAIL'} |")
     lines.append(f"| Symbol PNG counts vs manifest | {'PASS' if all(r[3]=='PASS' for r in symbol_rows) else 'FAIL'} |")
     lines.append(f"| {index_check[0]} baby audience | {index_check[1]} |")

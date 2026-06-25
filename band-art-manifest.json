@@ -1,5 +1,5 @@
 {
-  "updatedUtc": "2026-06-25T16:52:10.302817+00:00",
+  "updatedUtc": "2026-06-25T20:01:56.929176+00:00",
   "audienceBandMap": {
     "baby": {
       "band": "seed",
@@ -92,6 +92,13 @@
     ],
     "benefits": [
       "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "best_friend": [
       "bud",
       "sprig",
       "vine",
@@ -418,6 +425,14 @@
       "bloom",
       "canopy"
     ],
+    "gentle": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
     "gig-work": [
       "sprout",
       "bud",
@@ -540,6 +555,13 @@
     ],
     "little": [
       "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
+    "little_brother": [
       "bud",
       "sprig",
       "vine",
@@ -922,6 +944,14 @@
       "bloom",
       "canopy"
     ],
+    "snack": [
+      "sprout",
+      "bud",
+      "sprig",
+      "vine",
+      "bloom",
+      "canopy"
+    ],
     "soccer": [
       "sprout",
       "bud",
@@ -1212,7 +1242,7 @@
     ]
   },
   "placeholderWords": [],
-  "generatedCount": 146,
+  "generatedCount": 150,
   "placeholderCount": 0,
   "issueCount": 0,
   "issues": []

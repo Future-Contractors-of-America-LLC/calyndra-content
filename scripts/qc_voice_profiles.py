@@ -13,6 +13,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 CENTRAL_TTS = ROOT.parent / "calyndra-central" / "speech_tts.py"
+VOICE_DEPLOYMENTS = ROOT.parent / "calyndra-central" / "calyndra" / "system" / "caly_voice_deployments.json"
 APP_VOICE_JS = ROOT.parent / "calyndra-app" / "js" / "caly-voice.js"
 VOICE_MANIFEST = ROOT.parent / "calyndra-app" / "content" / "voice" / "manifest.json"
 OUT_REPORT = ROOT / "VOICE_QC_REPORT.md"
@@ -67,6 +68,22 @@ def extract_app_profile_version() -> int:
     text = APP_VOICE_JS.read_text(encoding="utf-8")
     m = re.search(r"VOICE_PROFILE_VERSION\s*=\s*(\d+)", text)
     return int(m.group(1)) if m else 0
+
+
+def check_voice_deployments(issues: list[str], warnings: list[str]) -> None:
+    if not VOICE_DEPLOYMENTS.is_file():
+        issues.append("TTS: caly_voice_deployments.json missing — production voice map not wired.")
+        return
+    data = load_json(VOICE_DEPLOYMENTS)
+    if data.get("profileVersion", 0) < 3:
+        issues.append("TTS: caly_voice_deployments profileVersion must be >= 3.")
+    bands = data.get("bands") or {}
+    for aud in AUDIENCES:
+        if aud not in bands:
+            issues.append(f"TTS: deployments missing band `{aud}`.")
+    finetune = data.get("finetune") or {}
+    if finetune.get("provider") != "azure-speech-custom-neural":
+        warnings.append("TTS: finetune provider not azure-speech-custom-neural.")
 
 
 def check_central_profiles(issues: list[str], warnings: list[str]) -> list[tuple[str, str, str, str, str]]:
@@ -198,6 +215,7 @@ def main() -> int:
     warnings: list[str] = []
 
     profile_rows = check_central_profiles(issues, warnings)
+    check_voice_deployments(issues, warnings)
     app_version, clip_count, generated = check_manifest(issues, warnings)
     check_app_js(issues, warnings)
 

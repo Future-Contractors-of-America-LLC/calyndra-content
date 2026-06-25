@@ -1,7 +1,7 @@
 {
   "id": "sing-along-catalog",
   "version": "1.0.0",
-  "updatedUtc": "2026-06-24T12:31:05.377711+00:00",
+  "updatedUtc": "2026-06-25T19:20:14.548990+00:00",
   "description": "Per-audience Caly Show sing-along episodes - interactive tap-and-sing with mascot.",
   "audiences": {
     "baby": {
@@ -16,6 +16,7 @@
           "scene": "meadow",
           "voiceIntroKey": "show_seed_gentle_hello_intro",
           "voiceBeatKey": "show_seed_gentle_hello_beat",
+          "musicBed": "content/sing-along/music/seed-gentle-hello.wav",
           "isNew": true,
           "beats": [
             {
@@ -57,6 +58,7 @@
           "scene": "meadow",
           "voiceIntroKey": "show_seed_night_glow_intro",
           "voiceBeatKey": "show_seed_night_glow_beat",
+          "musicBed": "content/sing-along/music/seed-night-glow.wav",
           "isNew": true,
           "beats": [
             {
@@ -98,6 +100,7 @@
           "scene": "playroom",
           "voiceIntroKey": "show_seed_yummy_praise_intro",
           "voiceBeatKey": "show_seed_yummy_praise_beat",
+          "musicBed": "content/sing-along/music/seed-yummy-praise.wav",
           "isNew": true,
           "beats": [
             {
@@ -139,6 +142,7 @@
           "scene": "meadow",
           "voiceIntroKey": "show_seed_feelings_soft_intro",
           "voiceBeatKey": "show_seed_feelings_soft_beat",
+          "musicBed": "content/sing-along/music/seed-feelings-soft.wav",
           "isNew": true,
           "beats": [
             {
@@ -180,6 +184,7 @@
           "scene": "playroom",
           "voiceIntroKey": "show_seed_peek_play_intro",
           "voiceBeatKey": "show_seed_peek_play_beat",
+          "musicBed": "content/sing-along/music/seed-peek-play.wav",
           "isNew": true,
           "beats": [
             {
@@ -221,6 +226,7 @@
           "scene": "meadow",
           "voiceIntroKey": "show_seed_family_circle_intro",
           "voiceBeatKey": "show_seed_family_circle_beat",
+          "musicBed": "content/sing-along/music/seed-family-circle.wav",
           "isNew": true,
           "beats": [
             {
@@ -268,6 +274,7 @@
           "scene": "meadow",
           "voiceIntroKey": "show_caly_hello_song_intro",
           "voiceBeatKey": "show_caly_hello_song_beat",
+          "musicBed": "content/sing-along/music/caly-hello-song.wav",
           "isNew": false,
           "beats": [
             {
@@ -309,6 +316,7 @@
           "scene": "meadow",
           "voiceIntroKey": "show_sprout_help_power_intro",
           "voiceBeatKey": "show_sprout_help_power_beat",
+          "musicBed": "content/sing-along/music/sprout-help-power.wav",
           "isNew": true,
           "beats": [
             {
@@ -350,6 +358,7 @@
           "scene": "playroom",
           "voiceIntroKey": "show_sprout_feelings_dance_intro",
           "voiceBeatKey": "show_sprout_feelings_dance_beat",
+          "musicBed": "content/sing-along/music/sprout-feelings-dance.wav",
           "isNew": true,
           "beats": [
             {
@@ -391,6 +400,7 @@
           "scene": "playroom",
           "voiceIntroKey": "show_sprout_yummy_fun_intro",
           "voiceBeatKey": "show_sprout_yummy_fun_beat",
+          "musicBed": "content/sing-along/music/sprout-yummy-fun.wav",
           "isNew": true,
           "beats": [
             {
@@ -432,6 +442,7 @@
           "scene": "meadow",
           "voiceIntroKey": "show_sprout_play_outside_intro",
           "voiceBeatKey": "show_sprout_play_outside_beat",
+          "musicBed": "content/sing-along/music/sprout-play-outside.wav",
           "isNew": true,
           "beats": [
             {
@@ -473,6 +484,7 @@
           "scene": "meadow",
           "voiceIntroKey": "show_sprout_family_song_intro",
           "voiceBeatKey": "show_sprout_family_song_beat",
+          "musicBed": "content/sing-along/music/sprout-family-song.wav",
           "isNew": true,
           "beats": [
             {
@@ -514,6 +526,7 @@
           "scene": "meadow",
           "voiceIntroKey": "show_sprout_gentle_choice_intro",
           "voiceBeatKey": "show_sprout_gentle_choice_beat",
+          "musicBed": "content/sing-along/music/sprout-gentle-choice.wav",
           "isNew": true,
           "beats": [
             {
@@ -561,6 +574,7 @@
           "scene": "meadow",
           "voiceIntroKey": "show_bud_adventure_hello_intro",
           "voiceBeatKey": "show_bud_adventure_hello_beat",
+          "musicBed": "content/sing-along/music/bud-adventure-hello.wav",
           "isNew": true,
           "beats": [
             {
@@ -602,6 +616,7 @@
           "scene": "meadow",
           "voiceIntroKey": "show_bud_kindness_quest_intro",
           "voiceBeatKey": "show_bud_kindness_quest_beat",
+          "musicBed": "content/sing-along/music/bud-kindness-quest.wav",
           "isNew": true,
           "beats": [
             {
@@ -643,6 +658,7 @@
           "scene": "playroom",
           "voiceIntroKey": "show_bud_feelings_journey_intro",
           "voiceBeatKey": "show_bud_feelings_journey_beat",
+          "musicBed": "content/sing-along/music/bud-feelings-journey.wav",
           "isNew": true,
           "beats": [
             {
@@ -684,6 +700,7 @@
           "scene": "playroom",
           "voiceIntroKey": "show_bud_school_day_intro",
           "voiceBeatKey": "show_bud_school_day_beat",
+          "musicBed": "content/sing-along/music/bud-school-day.wav",
           "isNew": true,
           "beats": [
             {
@@ -725,6 +742,7 @@
           "scene": "meadow",
           "voiceIntroKey": "show_bud_nature_praise_intro",
           "voiceBeatKey": "show_bud_nature_praise_beat",
+          "musicBed": "content/sing-along/music/bud-nature-praise.wav",
           "isNew": true,
           "beats": [
             {
@@ -766,6 +784,7 @@
           "scene": "meadow",
           "voiceIntroKey": "show_bud_courage_stop_intro",
           "voiceBeatKey": "show_bud_courage_stop_beat",
+          "musicBed": "content/sing-along/music/bud-courage-stop.wav",
           "isNew": true,
           "beats": [
             {
@@ -813,6 +832,7 @@
           "scene": "meadow",
           "voiceIntroKey": "show_sprig_vibe_hello_intro",
           "voiceBeatKey": "show_sprig_vibe_hello_beat",
+          "musicBed": "content/sing-along/music/sprig-vibe-hello.wav",
           "isNew": true,
           "beats": [
             {
@@ -854,6 +874,7 @@
           "scene": "meadow",
           "voiceIntroKey": "show_sprig_gratitude_groove_intro",
           "voiceBeatKey": "show_sprig_gratitude_groove_beat",
+          "musicBed": "content/sing-along/music/sprig-gratitude-groove.wav",
           "isNew": true,
           "beats": [
             {
@@ -895,6 +916,7 @@
           "scene": "playroom",
           "voiceIntroKey": "show_sprig_friendship_beat_intro",
           "voiceBeatKey": "show_sprig_friendship_beat_beat",
+          "musicBed": "content/sing-along/music/sprig-friendship-beat.wav",
           "isNew": true,
           "beats": [
             {
@@ -936,6 +958,7 @@
           "scene": "meadow",
           "voiceIntroKey": "show_sprig_boundary_power_intro",
           "voiceBeatKey": "show_sprig_boundary_power_beat",
+          "musicBed": "content/sing-along/music/sprig-boundary-power.wav",
           "isNew": true,
           "beats": [
             {
@@ -977,6 +1000,7 @@
           "scene": "playroom",
           "voiceIntroKey": "show_sprig_creative_flow_intro",
           "voiceBeatKey": "show_sprig_creative_flow_beat",
+          "musicBed": "content/sing-along/music/sprig-creative-flow.wav",
           "isNew": true,
           "beats": [
             {
@@ -1009,6 +1033,654 @@
             }
           ],
           "bandPortrait": "sprig"
+        }
+      ]
+    },
+    "teen": {
+      "bandPortrait": "vine",
+      "nickname": "Vine",
+      "episodes": [
+        {
+          "id": "vine-honest-heart",
+          "title": "Vine's Honest Heart",
+          "description": "Sing about truth, respect, and finding your voice with Caly Vine.",
+          "durationMs": 195000,
+          "scene": "crossroads",
+          "voiceIntroKey": "show_vine_honest_heart_intro",
+          "voiceBeatKey": "show_vine_honest_heart_beat",
+          "musicBed": "content/sing-along/music/vine-honest-heart.wav",
+          "isNew": true,
+          "beats": [
+            {
+              "ms": 0,
+              "pose": "wave",
+              "lyric": "Truth is light - speak with care. Tap TRUTH - stand aware.",
+              "word": "truth",
+              "mascotCue": "wave"
+            },
+            {
+              "ms": 39000,
+              "pose": "listen-ear",
+              "lyric": "Respect goes both ways we share. Tap RESPECT - show you care.",
+              "word": "respect",
+              "mascotCue": "listen"
+            },
+            {
+              "ms": 78000,
+              "pose": "drum-dance",
+              "lyric": "Your VOICE is yours - clear and strong. Tap VOICE - sing your song.",
+              "word": "voice",
+              "mascotCue": "dance"
+            },
+            {
+              "ms": 117000,
+              "pose": "jump-celebrate",
+              "lyric": "Friends like River walk along. Tap FRIEND - we belong.",
+              "word": "friend",
+              "mascotCue": "celebrate"
+            }
+          ],
+          "bandPortrait": "vine"
+        },
+        {
+          "id": "vine-calm-storm",
+          "title": "Calm Before the Storm",
+          "description": "Regulation sing-along with break, breathe, and help.",
+          "durationMs": 180000,
+          "scene": "meadow",
+          "voiceIntroKey": "show_vine_calm_storm_intro",
+          "voiceBeatKey": "show_vine_calm_storm_beat",
+          "musicBed": "content/sing-along/music/vine-calm-storm.wav",
+          "isNew": true,
+          "beats": [
+            {
+              "ms": 0,
+              "pose": "wave",
+              "lyric": "Need a BREAK? That is okay. Tap BREAK - pause and play.",
+              "word": "break",
+              "mascotCue": "wave"
+            },
+            {
+              "ms": 36000,
+              "pose": "listen-ear",
+              "lyric": "BREATHE in slow - let tension go. Tap BREATHE - gentle flow.",
+              "word": "breathe",
+              "mascotCue": "listen"
+            },
+            {
+              "ms": 72000,
+              "pose": "drum-dance",
+              "lyric": "Ask for HELP - brave and true. Tap HELP - I am with you.",
+              "word": "help",
+              "mascotCue": "dance"
+            },
+            {
+              "ms": 108000,
+              "pose": "jump-celebrate",
+              "lyric": "CALM returns - skies turn blue. Tap CALM - we made it through.",
+              "word": "calm",
+              "mascotCue": "celebrate"
+            }
+          ],
+          "bandPortrait": "vine"
+        },
+        {
+          "id": "vine-river-song",
+          "title": "River and Caly Song",
+          "description": "Celebrating neurodiverse friendship with Caly's best friend River.",
+          "durationMs": 200000,
+          "scene": "stream",
+          "voiceIntroKey": "show_vine_river_song_intro",
+          "voiceBeatKey": "show_vine_river_song_beat",
+          "musicBed": "content/sing-along/music/vine-river-song.wav",
+          "isNew": true,
+          "beats": [
+            {
+              "ms": 0,
+              "pose": "wave",
+              "lyric": "RIVER waits - that's okay. Tap WAIT - we find our way.",
+              "word": "friend",
+              "mascotCue": "wave"
+            },
+            {
+              "ms": 40000,
+              "pose": "listen-ear",
+              "lyric": "Different minds - gifts to share. Tap FRIEND - love and care.",
+              "word": "wait",
+              "mascotCue": "listen"
+            },
+            {
+              "ms": 80000,
+              "pose": "drum-dance",
+              "lyric": "SHARE the moment, slow or fast. Tap SHARE - friendship lasts.",
+              "word": "share",
+              "mascotCue": "dance"
+            },
+            {
+              "ms": 120000,
+              "pose": "jump-celebrate",
+              "lyric": "JOY in being who we are. Tap JOY - near and far.",
+              "word": "joy",
+              "mascotCue": "celebrate"
+            }
+          ],
+          "bandPortrait": "vine"
+        },
+        {
+          "id": "vine-my-space",
+          "title": "My Space, My Pace",
+          "description": "Assent-first sing-along about boundaries.",
+          "durationMs": 175000,
+          "scene": "garden",
+          "voiceIntroKey": "show_vine_my_space_intro",
+          "voiceBeatKey": "show_vine_my_space_beat",
+          "musicBed": "content/sing-along/music/vine-my-space.wav",
+          "isNew": true,
+          "beats": [
+            {
+              "ms": 0,
+              "pose": "wave",
+              "lyric": "NO is power - use it well. Tap NO - truth to tell.",
+              "word": "no",
+              "mascotCue": "wave"
+            },
+            {
+              "ms": 35000,
+              "pose": "listen-ear",
+              "lyric": "My SPACE is mine - honor that. Tap SPACE - tit for tat.",
+              "word": "space",
+              "mascotCue": "listen"
+            },
+            {
+              "ms": 70000,
+              "pose": "drum-dance",
+              "lyric": "YES when ready - not before. Tap YES - open door.",
+              "word": "yes",
+              "mascotCue": "dance"
+            },
+            {
+              "ms": 105000,
+              "pose": "jump-celebrate",
+              "lyric": "CHOICE is yours - always more. Tap CHOICE - explore.",
+              "word": "choice",
+              "mascotCue": "celebrate"
+            }
+          ],
+          "bandPortrait": "vine"
+        },
+        {
+          "id": "vine-evening-glow",
+          "title": "Evening Glow",
+          "description": "Wind-down sing-along for teen band.",
+          "durationMs": 190000,
+          "scene": "sunset",
+          "voiceIntroKey": "show_vine_evening_glow_intro",
+          "voiceBeatKey": "show_vine_evening_glow_beat",
+          "musicBed": "content/sing-along/music/vine-evening-glow.wav",
+          "isNew": true,
+          "beats": [
+            {
+              "ms": 0,
+              "pose": "wave",
+              "lyric": "REST your mind - day is done. Tap REST - setting sun.",
+              "word": "rest",
+              "mascotCue": "wave"
+            },
+            {
+              "ms": 38000,
+              "pose": "listen-ear",
+              "lyric": "GRATEFUL heart - count the good. Tap GRATEFUL - understood.",
+              "word": "grateful",
+              "mascotCue": "listen"
+            },
+            {
+              "ms": 76000,
+              "pose": "drum-dance",
+              "lyric": "PEACE like leaves in evening air. Tap PEACE - God is there.",
+              "word": "peace",
+              "mascotCue": "dance"
+            },
+            {
+              "ms": 114000,
+              "pose": "jump-celebrate",
+              "lyric": "NIGHT arrives - soft and deep. Tap NIGHT - gentle sleep.",
+              "word": "night",
+              "mascotCue": "celebrate"
+            }
+          ],
+          "bandPortrait": "vine"
+        }
+      ]
+    },
+    "adult": {
+      "bandPortrait": "bloom",
+      "nickname": "Bloom",
+      "episodes": [
+        {
+          "id": "bloom-morning-grace",
+          "title": "Morning Grace",
+          "description": "Adult Bloom sing-along about gratitude and purpose.",
+          "durationMs": 185000,
+          "scene": "garden",
+          "voiceIntroKey": "show_bloom_morning_grace_intro",
+          "voiceBeatKey": "show_bloom_morning_grace_beat",
+          "musicBed": "content/sing-along/music/bloom-morning-grace.wav",
+          "isNew": true,
+          "beats": [
+            {
+              "ms": 0,
+              "pose": "wave",
+              "lyric": "GRATEFUL for this brand-new day. Tap GRATEFUL - light the way.",
+              "word": "grateful",
+              "mascotCue": "wave"
+            },
+            {
+              "ms": 37000,
+              "pose": "listen-ear",
+              "lyric": "SERVE with hands and open heart. Tap SERVE - do your part.",
+              "word": "serve",
+              "mascotCue": "listen"
+            },
+            {
+              "ms": 74000,
+              "pose": "drum-dance",
+              "lyric": "HOPE grows where kindness starts. Tap HOPE - play your part.",
+              "word": "hope",
+              "mascotCue": "dance"
+            },
+            {
+              "ms": 111000,
+              "pose": "jump-celebrate",
+              "lyric": "LOVE remains when day departs. Tap LOVE - work of art.",
+              "word": "love",
+              "mascotCue": "celebrate"
+            }
+          ],
+          "bandPortrait": "bloom"
+        },
+        {
+          "id": "bloom-family-circle",
+          "title": "Family Circle Song",
+          "description": "Mom, dad, little brother, and Caly Bloom together.",
+          "durationMs": 195000,
+          "scene": "home",
+          "voiceIntroKey": "show_bloom_family_circle_intro",
+          "voiceBeatKey": "show_bloom_family_circle_beat",
+          "musicBed": "content/sing-along/music/bloom-family-circle.wav",
+          "isNew": true,
+          "beats": [
+            {
+              "ms": 0,
+              "pose": "wave",
+              "lyric": "FAMILY circle, strong and wide. Tap FAMILY - side by side.",
+              "word": "family",
+              "mascotCue": "wave"
+            },
+            {
+              "ms": 39000,
+              "pose": "listen-ear",
+              "lyric": "MOMMY's warmth - gentle guide. Tap MOMMY - by your side.",
+              "word": "mommy",
+              "mascotCue": "listen"
+            },
+            {
+              "ms": 78000,
+              "pose": "drum-dance",
+              "lyric": "DADDY's strength - safe inside. Tap DADDY - stride by stride.",
+              "word": "daddy",
+              "mascotCue": "dance"
+            },
+            {
+              "ms": 117000,
+              "pose": "jump-celebrate",
+              "lyric": "LOVE holds all - our joy and pride. Tap LOVE - open wide.",
+              "word": "love",
+              "mascotCue": "celebrate"
+            }
+          ],
+          "bandPortrait": "bloom"
+        },
+        {
+          "id": "bloom-work-rest",
+          "title": "Work and Rest",
+          "description": "Balance sing-along for adult learners.",
+          "durationMs": 180000,
+          "scene": "meadow",
+          "voiceIntroKey": "show_bloom_work_rest_intro",
+          "voiceBeatKey": "show_bloom_work_rest_beat",
+          "musicBed": "content/sing-along/music/bloom-work-rest.wav",
+          "isNew": true,
+          "beats": [
+            {
+              "ms": 0,
+              "pose": "wave",
+              "lyric": "WORK with purpose, one step more. Tap WORK - shut the door.",
+              "word": "work",
+              "mascotCue": "wave"
+            },
+            {
+              "ms": 36000,
+              "pose": "listen-ear",
+              "lyric": "REST restores what stress may steal. Tap REST - truly feel.",
+              "word": "rest",
+              "mascotCue": "listen"
+            },
+            {
+              "ms": 72000,
+              "pose": "drum-dance",
+              "lyric": "HELP is strength, not shame to show. Tap HELP - let it flow.",
+              "word": "help",
+              "mascotCue": "dance"
+            },
+            {
+              "ms": 108000,
+              "pose": "jump-celebrate",
+              "lyric": "PEACE returns when rhythms grow. Tap PEACE - soft and slow.",
+              "word": "peace",
+              "mascotCue": "celebrate"
+            }
+          ],
+          "bandPortrait": "bloom"
+        },
+        {
+          "id": "bloom-voice-rise",
+          "title": "Voice Rise",
+          "description": "AAC advocacy sing-along.",
+          "durationMs": 190000,
+          "scene": "stage",
+          "voiceIntroKey": "show_bloom_voice_rise_intro",
+          "voiceBeatKey": "show_bloom_voice_rise_beat",
+          "musicBed": "content/sing-along/music/bloom-voice-rise.wav",
+          "isNew": true,
+          "beats": [
+            {
+              "ms": 0,
+              "pose": "wave",
+              "lyric": "Your VOICE matters - never small. Tap VOICE - stand tall.",
+              "word": "voice",
+              "mascotCue": "wave"
+            },
+            {
+              "ms": 38000,
+              "pose": "listen-ear",
+              "lyric": "SPEAK your truth with calm and care. Tap SPEAK - fill the air.",
+              "word": "speak",
+              "mascotCue": "listen"
+            },
+            {
+              "ms": 76000,
+              "pose": "drum-dance",
+              "lyric": "LISTEN deep - others share. Tap LISTEN - show you care.",
+              "word": "listen",
+              "mascotCue": "dance"
+            },
+            {
+              "ms": 114000,
+              "pose": "jump-celebrate",
+              "lyric": "SHARE the words that set you free. Tap SHARE - harmony.",
+              "word": "share",
+              "mascotCue": "celebrate"
+            }
+          ],
+          "bandPortrait": "bloom"
+        },
+        {
+          "id": "bloom-evening-thanks",
+          "title": "Evening Thanks",
+          "description": "Closing gratitude sing-along.",
+          "durationMs": 175000,
+          "scene": "sunset",
+          "voiceIntroKey": "show_bloom_evening_thanks_intro",
+          "voiceBeatKey": "show_bloom_evening_thanks_beat",
+          "musicBed": "content/sing-along/music/bloom-evening-thanks.wav",
+          "isNew": true,
+          "beats": [
+            {
+              "ms": 0,
+              "pose": "wave",
+              "lyric": "THANKS for words we used today. Tap THANKS - grace to stay.",
+              "word": "thanks",
+              "mascotCue": "wave"
+            },
+            {
+              "ms": 35000,
+              "pose": "listen-ear",
+              "lyric": "REST your voice - you've had your say. Tap REST - end of day.",
+              "word": "rest",
+              "mascotCue": "listen"
+            },
+            {
+              "ms": 70000,
+              "pose": "drum-dance",
+              "lyric": "HOPE for tomorrow's bright display. Tap HOPE - on the way.",
+              "word": "hope",
+              "mascotCue": "dance"
+            },
+            {
+              "ms": 105000,
+              "pose": "jump-celebrate",
+              "lyric": "NIGHT brings peace - softly lay. Tap NIGHT - night and day.",
+              "word": "night",
+              "mascotCue": "celebrate"
+            }
+          ],
+          "bandPortrait": "bloom"
+        }
+      ]
+    },
+    "caregiver": {
+      "bandPortrait": "canopy",
+      "nickname": "Canopy",
+      "episodes": [
+        {
+          "id": "canopy-model-song",
+          "title": "Model and Tap Song",
+          "description": "Caregiver co-play sing-along for aided language stimulation.",
+          "durationMs": 185000,
+          "scene": "classroom",
+          "voiceIntroKey": "show_canopy_model_song_intro",
+          "voiceBeatKey": "show_canopy_model_song_beat",
+          "musicBed": "content/sing-along/music/canopy-model-song.wav",
+          "isNew": true,
+          "beats": [
+            {
+              "ms": 0,
+              "pose": "wave",
+              "lyric": "MODEL the word - slow and clear. Tap MODEL - learner hears.",
+              "word": "model",
+              "mascotCue": "wave"
+            },
+            {
+              "ms": 37000,
+              "pose": "listen-ear",
+              "lyric": "WAIT for response - patience here. Tap WAIT - drawing near.",
+              "word": "wait",
+              "mascotCue": "listen"
+            },
+            {
+              "ms": 74000,
+              "pose": "drum-dance",
+              "lyric": "CELEBRATE each try with cheer. Tap CELEBRATE - sincere.",
+              "word": "celebrate",
+              "mascotCue": "dance"
+            },
+            {
+              "ms": 111000,
+              "pose": "jump-celebrate",
+              "lyric": "HELP when needed, never fear. Tap HELP - always near.",
+              "word": "help",
+              "mascotCue": "celebrate"
+            }
+          ],
+          "bandPortrait": "canopy"
+        },
+        {
+          "id": "canopy-assent-first",
+          "title": "Assent First Lullaby",
+          "description": "Honoring skip, pause, and no in sing-along play.",
+          "durationMs": 180000,
+          "scene": "meadow",
+          "voiceIntroKey": "show_canopy_assent_first_intro",
+          "voiceBeatKey": "show_canopy_assent_first_beat",
+          "musicBed": "content/sing-along/music/canopy-assent-first.wav",
+          "isNew": true,
+          "beats": [
+            {
+              "ms": 0,
+              "pose": "wave",
+              "lyric": "PAUSE anytime - that's okay. Tap PAUSE - gentle way.",
+              "word": "pause",
+              "mascotCue": "wave"
+            },
+            {
+              "ms": 36000,
+              "pose": "listen-ear",
+              "lyric": "NO means no - we honor that. Tap NO - tit for tat.",
+              "word": "no",
+              "mascotCue": "listen"
+            },
+            {
+              "ms": 72000,
+              "pose": "drum-dance",
+              "lyric": "YES when ready - patient wait. Tap YES - celebrate.",
+              "word": "yes",
+              "mascotCue": "dance"
+            },
+            {
+              "ms": 108000,
+              "pose": "jump-celebrate",
+              "lyric": "CHOICE belongs to every mate. Tap CHOICE - assent is great.",
+              "word": "choice",
+              "mascotCue": "celebrate"
+            }
+          ],
+          "bandPortrait": "canopy"
+        },
+        {
+          "id": "canopy-gentle-routine",
+          "title": "Gentle Routine Song",
+          "description": "Daily routine words for co-play.",
+          "durationMs": 195000,
+          "scene": "home",
+          "voiceIntroKey": "show_canopy_gentle_routine_intro",
+          "voiceBeatKey": "show_canopy_gentle_routine_beat",
+          "musicBed": "content/sing-along/music/canopy-gentle-routine.wav",
+          "isNew": true,
+          "beats": [
+            {
+              "ms": 0,
+              "pose": "wave",
+              "lyric": "EAT together - nourish well. Tap EAT - ring the bell.",
+              "word": "eat",
+              "mascotCue": "wave"
+            },
+            {
+              "ms": 39000,
+              "pose": "listen-ear",
+              "lyric": "WASH hands clean - splash and dry. Tap WASH - reach the sky.",
+              "word": "wash",
+              "mascotCue": "listen"
+            },
+            {
+              "ms": 78000,
+              "pose": "drum-dance",
+              "lyric": "PLAY with joy - laugh out loud. Tap PLAY - proud and proud.",
+              "word": "play",
+              "mascotCue": "dance"
+            },
+            {
+              "ms": 117000,
+              "pose": "jump-celebrate",
+              "lyric": "SLEEP time comes - soft cloud. Tap SLEEP - rest allowed.",
+              "word": "sleep",
+              "mascotCue": "celebrate"
+            }
+          ],
+          "bandPortrait": "canopy"
+        },
+        {
+          "id": "canopy-family-team",
+          "title": "Family Team Song",
+          "description": "Caregiver band family circle with Caly Canopy.",
+          "durationMs": 190000,
+          "scene": "garden",
+          "voiceIntroKey": "show_canopy_family_team_intro",
+          "voiceBeatKey": "show_canopy_family_team_beat",
+          "musicBed": "content/sing-along/music/canopy-family-team.wav",
+          "isNew": true,
+          "beats": [
+            {
+              "ms": 0,
+              "pose": "wave",
+              "lyric": "TEAM means all of us as one. Tap TEAM - work begun.",
+              "word": "team",
+              "mascotCue": "wave"
+            },
+            {
+              "ms": 38000,
+              "pose": "listen-ear",
+              "lyric": "LOVE in action, day by day. Tap LOVE - lead the way.",
+              "word": "love",
+              "mascotCue": "listen"
+            },
+            {
+              "ms": 76000,
+              "pose": "drum-dance",
+              "lyric": "HELP each other, come what may. Tap HELP - hip hooray.",
+              "word": "help",
+              "mascotCue": "dance"
+            },
+            {
+              "ms": 114000,
+              "pose": "jump-celebrate",
+              "lyric": "TOGETHER strong in every way. Tap TOGETHER - stay.",
+              "word": "together",
+              "mascotCue": "celebrate"
+            }
+          ],
+          "bandPortrait": "canopy"
+        },
+        {
+          "id": "canopy-evening-calm",
+          "title": "Evening Calm for Caregivers",
+          "description": "Wind-down co-regulation sing-along.",
+          "durationMs": 175000,
+          "scene": "sunset",
+          "voiceIntroKey": "show_canopy_evening_calm_intro",
+          "voiceBeatKey": "show_canopy_evening_calm_beat",
+          "musicBed": "content/sing-along/music/canopy-evening-calm.wav",
+          "isNew": true,
+          "beats": [
+            {
+              "ms": 0,
+              "pose": "wave",
+              "lyric": "CALM your body, calm your mind. Tap CALM - gentle kind.",
+              "word": "calm",
+              "mascotCue": "wave"
+            },
+            {
+              "ms": 35000,
+              "pose": "listen-ear",
+              "lyric": "BREATHE together, slow and deep. Tap BREATHE - peaceful sleep.",
+              "word": "breathe",
+              "mascotCue": "listen"
+            },
+            {
+              "ms": 70000,
+              "pose": "drum-dance",
+              "lyric": "THANKS for showing up today. Tap THANKS - grace to stay.",
+              "word": "thanks",
+              "mascotCue": "dance"
+            },
+            {
+              "ms": 105000,
+              "pose": "jump-celebrate",
+              "lyric": "REST tonight - you've paved the way. Tap REST - end of day.",
+              "word": "rest",
+              "mascotCue": "celebrate"
+            }
+          ],
+          "bandPortrait": "canopy"
         }
       ]
     }

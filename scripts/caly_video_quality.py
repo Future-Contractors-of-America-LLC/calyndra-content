@@ -15,7 +15,7 @@ try:
 except Exception:
     FFMPEG = "ffmpeg"
 
-_PROFILE = os.environ.get("CALY_VIDEO_PROFILE", "hd").strip().lower()
+_PROFILE = os.environ.get("CALY_VIDEO_PROFILE", "uhd" if os.environ.get("CALY_SHIP") else "hd").strip().lower()
 
 if _PROFILE in ("uhd", "4k", "ultra"):
     VIDEO_WIDTH = 3840

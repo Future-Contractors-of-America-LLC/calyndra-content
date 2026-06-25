@@ -288,7 +288,17 @@
     ],
     "skip": "Skip anytime. Your choice.",
     "streak_3": "Three in a row. On a roll.",
-    "caregiver_cue": "Support only if they ask - no pressure."
+    "caregiver_cue": "Support only if they ask - no pressure.",
+    "show_vine_honest_heart_intro": "Vine's Honest Heart. Caly Show - Vine band. Your voice, your rhythm. Tap when ready.",
+    "show_vine_honest_heart_beat": "Tap {word} \u2014 your pace, your choice.",
+    "show_vine_calm_storm_intro": "Calm Before the Storm. Caly Show - Vine band. Your voice, your rhythm. Tap when ready.",
+    "show_vine_calm_storm_beat": "Tap {word} \u2014 your pace, your choice.",
+    "show_vine_river_song_intro": "River and Caly Song. Caly Show - Vine band. Your voice, your rhythm. Tap when ready.",
+    "show_vine_river_song_beat": "Tap {word} \u2014 your pace, your choice.",
+    "show_vine_my_space_intro": "My Space, My Pace. Caly Show - Vine band. Your voice, your rhythm. Tap when ready.",
+    "show_vine_my_space_beat": "Tap {word} \u2014 your pace, your choice.",
+    "show_vine_evening_glow_intro": "Evening Glow. Caly Show - Vine band. Your voice, your rhythm. Tap when ready.",
+    "show_vine_evening_glow_beat": "Tap {word} \u2014 your pace, your choice."
   },
   "adult": {
     "game_intro": "Caly (Bloom) here. Quick symbol practice - skip anytime.",
@@ -333,7 +343,17 @@
     ],
     "skip": "Skip this round anytime.",
     "streak_3": "Three correct in a row.",
-    "caregiver_cue": "Model only if requested."
+    "caregiver_cue": "Model only if requested.",
+    "show_bloom_morning_grace_intro": "Morning Grace. Caly Show - Bloom. Tap words that match your mood today.",
+    "show_bloom_morning_grace_beat": "Tap {word} when it fits the lyric.",
+    "show_bloom_family_circle_intro": "Family Circle Song. Caly Show - Bloom. Tap words that match your mood today.",
+    "show_bloom_family_circle_beat": "Tap {word} when it fits the lyric.",
+    "show_bloom_work_rest_intro": "Work and Rest. Caly Show - Bloom. Tap words that match your mood today.",
+    "show_bloom_work_rest_beat": "Tap {word} when it fits the lyric.",
+    "show_bloom_voice_rise_intro": "Voice Rise. Caly Show - Bloom. Tap words that match your mood today.",
+    "show_bloom_voice_rise_beat": "Tap {word} when it fits the lyric.",
+    "show_bloom_evening_thanks_intro": "Evening Thanks. Caly Show - Bloom. Tap words that match your mood today.",
+    "show_bloom_evening_thanks_beat": "Tap {word} when it fits the lyric."
   },
   "caregiver": {
     "game_intro": "Caly (Canopy) here. Preview a playful round - educational modeling only.",
@@ -378,6 +398,16 @@
     ],
     "skip": "Skip anytime. Assent-first always.",
     "streak_3": "Three rounds - note what worked for your learner.",
-    "caregiver_cue": "Educational carryover only - not therapy. Model, don't test."
+    "caregiver_cue": "Educational carryover only - not therapy. Model, don't test.",
+    "show_canopy_model_song_intro": "Model and Tap Song. Caly Show - Canopy. Model and tap together with your learner.",
+    "show_canopy_model_song_beat": "Model {word} \u2014 tap together.",
+    "show_canopy_assent_first_intro": "Assent First Lullaby. Caly Show - Canopy. Model and tap together with your learner.",
+    "show_canopy_assent_first_beat": "Model {word} \u2014 tap together.",
+    "show_canopy_gentle_routine_intro": "Gentle Routine Song. Caly Show - Canopy. Model and tap together with your learner.",
+    "show_canopy_gentle_routine_beat": "Model {word} \u2014 tap together.",
+    "show_canopy_family_team_intro": "Family Team Song. Caly Show - Canopy. Model and tap together with your learner.",
+    "show_canopy_family_team_beat": "Model {word} \u2014 tap together.",
+    "show_canopy_evening_calm_intro": "Evening Calm for Caregivers. Caly Show - Canopy. Model and tap together with your learner.",
+    "show_canopy_evening_calm_beat": "Model {word} \u2014 tap together."
   }
 }

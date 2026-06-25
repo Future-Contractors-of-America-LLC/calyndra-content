@@ -1,10 +1,10 @@
 # Voice profile QC report
 
-Generated: **2026-06-25 16:52 UTC**
+Generated: **2026-06-25 20:01 UTC**
 
 **Overall:** PASS (0 issue(s), 0 warning(s))
 
-- App VOICE_PROFILE_VERSION: **2**
+- App VOICE_PROFILE_VERSION: **3**
 - Manifest clips: **2966**
 - Manifest generated: **True**
 

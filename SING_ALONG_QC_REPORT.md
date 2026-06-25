@@ -1,6 +1,6 @@
 # Sing-along catalog QC report
 
-Generated: **2026-06-25 16:52 UTC**
+Generated: **2026-06-25 20:01 UTC**
 
 ## Summary
 
@@ -10,12 +10,15 @@ Generated: **2026-06-25 16:52 UTC**
 | toddler | 7 | 1 | 6 | PASS |
 | child | 6 | 0 | 6 | PASS |
 | tween | 5 | 0 | 5 | PASS |
+| teen | 5 | 0 | 5 | PASS |
+| adult | 5 | 0 | 5 | PASS |
+| caregiver | 5 | 0 | 5 | PASS |
 
 **Issues:** 0
 
 ## Rules checked
 
-- At least 5 episodes per baby/toddler/child
+- At least 5 episodes per audience band (all 7)
 - `durationMs` in [120000, 240000] (~2-4 min)
 - Each episode has 4+ beats with ms/pose/lyric/word/mascotCue
 - All `show_*` voice keys present in `caly-voice-scripts.json` per audience

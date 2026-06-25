@@ -3,6 +3,7 @@
   "band": "bloom",
   "handFingers": 5,
   "expression": "happy",
-  "reviewedUtc": "2026-06-24T12:57:51Z",
-  "source": "render_hand_visible_symbols.py"
+  "style": "caly-universe-family",
+  "reviewedUtc": "2026-06-25T19:19:10Z",
+  "source": "render_caly_family_symbols.py"
 }
