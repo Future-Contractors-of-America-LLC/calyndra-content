@@ -113,6 +113,8 @@ def main() -> int:
 
     print("=== Ship ecosystem: completeness prep ===")
     os.environ.setdefault("CALY_SHIP", "1")
+    os.environ.setdefault("CALY_REQUIRE_UHD", "1")
+    os.environ.setdefault("CALY_VIDEO_PROFILE", "uhd")
     for prep in (
         "render_caly_family_symbols.py",
         "generate_expanded_vocab_symbols.py",

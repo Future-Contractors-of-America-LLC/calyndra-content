@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import os
 import subprocess
 import sys
 from pathlib import Path
@@ -24,10 +25,8 @@ MIN_EPISODES_PER_BAND = 6
 from caly_episode_duration import MIN_DURATION_RATIO, probe_duration
 
 
-def probe_duration(path: Path) -> float | None:
-    from caly_episode_duration import probe_duration as _probe
-
-    return _probe(path)
+def strict_ship() -> bool:
+    return os.environ.get("CALY_SHIP", "").strip() in ("1", "true", "yes")
 
 
 def main() -> int:
@@ -64,13 +63,16 @@ def main() -> int:
                 elif ep.get("status") == "pilot" and dur < target * 0.15:
                     warnings.append(f"Pilot {ep['webm']}: {dur:.0f}s (full target {target}s)")
                 elif ep.get("status") in ("complete", "full"):
+                    short_msg = (
+                        f"{ep['webm']}: {dur:.0f}s < {target * MIN_DURATION_RATIO:.0f}s "
+                        f"({MIN_DURATION_RATIO:.0%} of {target}s target) — re-render needed"
+                    )
                     if dur < 30:
-                        warnings.append(f"{ep['webm']}: stub {dur:.0f}s (expected full render)")
-                    elif dur < target * MIN_DURATION_RATIO:
-                        warnings.append(
-                            f"{ep['webm']}: {dur:.0f}s < {target * MIN_DURATION_RATIO:.0f}s "
-                            f"({MIN_DURATION_RATIO:.0%} of {target}s target) — re-render needed"
-                        )
+                        short_msg = f"{ep['webm']}: stub {dur:.0f}s (expected full render)"
+                    if strict_ship():
+                        errors.append(short_msg)
+                    else:
+                        warnings.append(short_msg)
 
         friends = registry.get("friendsByBand", {}).get(band, {}).get("friends", [])
         friend_names = {f["name"] for f in friends}
