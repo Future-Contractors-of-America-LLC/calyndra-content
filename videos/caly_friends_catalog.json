@@ -1,7 +1,7 @@
 {
   "version": 1,
   "series": "Caly and Friends",
-  "lockedUtc": "2026-06-25T23:36:38Z",
+  "lockedUtc": "2026-06-26T02:44:48Z",
   "durationTargetsSec": {
     "baby": 300,
     "toddler": 600,
@@ -40,11 +40,11 @@
       "script": "videos/scripts/07-fern-garden-share.md",
       "webm": "fern_garden_share_long.webm",
       "lesson": "Sharing joy makes friendship grow.",
-      "pilot": true,
+      "pilot": false,
       "status": "complete",
-      "videoResolution": "1280x720",
-      "videoProfile": "draft",
-      "videoFps": 12
+      "videoResolution": "3840x2160",
+      "videoProfile": "uhd",
+      "videoFps": 24
     },
     {
       "id": "moss_kindness_trail_long",
