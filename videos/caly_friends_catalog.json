@@ -1,7 +1,7 @@
 {
   "version": 1,
   "series": "Caly and Friends",
-  "lockedUtc": "2026-06-26T02:44:48Z",
+  "lockedUtc": "2026-06-26T12:19:00Z",
   "durationTargetsSec": {
     "baby": 300,
     "toddler": 600,
@@ -42,9 +42,9 @@
       "lesson": "Sharing joy makes friendship grow.",
       "pilot": false,
       "status": "complete",
-      "videoResolution": "3840x2160",
-      "videoProfile": "uhd",
-      "videoFps": 24
+      "videoResolution": "1280x720",
+      "videoProfile": "draft",
+      "videoFps": 12
     },
     {
       "id": "moss_kindness_trail_long",
@@ -127,9 +127,9 @@
       "lesson": "God's gentle touch is everywhere you feel safe.",
       "pilot": false,
       "status": "complete",
-      "videoResolution": "1280x720",
-      "videoProfile": "draft",
-      "videoFps": 12
+      "videoResolution": "3840x2160",
+      "videoProfile": "uhd",
+      "videoFps": 24
     },
     {
       "id": "pip_moonlight_snuggle_long",
