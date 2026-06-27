@@ -1,43 +1,68 @@
 {
   "id": "tween-vocab",
-  "title": "Tween Vocabulary (9-12)",
-  "nickname": "Sprig",
+  "title": "Tween Vocabulary (9-12)  - Vocabulary",
+  "description": "187 basic vocabulary symbols for Caly Sprig.",
   "ageBand": "tween",
-  "description": "187 words + 30 phrases for Caly Sprig.",
+  "nickname": "Sprig",
   "symbols": [
     {
-      "id": "help",
-      "label": "I need help",
+      "id": "again",
+      "label": "again",
       "category": "core",
-      "description": "Functional AAC symbol: I need help.",
-      "imageAsset": "assets/symbols/sprig/help.png"
+      "symbolHint": "repeat arrow",
+      "imageAsset": "assets/symbols/sprig/again.png"
     },
     {
-      "id": "more",
-      "label": "more",
-      "category": "core",
-      "imageAsset": "assets/symbols/sprig/more.png"
+      "id": "alarm",
+      "label": "alarm",
+      "category": "routine",
+      "imageAsset": "assets/symbols/sprig/alarm.png"
     },
     {
-      "id": "stop",
-      "label": "stop",
-      "category": "core",
-      "description": "Functional AAC symbol: stop.",
-      "imageAsset": "assets/symbols/sprig/stop.png"
+      "id": "alone",
+      "label": "alone",
+      "category": "social",
+      "imageAsset": "assets/symbols/sprig/alone.png"
     },
     {
-      "id": "yes",
-      "label": "yes",
-      "category": "core",
-      "description": "Functional AAC symbol: yes.",
-      "imageAsset": "assets/symbols/sprig/yes.png"
+      "id": "apple",
+      "label": "apple",
+      "category": "routine",
+      "symbolHint": "red apple",
+      "imageAsset": "assets/symbols/sprig/apple.png"
     },
     {
-      "id": "no",
-      "label": "no",
+      "id": "appointment",
+      "label": "appointment",
+      "category": "life",
+      "description": "Functional AAC symbol: appointment.",
+      "imageAsset": "assets/symbols/sprig/appointment.png"
+    },
+    {
+      "id": "baby",
+      "label": "baby",
+      "category": "social",
+      "imageAsset": "assets/symbols/sprig/baby.png"
+    },
+    {
+      "id": "backpack",
+      "label": "backpack",
+      "category": "school",
+      "description": "Functional AAC symbol: backpack.",
+      "imageAsset": "assets/symbols/sprig/backpack.png"
+    },
+    {
+      "id": "backward",
+      "label": "backward",
       "category": "core",
-      "description": "Functional AAC symbol: no.",
-      "imageAsset": "assets/symbols/sprig/no.png"
+      "imageAsset": "assets/symbols/sprig/backward.png"
+    },
+    {
+      "id": "ball",
+      "label": "ball",
+      "category": "activities",
+      "symbolHint": "play ball",
+      "imageAsset": "assets/symbols/sprig/ball.png"
     },
     {
       "id": "bathroom",
@@ -47,95 +72,219 @@
       "imageAsset": "assets/symbols/sprig/bathroom.png"
     },
     {
-      "id": "eat",
-      "label": "eat",
+      "id": "big",
+      "label": "big",
+      "category": "core",
+      "symbolHint": "large shape",
+      "imageAsset": "assets/symbols/sprig/big.png"
+    },
+    {
+      "id": "blanket",
+      "label": "blanket",
       "category": "routine",
-      "description": "Functional AAC symbol: eat.",
-      "imageAsset": "assets/symbols/sprig/eat.png"
+      "symbolHint": "soft blanket",
+      "imageAsset": "assets/symbols/sprig/blanket.png"
     },
     {
-      "id": "drink",
-      "label": "drink",
-      "category": "routine",
-      "description": "Functional AAC symbol: drink.",
-      "imageAsset": "assets/symbols/sprig/drink.png"
-    },
-    {
-      "id": "happy",
-      "label": "happy",
-      "category": "feelings",
-      "description": "Functional AAC symbol: happy.",
-      "imageAsset": "assets/symbols/sprig/happy.png"
-    },
-    {
-      "id": "sad",
-      "label": "sad",
-      "category": "feelings",
-      "description": "Functional AAC symbol: sad.",
-      "imageAsset": "assets/symbols/sprig/sad.png"
-    },
-    {
-      "id": "all-done",
-      "label": "all done",
-      "category": "core",
-      "imageAsset": "assets/symbols/sprig/all-done.png"
-    },
-    {
-      "id": "go",
-      "label": "go",
-      "category": "core",
-      "imageAsset": "assets/symbols/sprig/go.png"
-    },
-    {
-      "id": "wait",
-      "label": "wait",
-      "category": "core",
-      "description": "Ask for time before responding or acting.",
-      "imageAsset": "assets/symbols/sprig/wait.png"
-    },
-    {
-      "id": "home",
-      "label": "home",
-      "category": "places",
-      "imageAsset": "assets/symbols/sprig/home.png"
-    },
-    {
-      "id": "play",
-      "label": "play",
+      "id": "book",
+      "label": "book",
       "category": "activities",
-      "imageAsset": "assets/symbols/sprig/play.png"
+      "symbolHint": "picture book",
+      "imageAsset": "assets/symbols/sprig/book.png"
     },
     {
-      "id": "hug",
-      "label": "hug please",
-      "category": "social",
-      "description": "Ask for consensual comfort.",
-      "imageAsset": "assets/symbols/sprig/hug.png"
-    },
-    {
-      "id": "hurt",
-      "label": "hurt",
-      "emoji": "??",
-      "symbolHint": "bandage on body part",
-      "category": "feelings",
-      "promptHint": "Hurt vs emergency boundaries",
-      "imageAsset": "assets/symbols/sprig/hurt.png"
-    },
-    {
-      "id": "sleep",
-      "label": "sleep",
+      "id": "bottle",
+      "label": "bottle",
       "category": "routine",
-      "description": "Functional AAC symbol: sleep.",
-      "imageAsset": "assets/symbols/sprig/sleep.png"
+      "description": "Functional AAC symbol: bottle.",
+      "imageAsset": "assets/symbols/sprig/bottle.png"
     },
     {
-      "id": "up",
-      "label": "up",
-      "emoji": "??",
-      "symbolHint": "arrow up or lift arms",
+      "id": "brother",
+      "label": "brother",
+      "category": "social",
+      "imageAsset": "assets/symbols/sprig/brother.png"
+    },
+    {
+      "id": "brush-teeth",
+      "label": "brush teeth",
+      "category": "routine",
+      "description": "Functional AAC symbol: brush teeth.",
+      "imageAsset": "assets/symbols/sprig/brush-teeth.png"
+    },
+    {
+      "id": "bubbles",
+      "label": "bubbles",
+      "category": "activities",
+      "description": "Functional AAC symbol: bubbles.",
+      "imageAsset": "assets/symbols/sprig/bubbles.png"
+    },
+    {
+      "id": "bunny",
+      "label": "bunny",
+      "category": "animals",
+      "description": "Functional AAC symbol: bunny.",
+      "imageAsset": "assets/symbols/sprig/bunny.png"
+    },
+    {
+      "id": "bus",
+      "label": "bus",
+      "category": "places",
+      "symbolHint": "school bus",
+      "imageAsset": "assets/symbols/sprig/bus.png"
+    },
+    {
+      "id": "buy",
+      "label": "buy",
+      "category": "functional",
+      "imageAsset": "assets/symbols/sprig/buy.png"
+    },
+    {
+      "id": "bye",
+      "label": "bye",
+      "category": "social",
+      "description": "Functional AAC symbol: bye.",
+      "imageAsset": "assets/symbols/sprig/bye.png"
+    },
+    {
+      "id": "cafeteria",
+      "label": "cafeteria",
+      "category": "school",
+      "description": "Functional AAC symbol: cafeteria.",
+      "imageAsset": "assets/symbols/sprig/cafeteria.png"
+    },
+    {
+      "id": "calendar",
+      "label": "calendar",
+      "category": "functional",
+      "imageAsset": "assets/symbols/sprig/calendar.png"
+    },
+    {
+      "id": "call",
+      "label": "call",
+      "category": "functional",
+      "imageAsset": "assets/symbols/sprig/call.png"
+    },
+    {
+      "id": "phone",
+      "label": "call someone",
+      "category": "communication",
+      "description": "Functional AAC symbol: call someone.",
+      "imageAsset": "assets/symbols/sprig/phone.png"
+    },
+    {
+      "id": "car",
+      "label": "car",
+      "category": "places",
+      "symbolHint": "small car",
+      "imageAsset": "assets/symbols/sprig/car.png"
+    },
+    {
+      "id": "cat",
+      "label": "cat",
+      "category": "animals",
+      "symbolHint": "friendly cat",
+      "imageAsset": "assets/symbols/sprig/cat.png"
+    },
+    {
+      "id": "clean",
+      "label": "clean",
+      "category": "routine",
+      "symbolHint": "sparkle clean",
+      "imageAsset": "assets/symbols/sprig/clean.png"
+    },
+    {
+      "id": "close",
+      "label": "close",
       "category": "core",
-      "promptHint": "Up for lift or direction",
-      "imageAsset": "assets/symbols/sprig/up.png"
+      "symbolHint": "closed door",
+      "imageAsset": "assets/symbols/sprig/close.png"
+    },
+    {
+      "id": "club",
+      "label": "club",
+      "category": "activities",
+      "description": "Functional AAC symbol: club.",
+      "imageAsset": "assets/symbols/sprig/club.png"
+    },
+    {
+      "id": "coat",
+      "label": "coat",
+      "category": "routine",
+      "description": "Functional AAC symbol: coat.",
+      "imageAsset": "assets/symbols/sprig/coat.png"
+    },
+    {
+      "id": "cold",
+      "label": "cold",
+      "category": "sensory",
+      "imageAsset": "assets/symbols/sprig/cold.png"
+    },
+    {
+      "id": "computer",
+      "label": "computer",
+      "category": "activities",
+      "imageAsset": "assets/symbols/sprig/computer.png"
+    },
+    {
+      "id": "cookie",
+      "label": "cookie",
+      "category": "routine",
+      "symbolHint": "cookie",
+      "imageAsset": "assets/symbols/sprig/cookie.png"
+    },
+    {
+      "id": "crayon",
+      "label": "crayon",
+      "category": "activities",
+      "description": "Functional AAC symbol: crayon.",
+      "imageAsset": "assets/symbols/sprig/crayon.png"
+    },
+    {
+      "id": "daddy",
+      "label": "daddy",
+      "category": "social",
+      "symbolHint": "father figure",
+      "imageAsset": "assets/symbols/sprig/daddy.png"
+    },
+    {
+      "id": "dance",
+      "label": "dance",
+      "category": "activities",
+      "imageAsset": "assets/symbols/sprig/dance.png"
+    },
+    {
+      "id": "diaper",
+      "label": "diaper",
+      "category": "routine",
+      "description": "Functional AAC symbol: diaper.",
+      "imageAsset": "assets/symbols/sprig/diaper.png"
+    },
+    {
+      "id": "different",
+      "label": "different",
+      "category": "core",
+      "imageAsset": "assets/symbols/sprig/different.png"
+    },
+    {
+      "id": "directions",
+      "label": "directions",
+      "category": "functional",
+      "imageAsset": "assets/symbols/sprig/directions.png"
+    },
+    {
+      "id": "dirty",
+      "label": "dirty",
+      "category": "routine",
+      "symbolHint": "mud spot",
+      "imageAsset": "assets/symbols/sprig/dirty.png"
+    },
+    {
+      "id": "dog",
+      "label": "dog",
+      "category": "animals",
+      "symbolHint": "friendly dog",
+      "imageAsset": "assets/symbols/sprig/dog.png"
     },
     {
       "id": "down",
@@ -147,177 +296,17 @@
       "imageAsset": "assets/symbols/sprig/down.png"
     },
     {
-      "id": "water",
-      "label": "water",
-      "category": "core",
-      "imageAsset": "assets/symbols/sprig/water.png"
-    },
-    {
-      "id": "milk",
-      "label": "milk",
-      "category": "routine",
-      "symbolHint": "milk carton",
-      "imageAsset": "assets/symbols/sprig/milk.png"
-    },
-    {
-      "id": "juice",
-      "label": "juice",
-      "category": "routine",
-      "symbolHint": "juice box",
-      "imageAsset": "assets/symbols/sprig/juice.png"
-    },
-    {
-      "id": "apple",
-      "label": "apple",
-      "category": "routine",
-      "symbolHint": "red apple",
-      "imageAsset": "assets/symbols/sprig/apple.png"
-    },
-    {
-      "id": "cookie",
-      "label": "cookie",
-      "category": "routine",
-      "symbolHint": "cookie",
-      "imageAsset": "assets/symbols/sprig/cookie.png"
-    },
-    {
-      "id": "dog",
-      "label": "dog",
-      "category": "animals",
-      "symbolHint": "friendly dog",
-      "imageAsset": "assets/symbols/sprig/dog.png"
-    },
-    {
-      "id": "cat",
-      "label": "cat",
-      "category": "animals",
-      "symbolHint": "friendly cat",
-      "imageAsset": "assets/symbols/sprig/cat.png"
-    },
-    {
-      "id": "ball",
-      "label": "ball",
+      "id": "draw",
+      "label": "draw",
       "category": "activities",
-      "symbolHint": "play ball",
-      "imageAsset": "assets/symbols/sprig/ball.png"
+      "imageAsset": "assets/symbols/sprig/draw.png"
     },
     {
-      "id": "book",
-      "label": "book",
-      "category": "activities",
-      "symbolHint": "picture book",
-      "imageAsset": "assets/symbols/sprig/book.png"
-    },
-    {
-      "id": "car",
-      "label": "car",
-      "category": "places",
-      "symbolHint": "small car",
-      "imageAsset": "assets/symbols/sprig/car.png"
-    },
-    {
-      "id": "bus",
-      "label": "bus",
-      "category": "places",
-      "symbolHint": "school bus",
-      "imageAsset": "assets/symbols/sprig/bus.png"
-    },
-    {
-      "id": "shoe",
-      "label": "shoe",
+      "id": "drink",
+      "label": "drink",
       "category": "routine",
-      "symbolHint": "sneaker",
-      "imageAsset": "assets/symbols/sprig/shoe.png"
-    },
-    {
-      "id": "wash",
-      "label": "wash",
-      "category": "routine",
-      "symbolHint": "soap bubbles",
-      "imageAsset": "assets/symbols/sprig/wash.png"
-    },
-    {
-      "id": "open",
-      "label": "open",
-      "category": "core",
-      "symbolHint": "open door",
-      "imageAsset": "assets/symbols/sprig/open.png"
-    },
-    {
-      "id": "close",
-      "label": "close",
-      "category": "core",
-      "symbolHint": "closed door",
-      "imageAsset": "assets/symbols/sprig/close.png"
-    },
-    {
-      "id": "again",
-      "label": "again",
-      "category": "core",
-      "symbolHint": "repeat arrow",
-      "imageAsset": "assets/symbols/sprig/again.png"
-    },
-    {
-      "id": "please",
-      "label": "please",
-      "category": "social",
-      "imageAsset": "assets/symbols/sprig/please.png"
-    },
-    {
-      "id": "love",
-      "label": "love",
-      "category": "feelings",
-      "symbolHint": "heart",
-      "imageAsset": "assets/symbols/sprig/love.png"
-    },
-    {
-      "id": "mommy",
-      "label": "mommy",
-      "category": "social",
-      "symbolHint": "mother figure",
-      "imageAsset": "assets/symbols/sprig/mommy.png"
-    },
-    {
-      "id": "daddy",
-      "label": "daddy",
-      "category": "social",
-      "symbolHint": "father figure",
-      "imageAsset": "assets/symbols/sprig/daddy.png"
-    },
-    {
-      "id": "look",
-      "label": "look",
-      "category": "core",
-      "symbolHint": "eyes looking",
-      "imageAsset": "assets/symbols/sprig/look.png"
-    },
-    {
-      "id": "listen",
-      "label": "please listen",
-      "category": "communication",
-      "description": "Request full attention respectfully.",
-      "imageAsset": "assets/symbols/sprig/listen.png"
-    },
-    {
-      "id": "big",
-      "label": "big",
-      "category": "core",
-      "symbolHint": "large shape",
-      "imageAsset": "assets/symbols/sprig/big.png"
-    },
-    {
-      "id": "little",
-      "label": "little",
-      "category": "core",
-      "symbolHint": "small shape",
-      "imageAsset": "assets/symbols/sprig/little.png"
-    },
-    {
-      "id": "wet",
-      "label": "wet",
-      "category": "sensory",
-      "symbolHint": "water splash",
-      "imageAsset": "assets/symbols/sprig/wet.png"
+      "description": "Functional AAC symbol: drink.",
+      "imageAsset": "assets/symbols/sprig/drink.png"
     },
     {
       "id": "dry",
@@ -327,30 +316,61 @@
       "imageAsset": "assets/symbols/sprig/dry.png"
     },
     {
-      "id": "hot",
-      "label": "hot",
-      "category": "sensory",
-      "imageAsset": "assets/symbols/sprig/hot.png"
-    },
-    {
-      "id": "cold",
-      "label": "cold",
-      "category": "sensory",
-      "imageAsset": "assets/symbols/sprig/cold.png"
-    },
-    {
-      "id": "clean",
-      "label": "clean",
+      "id": "eat",
+      "label": "eat",
       "category": "routine",
-      "symbolHint": "sparkle clean",
-      "imageAsset": "assets/symbols/sprig/clean.png"
+      "description": "Functional AAC symbol: eat.",
+      "imageAsset": "assets/symbols/sprig/eat.png"
     },
     {
-      "id": "dirty",
-      "label": "dirty",
-      "category": "routine",
-      "symbolHint": "mud spot",
-      "imageAsset": "assets/symbols/sprig/dirty.png"
+      "id": "email",
+      "label": "email",
+      "category": "communication",
+      "description": "Functional AAC symbol: email.",
+      "imageAsset": "assets/symbols/sprig/email.png"
+    },
+    {
+      "id": "family",
+      "label": "family",
+      "category": "social",
+      "imageAsset": "assets/symbols/sprig/family.png"
+    },
+    {
+      "id": "fast",
+      "label": "fast",
+      "category": "sensory",
+      "imageAsset": "assets/symbols/sprig/fast.png"
+    },
+    {
+      "id": "favorite",
+      "label": "favorite",
+      "category": "preferences",
+      "description": "Functional AAC symbol: favorite.",
+      "imageAsset": "assets/symbols/sprig/favorite.png"
+    },
+    {
+      "id": "finished",
+      "label": "finished",
+      "category": "core",
+      "imageAsset": "assets/symbols/sprig/finished.png"
+    },
+    {
+      "id": "first",
+      "label": "first",
+      "category": "core",
+      "imageAsset": "assets/symbols/sprig/first.png"
+    },
+    {
+      "id": "forget",
+      "label": "forget",
+      "category": "core",
+      "imageAsset": "assets/symbols/sprig/forget.png"
+    },
+    {
+      "id": "forward",
+      "label": "forward",
+      "category": "core",
+      "imageAsset": "assets/symbols/sprig/forward.png"
     },
     {
       "id": "friend",
@@ -360,120 +380,6 @@
       "imageAsset": "assets/symbols/sprig/friend.png"
     },
     {
-      "id": "blanket",
-      "label": "blanket",
-      "category": "routine",
-      "symbolHint": "soft blanket",
-      "imageAsset": "assets/symbols/sprig/blanket.png"
-    },
-    {
-      "id": "toy",
-      "label": "toy",
-      "category": "activities",
-      "symbolHint": "teddy",
-      "imageAsset": "assets/symbols/sprig/toy.png"
-    },
-    {
-      "id": "hungry",
-      "label": "hungry",
-      "category": "routine",
-      "description": "Functional AAC symbol: hungry.",
-      "imageAsset": "assets/symbols/sprig/hungry.png"
-    },
-    {
-      "id": "mad",
-      "label": "mad",
-      "category": "feelings",
-      "imageAsset": "assets/symbols/sprig/mad.png"
-    },
-    {
-      "id": "need",
-      "label": "I need",
-      "category": "core",
-      "imageAsset": "assets/symbols/sprig/need.png"
-    },
-    {
-      "id": "scared",
-      "label": "scared",
-      "category": "feelings",
-      "imageAsset": "assets/symbols/sprig/scared.png"
-    },
-    {
-      "id": "tired",
-      "label": "tired",
-      "category": "feelings",
-      "imageAsset": "assets/symbols/sprig/tired.png"
-    },
-    {
-      "id": "want",
-      "label": "I want",
-      "category": "core",
-      "imageAsset": "assets/symbols/sprig/want.png"
-    },
-    {
-      "id": "thirsty",
-      "label": "thirsty",
-      "category": "routine",
-      "description": "Functional AAC symbol: thirsty.",
-      "imageAsset": "assets/symbols/sprig/thirsty.png"
-    },
-    {
-      "id": "bye",
-      "label": "bye",
-      "category": "social",
-      "description": "Functional AAC symbol: bye.",
-      "imageAsset": "assets/symbols/sprig/bye.png"
-    },
-    {
-      "id": "hi",
-      "label": "hi",
-      "category": "social",
-      "description": "Functional AAC symbol: hi.",
-      "imageAsset": "assets/symbols/sprig/hi.png"
-    },
-    {
-      "id": "brush-teeth",
-      "label": "brush teeth",
-      "category": "routine",
-      "description": "Functional AAC symbol: brush teeth.",
-      "imageAsset": "assets/symbols/sprig/brush-teeth.png"
-    },
-    {
-      "id": "teeth",
-      "label": "teeth",
-      "category": "routine",
-      "description": "Functional AAC symbol: teeth.",
-      "imageAsset": "assets/symbols/sprig/teeth.png"
-    },
-    {
-      "id": "sock",
-      "label": "sock",
-      "category": "routine",
-      "description": "Functional AAC symbol: sock.",
-      "imageAsset": "assets/symbols/sprig/sock.png"
-    },
-    {
-      "id": "shirt",
-      "label": "shirt",
-      "category": "routine",
-      "description": "Functional AAC symbol: shirt.",
-      "imageAsset": "assets/symbols/sprig/shirt.png"
-    },
-    {
-      "id": "pants",
-      "label": "pants",
-      "category": "routine",
-      "description": "Functional AAC symbol: pants.",
-      "imageAsset": "assets/symbols/sprig/pants.png"
-    },
-    {
-      "id": "night",
-      "label": "night",
-      "category": "routine",
-      "description": "Functional AAC symbol: night.",
-      "imageAsset": "assets/symbols/sprig/night.png"
-    },
-    {
       "id": "gentle",
       "label": "gentle",
       "category": "social",
@@ -481,277 +387,10 @@
       "imageAsset": "assets/symbols/sprig/gentle.png"
     },
     {
-      "id": "diaper",
-      "label": "diaper",
-      "category": "routine",
-      "description": "Functional AAC symbol: diaper.",
-      "imageAsset": "assets/symbols/sprig/diaper.png"
-    },
-    {
-      "id": "bottle",
-      "label": "bottle",
-      "category": "routine",
-      "description": "Functional AAC symbol: bottle.",
-      "imageAsset": "assets/symbols/sprig/bottle.png"
-    },
-    {
-      "id": "snack",
-      "label": "snack",
-      "category": "food",
-      "description": "Functional AAC symbol: snack.",
-      "imageAsset": "assets/symbols/sprig/snack.png"
-    },
-    {
-      "id": "playground",
-      "label": "playground",
-      "category": "places",
-      "description": "Functional AAC symbol: playground.",
-      "imageAsset": "assets/symbols/sprig/playground.png"
-    },
-    {
-      "id": "crayon",
-      "label": "crayon",
-      "category": "activities",
-      "description": "Functional AAC symbol: crayon.",
-      "imageAsset": "assets/symbols/sprig/crayon.png"
-    },
-    {
-      "id": "swing",
-      "label": "swing",
-      "category": "activities",
-      "description": "Functional AAC symbol: swing.",
-      "imageAsset": "assets/symbols/sprig/swing.png"
-    },
-    {
-      "id": "slide",
-      "label": "slide",
-      "category": "activities",
-      "description": "Functional AAC symbol: slide.",
-      "imageAsset": "assets/symbols/sprig/slide.png"
-    },
-    {
-      "id": "rain",
-      "label": "rain",
-      "category": "weather",
-      "description": "Functional AAC symbol: rain.",
-      "imageAsset": "assets/symbols/sprig/rain.png"
-    },
-    {
-      "id": "snow",
-      "label": "snow",
-      "category": "weather",
-      "description": "Functional AAC symbol: snow.",
-      "imageAsset": "assets/symbols/sprig/snow.png"
-    },
-    {
-      "id": "hat",
-      "label": "hat",
-      "category": "routine",
-      "description": "Functional AAC symbol: hat.",
-      "imageAsset": "assets/symbols/sprig/hat.png"
-    },
-    {
-      "id": "coat",
-      "label": "coat",
-      "category": "routine",
-      "description": "Functional AAC symbol: coat.",
-      "imageAsset": "assets/symbols/sprig/coat.png"
-    },
-    {
-      "id": "bunny",
-      "label": "bunny",
-      "category": "animals",
-      "description": "Functional AAC symbol: bunny.",
-      "imageAsset": "assets/symbols/sprig/bunny.png"
-    },
-    {
-      "id": "potty",
-      "label": "potty",
-      "category": "routine",
-      "description": "Functional AAC symbol: potty.",
-      "imageAsset": "assets/symbols/sprig/potty.png"
-    },
-    {
-      "id": "bubbles",
-      "label": "bubbles",
-      "category": "activities",
-      "description": "Functional AAC symbol: bubbles.",
-      "imageAsset": "assets/symbols/sprig/bubbles.png"
-    },
-    {
-      "id": "sandbox",
-      "label": "sandbox",
-      "category": "activities",
-      "description": "Functional AAC symbol: sandbox.",
-      "imageAsset": "assets/symbols/sprig/sandbox.png"
-    },
-    {
-      "id": "truck",
-      "label": "truck",
-      "category": "toys",
-      "description": "Functional AAC symbol: truck.",
-      "imageAsset": "assets/symbols/sprig/truck.png"
-    },
-    {
-      "id": "puzzle",
-      "label": "puzzle",
-      "category": "activities",
-      "description": "Functional AAC symbol: puzzle.",
-      "imageAsset": "assets/symbols/sprig/puzzle.png"
-    },
-    {
-      "id": "sticker",
-      "label": "sticker",
-      "category": "activities",
-      "description": "Functional AAC symbol: sticker.",
-      "imageAsset": "assets/symbols/sprig/sticker.png"
-    },
-    {
-      "id": "wagon",
-      "label": "wagon",
-      "category": "toys",
-      "description": "Functional AAC symbol: wagon.",
-      "imageAsset": "assets/symbols/sprig/wagon.png"
-    },
-    {
-      "id": "sick",
-      "label": "sick",
-      "category": "feelings",
-      "imageAsset": "assets/symbols/sprig/sick.png"
-    },
-    {
-      "id": "school",
-      "label": "school",
-      "category": "life",
-      "description": "Functional AAC symbol: school.",
-      "imageAsset": "assets/symbols/sprig/school.png"
-    },
-    {
-      "id": "read",
-      "label": "read",
-      "category": "activities",
-      "imageAsset": "assets/symbols/sprig/read.png"
-    },
-    {
-      "id": "draw",
-      "label": "draw",
-      "category": "activities",
-      "imageAsset": "assets/symbols/sprig/draw.png"
-    },
-    {
-      "id": "music",
-      "label": "music",
-      "category": "activities",
-      "imageAsset": "assets/symbols/sprig/music.png"
-    },
-    {
-      "id": "outside",
-      "label": "outside",
-      "category": "activities",
-      "imageAsset": "assets/symbols/sprig/outside.png"
-    },
-    {
-      "id": "family",
-      "label": "family",
-      "category": "social",
-      "imageAsset": "assets/symbols/sprig/family.png"
-    },
-    {
-      "id": "share",
-      "label": "share",
-      "category": "social",
-      "imageAsset": "assets/symbols/sprig/share.png"
-    },
-    {
-      "id": "turn",
-      "label": "my turn",
-      "category": "social",
-      "imageAsset": "assets/symbols/sprig/turn.png"
-    },
-    {
-      "id": "thank-you",
-      "label": "thank you",
-      "category": "social",
-      "imageAsset": "assets/symbols/sprig/thank-you.png"
-    },
-    {
-      "id": "sorry",
-      "label": "sorry",
-      "category": "social",
-      "imageAsset": "assets/symbols/sprig/sorry.png"
-    },
-    {
-      "id": "break",
-      "label": "I need a break",
-      "category": "regulation",
-      "description": "Functional AAC symbol: I need a break.",
-      "imageAsset": "assets/symbols/sprig/break.png"
-    },
-    {
-      "id": "quiet",
-      "label": "quiet",
-      "category": "regulation",
-      "imageAsset": "assets/symbols/sprig/quiet.png"
-    },
-    {
-      "id": "loud",
-      "label": "too loud",
-      "category": "regulation",
-      "imageAsset": "assets/symbols/sprig/loud.png"
-    },
-    {
-      "id": "like",
-      "label": "I like",
-      "category": "preferences",
-      "imageAsset": "assets/symbols/sprig/like.png"
-    },
-    {
-      "id": "dont-like",
-      "label": "don't like",
-      "category": "preferences",
-      "imageAsset": "assets/symbols/sprig/dont-like.png"
-    },
-    {
-      "id": "where",
-      "label": "where",
-      "category": "questions",
-      "imageAsset": "assets/symbols/sprig/where.png"
-    },
-    {
-      "id": "what",
-      "label": "what",
-      "category": "questions",
-      "imageAsset": "assets/symbols/sprig/what.png"
-    },
-    {
-      "id": "soft",
-      "label": "soft",
-      "category": "sensory",
-      "imageAsset": "assets/symbols/sprig/soft.png"
-    },
-    {
-      "id": "hard",
-      "label": "hard",
-      "category": "sensory",
-      "imageAsset": "assets/symbols/sprig/hard.png"
-    },
-    {
-      "id": "pet",
-      "label": "pet",
-      "category": "social",
-      "imageAsset": "assets/symbols/sprig/pet.png"
-    },
-    {
-      "id": "brother",
-      "label": "brother",
-      "category": "social",
-      "imageAsset": "assets/symbols/sprig/brother.png"
-    },
-    {
-      "id": "sister",
-      "label": "sister",
-      "category": "social",
-      "imageAsset": "assets/symbols/sprig/sister.png"
+      "id": "go",
+      "label": "go",
+      "category": "core",
+      "imageAsset": "assets/symbols/sprig/go.png"
     },
     {
       "id": "grandma",
@@ -766,388 +405,44 @@
       "imageAsset": "assets/symbols/sprig/grandpa.png"
     },
     {
-      "id": "teacher",
-      "label": "teacher",
-      "category": "people",
-      "imageAsset": "assets/symbols/sprig/teacher.png"
-    },
-    {
-      "id": "park",
-      "label": "park",
-      "category": "places",
-      "imageAsset": "assets/symbols/sprig/park.png"
-    },
-    {
-      "id": "finished",
-      "label": "finished",
-      "category": "core",
-      "imageAsset": "assets/symbols/sprig/finished.png"
-    },
-    {
-      "id": "alone",
-      "label": "alone",
-      "category": "social",
-      "imageAsset": "assets/symbols/sprig/alone.png"
-    },
-    {
-      "id": "together",
-      "label": "together",
-      "category": "social",
-      "imageAsset": "assets/symbols/sprig/together.png"
-    },
-    {
-      "id": "pencil",
-      "label": "pencil",
-      "category": "school",
-      "description": "Functional AAC symbol: pencil.",
-      "imageAsset": "assets/symbols/sprig/pencil.png"
-    },
-    {
-      "id": "backpack",
-      "label": "backpack",
-      "category": "school",
-      "description": "Functional AAC symbol: backpack.",
-      "imageAsset": "assets/symbols/sprig/backpack.png"
-    },
-    {
-      "id": "who",
-      "label": "who",
-      "category": "questions",
-      "imageAsset": "assets/symbols/sprig/who.png"
-    },
-    {
-      "id": "when",
-      "label": "when",
-      "category": "questions",
-      "imageAsset": "assets/symbols/sprig/when.png"
-    },
-    {
-      "id": "why",
-      "label": "why",
-      "category": "questions",
-      "imageAsset": "assets/symbols/sprig/why.png"
-    },
-    {
-      "id": "different",
-      "label": "different",
-      "category": "core",
-      "imageAsset": "assets/symbols/sprig/different.png"
-    },
-    {
-      "id": "same",
-      "label": "same",
-      "category": "core",
-      "imageAsset": "assets/symbols/sprig/same.png"
-    },
-    {
-      "id": "computer",
-      "label": "computer",
-      "category": "activities",
-      "imageAsset": "assets/symbols/sprig/computer.png"
-    },
-    {
-      "id": "phone",
-      "label": "call someone",
-      "category": "communication",
-      "description": "Functional AAC symbol: call someone.",
-      "imageAsset": "assets/symbols/sprig/phone.png"
-    },
-    {
-      "id": "walk",
-      "label": "walk",
-      "category": "activities",
-      "imageAsset": "assets/symbols/sprig/walk.png"
-    },
-    {
-      "id": "run",
-      "label": "run",
-      "category": "activities",
-      "imageAsset": "assets/symbols/sprig/run.png"
-    },
-    {
-      "id": "swim",
-      "label": "swim",
-      "category": "activities",
-      "imageAsset": "assets/symbols/sprig/swim.png"
-    },
-    {
-      "id": "dance",
-      "label": "dance",
-      "category": "activities",
-      "imageAsset": "assets/symbols/sprig/dance.png"
-    },
-    {
-      "id": "sing",
-      "label": "sing",
-      "category": "activities",
-      "imageAsset": "assets/symbols/sprig/sing.png"
-    },
-    {
-      "id": "write",
-      "label": "write it down",
-      "category": "communication",
-      "description": "Functional AAC symbol: write it down.",
-      "imageAsset": "assets/symbols/sprig/write.png"
-    },
-    {
-      "id": "think",
-      "label": "think",
-      "category": "feelings",
-      "imageAsset": "assets/symbols/sprig/think.png"
-    },
-    {
-      "id": "try",
-      "label": "try",
-      "category": "core",
-      "imageAsset": "assets/symbols/sprig/try.png"
-    },
-    {
-      "id": "team",
-      "label": "team",
-      "category": "social",
-      "imageAsset": "assets/symbols/sprig/team.png"
-    },
-    {
-      "id": "fast",
-      "label": "fast",
-      "category": "sensory",
-      "imageAsset": "assets/symbols/sprig/fast.png"
-    },
-    {
-      "id": "slow",
-      "label": "slow down",
-      "category": "communication",
-      "description": "Functional AAC symbol: slow down.",
-      "imageAsset": "assets/symbols/sprig/slow.png"
-    },
-    {
-      "id": "morning",
-      "label": "morning",
-      "category": "routine",
-      "imageAsset": "assets/symbols/sprig/morning.png"
-    },
-    {
-      "id": "today",
-      "label": "today",
-      "category": "core",
-      "imageAsset": "assets/symbols/sprig/today.png"
-    },
-    {
-      "id": "tomorrow",
-      "label": "tomorrow",
-      "category": "core",
-      "imageAsset": "assets/symbols/sprig/tomorrow.png"
-    },
-    {
-      "id": "yesterday",
-      "label": "yesterday",
-      "category": "core",
-      "imageAsset": "assets/symbols/sprig/yesterday.png"
-    },
-    {
-      "id": "first",
-      "label": "first",
-      "category": "core",
-      "imageAsset": "assets/symbols/sprig/first.png"
-    },
-    {
-      "id": "last",
-      "label": "last",
-      "category": "core",
-      "imageAsset": "assets/symbols/sprig/last.png"
-    },
-    {
-      "id": "forget",
-      "label": "forget",
-      "category": "core",
-      "imageAsset": "assets/symbols/sprig/forget.png"
-    },
-    {
-      "id": "remember",
-      "label": "remember",
-      "category": "core",
-      "imageAsset": "assets/symbols/sprig/remember.png"
-    },
-    {
-      "id": "win",
-      "label": "win",
-      "category": "social",
-      "imageAsset": "assets/symbols/sprig/win.png"
-    },
-    {
-      "id": "lose",
-      "label": "lose",
-      "category": "social",
-      "imageAsset": "assets/symbols/sprig/lose.png"
-    },
-    {
-      "id": "alarm",
-      "label": "alarm",
-      "category": "routine",
-      "imageAsset": "assets/symbols/sprig/alarm.png"
-    },
-    {
-      "id": "photo",
-      "label": "photo",
-      "category": "activities",
-      "imageAsset": "assets/symbols/sprig/photo.png"
-    },
-    {
-      "id": "video",
-      "label": "video",
-      "category": "activities",
-      "imageAsset": "assets/symbols/sprig/video.png"
-    },
-    {
-      "id": "email",
-      "label": "email",
-      "category": "communication",
-      "description": "Functional AAC symbol: email.",
-      "imageAsset": "assets/symbols/sprig/email.png"
-    },
-    {
-      "id": "store",
-      "label": "store",
-      "category": "places",
-      "imageAsset": "assets/symbols/sprig/store.png"
-    },
-    {
-      "id": "doctor",
-      "label": "see doctor",
-      "category": "health",
-      "description": "Functional AAC symbol: see doctor.",
-      "imageAsset": "assets/symbols/sprig/doctor.png"
-    },
-    {
-      "id": "nurse",
-      "label": "nurse",
-      "category": "people",
-      "imageAsset": "assets/symbols/sprig/nurse.png"
-    },
-    {
-      "id": "money",
-      "label": "money",
+      "id": "grocery",
+      "label": "grocery store",
       "category": "life",
-      "description": "Functional AAC symbol: money.",
-      "imageAsset": "assets/symbols/sprig/money.png"
+      "description": "Community errand vocabulary.",
+      "imageAsset": "assets/symbols/sprig/grocery.png"
     },
     {
-      "id": "pay",
-      "label": "pay",
-      "category": "functional",
-      "imageAsset": "assets/symbols/sprig/pay.png"
+      "id": "happy",
+      "label": "happy",
+      "category": "feelings",
+      "description": "Functional AAC symbol: happy.",
+      "imageAsset": "assets/symbols/sprig/happy.png"
     },
     {
-      "id": "buy",
-      "label": "buy",
-      "category": "functional",
-      "imageAsset": "assets/symbols/sprig/buy.png"
-    },
-    {
-      "id": "job",
-      "label": "job",
-      "category": "functional",
-      "imageAsset": "assets/symbols/sprig/job.png"
-    },
-    {
-      "id": "meeting",
-      "label": "meeting",
-      "category": "functional",
-      "imageAsset": "assets/symbols/sprig/meeting.png"
-    },
-    {
-      "id": "schedule",
-      "label": "schedule",
-      "category": "functional",
-      "imageAsset": "assets/symbols/sprig/schedule.png"
-    },
-    {
-      "id": "calendar",
-      "label": "calendar",
-      "category": "functional",
-      "imageAsset": "assets/symbols/sprig/calendar.png"
-    },
-    {
-      "id": "message",
-      "label": "message",
-      "category": "functional",
-      "imageAsset": "assets/symbols/sprig/message.png"
-    },
-    {
-      "id": "call",
-      "label": "call",
-      "category": "functional",
-      "imageAsset": "assets/symbols/sprig/call.png"
-    },
-    {
-      "id": "map",
-      "label": "map",
-      "category": "functional",
-      "imageAsset": "assets/symbols/sprig/map.png"
-    },
-    {
-      "id": "directions",
-      "label": "directions",
-      "category": "functional",
-      "imageAsset": "assets/symbols/sprig/directions.png"
-    },
-    {
-      "id": "left",
-      "label": "left",
-      "category": "core",
-      "imageAsset": "assets/symbols/sprig/left.png"
-    },
-    {
-      "id": "right",
-      "label": "right",
-      "category": "core",
-      "imageAsset": "assets/symbols/sprig/right.png"
-    },
-    {
-      "id": "forward",
-      "label": "forward",
-      "category": "core",
-      "imageAsset": "assets/symbols/sprig/forward.png"
-    },
-    {
-      "id": "backward",
-      "label": "backward",
-      "category": "core",
-      "imageAsset": "assets/symbols/sprig/backward.png"
-    },
-    {
-      "id": "sell",
-      "label": "sell",
-      "category": "functional",
-      "imageAsset": "assets/symbols/sprig/sell.png"
-    },
-    {
-      "id": "favorite",
-      "label": "favorite",
-      "category": "preferences",
-      "description": "Functional AAC symbol: favorite.",
-      "imageAsset": "assets/symbols/sprig/favorite.png"
-    },
-    {
-      "id": "weather",
-      "label": "weather",
-      "category": "core",
-      "description": "Functional AAC symbol: weather.",
-      "imageAsset": "assets/symbols/sprig/weather.png"
-    },
-    {
-      "id": "storm",
-      "label": "storm",
+      "id": "hard",
+      "label": "hard",
       "category": "sensory",
-      "description": "Functional AAC symbol: storm.",
-      "imageAsset": "assets/symbols/sprig/storm.png"
+      "imageAsset": "assets/symbols/sprig/hard.png"
     },
     {
-      "id": "library",
-      "label": "library",
+      "id": "hat",
+      "label": "hat",
+      "category": "routine",
+      "description": "Functional AAC symbol: hat.",
+      "imageAsset": "assets/symbols/sprig/hat.png"
+    },
+    {
+      "id": "hi",
+      "label": "hi",
+      "category": "social",
+      "description": "Functional AAC symbol: hi.",
+      "imageAsset": "assets/symbols/sprig/hi.png"
+    },
+    {
+      "id": "home",
+      "label": "home",
       "category": "places",
-      "description": "Functional AAC symbol: library.",
-      "imageAsset": "assets/symbols/sprig/library.png"
+      "imageAsset": "assets/symbols/sprig/home.png"
     },
     {
       "id": "homework",
@@ -1157,38 +452,104 @@
       "imageAsset": "assets/symbols/sprig/homework.png"
     },
     {
-      "id": "baby",
-      "label": "baby",
+      "id": "hot",
+      "label": "hot",
+      "category": "sensory",
+      "imageAsset": "assets/symbols/sprig/hot.png"
+    },
+    {
+      "id": "hug",
+      "label": "hug please",
       "category": "social",
-      "imageAsset": "assets/symbols/sprig/baby.png"
+      "description": "Ask for consensual comfort.",
+      "imageAsset": "assets/symbols/sprig/hug.png"
     },
     {
-      "id": "transport",
-      "label": "ride",
-      "category": "life",
-      "description": "Functional AAC symbol: ride.",
-      "imageAsset": "assets/symbols/sprig/transport.png"
+      "id": "hungry",
+      "label": "hungry",
+      "category": "routine",
+      "description": "Functional AAC symbol: hungry.",
+      "imageAsset": "assets/symbols/sprig/hungry.png"
     },
     {
-      "id": "appointment",
-      "label": "appointment",
-      "category": "life",
-      "description": "Functional AAC symbol: appointment.",
-      "imageAsset": "assets/symbols/sprig/appointment.png"
+      "id": "hurt",
+      "label": "hurt",
+      "emoji": "??",
+      "symbolHint": "bandage on body part",
+      "category": "feelings",
+      "promptHint": "Hurt vs emergency boundaries",
+      "imageAsset": "assets/symbols/sprig/hurt.png"
     },
     {
-      "id": "grocery",
-      "label": "grocery store",
-      "category": "life",
-      "description": "Community errand vocabulary.",
-      "imageAsset": "assets/symbols/sprig/grocery.png"
+      "id": "like",
+      "label": "I like",
+      "category": "preferences",
+      "imageAsset": "assets/symbols/sprig/like.png"
     },
     {
-      "id": "restaurant",
-      "label": "restaurant",
-      "category": "life",
-      "description": "Dining out communication.",
-      "imageAsset": "assets/symbols/sprig/restaurant.png"
+      "id": "need",
+      "label": "I need",
+      "category": "core",
+      "imageAsset": "assets/symbols/sprig/need.png"
+    },
+    {
+      "id": "break",
+      "label": "I need a break",
+      "category": "regulation",
+      "description": "Functional AAC symbol: I need a break.",
+      "imageAsset": "assets/symbols/sprig/break.png"
+    },
+    {
+      "id": "help",
+      "label": "I need help",
+      "category": "core",
+      "description": "Functional AAC symbol: I need help.",
+      "imageAsset": "assets/symbols/sprig/help.png"
+    },
+    {
+      "id": "want",
+      "label": "I want",
+      "category": "core",
+      "imageAsset": "assets/symbols/sprig/want.png"
+    },
+    {
+      "id": "job",
+      "label": "job",
+      "category": "functional",
+      "imageAsset": "assets/symbols/sprig/job.png"
+    },
+    {
+      "id": "juice",
+      "label": "juice",
+      "category": "routine",
+      "symbolHint": "juice box",
+      "imageAsset": "assets/symbols/sprig/juice.png"
+    },
+    {
+      "id": "last",
+      "label": "last",
+      "category": "core",
+      "imageAsset": "assets/symbols/sprig/last.png"
+    },
+    {
+      "id": "left",
+      "label": "left",
+      "category": "core",
+      "imageAsset": "assets/symbols/sprig/left.png"
+    },
+    {
+      "id": "library",
+      "label": "library",
+      "category": "places",
+      "description": "Functional AAC symbol: library.",
+      "imageAsset": "assets/symbols/sprig/library.png"
+    },
+    {
+      "id": "little",
+      "label": "little",
+      "category": "core",
+      "symbolHint": "small shape",
+      "imageAsset": "assets/symbols/sprig/little.png"
     },
     {
       "id": "locker",
@@ -1198,25 +559,197 @@
       "imageAsset": "assets/symbols/sprig/locker.png"
     },
     {
-      "id": "cafeteria",
-      "label": "cafeteria",
-      "category": "school",
-      "description": "Functional AAC symbol: cafeteria.",
-      "imageAsset": "assets/symbols/sprig/cafeteria.png"
+      "id": "look",
+      "label": "look",
+      "category": "core",
+      "symbolHint": "eyes looking",
+      "imageAsset": "assets/symbols/sprig/look.png"
     },
     {
-      "id": "project",
-      "label": "project",
-      "category": "school",
-      "description": "Functional AAC symbol: project.",
-      "imageAsset": "assets/symbols/sprig/project.png"
+      "id": "lose",
+      "label": "lose",
+      "category": "social",
+      "imageAsset": "assets/symbols/sprig/lose.png"
     },
     {
-      "id": "club",
-      "label": "club",
+      "id": "love",
+      "label": "love",
+      "category": "feelings",
+      "symbolHint": "heart",
+      "imageAsset": "assets/symbols/sprig/love.png"
+    },
+    {
+      "id": "mad",
+      "label": "mad",
+      "category": "feelings",
+      "imageAsset": "assets/symbols/sprig/mad.png"
+    },
+    {
+      "id": "map",
+      "label": "map",
+      "category": "functional",
+      "imageAsset": "assets/symbols/sprig/map.png"
+    },
+    {
+      "id": "meeting",
+      "label": "meeting",
+      "category": "functional",
+      "imageAsset": "assets/symbols/sprig/meeting.png"
+    },
+    {
+      "id": "message",
+      "label": "message",
+      "category": "functional",
+      "imageAsset": "assets/symbols/sprig/message.png"
+    },
+    {
+      "id": "milk",
+      "label": "milk",
+      "category": "routine",
+      "symbolHint": "milk carton",
+      "imageAsset": "assets/symbols/sprig/milk.png"
+    },
+    {
+      "id": "mommy",
+      "label": "mommy",
+      "category": "social",
+      "symbolHint": "mother figure",
+      "imageAsset": "assets/symbols/sprig/mommy.png"
+    },
+    {
+      "id": "money",
+      "label": "money",
+      "category": "life",
+      "description": "Functional AAC symbol: money.",
+      "imageAsset": "assets/symbols/sprig/money.png"
+    },
+    {
+      "id": "more",
+      "label": "more",
+      "category": "core",
+      "imageAsset": "assets/symbols/sprig/more.png"
+    },
+    {
+      "id": "morning",
+      "label": "morning",
+      "category": "routine",
+      "imageAsset": "assets/symbols/sprig/morning.png"
+    },
+    {
+      "id": "music",
+      "label": "music",
       "category": "activities",
-      "description": "Functional AAC symbol: club.",
-      "imageAsset": "assets/symbols/sprig/club.png"
+      "imageAsset": "assets/symbols/sprig/music.png"
+    },
+    {
+      "id": "turn",
+      "label": "my turn",
+      "category": "social",
+      "imageAsset": "assets/symbols/sprig/turn.png"
+    },
+    {
+      "id": "night",
+      "label": "night",
+      "category": "routine",
+      "description": "Functional AAC symbol: night.",
+      "imageAsset": "assets/symbols/sprig/night.png"
+    },
+    {
+      "id": "no",
+      "label": "no",
+      "category": "core",
+      "description": "Functional AAC symbol: no.",
+      "imageAsset": "assets/symbols/sprig/no.png"
+    },
+    {
+      "id": "nurse",
+      "label": "nurse",
+      "category": "people",
+      "imageAsset": "assets/symbols/sprig/nurse.png"
+    },
+    {
+      "id": "open",
+      "label": "open",
+      "category": "core",
+      "symbolHint": "open door",
+      "imageAsset": "assets/symbols/sprig/open.png"
+    },
+    {
+      "id": "outside",
+      "label": "outside",
+      "category": "activities",
+      "imageAsset": "assets/symbols/sprig/outside.png"
+    },
+    {
+      "id": "pants",
+      "label": "pants",
+      "category": "routine",
+      "description": "Functional AAC symbol: pants.",
+      "imageAsset": "assets/symbols/sprig/pants.png"
+    },
+    {
+      "id": "park",
+      "label": "park",
+      "category": "places",
+      "imageAsset": "assets/symbols/sprig/park.png"
+    },
+    {
+      "id": "pay",
+      "label": "pay",
+      "category": "functional",
+      "imageAsset": "assets/symbols/sprig/pay.png"
+    },
+    {
+      "id": "pencil",
+      "label": "pencil",
+      "category": "school",
+      "description": "Functional AAC symbol: pencil.",
+      "imageAsset": "assets/symbols/sprig/pencil.png"
+    },
+    {
+      "id": "pet",
+      "label": "pet",
+      "category": "social",
+      "imageAsset": "assets/symbols/sprig/pet.png"
+    },
+    {
+      "id": "photo",
+      "label": "photo",
+      "category": "activities",
+      "imageAsset": "assets/symbols/sprig/photo.png"
+    },
+    {
+      "id": "play",
+      "label": "play",
+      "category": "activities",
+      "imageAsset": "assets/symbols/sprig/play.png"
+    },
+    {
+      "id": "playground",
+      "label": "playground",
+      "category": "places",
+      "description": "Functional AAC symbol: playground.",
+      "imageAsset": "assets/symbols/sprig/playground.png"
+    },
+    {
+      "id": "please",
+      "label": "please",
+      "category": "social",
+      "imageAsset": "assets/symbols/sprig/please.png"
+    },
+    {
+      "id": "listen",
+      "label": "please listen",
+      "category": "communication",
+      "description": "Request full attention respectfully.",
+      "imageAsset": "assets/symbols/sprig/listen.png"
+    },
+    {
+      "id": "potty",
+      "label": "potty",
+      "category": "routine",
+      "description": "Functional AAC symbol: potty.",
+      "imageAsset": "assets/symbols/sprig/potty.png"
     },
     {
       "id": "practice",
@@ -1226,61 +759,461 @@
       "imageAsset": "assets/symbols/sprig/practice.png"
     },
     {
-      "id": "schedule-change",
-      "label": "schedule change",
+      "id": "project",
+      "label": "project",
+      "category": "school",
+      "description": "Functional AAC symbol: project.",
+      "imageAsset": "assets/symbols/sprig/project.png"
+    },
+    {
+      "id": "puzzle",
+      "label": "puzzle",
+      "category": "activities",
+      "description": "Functional AAC symbol: puzzle.",
+      "imageAsset": "assets/symbols/sprig/puzzle.png"
+    },
+    {
+      "id": "quiet",
+      "label": "quiet",
+      "category": "regulation",
+      "imageAsset": "assets/symbols/sprig/quiet.png"
+    },
+    {
+      "id": "rain",
+      "label": "rain",
+      "category": "weather",
+      "description": "Functional AAC symbol: rain.",
+      "imageAsset": "assets/symbols/sprig/rain.png"
+    },
+    {
+      "id": "read",
+      "label": "read",
+      "category": "activities",
+      "imageAsset": "assets/symbols/sprig/read.png"
+    },
+    {
+      "id": "remember",
+      "label": "remember",
+      "category": "core",
+      "imageAsset": "assets/symbols/sprig/remember.png"
+    },
+    {
+      "id": "restaurant",
+      "label": "restaurant",
       "category": "life",
-      "description": "Flag a change in plans.",
-      "imageAsset": "assets/symbols/sprig/schedule-change.png"
+      "description": "Dining out communication.",
+      "imageAsset": "assets/symbols/sprig/restaurant.png"
+    },
+    {
+      "id": "transport",
+      "label": "ride",
+      "category": "life",
+      "description": "Functional AAC symbol: ride.",
+      "imageAsset": "assets/symbols/sprig/transport.png"
+    },
+    {
+      "id": "right",
+      "label": "right",
+      "category": "core",
+      "imageAsset": "assets/symbols/sprig/right.png"
+    },
+    {
+      "id": "run",
+      "label": "run",
+      "category": "activities",
+      "imageAsset": "assets/symbols/sprig/run.png"
+    },
+    {
+      "id": "sad",
+      "label": "sad",
+      "category": "feelings",
+      "description": "Functional AAC symbol: sad.",
+      "imageAsset": "assets/symbols/sprig/sad.png"
+    },
+    {
+      "id": "same",
+      "label": "same",
+      "category": "core",
+      "imageAsset": "assets/symbols/sprig/same.png"
+    },
+    {
+      "id": "sandbox",
+      "label": "sandbox",
+      "category": "activities",
+      "description": "Functional AAC symbol: sandbox.",
+      "imageAsset": "assets/symbols/sprig/sandbox.png"
+    },
+    {
+      "id": "scared",
+      "label": "scared",
+      "category": "feelings",
+      "imageAsset": "assets/symbols/sprig/scared.png"
+    },
+    {
+      "id": "schedule",
+      "label": "schedule",
+      "category": "functional",
+      "imageAsset": "assets/symbols/sprig/schedule.png"
+    },
+    {
+      "id": "school",
+      "label": "school",
+      "category": "life",
+      "description": "Functional AAC symbol: school.",
+      "imageAsset": "assets/symbols/sprig/school.png"
+    },
+    {
+      "id": "doctor",
+      "label": "see doctor",
+      "category": "health",
+      "description": "Functional AAC symbol: see doctor.",
+      "imageAsset": "assets/symbols/sprig/doctor.png"
+    },
+    {
+      "id": "sell",
+      "label": "sell",
+      "category": "functional",
+      "imageAsset": "assets/symbols/sprig/sell.png"
+    },
+    {
+      "id": "share",
+      "label": "share",
+      "category": "social",
+      "imageAsset": "assets/symbols/sprig/share.png"
+    },
+    {
+      "id": "shirt",
+      "label": "shirt",
+      "category": "routine",
+      "description": "Functional AAC symbol: shirt.",
+      "imageAsset": "assets/symbols/sprig/shirt.png"
+    },
+    {
+      "id": "shoe",
+      "label": "shoe",
+      "category": "routine",
+      "symbolHint": "sneaker",
+      "imageAsset": "assets/symbols/sprig/shoe.png"
+    },
+    {
+      "id": "sick",
+      "label": "sick",
+      "category": "feelings",
+      "imageAsset": "assets/symbols/sprig/sick.png"
+    },
+    {
+      "id": "sing",
+      "label": "sing",
+      "category": "activities",
+      "imageAsset": "assets/symbols/sprig/sing.png"
+    },
+    {
+      "id": "sister",
+      "label": "sister",
+      "category": "social",
+      "imageAsset": "assets/symbols/sprig/sister.png"
+    },
+    {
+      "id": "sleep",
+      "label": "sleep",
+      "category": "routine",
+      "description": "Functional AAC symbol: sleep.",
+      "imageAsset": "assets/symbols/sprig/sleep.png"
+    },
+    {
+      "id": "slide",
+      "label": "slide",
+      "category": "activities",
+      "description": "Functional AAC symbol: slide.",
+      "imageAsset": "assets/symbols/sprig/slide.png"
+    },
+    {
+      "id": "slow",
+      "label": "slow down",
+      "category": "communication",
+      "description": "Functional AAC symbol: slow down.",
+      "imageAsset": "assets/symbols/sprig/slow.png"
+    },
+    {
+      "id": "snack",
+      "label": "snack",
+      "category": "food",
+      "description": "Functional AAC symbol: snack.",
+      "imageAsset": "assets/symbols/sprig/snack.png"
+    },
+    {
+      "id": "snow",
+      "label": "snow",
+      "category": "weather",
+      "description": "Functional AAC symbol: snow.",
+      "imageAsset": "assets/symbols/sprig/snow.png"
+    },
+    {
+      "id": "sock",
+      "label": "sock",
+      "category": "routine",
+      "description": "Functional AAC symbol: sock.",
+      "imageAsset": "assets/symbols/sprig/sock.png"
+    },
+    {
+      "id": "soft",
+      "label": "soft",
+      "category": "sensory",
+      "imageAsset": "assets/symbols/sprig/soft.png"
+    },
+    {
+      "id": "sorry",
+      "label": "sorry",
+      "category": "social",
+      "imageAsset": "assets/symbols/sprig/sorry.png"
+    },
+    {
+      "id": "sticker",
+      "label": "sticker",
+      "category": "activities",
+      "description": "Functional AAC symbol: sticker.",
+      "imageAsset": "assets/symbols/sprig/sticker.png"
+    },
+    {
+      "id": "stop",
+      "label": "stop",
+      "category": "core",
+      "description": "Functional AAC symbol: stop.",
+      "imageAsset": "assets/symbols/sprig/stop.png"
+    },
+    {
+      "id": "store",
+      "label": "store",
+      "category": "places",
+      "imageAsset": "assets/symbols/sprig/store.png"
+    },
+    {
+      "id": "storm",
+      "label": "storm",
+      "category": "sensory",
+      "description": "Functional AAC symbol: storm.",
+      "imageAsset": "assets/symbols/sprig/storm.png"
+    },
+    {
+      "id": "swim",
+      "label": "swim",
+      "category": "activities",
+      "imageAsset": "assets/symbols/sprig/swim.png"
+    },
+    {
+      "id": "swing",
+      "label": "swing",
+      "category": "activities",
+      "description": "Functional AAC symbol: swing.",
+      "imageAsset": "assets/symbols/sprig/swing.png"
+    },
+    {
+      "id": "teacher",
+      "label": "teacher",
+      "category": "people",
+      "imageAsset": "assets/symbols/sprig/teacher.png"
+    },
+    {
+      "id": "team",
+      "label": "team",
+      "category": "social",
+      "imageAsset": "assets/symbols/sprig/team.png"
+    },
+    {
+      "id": "teeth",
+      "label": "teeth",
+      "category": "routine",
+      "description": "Functional AAC symbol: teeth.",
+      "imageAsset": "assets/symbols/sprig/teeth.png"
+    },
+    {
+      "id": "think",
+      "label": "think",
+      "category": "feelings",
+      "imageAsset": "assets/symbols/sprig/think.png"
+    },
+    {
+      "id": "thirsty",
+      "label": "thirsty",
+      "category": "routine",
+      "description": "Functional AAC symbol: thirsty.",
+      "imageAsset": "assets/symbols/sprig/thirsty.png"
+    },
+    {
+      "id": "tired",
+      "label": "tired",
+      "category": "feelings",
+      "imageAsset": "assets/symbols/sprig/tired.png"
+    },
+    {
+      "id": "today",
+      "label": "today",
+      "category": "core",
+      "imageAsset": "assets/symbols/sprig/today.png"
+    },
+    {
+      "id": "together",
+      "label": "together",
+      "category": "social",
+      "imageAsset": "assets/symbols/sprig/together.png"
+    },
+    {
+      "id": "tomorrow",
+      "label": "tomorrow",
+      "category": "core",
+      "imageAsset": "assets/symbols/sprig/tomorrow.png"
+    },
+    {
+      "id": "loud",
+      "label": "too loud",
+      "category": "regulation",
+      "imageAsset": "assets/symbols/sprig/loud.png"
+    },
+    {
+      "id": "toy",
+      "label": "toy",
+      "category": "activities",
+      "symbolHint": "teddy",
+      "imageAsset": "assets/symbols/sprig/toy.png"
+    },
+    {
+      "id": "truck",
+      "label": "truck",
+      "category": "toys",
+      "description": "Functional AAC symbol: truck.",
+      "imageAsset": "assets/symbols/sprig/truck.png"
+    },
+    {
+      "id": "try",
+      "label": "try",
+      "category": "core",
+      "imageAsset": "assets/symbols/sprig/try.png"
+    },
+    {
+      "id": "up",
+      "label": "up",
+      "emoji": "??",
+      "symbolHint": "arrow up or lift arms",
+      "category": "core",
+      "promptHint": "Up for lift or direction",
+      "imageAsset": "assets/symbols/sprig/up.png"
+    },
+    {
+      "id": "video",
+      "label": "video",
+      "category": "activities",
+      "imageAsset": "assets/symbols/sprig/video.png"
+    },
+    {
+      "id": "wagon",
+      "label": "wagon",
+      "category": "toys",
+      "description": "Functional AAC symbol: wagon.",
+      "imageAsset": "assets/symbols/sprig/wagon.png"
+    },
+    {
+      "id": "wait",
+      "label": "wait",
+      "category": "core",
+      "description": "Ask for time before responding or acting.",
+      "imageAsset": "assets/symbols/sprig/wait.png"
+    },
+    {
+      "id": "walk",
+      "label": "walk",
+      "category": "activities",
+      "imageAsset": "assets/symbols/sprig/walk.png"
+    },
+    {
+      "id": "wash",
+      "label": "wash",
+      "category": "routine",
+      "symbolHint": "soap bubbles",
+      "imageAsset": "assets/symbols/sprig/wash.png"
+    },
+    {
+      "id": "water",
+      "label": "water",
+      "category": "core",
+      "imageAsset": "assets/symbols/sprig/water.png"
+    },
+    {
+      "id": "weather",
+      "label": "weather",
+      "category": "core",
+      "description": "Functional AAC symbol: weather.",
+      "imageAsset": "assets/symbols/sprig/weather.png"
+    },
+    {
+      "id": "wet",
+      "label": "wet",
+      "category": "sensory",
+      "symbolHint": "water splash",
+      "imageAsset": "assets/symbols/sprig/wet.png"
+    },
+    {
+      "id": "what",
+      "label": "what",
+      "category": "questions",
+      "imageAsset": "assets/symbols/sprig/what.png"
+    },
+    {
+      "id": "when",
+      "label": "when",
+      "category": "questions",
+      "imageAsset": "assets/symbols/sprig/when.png"
+    },
+    {
+      "id": "where",
+      "label": "where",
+      "category": "questions",
+      "imageAsset": "assets/symbols/sprig/where.png"
+    },
+    {
+      "id": "who",
+      "label": "who",
+      "category": "questions",
+      "imageAsset": "assets/symbols/sprig/who.png"
+    },
+    {
+      "id": "why",
+      "label": "why",
+      "category": "questions",
+      "imageAsset": "assets/symbols/sprig/why.png"
+    },
+    {
+      "id": "win",
+      "label": "win",
+      "category": "social",
+      "imageAsset": "assets/symbols/sprig/win.png"
+    },
+    {
+      "id": "write",
+      "label": "write it down",
+      "category": "communication",
+      "description": "Functional AAC symbol: write it down.",
+      "imageAsset": "assets/symbols/sprig/write.png"
+    },
+    {
+      "id": "yes",
+      "label": "yes",
+      "category": "core",
+      "description": "Functional AAC symbol: yes.",
+      "imageAsset": "assets/symbols/sprig/yes.png"
+    },
+    {
+      "id": "yesterday",
+      "label": "yesterday",
+      "category": "core",
+      "imageAsset": "assets/symbols/sprig/yesterday.png"
     }
   ],
   "phrases": [
     {
-      "id": "dont-understand",
-      "label": "I don't understand",
+      "id": "all-done",
+      "label": "all done",
       "category": "core",
-      "speakText": "I don't understand."
-    },
-    {
-      "id": "say-again",
-      "label": "Can you say that again?",
-      "category": "core",
-      "speakText": "Can you say that again?"
-    },
-    {
-      "id": "need-space",
-      "label": "I need space",
-      "category": "regulation",
-      "speakText": "I need space."
-    },
-    {
-      "id": "not-ready",
-      "label": "I'm not ready yet",
-      "category": "core",
-      "speakText": "I'm not ready yet."
-    },
-    {
-      "id": "pick-different",
-      "label": "Can we pick something else?",
-      "category": "preferences",
-      "speakText": "Can we pick something else?"
-    },
-    {
-      "id": "feel-overwhelmed",
-      "label": "I feel overwhelmed",
-      "category": "feelings",
-      "speakText": "I feel overwhelmed."
-    },
-    {
-      "id": "can-we-talk",
-      "label": "Can we talk about it?",
-      "category": "social",
-      "speakText": "Can we talk about it?"
-    },
-    {
-      "id": "homework-help",
-      "label": "I need help with homework",
-      "category": "school",
-      "speakText": "I need help with homework."
+      "speakText": "all done"
     },
     {
       "id": "join-game",
@@ -1289,106 +1222,10 @@
       "speakText": "Can I join the game?"
     },
     {
-      "id": "pass-turn",
-      "label": "I'll pass this turn",
-      "category": "social",
-      "speakText": "I'll pass this turn."
-    },
-    {
-      "id": "schedule-change",
-      "label": "The schedule changed",
-      "category": "routine",
-      "speakText": "The schedule changed."
-    },
-    {
-      "id": "need-quiet",
-      "label": "I need a quiet place",
-      "category": "regulation",
-      "speakText": "I need a quiet place."
-    },
-    {
-      "id": "feel-stressed",
-      "label": "I feel stressed",
-      "category": "feelings",
-      "speakText": "I feel stressed."
-    },
-    {
       "id": "can-i-leave",
       "label": "Can I leave?",
       "category": "boundaries",
       "speakText": "Can I leave?"
-    },
-    {
-      "id": "tell-me-more",
-      "label": "Can you tell me more?",
-      "category": "core",
-      "speakText": "Can you tell me more?"
-    },
-    {
-      "id": "group-project",
-      "label": "I need help with a group project",
-      "category": "school",
-      "speakText": "I need help with a group project."
-    },
-    {
-      "id": "too-much",
-      "label": "This is too much for me",
-      "category": "regulation",
-      "speakText": "This is too much for me."
-    },
-    {
-      "id": "need-break-tween",
-      "label": "I need a short break",
-      "category": "regulation",
-      "speakText": "I need a short break."
-    },
-    {
-      "id": "need-time-process",
-      "label": "I need time to process",
-      "category": "regulation",
-      "speakText": "I need time to process."
-    },
-    {
-      "id": "not-my-fault",
-      "label": "That wasn't my fault",
-      "category": "social",
-      "speakText": "That wasn't my fault."
-    },
-    {
-      "id": "check-calendar",
-      "label": "Can we check my calendar?",
-      "category": "routine",
-      "speakText": "Can we check my calendar?"
-    },
-    {
-      "id": "feel-embarrassed",
-      "label": "I feel embarrassed",
-      "category": "feelings",
-      "speakText": "I feel embarrassed."
-    },
-    {
-      "id": "use-headphones",
-      "label": "I need my headphones",
-      "category": "regulation",
-      "speakText": "I need my headphones."
-    },
-    {
-      "id": "peer-pressure-no",
-      "label": "I don't want to do that",
-      "category": "boundaries",
-      "speakText": "I don't want to do that."
-    },
-    {
-      "id": "explain-differently",
-      "label": "Can you explain it differently?",
-      "category": "core",
-      "speakText": "Can you explain it differently?"
-    },
-    {
-      "id": "test-anxiety",
-      "label": "I'm worried about the test",
-      "category": "school",
-      "speakText": "I'm worried about the test."
     },
     {
       "id": "change-topic",
@@ -1397,10 +1234,76 @@
       "speakText": "Can we change the topic?"
     },
     {
+      "id": "check-calendar",
+      "label": "Can we check my calendar?",
+      "category": "routine",
+      "speakText": "Can we check my calendar?"
+    },
+    {
+      "id": "pick-different",
+      "label": "Can we pick something else?",
+      "category": "preferences",
+      "speakText": "Can we pick something else?"
+    },
+    {
+      "id": "practice-presentation",
+      "label": "Can we practice my presentation?",
+      "category": "school",
+      "speakText": "Can we practice my presentation?"
+    },
+    {
+      "id": "can-we-talk",
+      "label": "Can we talk about it?",
+      "category": "social",
+      "speakText": "Can we talk about it?"
+    },
+    {
+      "id": "explain-differently",
+      "label": "Can you explain it differently?",
+      "category": "core",
+      "speakText": "Can you explain it differently?"
+    },
+    {
+      "id": "say-again",
+      "label": "Can you say that again?",
+      "category": "core",
+      "speakText": "Can you say that again?"
+    },
+    {
+      "id": "tell-me-more",
+      "label": "Can you tell me more?",
+      "category": "core",
+      "speakText": "Can you tell me more?"
+    },
+    {
       "id": "text-instead",
       "label": "Can you text me instead?",
       "category": "functional",
       "speakText": "Can you text me instead?"
+    },
+    {
+      "id": "dont-like",
+      "label": "don't like",
+      "category": "preferences",
+      "speakText": "don't like"
+    },
+    {
+      "id": "dont-understand",
+      "label": "I don't understand",
+      "category": "core",
+      "speakText": "I don't understand."
+    },
+    {
+      "id": "peer-pressure-no",
+      "label": "I don't want to do that",
+      "category": "boundaries",
+      "speakText": "I don't want to do that."
+    },
+    {
+      "id": "feel-embarrassed",
+      "label": "I feel embarrassed",
+      "category": "feelings",
+      "speakText": "I feel embarrassed."
     },
     {
       "id": "feel-left-out",
@@ -1409,10 +1312,100 @@
       "speakText": "I feel left out."
     },
     {
-      "id": "practice-presentation",
-      "label": "Can we practice my presentation?",
+      "id": "feel-overwhelmed",
+      "label": "I feel overwhelmed",
+      "category": "feelings",
+      "speakText": "I feel overwhelmed."
+    },
+    {
+      "id": "feel-stressed",
+      "label": "I feel stressed",
+      "category": "feelings",
+      "speakText": "I feel stressed."
+    },
+    {
+      "id": "need-quiet",
+      "label": "I need a quiet place",
+      "category": "regulation",
+      "speakText": "I need a quiet place."
+    },
+    {
+      "id": "need-break-tween",
+      "label": "I need a short break",
+      "category": "regulation",
+      "speakText": "I need a short break."
+    },
+    {
+      "id": "group-project",
+      "label": "I need help with a group project",
       "category": "school",
-      "speakText": "Can we practice my presentation?"
+      "speakText": "I need help with a group project."
+    },
+    {
+      "id": "homework-help",
+      "label": "I need help with homework",
+      "category": "school",
+      "speakText": "I need help with homework."
+    },
+    {
+      "id": "use-headphones",
+      "label": "I need my headphones",
+      "category": "regulation",
+      "speakText": "I need my headphones."
+    },
+    {
+      "id": "need-space",
+      "label": "I need space",
+      "category": "regulation",
+      "speakText": "I need space."
+    },
+    {
+      "id": "need-time-process",
+      "label": "I need time to process",
+      "category": "regulation",
+      "speakText": "I need time to process."
+    },
+    {
+      "id": "pass-turn",
+      "label": "I'll pass this turn",
+      "category": "social",
+      "speakText": "I'll pass this turn."
+    },
+    {
+      "id": "not-ready",
+      "label": "I'm not ready yet",
+      "category": "core",
+      "speakText": "I'm not ready yet."
+    },
+    {
+      "id": "test-anxiety",
+      "label": "I'm worried about the test",
+      "category": "school",
+      "speakText": "I'm worried about the test."
+    },
+    {
+      "id": "thank-you",
+      "label": "thank you",
+      "category": "social",
+      "speakText": "thank you"
+    },
+    {
+      "id": "not-my-fault",
+      "label": "That wasn't my fault",
+      "category": "social",
+      "speakText": "That wasn't my fault."
+    },
+    {
+      "id": "schedule-change",
+      "label": "The schedule changed",
+      "category": "routine",
+      "speakText": "The schedule changed."
+    },
+    {
+      "id": "too-much",
+      "label": "This is too much for me",
+      "category": "regulation",
+      "speakText": "This is too much for me."
     }
   ]
 }

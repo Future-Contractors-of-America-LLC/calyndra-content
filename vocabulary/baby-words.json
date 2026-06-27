@@ -6,72 +6,81 @@
   "nickname": "Seed",
   "symbols": [
     {
-      "id": "help",
-      "label": "I need help",
-      "category": "core",
-      "description": "Functional AAC symbol: I need help.",
-      "imageAsset": "assets/symbols/seed/help.png"
+      "id": "ball",
+      "label": "ball",
+      "category": "activities",
+      "symbolHint": "play ball",
+      "imageAsset": "assets/symbols/seed/ball.png"
     },
     {
-      "id": "more",
-      "label": "more",
-      "category": "core",
-      "imageAsset": "assets/symbols/seed/more.png"
+      "id": "banana",
+      "label": "banana",
+      "category": "food",
+      "description": "Functional AAC symbol: banana.",
+      "imageAsset": "assets/symbols/seed/banana.png"
     },
     {
-      "id": "stop",
-      "label": "stop",
-      "category": "core",
-      "description": "Functional AAC symbol: stop.",
-      "imageAsset": "assets/symbols/seed/stop.png"
+      "id": "bear",
+      "label": "bear",
+      "category": "animals",
+      "description": "Functional AAC symbol: bear.",
+      "imageAsset": "assets/symbols/seed/bear.png"
     },
     {
-      "id": "yes",
-      "label": "yes",
-      "category": "core",
-      "description": "Functional AAC symbol: yes.",
-      "imageAsset": "assets/symbols/seed/yes.png"
+      "id": "bib",
+      "label": "bib",
+      "category": "nursery",
+      "description": "Functional AAC symbol: bib.",
+      "imageAsset": "assets/symbols/seed/bib.png"
     },
     {
-      "id": "no",
-      "label": "no",
-      "category": "core",
-      "description": "Functional AAC symbol: no.",
-      "imageAsset": "assets/symbols/seed/no.png"
-    },
-    {
-      "id": "eat",
-      "label": "eat",
+      "id": "blanket",
+      "label": "blanket",
       "category": "routine",
-      "description": "Functional AAC symbol: eat.",
-      "imageAsset": "assets/symbols/seed/eat.png"
+      "symbolHint": "soft blanket",
+      "imageAsset": "assets/symbols/seed/blanket.png"
     },
     {
-      "id": "drink",
-      "label": "drink",
-      "category": "routine",
-      "description": "Functional AAC symbol: drink.",
-      "imageAsset": "assets/symbols/seed/drink.png"
+      "id": "blocks",
+      "label": "blocks",
+      "category": "nursery",
+      "description": "Functional AAC symbol: blocks.",
+      "imageAsset": "assets/symbols/seed/blocks.png"
     },
     {
-      "id": "milk",
-      "label": "milk",
-      "category": "routine",
-      "symbolHint": "milk carton",
-      "imageAsset": "assets/symbols/seed/milk.png"
+      "id": "book",
+      "label": "book",
+      "category": "activities",
+      "symbolHint": "picture book",
+      "imageAsset": "assets/symbols/seed/book.png"
     },
     {
-      "id": "water",
-      "label": "water",
-      "category": "core",
-      "imageAsset": "assets/symbols/seed/water.png"
-    },
-    {
-      "id": "mommy",
-      "label": "mama",
+      "id": "bye",
+      "label": "bye",
       "category": "social",
-      "symbolHint": "mother figure",
-      "imageAsset": "assets/symbols/seed/mommy.png"
+      "description": "Functional AAC symbol: bye.",
+      "imageAsset": "assets/symbols/seed/bye.png"
+    },
+    {
+      "id": "cat",
+      "label": "cat",
+      "category": "animals",
+      "symbolHint": "friendly cat",
+      "imageAsset": "assets/symbols/seed/cat.png"
+    },
+    {
+      "id": "clap",
+      "label": "clap",
+      "category": "nursery",
+      "description": "Functional AAC symbol: clap.",
+      "imageAsset": "assets/symbols/seed/clap.png"
+    },
+    {
+      "id": "crib",
+      "label": "crib",
+      "category": "nursery",
+      "description": "Functional AAC symbol: crib.",
+      "imageAsset": "assets/symbols/seed/crib.png"
     },
     {
       "id": "daddy",
@@ -81,27 +90,11 @@
       "imageAsset": "assets/symbols/seed/daddy.png"
     },
     {
-      "id": "hug",
-      "label": "hug please",
-      "category": "social",
-      "description": "Ask for consensual comfort.",
-      "imageAsset": "assets/symbols/seed/hug.png"
-    },
-    {
-      "id": "sleep",
-      "label": "sleep",
-      "category": "routine",
-      "description": "Functional AAC symbol: sleep.",
-      "imageAsset": "assets/symbols/seed/sleep.png"
-    },
-    {
-      "id": "up",
-      "label": "up",
-      "emoji": "??",
-      "symbolHint": "arrow up or lift arms",
-      "category": "core",
-      "promptHint": "Up for lift or direction",
-      "imageAsset": "assets/symbols/seed/up.png"
+      "id": "dog",
+      "label": "dog",
+      "category": "animals",
+      "symbolHint": "friendly dog",
+      "imageAsset": "assets/symbols/seed/dog.png"
     },
     {
       "id": "down",
@@ -113,6 +106,40 @@
       "imageAsset": "assets/symbols/seed/down.png"
     },
     {
+      "id": "drink",
+      "label": "drink",
+      "category": "routine",
+      "description": "Functional AAC symbol: drink.",
+      "imageAsset": "assets/symbols/seed/drink.png"
+    },
+    {
+      "id": "duck",
+      "label": "duck",
+      "category": "animals",
+      "description": "Functional AAC symbol: duck.",
+      "imageAsset": "assets/symbols/seed/duck.png"
+    },
+    {
+      "id": "eat",
+      "label": "eat",
+      "category": "routine",
+      "description": "Functional AAC symbol: eat.",
+      "imageAsset": "assets/symbols/seed/eat.png"
+    },
+    {
+      "id": "gentle",
+      "label": "gentle",
+      "category": "social",
+      "description": "Functional AAC symbol: gentle.",
+      "imageAsset": "assets/symbols/seed/gentle.png"
+    },
+    {
+      "id": "go",
+      "label": "go",
+      "category": "core",
+      "imageAsset": "assets/symbols/seed/go.png"
+    },
+    {
       "id": "happy",
       "label": "happy",
       "category": "feelings",
@@ -120,11 +147,31 @@
       "imageAsset": "assets/symbols/seed/happy.png"
     },
     {
-      "id": "sad",
-      "label": "sad",
-      "category": "feelings",
-      "description": "Functional AAC symbol: sad.",
-      "imageAsset": "assets/symbols/seed/sad.png"
+      "id": "hi",
+      "label": "hi",
+      "category": "social",
+      "description": "Functional AAC symbol: hi.",
+      "imageAsset": "assets/symbols/seed/hi.png"
+    },
+    {
+      "id": "home",
+      "label": "home",
+      "category": "places",
+      "imageAsset": "assets/symbols/seed/home.png"
+    },
+    {
+      "id": "hug",
+      "label": "hug please",
+      "category": "social",
+      "description": "Ask for consensual comfort.",
+      "imageAsset": "assets/symbols/seed/hug.png"
+    },
+    {
+      "id": "hungry",
+      "label": "hungry",
+      "category": "routine",
+      "description": "Functional AAC symbol: hungry.",
+      "imageAsset": "assets/symbols/seed/hungry.png"
     },
     {
       "id": "hurt",
@@ -136,42 +183,11 @@
       "imageAsset": "assets/symbols/seed/hurt.png"
     },
     {
-      "id": "love",
-      "label": "love",
-      "category": "feelings",
-      "symbolHint": "heart",
-      "imageAsset": "assets/symbols/seed/love.png"
-    },
-    {
-      "id": "please",
-      "label": "please",
-      "category": "social",
-      "imageAsset": "assets/symbols/seed/please.png"
-    },
-    {
-      "id": "wait",
-      "label": "wait",
+      "id": "help",
+      "label": "I need help",
       "category": "core",
-      "description": "Ask for time before responding or acting.",
-      "imageAsset": "assets/symbols/seed/wait.png"
-    },
-    {
-      "id": "go",
-      "label": "go",
-      "category": "core",
-      "imageAsset": "assets/symbols/seed/go.png"
-    },
-    {
-      "id": "home",
-      "label": "home",
-      "category": "places",
-      "imageAsset": "assets/symbols/seed/home.png"
-    },
-    {
-      "id": "play",
-      "label": "play",
-      "category": "activities",
-      "imageAsset": "assets/symbols/seed/play.png"
+      "description": "Functional AAC symbol: I need help.",
+      "imageAsset": "assets/symbols/seed/help.png"
     },
     {
       "id": "look",
@@ -181,157 +197,25 @@
       "imageAsset": "assets/symbols/seed/look.png"
     },
     {
-      "id": "listen",
-      "label": "please listen",
-      "category": "communication",
-      "description": "Request full attention respectfully.",
-      "imageAsset": "assets/symbols/seed/listen.png"
+      "id": "love",
+      "label": "love",
+      "category": "feelings",
+      "symbolHint": "heart",
+      "imageAsset": "assets/symbols/seed/love.png"
     },
     {
-      "id": "ball",
-      "label": "ball",
-      "category": "activities",
-      "symbolHint": "play ball",
-      "imageAsset": "assets/symbols/seed/ball.png"
-    },
-    {
-      "id": "book",
-      "label": "book",
-      "category": "activities",
-      "symbolHint": "picture book",
-      "imageAsset": "assets/symbols/seed/book.png"
-    },
-    {
-      "id": "dog",
-      "label": "dog",
-      "category": "animals",
-      "symbolHint": "friendly dog",
-      "imageAsset": "assets/symbols/seed/dog.png"
-    },
-    {
-      "id": "cat",
-      "label": "cat",
-      "category": "animals",
-      "symbolHint": "friendly cat",
-      "imageAsset": "assets/symbols/seed/cat.png"
-    },
-    {
-      "id": "toy",
-      "label": "toy",
-      "category": "activities",
-      "symbolHint": "teddy",
-      "imageAsset": "assets/symbols/seed/toy.png"
-    },
-    {
-      "id": "blanket",
-      "label": "blanket",
-      "category": "routine",
-      "symbolHint": "soft blanket",
-      "imageAsset": "assets/symbols/seed/blanket.png"
-    },
-    {
-      "id": "all-done",
-      "label": "all done",
-      "category": "core",
-      "imageAsset": "assets/symbols/seed/all-done.png"
-    },
-    {
-      "id": "wet",
-      "label": "wet",
-      "category": "sensory",
-      "symbolHint": "water splash",
-      "imageAsset": "assets/symbols/seed/wet.png"
-    },
-    {
-      "id": "hungry",
-      "label": "hungry",
-      "category": "routine",
-      "description": "Functional AAC symbol: hungry.",
-      "imageAsset": "assets/symbols/seed/hungry.png"
-    },
-    {
-      "id": "bye",
-      "label": "bye",
+      "id": "mommy",
+      "label": "mama",
       "category": "social",
-      "description": "Functional AAC symbol: bye.",
-      "imageAsset": "assets/symbols/seed/bye.png"
+      "symbolHint": "mother figure",
+      "imageAsset": "assets/symbols/seed/mommy.png"
     },
     {
-      "id": "hi",
-      "label": "hi",
-      "category": "social",
-      "description": "Functional AAC symbol: hi.",
-      "imageAsset": "assets/symbols/seed/hi.png"
-    },
-    {
-      "id": "night",
-      "label": "night",
+      "id": "milk",
+      "label": "milk",
       "category": "routine",
-      "description": "Functional AAC symbol: night.",
-      "imageAsset": "assets/symbols/seed/night.png"
-    },
-    {
-      "id": "gentle",
-      "label": "gentle",
-      "category": "social",
-      "description": "Functional AAC symbol: gentle.",
-      "imageAsset": "assets/symbols/seed/gentle.png"
-    },
-    {
-      "id": "pacifier",
-      "label": "pacifier",
-      "category": "routine",
-      "description": "Functional AAC symbol: pacifier.",
-      "imageAsset": "assets/symbols/seed/pacifier.png"
-    },
-    {
-      "id": "rattle",
-      "label": "rattle",
-      "category": "nursery",
-      "description": "Functional AAC symbol: rattle.",
-      "imageAsset": "assets/symbols/seed/rattle.png"
-    },
-    {
-      "id": "bib",
-      "label": "bib",
-      "category": "nursery",
-      "description": "Functional AAC symbol: bib.",
-      "imageAsset": "assets/symbols/seed/bib.png"
-    },
-    {
-      "id": "stroller",
-      "label": "stroller",
-      "category": "nursery",
-      "description": "Functional AAC symbol: stroller.",
-      "imageAsset": "assets/symbols/seed/stroller.png"
-    },
-    {
-      "id": "spoon",
-      "label": "spoon",
-      "category": "routine",
-      "description": "Functional AAC symbol: spoon.",
-      "imageAsset": "assets/symbols/seed/spoon.png"
-    },
-    {
-      "id": "banana",
-      "label": "banana",
-      "category": "food",
-      "description": "Functional AAC symbol: banana.",
-      "imageAsset": "assets/symbols/seed/banana.png"
-    },
-    {
-      "id": "duck",
-      "label": "duck",
-      "category": "animals",
-      "description": "Functional AAC symbol: duck.",
-      "imageAsset": "assets/symbols/seed/duck.png"
-    },
-    {
-      "id": "star",
-      "label": "star",
-      "category": "nursery",
-      "description": "Functional AAC symbol: star.",
-      "imageAsset": "assets/symbols/seed/star.png"
+      "symbolHint": "milk carton",
+      "imageAsset": "assets/symbols/seed/milk.png"
     },
     {
       "id": "moon",
@@ -341,32 +225,78 @@
       "imageAsset": "assets/symbols/seed/moon.png"
     },
     {
-      "id": "sun",
-      "label": "sun",
-      "category": "nursery",
-      "description": "Functional AAC symbol: sun.",
-      "imageAsset": "assets/symbols/seed/sun.png"
+      "id": "more",
+      "label": "more",
+      "category": "core",
+      "imageAsset": "assets/symbols/seed/more.png"
     },
     {
-      "id": "bear",
-      "label": "bear",
-      "category": "animals",
-      "description": "Functional AAC symbol: bear.",
-      "imageAsset": "assets/symbols/seed/bear.png"
+      "id": "night",
+      "label": "night",
+      "category": "routine",
+      "description": "Functional AAC symbol: night.",
+      "imageAsset": "assets/symbols/seed/night.png"
     },
     {
-      "id": "crib",
-      "label": "crib",
-      "category": "nursery",
-      "description": "Functional AAC symbol: crib.",
-      "imageAsset": "assets/symbols/seed/crib.png"
+      "id": "no",
+      "label": "no",
+      "category": "core",
+      "description": "Functional AAC symbol: no.",
+      "imageAsset": "assets/symbols/seed/no.png"
     },
     {
-      "id": "blocks",
-      "label": "blocks",
+      "id": "pacifier",
+      "label": "pacifier",
+      "category": "routine",
+      "description": "Functional AAC symbol: pacifier.",
+      "imageAsset": "assets/symbols/seed/pacifier.png"
+    },
+    {
+      "id": "peek",
+      "label": "peek",
       "category": "nursery",
-      "description": "Functional AAC symbol: blocks.",
-      "imageAsset": "assets/symbols/seed/blocks.png"
+      "description": "Functional AAC symbol: peek.",
+      "imageAsset": "assets/symbols/seed/peek.png"
+    },
+    {
+      "id": "play",
+      "label": "play",
+      "category": "activities",
+      "imageAsset": "assets/symbols/seed/play.png"
+    },
+    {
+      "id": "please",
+      "label": "please",
+      "category": "social",
+      "imageAsset": "assets/symbols/seed/please.png"
+    },
+    {
+      "id": "listen",
+      "label": "please listen",
+      "category": "communication",
+      "description": "Request full attention respectfully.",
+      "imageAsset": "assets/symbols/seed/listen.png"
+    },
+    {
+      "id": "rattle",
+      "label": "rattle",
+      "category": "nursery",
+      "description": "Functional AAC symbol: rattle.",
+      "imageAsset": "assets/symbols/seed/rattle.png"
+    },
+    {
+      "id": "sad",
+      "label": "sad",
+      "category": "feelings",
+      "description": "Functional AAC symbol: sad.",
+      "imageAsset": "assets/symbols/seed/sad.png"
+    },
+    {
+      "id": "sleep",
+      "label": "sleep",
+      "category": "routine",
+      "description": "Functional AAC symbol: sleep.",
+      "imageAsset": "assets/symbols/seed/sleep.png"
     },
     {
       "id": "splash",
@@ -376,18 +306,82 @@
       "imageAsset": "assets/symbols/seed/splash.png"
     },
     {
-      "id": "clap",
-      "label": "clap",
-      "category": "nursery",
-      "description": "Functional AAC symbol: clap.",
-      "imageAsset": "assets/symbols/seed/clap.png"
+      "id": "spoon",
+      "label": "spoon",
+      "category": "routine",
+      "description": "Functional AAC symbol: spoon.",
+      "imageAsset": "assets/symbols/seed/spoon.png"
     },
     {
-      "id": "peek",
-      "label": "peek",
+      "id": "star",
+      "label": "star",
       "category": "nursery",
-      "description": "Functional AAC symbol: peek.",
-      "imageAsset": "assets/symbols/seed/peek.png"
+      "description": "Functional AAC symbol: star.",
+      "imageAsset": "assets/symbols/seed/star.png"
+    },
+    {
+      "id": "stop",
+      "label": "stop",
+      "category": "core",
+      "description": "Functional AAC symbol: stop.",
+      "imageAsset": "assets/symbols/seed/stop.png"
+    },
+    {
+      "id": "stroller",
+      "label": "stroller",
+      "category": "nursery",
+      "description": "Functional AAC symbol: stroller.",
+      "imageAsset": "assets/symbols/seed/stroller.png"
+    },
+    {
+      "id": "sun",
+      "label": "sun",
+      "category": "nursery",
+      "description": "Functional AAC symbol: sun.",
+      "imageAsset": "assets/symbols/seed/sun.png"
+    },
+    {
+      "id": "toy",
+      "label": "toy",
+      "category": "activities",
+      "symbolHint": "teddy",
+      "imageAsset": "assets/symbols/seed/toy.png"
+    },
+    {
+      "id": "up",
+      "label": "up",
+      "emoji": "??",
+      "symbolHint": "arrow up or lift arms",
+      "category": "core",
+      "promptHint": "Up for lift or direction",
+      "imageAsset": "assets/symbols/seed/up.png"
+    },
+    {
+      "id": "wait",
+      "label": "wait",
+      "category": "core",
+      "description": "Ask for time before responding or acting.",
+      "imageAsset": "assets/symbols/seed/wait.png"
+    },
+    {
+      "id": "water",
+      "label": "water",
+      "category": "core",
+      "imageAsset": "assets/symbols/seed/water.png"
+    },
+    {
+      "id": "wet",
+      "label": "wet",
+      "category": "sensory",
+      "symbolHint": "water splash",
+      "imageAsset": "assets/symbols/seed/wet.png"
+    },
+    {
+      "id": "yes",
+      "label": "yes",
+      "category": "core",
+      "description": "Functional AAC symbol: yes.",
+      "imageAsset": "assets/symbols/seed/yes.png"
     }
   ]
 }

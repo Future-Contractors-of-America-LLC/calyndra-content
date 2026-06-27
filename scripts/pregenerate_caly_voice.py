@@ -25,6 +25,15 @@ SCRIPTS_PATH = ROOT / "games" / "caly-voice-scripts.json"
 VOCAB_DIR = ROOT / "vocabulary"
 APP_VOICE_JS = ROOT.parent / "calyndra-app" / "js" / "caly-voice.js"
 
+# Optional ~/.calyndra/local.env from scripts/setup_local_speech_env.ps1
+sys.path.insert(0, str(ROOT / "scripts"))
+try:
+    from load_local_env import load_local_env
+
+    load_local_env()
+except ImportError:
+    pass
+
 AUDIENCES = ("baby", "toddler", "child", "tween", "teen", "adult", "caregiver")
 VOCAB_LABEL_LIMIT = 24
 
@@ -100,8 +109,6 @@ def write_skeleton_manifest(profile_version: int) -> Path:
             audiences = existing.setdefault("audiences", {})
             for aud in AUDIENCES:
                 audiences.setdefault(aud, {})
-            existing["profileVersion"] = profile_version
-            existing["version"] = profile_version
             manifest_path.write_text(json.dumps(existing, indent=2), encoding="utf-8")
             return manifest_path
     manifest = {

@@ -6,34 +6,11 @@
   "nickname": "Canopy",
   "phrases": [
     {
-      "id": "model-word",
-      "label": "Let's model this word",
-      "category": "coaching",
-      "speakText": "Let's model this word together."
-    },
-    {
-      "id": "take-time",
-      "label": "Take your time",
-      "category": "coaching",
-      "speakText": "Take your time. I'm listening."
-    },
-    {
-      "id": "good-try",
-      "label": "Good try!",
-      "category": "coaching",
-      "speakText": "Good try! That counts."
-    },
-    {
-      "id": "your-choice",
-      "label": "Your choice matters",
-      "category": "coaching",
-      "speakText": "Your choice matters."
-    },
-    {
-      "id": "we-can-wait",
-      "label": "We can wait",
-      "category": "coaching",
-      "speakText": "We can wait. No rush."
+      "id": "all-done",
+      "label": "all done",
+      "category": "core",
+      "speakText": "all done",
+      "imageAsset": "assets/symbols/canopy/all-done.png"
     },
     {
       "id": "want-break",
@@ -42,46 +19,16 @@
       "speakText": "Do you want a break?"
     },
     {
-      "id": "show-me",
-      "label": "Show me how you feel",
+      "id": "good-try",
+      "label": "Good try!",
       "category": "coaching",
-      "speakText": "Show me how you feel."
+      "speakText": "Good try! That counts."
     },
     {
-      "id": "i-see-you",
-      "label": "I see you trying",
+      "id": "celebrate-communication",
+      "label": "I celebrate how you communicated",
       "category": "coaching",
-      "speakText": "I see you trying."
-    },
-    {
-      "id": "not-emergency",
-      "label": "This is support, not emergency care",
-      "category": "boundary",
-      "speakText": "This is support, not emergency care."
-    },
-    {
-      "id": "assent-first",
-      "label": "We follow assent first",
-      "category": "coaching",
-      "speakText": "We follow assent first."
-    },
-    {
-      "id": "lets-practice",
-      "label": "Let's practice together",
-      "category": "coaching",
-      "speakText": "Let's practice together."
-    },
-    {
-      "id": "you-are-safe",
-      "label": "You are safe with me",
-      "category": "coaching",
-      "speakText": "You are safe with me."
-    },
-    {
-      "id": "one-more-try",
-      "label": "One more try?",
-      "category": "coaching",
-      "speakText": "One more try? No pressure."
+      "speakText": "I celebrate how you communicated."
     },
     {
       "id": "celebrate-effort",
@@ -96,22 +43,16 @@
       "speakText": "I notice your effort."
     },
     {
-      "id": "your-pace",
-      "label": "We can go at your pace",
+      "id": "i-see-you",
+      "label": "I see you trying",
       "category": "coaching",
-      "speakText": "We can go at your pace."
+      "speakText": "I see you trying."
     },
     {
-      "id": "choice-two",
-      "label": "You get to choose between two options",
+      "id": "ready-when-you",
+      "label": "I'm ready when you are",
       "category": "coaching",
-      "speakText": "You get to choose between two options."
-    },
-    {
-      "id": "tell-me-no",
-      "label": "You can tell me no",
-      "category": "coaching",
-      "speakText": "You can tell me no."
+      "speakText": "I'm ready when you are."
     },
     {
       "id": "co-regulate",
@@ -120,10 +61,16 @@
       "speakText": "Let's breathe together."
     },
     {
-      "id": "celebrate-communication",
-      "label": "I celebrate how you communicated",
+      "id": "model-word",
+      "label": "Let's model this word",
       "category": "coaching",
-      "speakText": "I celebrate how you communicated."
+      "speakText": "Let's model this word together."
+    },
+    {
+      "id": "lets-practice",
+      "label": "Let's practice together",
+      "category": "coaching",
+      "speakText": "Let's practice together."
     },
     {
       "id": "visual-support",
@@ -132,10 +79,41 @@
       "speakText": "Let's use a visual support."
     },
     {
-      "id": "body-says",
-      "label": "Your body is telling us something",
+      "id": "one-more-try",
+      "label": "One more try?",
       "category": "coaching",
-      "speakText": "Your body is telling us something."
+      "speakText": "One more try? No pressure."
+    },
+    {
+      "id": "show-me",
+      "label": "Show me how you feel",
+      "category": "coaching",
+      "speakText": "Show me how you feel."
+    },
+    {
+      "id": "take-time",
+      "label": "Take your time",
+      "category": "coaching",
+      "speakText": "Take your time. I'm listening."
+    },
+    {
+      "id": "thank-you",
+      "label": "thank you",
+      "category": "social",
+      "speakText": "thank you",
+      "imageAsset": "assets/symbols/canopy/thank-you.png"
+    },
+    {
+      "id": "not-emergency",
+      "label": "This is support, not emergency care",
+      "category": "boundary",
+      "speakText": "This is support, not emergency care."
+    },
+    {
+      "id": "your-pace",
+      "label": "We can go at your pace",
+      "category": "coaching",
+      "speakText": "We can go at your pace."
     },
     {
       "id": "try-different-way",
@@ -144,10 +122,46 @@
       "speakText": "We can try a different way."
     },
     {
-      "id": "ready-when-you",
-      "label": "I'm ready when you are",
+      "id": "we-can-wait",
+      "label": "We can wait",
       "category": "coaching",
-      "speakText": "I'm ready when you are."
+      "speakText": "We can wait. No rush."
+    },
+    {
+      "id": "assent-first",
+      "label": "We follow assent first",
+      "category": "coaching",
+      "speakText": "We follow assent first."
+    },
+    {
+      "id": "you-are-safe",
+      "label": "You are safe with me",
+      "category": "coaching",
+      "speakText": "You are safe with me."
+    },
+    {
+      "id": "tell-me-no",
+      "label": "You can tell me no",
+      "category": "coaching",
+      "speakText": "You can tell me no."
+    },
+    {
+      "id": "choice-two",
+      "label": "You get to choose between two options",
+      "category": "coaching",
+      "speakText": "You get to choose between two options."
+    },
+    {
+      "id": "body-says",
+      "label": "Your body is telling us something",
+      "category": "coaching",
+      "speakText": "Your body is telling us something."
+    },
+    {
+      "id": "your-choice",
+      "label": "Your choice matters",
+      "category": "coaching",
+      "speakText": "Your choice matters."
     }
   ]
 }

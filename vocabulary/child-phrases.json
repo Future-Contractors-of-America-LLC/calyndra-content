@@ -6,136 +6,11 @@
   "nickname": "Bud",
   "phrases": [
     {
-      "id": "can-i-have",
-      "label": "Can I have more?",
+      "id": "all-done",
+      "label": "all done",
       "category": "core",
-      "speakText": "Can I have more?"
-    },
-    {
-      "id": "need-break",
-      "label": "I need a break",
-      "category": "regulation",
-      "speakText": "I need a break."
-    },
-    {
-      "id": "thank-you",
-      "label": "Thank you",
-      "category": "social",
-      "speakText": "Thank you!"
-    },
-    {
-      "id": "please-help",
-      "label": "Please help me",
-      "category": "core",
-      "speakText": "Please help me."
-    },
-    {
-      "id": "where-is",
-      "label": "Where is it?",
-      "category": "questions",
-      "speakText": "Where is it?"
-    },
-    {
-      "id": "dont-like",
-      "label": "I don't like that",
-      "category": "preferences",
-      "speakText": "I don't like that."
-    },
-    {
-      "id": "my-turn-phrase",
-      "label": "It's my turn",
-      "category": "social",
-      "speakText": "It's my turn!"
-    },
-    {
-      "id": "share-please",
-      "label": "Can we share?",
-      "category": "social",
-      "speakText": "Can we share?"
-    },
-    {
-      "id": "feel-happy",
-      "label": "I feel happy",
-      "category": "feelings",
-      "speakText": "I feel happy!"
-    },
-    {
-      "id": "feel-sad",
-      "label": "I feel sad",
-      "category": "feelings",
-      "speakText": "I feel sad."
-    },
-    {
-      "id": "too-loud",
-      "label": "It's too loud",
-      "category": "regulation",
-      "speakText": "It's too loud."
-    },
-    {
-      "id": "wait-please",
-      "label": "Wait please",
-      "category": "core",
-      "speakText": "Wait please."
-    },
-    {
-      "id": "lets-play",
-      "label": "Let's play",
-      "category": "activities",
-      "speakText": "Let's play!"
-    },
-    {
-      "id": "read-book",
-      "label": "Read a book",
-      "category": "activities",
-      "speakText": "Read a book!"
-    },
-    {
-      "id": "go-home",
-      "label": "I want to go home",
-      "category": "places",
-      "speakText": "I want to go home."
-    },
-    {
-      "id": "can-we-go",
-      "label": "Can we go?",
-      "category": "places",
-      "speakText": "Can we go?"
-    },
-    {
-      "id": "i-feel-mad",
-      "label": "I feel mad",
-      "category": "feelings",
-      "speakText": "I feel mad."
-    },
-    {
-      "id": "need-quiet",
-      "label": "I need quiet",
-      "category": "regulation",
-      "speakText": "I need quiet."
-    },
-    {
-      "id": "good-job",
-      "label": "Good job!",
-      "category": "social",
-      "speakText": "Good job!"
-    },
-    {
-      "id": "whats-that",
-      "label": "What's that?",
-      "category": "questions",
-      "speakText": "What's that?"
-    },
-    {
-      "id": "can-i-try",
-      "label": "Can I try?",
-      "category": "social",
-      "speakText": "Can I try?"
-    },
-    {
-      "id": "i-am-done",
-      "label": "I am done",
-      "category": "core",
-      "speakText": "I am done."
+      "speakText": "all done",
+      "imageAsset": "assets/symbols/bud/all-done.png"
     },
     {
       "id": "can-i-go-first",
@@ -144,28 +19,10 @@
       "speakText": "Can I go first?"
     },
     {
-      "id": "help-open",
-      "label": "Help me open this",
+      "id": "can-i-have",
+      "label": "Can I have more?",
       "category": "core",
-      "speakText": "Help me open this."
-    },
-    {
-      "id": "feel-scared",
-      "label": "I feel scared",
-      "category": "feelings",
-      "speakText": "I feel scared."
-    },
-    {
-      "id": "need-friend",
-      "label": "I need a friend",
-      "category": "social",
-      "speakText": "I need a friend."
-    },
-    {
-      "id": "what-next",
-      "label": "What happens next?",
-      "category": "questions",
-      "speakText": "What happens next?"
+      "speakText": "Can I have more?"
     },
     {
       "id": "can-i-sit",
@@ -174,10 +31,71 @@
       "speakText": "Can I sit here?"
     },
     {
-      "id": "need-water-child",
-      "label": "I need water",
-      "category": "routine",
-      "speakText": "I need water."
+      "id": "can-i-try",
+      "label": "Can I try?",
+      "category": "social",
+      "speakText": "Can I try?"
+    },
+    {
+      "id": "can-we-go",
+      "label": "Can we go?",
+      "category": "places",
+      "speakText": "Can we go?"
+    },
+    {
+      "id": "share-please",
+      "label": "Can we share?",
+      "category": "social",
+      "speakText": "Can we share?"
+    },
+    {
+      "id": "good-job",
+      "label": "Good job!",
+      "category": "social",
+      "speakText": "Good job!"
+    },
+    {
+      "id": "help-open",
+      "label": "Help me open this",
+      "category": "core",
+      "speakText": "Help me open this."
+    },
+    {
+      "id": "i-am-done",
+      "label": "I am done",
+      "category": "core",
+      "speakText": "I am done."
+    },
+    {
+      "id": "dont-like",
+      "label": "I don't like that",
+      "category": "preferences",
+      "speakText": "I don't like that.",
+      "imageAsset": "assets/symbols/bud/dont-like.png"
+    },
+    {
+      "id": "feel-happy",
+      "label": "I feel happy",
+      "category": "feelings",
+      "speakText": "I feel happy!"
+    },
+    {
+      "id": "i-feel-mad",
+      "label": "I feel mad",
+      "category": "feelings",
+      "speakText": "I feel mad."
+    },
+    {
+      "id": "feel-sad",
+      "label": "I feel sad",
+      "category": "feelings",
+      "speakText": "I feel sad."
+    },
+    {
+      "id": "feel-scared",
+      "label": "I feel scared",
+      "category": "feelings",
+      "speakText": "I feel scared."
     },
     {
       "id": "feel-tired",
@@ -186,16 +104,107 @@
       "speakText": "I feel tired."
     },
     {
+      "id": "need-break",
+      "label": "I need a break",
+      "category": "regulation",
+      "speakText": "I need a break."
+    },
+    {
+      "id": "need-friend",
+      "label": "I need a friend",
+      "category": "social",
+      "speakText": "I need a friend."
+    },
+    {
+      "id": "need-quiet",
+      "label": "I need quiet",
+      "category": "regulation",
+      "speakText": "I need quiet."
+    },
+    {
+      "id": "need-water-child",
+      "label": "I need water",
+      "category": "routine",
+      "speakText": "I need water."
+    },
+    {
+      "id": "go-home",
+      "label": "I want to go home",
+      "category": "places",
+      "speakText": "I want to go home."
+    },
+    {
       "id": "sorry-child",
       "label": "I'm sorry",
       "category": "social",
       "speakText": "I'm sorry."
     },
     {
+      "id": "my-turn-phrase",
+      "label": "It's my turn",
+      "category": "social",
+      "speakText": "It's my turn!"
+    },
+    {
+      "id": "too-loud",
+      "label": "It's too loud",
+      "category": "regulation",
+      "speakText": "It's too loud."
+    },
+    {
       "id": "show-you",
       "label": "Let me show you",
       "category": "social",
       "speakText": "Let me show you."
+    },
+    {
+      "id": "lets-play",
+      "label": "Let's play",
+      "category": "activities",
+      "speakText": "Let's play!"
+    },
+    {
+      "id": "please-help",
+      "label": "Please help me",
+      "category": "core",
+      "speakText": "Please help me."
+    },
+    {
+      "id": "read-book",
+      "label": "Read a book",
+      "category": "activities",
+      "speakText": "Read a book!"
+    },
+    {
+      "id": "thank-you",
+      "label": "Thank you",
+      "category": "social",
+      "speakText": "Thank you!",
+      "imageAsset": "assets/symbols/bud/thank-you.png"
+    },
+    {
+      "id": "wait-please",
+      "label": "Wait please",
+      "category": "core",
+      "speakText": "Wait please."
+    },
+    {
+      "id": "what-next",
+      "label": "What happens next?",
+      "category": "questions",
+      "speakText": "What happens next?"
+    },
+    {
+      "id": "whats-that",
+      "label": "What's that?",
+      "category": "questions",
+      "speakText": "What's that?"
+    },
+    {
+      "id": "where-is",
+      "label": "Where is it?",
+      "category": "questions",
+      "speakText": "Where is it?"
     }
   ]
 }

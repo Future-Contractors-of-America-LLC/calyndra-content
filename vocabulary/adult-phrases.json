@@ -6,124 +6,11 @@
   "nickname": "Bloom",
   "phrases": [
     {
-      "id": "schedule-meeting",
-      "label": "I'd like to schedule a meeting",
-      "category": "work",
-      "speakText": "I'd like to schedule a meeting."
-    },
-    {
-      "id": "need-clarification",
-      "label": "I need clarification",
-      "category": "work",
-      "speakText": "I need clarification."
-    },
-    {
-      "id": "follow-up",
-      "label": "I will follow up by email",
-      "category": "work",
-      "speakText": "I will follow up by email."
-    },
-    {
-      "id": "running-late-adult",
-      "label": "I'm running late for work",
-      "category": "work",
-      "speakText": "I'm running late for work."
-    },
-    {
-      "id": "need-accommodation",
-      "label": "I need an accommodation",
-      "category": "work",
-      "speakText": "I need an accommodation."
-    },
-    {
-      "id": "pay-bill",
-      "label": "I need to pay a bill",
-      "category": "functional",
-      "speakText": "I need to pay a bill."
-    },
-    {
-      "id": "make-appointment",
-      "label": "I need to make an appointment",
-      "category": "health",
-      "speakText": "I need to make an appointment."
-    },
-    {
-      "id": "transport-help",
-      "label": "I need help with transport",
-      "category": "functional",
-      "speakText": "I need help with transport."
-    },
-    {
-      "id": "allergy",
-      "label": "I have a food allergy",
-      "category": "health",
-      "speakText": "I have a food allergy."
-    },
-    {
-      "id": "repeat-email",
-      "label": "Please repeat that in writing",
+      "id": "all-done",
+      "label": "all done",
       "category": "core",
-      "speakText": "Please repeat that in writing."
-    },
-    {
-      "id": "need-extension",
-      "label": "I need an extension",
-      "category": "work",
-      "speakText": "I need an extension."
-    },
-    {
-      "id": "send-invoice",
-      "label": "Please send the invoice",
-      "category": "work",
-      "speakText": "Please send the invoice."
-    },
-    {
-      "id": "work-from-home",
-      "label": "I need to work from home",
-      "category": "work",
-      "speakText": "I need to work from home."
-    },
-    {
-      "id": "refill-rx",
-      "label": "I need a prescription refill",
-      "category": "health",
-      "speakText": "I need a prescription refill."
-    },
-    {
-      "id": "pto-request",
-      "label": "I would like to request PTO",
-      "category": "work",
-      "speakText": "I would like to request PTO."
-    },
-    {
-      "id": "disability-accommodation",
-      "label": "I am requesting a disability accommodation",
-      "category": "work",
-      "speakText": "I am requesting a disability accommodation."
-    },
-    {
-      "id": "insurance-question",
-      "label": "I have a question about my insurance",
-      "category": "health",
-      "speakText": "I have a question about my insurance."
-    },
-    {
-      "id": "direct-deposit-setup",
-      "label": "I need to set up direct deposit",
-      "category": "functional",
-      "speakText": "I need to set up direct deposit."
-    },
-    {
-      "id": "lease-renewal",
-      "label": "I'm asking about my lease renewal",
-      "category": "functional",
-      "speakText": "I'm asking about my lease renewal."
-    },
-    {
-      "id": "budget-help",
-      "label": "I need help with my budget",
-      "category": "functional",
-      "speakText": "I need help with my budget."
+      "speakText": "all done",
+      "imageAsset": "assets/symbols/bloom/all-done.png"
     },
     {
       "id": "coworker-meeting",
@@ -132,10 +19,109 @@
       "speakText": "Can we sync on this project?"
     },
     {
-      "id": "performance-feedback",
-      "label": "I'd like feedback on my performance",
+      "id": "dont-like",
+      "label": "don't like",
+      "category": "preferences",
+      "speakText": "don't like",
+      "imageAsset": "assets/symbols/bloom/dont-like.png"
+    },
+    {
+      "id": "disability-accommodation",
+      "label": "I am requesting a disability accommodation",
       "category": "work",
-      "speakText": "I'd like feedback on my performance."
+      "speakText": "I am requesting a disability accommodation."
+    },
+    {
+      "id": "clarify",
+      "label": "I don't understand",
+      "category": "communication",
+      "speakText": "I don't understand",
+      "imageAsset": "assets/symbols/bloom/clarify.png"
+    },
+    {
+      "id": "allergy",
+      "label": "I have a food allergy",
+      "category": "health",
+      "speakText": "I have a food allergy.",
+      "imageAsset": "assets/symbols/bloom/allergy.png"
+    },
+    {
+      "id": "insurance-question",
+      "label": "I have a question about my insurance",
+      "category": "health",
+      "speakText": "I have a question about my insurance."
+    },
+    {
+      "id": "refill-rx",
+      "label": "I need a prescription refill",
+      "category": "health",
+      "speakText": "I need a prescription refill."
+    },
+    {
+      "id": "need-accommodation",
+      "label": "I need an accommodation",
+      "category": "work",
+      "speakText": "I need an accommodation."
+    },
+    {
+      "id": "need-extension",
+      "label": "I need an extension",
+      "category": "work",
+      "speakText": "I need an extension."
+    },
+    {
+      "id": "need-clarification",
+      "label": "I need clarification",
+      "category": "work",
+      "speakText": "I need clarification."
+    },
+    {
+      "id": "budget-help",
+      "label": "I need help with my budget",
+      "category": "functional",
+      "speakText": "I need help with my budget."
+    },
+    {
+      "id": "transport-help",
+      "label": "I need help with transport",
+      "category": "functional",
+      "speakText": "I need help with transport."
+    },
+    {
+      "id": "cancel-subscription",
+      "label": "I need to cancel a subscription",
+      "category": "functional",
+      "speakText": "I need to cancel a subscription."
+    },
+    {
+      "id": "make-appointment",
+      "label": "I need to make an appointment",
+      "category": "health",
+      "speakText": "I need to make an appointment."
+    },
+    {
+      "id": "pay-bill",
+      "label": "I need to pay a bill",
+      "category": "functional",
+      "speakText": "I need to pay a bill."
+    },
+    {
+      "id": "direct-deposit-setup",
+      "label": "I need to set up direct deposit",
+      "category": "functional",
+      "speakText": "I need to set up direct deposit."
+    },
+    {
+      "id": "work-from-home",
+      "label": "I need to work from home",
+      "category": "work",
+      "speakText": "I need to work from home."
+    },
+    {
+      "id": "follow-up",
+      "label": "I will follow up by email",
+      "category": "work",
+      "speakText": "I will follow up by email."
     },
     {
       "id": "missed-deadline",
@@ -144,16 +130,87 @@
       "speakText": "I will miss the deadline."
     },
     {
+      "id": "pto-request",
+      "label": "I would like to request PTO",
+      "category": "work",
+      "speakText": "I would like to request PTO."
+    },
+    {
+      "id": "performance-feedback",
+      "label": "I'd like feedback on my performance",
+      "category": "work",
+      "speakText": "I'd like feedback on my performance."
+    },
+    {
+      "id": "schedule-meeting",
+      "label": "I'd like to schedule a meeting",
+      "category": "work",
+      "speakText": "I'd like to schedule a meeting."
+    },
+    {
+      "id": "lease-renewal",
+      "label": "I'm asking about my lease renewal",
+      "category": "functional",
+      "speakText": "I'm asking about my lease renewal."
+    },
+    {
+      "id": "running-late-adult",
+      "label": "I'm running late for work",
+      "category": "work",
+      "speakText": "I'm running late for work."
+    },
+    {
+      "id": "repeat-email",
+      "label": "Please repeat that in writing",
+      "category": "core",
+      "speakText": "Please repeat that in writing."
+    },
+    {
+      "id": "send-invoice",
+      "label": "Please send the invoice",
+      "category": "work",
+      "speakText": "Please send the invoice."
+    },
+    {
+      "id": "privacy",
+      "label": "privacy please",
+      "category": "social",
+      "speakText": "privacy please",
+      "imageAsset": "assets/symbols/bloom/privacy.png"
+    },
+    {
+      "id": "repeat-slower",
+      "label": "repeat slower",
+      "category": "communication",
+      "speakText": "repeat slower",
+      "imageAsset": "assets/symbols/bloom/repeat-slower.png"
+    },
+    {
+      "id": "running-late",
+      "label": "running late",
+      "category": "life",
+      "speakText": "running late",
+      "imageAsset": "assets/symbols/bloom/running-late.png"
+    },
+    {
+      "id": "schedule-change",
+      "label": "schedule change",
+      "category": "life",
+      "speakText": "schedule change",
+      "imageAsset": "assets/symbols/bloom/schedule-change.png"
+    },
+    {
+      "id": "thank-you",
+      "label": "thank you",
+      "category": "social",
+      "speakText": "thank you",
+      "imageAsset": "assets/symbols/bloom/thank-you.png"
+    },
+    {
       "id": "copay-question",
       "label": "What is my copay?",
       "category": "health",
       "speakText": "What is my copay?"
-    },
-    {
-      "id": "cancel-subscription",
-      "label": "I need to cancel a subscription",
-      "category": "functional",
-      "speakText": "I need to cancel a subscription."
     },
     {
       "id": "tax-documents",

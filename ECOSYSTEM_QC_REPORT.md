@@ -1,6 +1,6 @@
 # Ecosystem QC report
 
-Generated: **2026-06-25 20:01 UTC**
+Generated: **2026-06-26 23:39 UTC**
 
 **Overall:** PASS (0 issue(s))
 
@@ -78,13 +78,13 @@ Generated: **2026-06-25 20:01 UTC**
 
 | Band folder | PNG count | Manifest expected | Status |
 |-------------|-----------|-------------------|--------|
-| `seed` | 161 | 150 | PASS |
-| `sprout` | 168 | 150 | PASS |
-| `bud` | 202 | 150 | PASS |
-| `sprig` | 269 | 150 | PASS |
-| `vine` | 312 | 150 | PASS |
-| `bloom` | 324 | 150 | PASS |
-| `canopy` | 168 | 150 | PASS |
+| `seed` | 58 | 54 | PASS |
+| `sprout` | 170 | 87 | PASS |
+| `bud` | 202 | 117 | PASS |
+| `sprig` | 269 | 183 | PASS |
+| `vine` | 312 | 221 | PASS |
+| `bloom` | 324 | 236 | PASS |
+| `canopy` | 168 | 56 | PASS |
 
 ## Synced to calyndra-app/content
 
@@ -138,7 +138,7 @@ Wrote ART_QC_REPORT.md
 ### qc_voice_profiles.py (exit 0)
 
 ```
-Voice QC: PASS - 0 issue(s), 0 warning(s)
+Voice QC: PASS - 0 issue(s), 3 warning(s)
 Wrote VOICE_QC_REPORT.md
 ```
 
@@ -183,28 +183,64 @@ baby: 6 episode(s) - Pip's Gentle Hello, Pip and the Soft Breeze, Pip's Moonligh
 QC summary
   Episodes: 36
   Errors: 0
-  Warnings: 0
+  Warnings: 36
+  WARN: pip_gentle_hello_long.webm: 231s < 255s (85% of 300s target) — re-render needed
+  WARN: fern_garden_share_long.webm: 410s < 510s (85% of 600s target) — re-render needed
+  WARN: moss_kindness_trail_long.webm: 603s < 765s (85% of 900s target) — re-render needed
+  WARN: reed_wisdom_perch_long.webm: 654s < 1020s (85% of 1200s target) — re-render needed
+  WARN: sage_crossroads_long.webm: 1065s < 1530s (85% of 1800s target) — re-render needed
+  WARN: laurel_morning_song_long.webm: 1386s < 2295s (85% of 2700s target) — re-render needed
+  WARN: pip_soft_breeze_long.webm: 240s < 255s (85% of 300s target) — re-render needed
+  WARN: pip_moonlight_snuggle_long.webm: 224s < 255s (85% of 300s target) — re-render needed
+  WARN: pip_twinkle_toes_long.webm: 236s < 255s (85% of 300s target) — re-render needed
+  WARN: pip_rainbow_wave_long.webm: 251s < 255s (85% of 300s target) — re-render needed
+  WARN: pip_heartbeat_lullaby_long.webm: 252s < 255s (85% of 300s target) — re-render needed
+  WARN: fern_flower_surprise_long.webm: 424s < 510s (85% of 600s target) — re-render needed
+  WARN: fern_patience_pots_long.webm: 449s < 510s (85% of 600s target) — re-render needed
+  WARN: fern_butterfly_visit_long.webm: 465s < 510s (85% of 600s target) — re-render needed
+  WARN: fern_weeding_teamwork_long.webm: 462s < 510s (85% of 600s target) — re-render needed
+  WARN: fern_seed_gift_long.webm: 449s < 510s (85% of 600s target) — re-render needed
+  WARN: moss_bridge_builders_long.webm: 667s < 765s (85% of 900s target) — re-render needed
+  WARN: moss_lost_and_found_long.webm: placeholder 5s (target 900s full)
+  WARN: moss_campfire_stories_long.webm: placeholder 5s (target 900s full)
+  WARN: moss_apology_path_long.webm: placeholder 5s (target 900s full)
+  WARN: moss_team_harvest_long.webm: placeholder 5s (target 900s full)
+  WARN: reed_rumor_mist_long.webm: placeholder 5s (target 1200s full)
+  WARN: reed_patience_listeners_long.webm: placeholder 5s (target 1200s full)
+  WARN: reed_honest_feather_long.webm: placeholder 5s (target 1200s full)
+  WARN: reed_storm_shelter_long.webm: placeholder 5s (target 1200s full)
+  WARN: reed_mentor_circle_long.webm: placeholder 5s (target 1200s full)
+  WARN: sage_truth_telling_long.webm: placeholder 5s (target 1800s full)
+  WARN: sage_peer_pressure_long.webm: placeholder 5s (target 1800s full)
+  WARN: sage_forgiveness_trail_long.webm: placeholder 5s (target 1800s full)
+  WARN: sage_service_saturday_long.webm: placeholder 5s (target 1800s full)
+  WARN: sage_steady_anchor_long.webm: placeholder 5s (target 1800s full)
+  WARN: laurel_evening_rest_long.webm: placeholder 5s (target 2700s full)
+  WARN: laurel_caregiver_breath_long.webm: placeholder 5s (target 2700s full)
+  WARN: laurel_gratitude_journal_long.webm: placeholder 5s (target 2700s full)
+  WARN: laurel_community_table_long.webm: placeholder 5s (target 2700s full)
+  WARN: laurel_legacy_roots_long.webm: placeholder 5s (target 2700s full)
 ```
 
 ### qc_cinematic_catalog.py (exit 0)
 
 ```
-Cinematic QC: 36 episodes checked.
-  WARN: pip_gentle_hello_long: pilot resolution 1280x720 — schedule UHD re-render.
-  WARN: fern_garden_share_long: pilot resolution 1280x720 — schedule UHD re-render.
-  WARN: moss_kindness_trail_long: pilot resolution 1280x720 — schedule UHD re-render.
-  WARN: reed_wisdom_perch_long: resolution 1280x720 — HD upgrade pending (target 1920x1080+).
-  WARN: sage_crossroads_long: resolution 1280x720 — HD upgrade pending (target 1920x1080+).
-  WARN: laurel_morning_song_long: resolution 1280x720 — HD upgrade pending (target 1920x1080+).
-  WARN: pip_soft_breeze_long: resolution 1280x720 — HD upgrade pending (target 1920x1080+).
-  WARN: pip_moonlight_snuggle_long: resolution 1280x720 — HD upgrade pending (target 1920x1080+).
-  WARN: pip_twinkle_toes_long: resolution 1280x720 — HD upgrade pending (target 1920x1080+).
-  WARN: pip_rainbow_wave_long: resolution 1280x720 — HD upgrade pending (target 1920x1080+).
-  WARN: pip_heartbeat_lullaby_long: resolution 1280x720 — HD upgrade pending (target 1920x1080+).
-  WARN: fern_flower_surprise_long: resolution 1280x720 — HD upgrade pending (target 1920x1080+).
-  WARN: fern_patience_pots_long: resolution 1280x720 — HD upgrade pending (target 1920x1080+).
-  WARN: fern_butterfly_visit_long: resolution 1280x720 — HD upgrade pending (target 1920x1080+).
-  WARN: fern_weeding_teamwork_long: resolution 1280x720 — HD upgrade pending (target 1920x1080+).
+Cinematic QC (standard): 36 episodes checked.
+  WARN: pip_gentle_hello_long: resolution 1280x720 — HD upgrade pending.
+  WARN: fern_garden_share_long: resolution 1280x720 — HD upgrade pending.
+  WARN: moss_kindness_trail_long: resolution 1280x720 — HD upgrade pending.
+  WARN: sage_crossroads_long: resolution 1280x720 — HD upgrade pending.
+  WARN: laurel_morning_song_long: resolution 1280x720 — HD upgrade pending.
+  WARN: pip_soft_breeze_long: resolution 1280x720 — HD upgrade pending.
+  WARN: pip_moonlight_snuggle_long: resolution 1280x720 — HD upgrade pending.
+  WARN: pip_twinkle_toes_long: resolution 1280x720 — HD upgrade pending.
+  WARN: pip_rainbow_wave_long: resolution 1280x720 — HD upgrade pending.
+  WARN: pip_heartbeat_lullaby_long: resolution 1280x720 — HD upgrade pending.
+  WARN: fern_flower_surprise_long: resolution 1280x720 — HD upgrade pending.
+  WARN: fern_patience_pots_long: resolution 1280x720 — HD upgrade pending.
+  WARN: fern_butterfly_visit_long: resolution 1280x720 — HD upgrade pending.
+  WARN: fern_weeding_teamwork_long: resolution 1280x720 — HD upgrade pending.
+  WARN: fern_seed_gift_long: resolution 1280x720 — HD upgrade pending.
 ```
 
 ### qc_style_consistency.py (exit 0)

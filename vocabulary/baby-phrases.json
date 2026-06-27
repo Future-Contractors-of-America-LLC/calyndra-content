@@ -6,22 +6,17 @@
   "nickname": "Seed",
   "phrases": [
     {
-      "id": "peek-a-boo",
-      "label": "peek-a-boo",
+      "id": "all-better",
+      "label": "all better",
       "category": "nursery",
-      "speakText": "Peek-a-boo!"
+      "speakText": "All better!"
     },
     {
-      "id": "night-night",
-      "label": "night night",
-      "category": "nursery",
-      "speakText": "Night night."
-    },
-    {
-      "id": "up-up",
-      "label": "up up",
-      "category": "nursery",
-      "speakText": "Up up!"
+      "id": "all-done",
+      "label": "all done",
+      "category": "core",
+      "speakText": "all done",
+      "imageAsset": "assets/symbols/seed/all-done.png"
     },
     {
       "id": "all-gone",
@@ -30,16 +25,10 @@
       "speakText": "All gone!"
     },
     {
-      "id": "more-milk",
-      "label": "more milk",
+      "id": "bouncy-baby",
+      "label": "bouncy bouncy",
       "category": "nursery",
-      "speakText": "More milk!"
-    },
-    {
-      "id": "love-you-baby",
-      "label": "love you",
-      "category": "nursery",
-      "speakText": "Love you!"
+      "speakText": "Bouncy bouncy!"
     },
     {
       "id": "bye-bye",
@@ -48,46 +37,31 @@
       "speakText": "Bye bye!"
     },
     {
+      "id": "change-diaper",
+      "label": "change diaper",
+      "category": "routine",
+      "speakText": "Change diaper please."
+    },
+    {
       "id": "gentle-hands",
       "label": "gentle hands",
       "category": "nursery",
-      "speakText": "Gentle hands."
+      "speakText": "Gentle hands.",
+      "imageAsset": "assets/symbols/seed/gentle.png"
     },
     {
-      "id": "all-better",
-      "label": "all better",
+      "id": "hold-me",
+      "label": "hold me",
       "category": "nursery",
-      "speakText": "All better!"
+      "speakText": "Hold me please.",
+      "imageAsset": "assets/symbols/seed/hug.png"
     },
     {
-      "id": "my-turn-baby",
-      "label": "my turn",
+      "id": "love-you-baby",
+      "label": "love you",
       "category": "nursery",
-      "speakText": "My turn!"
-    },
-    {
-      "id": "so-big",
-      "label": "so big",
-      "category": "nursery",
-      "speakText": "So big!"
-    },
-    {
-      "id": "nice-song",
-      "label": "nice song",
-      "category": "nursery",
-      "speakText": "Nice song!"
-    },
-    {
-      "id": "soft-cozy",
-      "label": "soft and cozy",
-      "category": "nursery",
-      "speakText": "Soft and cozy."
-    },
-    {
-      "id": "bouncy-baby",
-      "label": "bouncy bouncy",
-      "category": "nursery",
-      "speakText": "Bouncy bouncy!"
+      "speakText": "Love you!",
+      "imageAsset": "assets/symbols/seed/love.png"
     },
     {
       "id": "more-hugs",
@@ -96,10 +70,54 @@
       "speakText": "More hugs!"
     },
     {
-      "id": "change-diaper",
-      "label": "change diaper",
-      "category": "routine",
-      "speakText": "Change diaper please."
+      "id": "more-milk",
+      "label": "more milk",
+      "category": "nursery",
+      "speakText": "More milk!",
+      "imageAsset": "assets/symbols/seed/milk.png"
+    },
+    {
+      "id": "my-turn-baby",
+      "label": "my turn",
+      "category": "nursery",
+      "speakText": "My turn!"
+    },
+    {
+      "id": "nice-song",
+      "label": "nice song",
+      "category": "nursery",
+      "speakText": "Nice song!"
+    },
+    {
+      "id": "night-night",
+      "label": "night night",
+      "category": "nursery",
+      "speakText": "Night night.",
+      "imageAsset": "assets/symbols/seed/sleep.png"
+    },
+    {
+      "id": "peek-a-boo",
+      "label": "peek-a-boo",
+      "category": "nursery",
+      "speakText": "Peek-a-boo!"
+    },
+    {
+      "id": "silly-face",
+      "label": "silly face",
+      "category": "social",
+      "speakText": "Silly face!"
+    },
+    {
+      "id": "so-big",
+      "label": "so big",
+      "category": "nursery",
+      "speakText": "So big!"
+    },
+    {
+      "id": "soft-cozy",
+      "label": "soft and cozy",
+      "category": "nursery",
+      "speakText": "Soft and cozy."
     },
     {
       "id": "time-for-nap",
@@ -108,10 +126,17 @@
       "speakText": "Time for nap."
     },
     {
-      "id": "hold-me",
-      "label": "hold me",
+      "id": "up-up",
+      "label": "up up",
       "category": "nursery",
-      "speakText": "Hold me please."
+      "speakText": "Up up!",
+      "imageAsset": "assets/symbols/seed/up.png"
+    },
+    {
+      "id": "want-play",
+      "label": "want to play",
+      "category": "activities",
+      "speakText": "Want to play!"
     },
     {
       "id": "where-mama",
@@ -124,18 +149,6 @@
       "label": "yucky",
       "category": "preferences",
       "speakText": "Yucky!"
-    },
-    {
-      "id": "want-play",
-      "label": "want to play",
-      "category": "activities",
-      "speakText": "Want to play!"
-    },
-    {
-      "id": "silly-face",
-      "label": "silly face",
-      "category": "social",
-      "speakText": "Silly face!"
     }
   ]
 }

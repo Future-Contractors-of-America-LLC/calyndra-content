@@ -134,19 +134,22 @@ def check_symbol_counts(issues: list[str]) -> list[tuple[str, int, int, str]]:
         return []
 
     manifest = load_json(manifest_path)
-    expected_words = set(manifest.get("generatedWords", {})) | set(manifest.get("placeholderWords", []))
-    expected_count = len(expected_words)
-
     band_map = manifest.get("audienceBandMap", {})
     rows: list[tuple[str, int, int, str]] = []
     for aud, entry in band_map.items():
         band = entry["band"]
         band_dir = APP_SYMBOLS / band
         actual = len(list(band_dir.glob("*.png"))) if band_dir.is_dir() else 0
+        words_path = ROOT / "vocabulary" / f"{aud}-words.json"
+        if words_path.is_file():
+            expected_count = len(load_json(words_path).get("symbols", []))
+        else:
+            expected_words = set(manifest.get("generatedWords", {})) | set(manifest.get("placeholderWords", []))
+            expected_count = len(expected_words)
         status = "PASS" if actual >= expected_count else "FAIL"
         if actual < expected_count:
             issues.append(
-                f"SYMBOLS: `{band}` ({aud}) has {actual} PNGs, manifest expects at least {expected_count}."
+                f"SYMBOLS: `{band}` ({aud}) has {actual} PNGs, vocabulary expects at least {expected_count}."
             )
         rows.append((band, actual, expected_count, status))
     return rows
@@ -315,6 +318,13 @@ def write_report(
 def main() -> int:
     issues: list[str] = []
     qc_results: list[tuple[str, int, str]] = []
+
+    print("=== Catalog profile prep ===")
+    prep_code, prep_out = run_qc_script("fix_video_catalog_profiles.py")
+    if prep_code != 0:
+        issues.append(f"Prep script `fix_video_catalog_profiles.py` exited {prep_code}.")
+    elif prep_out.strip():
+        print(prep_out.strip())
 
     print("=== Running content QC scripts ===")
     for script in QC_SCRIPTS:

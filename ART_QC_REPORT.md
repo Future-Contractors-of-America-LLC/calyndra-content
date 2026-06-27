@@ -1,6 +1,6 @@
 # Art quality QC report
 
-Generated: **2026-06-25 20:01 UTC**
+Generated: **2026-06-26 23:39 UTC**
 
 **Overall:** PASS (0 issue(s), 2 warning(s))
 
@@ -20,17 +20,17 @@ Generated: **2026-06-25 20:01 UTC**
 
 | Audience | PNGs OK | Total symbols | Status |
 |----------|---------|---------------|--------|
-| baby | 55 | 55 | PASS |
-| toddler | 88 | 88 | PASS |
-| child | 120 | 120 | PASS |
-| tween | 187 | 187 | PASS |
-| teen | 230 | 230 | PASS |
-| adult | 245 | 245 | PASS |
-| caregiver | 58 | 58 | PASS |
+| baby | 54 | 54 | PASS |
+| toddler | 87 | 87 | PASS |
+| child | 117 | 117 | PASS |
+| tween | 183 | 183 | PASS |
+| teen | 221 | 221 | PASS |
+| adult | 236 | 236 | PASS |
+| caregiver | 56 | 56 | PASS |
 
 ## Dimensions
 
-- Pass (readable): **1800** PNG(s)
+- Pass (readable): **1699** PNG(s)
 - Fail (out of range): **0**
 - Target: **512x512** (warnings if different)
 
@@ -42,7 +42,7 @@ Generated: **2026-06-25 20:01 UTC**
 
 ## Sidecar metadata
 
-- Reviewed sidecars: **269**
+- Reviewed sidecars: **1053**
 - Bad handFingers: **0**
 
 ## Issues

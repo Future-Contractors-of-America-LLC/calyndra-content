@@ -120,6 +120,7 @@ def main() -> int:
         "generate_expanded_vocab_symbols.py",
         "gen_sing_along_catalog.py",
         "generate_sing_along_music.py",
+        "fix_video_catalog_profiles.py",
         "sync_cartoon_catalog_status.py",
     ):
         if not run_script(prep):

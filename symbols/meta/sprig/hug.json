@@ -3,6 +3,7 @@
   "band": "sprig",
   "handFingers": 5,
   "expression": "happy",
-  "reviewedUtc": "2026-06-24T12:57:35Z",
-  "source": "render_hand_visible_symbols.py"
+  "style": "caly-universe-regenerated",
+  "reviewedUtc": "2026-06-26T20:40:47Z",
+  "source": "regenerate_band_word_symbols.py"
 }

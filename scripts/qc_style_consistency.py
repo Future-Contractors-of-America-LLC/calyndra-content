@@ -15,13 +15,16 @@ APP_SYMBOLS = ROOT.parent / "calyndra-app" / "assets" / "symbols"
 PORTRAITS = ROOT.parent / "calyndra-app" / "assets" / "caly-bands"
 REGISTRY = ROOT / "caly_character_registry.json"
 
-FAMILY_WORDS = ("mommy", "daddy", "little_brother", "best_friend")
+FAMILY_WORDS = ("mommy", "daddy", "little_brother", "best_friend", "friend", "mama", "dada")
 # Bands where each family symbol must exist
 FAMILY_BANDS = {
     "mommy": ("seed", "sprout", "bud", "sprig", "vine", "bloom", "canopy"),
     "daddy": ("seed", "sprout", "bud", "sprig", "vine", "bloom", "canopy"),
+    "mama": ("seed", "sprout"),
+    "dada": ("seed", "sprout"),
     "little_brother": ("bud", "sprig", "vine", "bloom", "canopy"),
     "best_friend": ("bud", "sprig", "vine", "bloom", "canopy"),
+    "friend": ("seed", "sprout", "bud", "sprig", "vine", "bloom", "canopy"),
 }
 
 
@@ -90,8 +93,8 @@ def main() -> int:
             if h:
                 hashes[band] = h
         if len(set(hashes.values())) == 1 and len(hashes) > 1:
-            warnings.append(
-                f"STYLE: `{word}` identical PNG across all bands — expected band-unique Caly family art."
+            errors.append(
+                f"STYLE: `{word}` identical PNG across all bands — must be band-unique Caly family art."
             )
 
     # Family symbols must not match unrelated portrait file byte-for-byte (human stock art check)

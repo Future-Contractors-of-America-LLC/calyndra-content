@@ -1,0 +1,744 @@
+{
+  "version": 1,
+  "generatedUtc": "2026-06-26T17:04:46Z",
+  "characters": [
+    {
+      "id": "caly-baby",
+      "displayName": "Caly (Seed)",
+      "universe": "calyndra",
+      "role": "primary-mascot",
+      "band": "baby",
+      "personality": "lullaby host \u2014 same Caly (Seedling), ultra-gentle cartoon warmth",
+      "tts": {
+        "voice": "en-US-AriaNeural",
+        "rate": "-28%",
+        "pitch": "+8%",
+        "style": "affectionate"
+      }
+    },
+    {
+      "id": "caly-toddler",
+      "displayName": "Caly (Sprout)",
+      "universe": "calyndra",
+      "role": "primary-mascot",
+      "band": "toddler",
+      "personality": "warm preschool host \u2014 same Caly (Sprout), gentle sing-song and human",
+      "tts": {
+        "voice": "en-US-JaneNeural",
+        "rate": "-22%",
+        "pitch": "+7%",
+        "style": "affectionate"
+      }
+    },
+    {
+      "id": "caly-child",
+      "displayName": "Caly (Bud)",
+      "universe": "calyndra",
+      "role": "primary-mascot",
+      "band": "child",
+      "personality": "bouncy friend \u2014 same Caly (Bud), natural kid energy with playful lift",
+      "tts": {
+        "voice": "en-US-AnaNeural",
+        "rate": "-8%",
+        "pitch": "+5%",
+        "style": "cheerful"
+      }
+    },
+    {
+      "id": "caly-tween",
+      "displayName": "Caly (Sprig)",
+      "universe": "calyndra",
+      "role": "primary-mascot",
+      "band": "tween",
+      "personality": "steady tween voice \u2014 same Caly (Sprig), curious and clear",
+      "tts": {
+        "voice": "en-US-AvaNeural",
+        "rate": "+0%",
+        "pitch": "+2%",
+        "style": "friendly"
+      }
+    },
+    {
+      "id": "caly-teen",
+      "displayName": "Caly (Vine)",
+      "universe": "calyndra",
+      "role": "primary-mascot",
+      "band": "teen",
+      "personality": "respectful teen voice \u2014 same Caly (Vine), direct and real",
+      "tts": {
+        "voice": "en-US-JennyNeural",
+        "rate": "+2%",
+        "pitch": "+0%",
+        "style": "friendly"
+      }
+    },
+    {
+      "id": "caly-adult",
+      "displayName": "Caly (Bloom)",
+      "universe": "calyndra",
+      "role": "primary-mascot",
+      "band": "adult",
+      "personality": "steady adult guide \u2014 same Caly (Bloom), warm and grounded",
+      "tts": {
+        "voice": "en-US-MichelleNeural",
+        "rate": "-2%",
+        "pitch": "-2%",
+        "style": "calm"
+      }
+    },
+    {
+      "id": "caly-caregiver",
+      "displayName": "Caly (Canopy)",
+      "universe": "calyndra",
+      "role": "primary-mascot",
+      "band": "caregiver",
+      "personality": "warm professional tone \u2014 same Caly (Canopy), calm and supportive",
+      "tts": {
+        "voice": "en-US-NancyNeural",
+        "rate": "-8%",
+        "pitch": "-1%",
+        "style": "friendly"
+      }
+    },
+    {
+      "id": "friend-pip",
+      "displayName": "Pip",
+      "universe": "caly-friends",
+      "role": "gentle peek-a-boo playmate",
+      "band": "baby",
+      "personality": "wonderfully made",
+      "tts": {
+        "voice": "en-US-AriaNeural",
+        "rate": "-20%",
+        "pitch": "+4%"
+      }
+    },
+    {
+      "id": "friend-wren",
+      "displayName": "Wren",
+      "universe": "caly-friends",
+      "role": "Wren story friend",
+      "band": "baby",
+      "personality": "God's love shelters us like a warm nest.",
+      "tts": {
+        "voice": "en-US-JaneNeural",
+        "rate": "-18%",
+        "pitch": "+6%"
+      }
+    },
+    {
+      "id": "friend-dot",
+      "displayName": "Dot",
+      "universe": "caly-friends",
+      "role": "Dot story friend",
+      "band": "baby",
+      "personality": "Small beauties remind us God sees every detail.",
+      "tts": {
+        "voice": "en-US-AnaNeural",
+        "rate": "-10%",
+        "pitch": "+5%"
+      }
+    },
+    {
+      "id": "friend-pebble",
+      "displayName": "Pebble",
+      "universe": "caly-friends",
+      "role": "Pebble story friend",
+      "band": "baby",
+      "personality": "Patience is a gift we can practice together.",
+      "tts": {
+        "voice": "en-US-AvaNeural",
+        "rate": "+1%",
+        "pitch": "+3%"
+      }
+    },
+    {
+      "id": "friend-lumi",
+      "displayName": "Lumi",
+      "universe": "caly-friends",
+      "role": "Lumi story friend",
+      "band": "baby",
+      "personality": "Even a small light pushes back the dark.",
+      "tts": {
+        "voice": "en-US-JennyNeural",
+        "rate": "+3%",
+        "pitch": "+1%"
+      }
+    },
+    {
+      "id": "friend-coco",
+      "displayName": "Coco",
+      "universe": "caly-friends",
+      "role": "Coco story friend",
+      "band": "baby",
+      "personality": "Simple joys are gifts to thank God for.",
+      "tts": {
+        "voice": "en-US-MichelleNeural",
+        "rate": "-4%",
+        "pitch": "-2%"
+      }
+    },
+    {
+      "id": "friend-nuzzle",
+      "displayName": "Nuzzle",
+      "universe": "caly-friends",
+      "role": "Nuzzle story friend",
+      "band": "baby",
+      "personality": "Gentle rhythms remind us God holds us close.",
+      "tts": {
+        "voice": "en-US-NancyNeural",
+        "rate": "-6%",
+        "pitch": "-1%"
+      }
+    },
+    {
+      "id": "friend-elder-oak",
+      "displayName": "Elder Oak",
+      "universe": "caly-friends",
+      "role": "shading mentor and lullaby keeper",
+      "band": "caregiver",
+      "personality": "safe and loved",
+      "tts": {
+        "voice": "en-US-SaraNeural",
+        "rate": "-12%",
+        "pitch": "+3%"
+      }
+    },
+    {
+      "id": "friend-fern",
+      "displayName": "Fern",
+      "universe": "caly-friends",
+      "role": "garden sharing buddy",
+      "band": "toddler",
+      "personality": "joy of sharing",
+      "tts": {
+        "voice": "en-US-EmmaNeural",
+        "rate": "-8%",
+        "pitch": "+4%"
+      }
+    },
+    {
+      "id": "friend-maple",
+      "displayName": "Maple",
+      "universe": "caly-friends",
+      "role": "Maple story friend",
+      "band": "toddler",
+      "personality": "Giving something away can grow friendship.",
+      "tts": {
+        "voice": "en-US-AmberNeural",
+        "rate": "-14%",
+        "pitch": "+5%"
+      }
+    },
+    {
+      "id": "friend-sunny",
+      "displayName": "Sunny",
+      "universe": "caly-friends",
+      "role": "Sunny story friend",
+      "band": "toddler",
+      "personality": "We each have work that helps the whole garden.",
+      "tts": {
+        "voice": "en-US-MonicaNeural",
+        "rate": "-5%",
+        "pitch": "+1%"
+      }
+    },
+    {
+      "id": "friend-petal",
+      "displayName": "Petal",
+      "universe": "caly-friends",
+      "role": "Petal story friend",
+      "band": "toddler",
+      "personality": "God made colors to celebrate life.",
+      "tts": {
+        "voice": "en-US-CoraNeural",
+        "rate": "-16%",
+        "pitch": "+7%"
+      }
+    },
+    {
+      "id": "friend-brook",
+      "displayName": "Brook",
+      "universe": "caly-friends",
+      "role": "Brook story friend",
+      "band": "toddler",
+      "personality": "Kindness at the stream ripples outward.",
+      "tts": {
+        "voice": "en-US-ElizabethNeural",
+        "rate": "-3%",
+        "pitch": "-3%"
+      }
+    },
+    {
+      "id": "friend-hazel",
+      "displayName": "Hazel",
+      "universe": "caly-friends",
+      "role": "Hazel story friend",
+      "band": "toddler",
+      "personality": "Being found means you are loved.",
+      "tts": {
+        "voice": "en-US-LunaNeural",
+        "rate": "-22%",
+        "pitch": "+8%"
+      }
+    },
+    {
+      "id": "friend-sprout",
+      "displayName": "Sprout",
+      "universe": "caly-friends",
+      "role": "Sprout story friend",
+      "band": "toddler",
+      "personality": "Joyful play in hard weather builds resilience.",
+      "tts": {
+        "voice": "en-US-DavisNeural",
+        "rate": "-7%",
+        "pitch": "-4%"
+      }
+    },
+    {
+      "id": "friend-moss",
+      "displayName": "Moss",
+      "universe": "caly-friends",
+      "role": "kindness trail guide",
+      "band": "child",
+      "personality": "small acts of kindness",
+      "tts": {
+        "voice": "en-US-GuyNeural",
+        "rate": "-9%",
+        "pitch": "-5%"
+      }
+    },
+    {
+      "id": "friend-river",
+      "displayName": "River",
+      "universe": "caly-friends",
+      "role": "Caly's best friend \u2014 thinks deeply, communicates in his own way",
+      "band": "child",
+      "personality": "Different minds are gifts; patience and inclusion build true friendship.",
+      "tts": {
+        "voice": "en-US-TonyNeural",
+        "rate": "-11%",
+        "pitch": "-3%"
+      }
+    },
+    {
+      "id": "friend-sky",
+      "displayName": "Sky",
+      "universe": "caly-friends",
+      "role": "Sky story friend",
+      "band": "child",
+      "personality": "Truth spoken kindly builds trust.",
+      "tts": {
+        "voice": "en-US-JasonNeural",
+        "rate": "-13%",
+        "pitch": "-2%"
+      }
+    },
+    {
+      "id": "friend-clover",
+      "displayName": "Clover",
+      "universe": "caly-friends",
+      "role": "Clover story friend",
+      "band": "child",
+      "personality": "Including others reflects God's welcome.",
+      "tts": {
+        "voice": "en-US-BrandonNeural",
+        "rate": "-15%",
+        "pitch": "-1%"
+      }
+    },
+    {
+      "id": "friend-flint",
+      "displayName": "Flint",
+      "universe": "caly-friends",
+      "role": "Flint story friend",
+      "band": "child",
+      "personality": "Courage means trying even when we feel unsure.",
+      "tts": {
+        "voice": "en-US-RogerNeural",
+        "rate": "-1%",
+        "pitch": "-6%"
+      }
+    },
+    {
+      "id": "friend-briar",
+      "displayName": "Briar",
+      "universe": "caly-friends",
+      "role": "Briar story friend",
+      "band": "child",
+      "personality": "Helping across a gap is love in action.",
+      "tts": {
+        "voice": "en-US-SteffanNeural",
+        "rate": "+1%",
+        "pitch": "-2%"
+      }
+    },
+    {
+      "id": "friend-thistle",
+      "displayName": "Thistle",
+      "universe": "caly-friends",
+      "role": "Thistle story friend",
+      "band": "child",
+      "personality": "Leaving kind markers helps others find their way.",
+      "tts": {
+        "voice": "en-US-ChristopherNeural",
+        "rate": "+3%",
+        "pitch": "-4%"
+      }
+    },
+    {
+      "id": "friend-reed",
+      "displayName": "Reed",
+      "universe": "caly-friends",
+      "role": "wisdom perch listener",
+      "band": "tween",
+      "personality": "listen before speaking",
+      "tts": {
+        "voice": "en-US-EricNeural",
+        "rate": "-19%",
+        "pitch": "+2%"
+      }
+    },
+    {
+      "id": "friend-ash",
+      "displayName": "Ash",
+      "universe": "caly-friends",
+      "role": "Ash story friend",
+      "band": "tween",
+      "personality": "What we repeat online should be true and kind.",
+      "tts": {
+        "voice": "en-US-JacobNeural",
+        "rate": "-21%",
+        "pitch": "+1%"
+      }
+    },
+    {
+      "id": "friend-pike",
+      "displayName": "Pike",
+      "universe": "caly-friends",
+      "role": "Pike story friend",
+      "band": "tween",
+      "personality": "Listening well is a superpower.",
+      "tts": {
+        "voice": "en-US-BrianNeural",
+        "rate": "-17%",
+        "pitch": "+0%"
+      }
+    },
+    {
+      "id": "friend-juniper",
+      "displayName": "Juniper",
+      "universe": "caly-friends",
+      "role": "Juniper story friend",
+      "band": "tween",
+      "personality": "Choices show who we are becoming.",
+      "tts": {
+        "voice": "en-US-AriaNeural",
+        "rate": "-19%",
+        "pitch": "+5%"
+      }
+    },
+    {
+      "id": "friend-ridge",
+      "displayName": "Ridge",
+      "universe": "caly-friends",
+      "role": "Ridge story friend",
+      "band": "tween",
+      "personality": "Teams win when patience meets practice.",
+      "tts": {
+        "voice": "en-US-JaneNeural",
+        "rate": "-17%",
+        "pitch": "+7%"
+      }
+    },
+    {
+      "id": "friend-willow",
+      "displayName": "Willow",
+      "universe": "caly-friends",
+      "role": "Willow story friend",
+      "band": "tween",
+      "personality": "A real apology heals friendships.",
+      "tts": {
+        "voice": "en-US-AnaNeural",
+        "rate": "-9%",
+        "pitch": "+6%"
+      }
+    },
+    {
+      "id": "friend-lane",
+      "displayName": "Lane",
+      "universe": "caly-friends",
+      "role": "Lane story friend",
+      "band": "tween",
+      "personality": "Looking out for others is leadership in action.",
+      "tts": {
+        "voice": "en-US-AvaNeural",
+        "rate": "+1%",
+        "pitch": "+1%"
+      }
+    },
+    {
+      "id": "friend-sage",
+      "displayName": "Sage",
+      "universe": "caly-friends",
+      "role": "integrity companion at crossroads",
+      "band": "teen",
+      "personality": "choose what is right",
+      "tts": {
+        "voice": "en-US-JennyNeural",
+        "rate": "+3%",
+        "pitch": "-1%"
+      }
+    },
+    {
+      "id": "friend-atlas",
+      "displayName": "Atlas",
+      "universe": "caly-friends",
+      "role": "Atlas story friend",
+      "band": "teen",
+      "personality": "Integrity means matching actions to values.",
+      "tts": {
+        "voice": "en-US-MichelleNeural",
+        "rate": "-3%",
+        "pitch": "-1%"
+      }
+    },
+    {
+      "id": "friend-nova",
+      "displayName": "Nova",
+      "universe": "caly-friends",
+      "role": "Nova story friend",
+      "band": "teen",
+      "personality": "Truth protects people we care about.",
+      "tts": {
+        "voice": "en-US-NancyNeural",
+        "rate": "-5%",
+        "pitch": "+0%"
+      }
+    },
+    {
+      "id": "friend-ember",
+      "displayName": "Ember",
+      "universe": "caly-friends",
+      "role": "Ember story friend",
+      "band": "teen",
+      "personality": "Standing up can still be gentle.",
+      "tts": {
+        "voice": "en-US-SaraNeural",
+        "rate": "-11%",
+        "pitch": "+4%"
+      }
+    },
+    {
+      "id": "friend-harbor",
+      "displayName": "Harbor",
+      "universe": "caly-friends",
+      "role": "Harbor story friend",
+      "band": "teen",
+      "personality": "Peace is a practice we can choose daily.",
+      "tts": {
+        "voice": "en-US-EmmaNeural",
+        "rate": "-7%",
+        "pitch": "+5%"
+      }
+    },
+    {
+      "id": "friend-summit",
+      "displayName": "Summit",
+      "universe": "caly-friends",
+      "role": "Summit story friend",
+      "band": "teen",
+      "personality": "Service turns gratitude into action.",
+      "tts": {
+        "voice": "en-US-AmberNeural",
+        "rate": "-13%",
+        "pitch": "+6%"
+      }
+    },
+    {
+      "id": "friend-cipher",
+      "displayName": "Cipher",
+      "universe": "caly-friends",
+      "role": "Cipher story friend",
+      "band": "teen",
+      "personality": "Pausing before posting protects people and peace.",
+      "tts": {
+        "voice": "en-US-MonicaNeural",
+        "rate": "-4%",
+        "pitch": "+2%"
+      }
+    },
+    {
+      "id": "friend-laurel",
+      "displayName": "Laurel",
+      "universe": "caly-friends",
+      "role": "morning song gratitude partner",
+      "band": "adult",
+      "personality": "gratitude and service",
+      "tts": {
+        "voice": "en-US-CoraNeural",
+        "rate": "-15%",
+        "pitch": "+8%"
+      }
+    },
+    {
+      "id": "friend-dawn",
+      "displayName": "Dawn",
+      "universe": "caly-friends",
+      "role": "Dawn story friend",
+      "band": "adult",
+      "personality": "Gratitude turns ordinary mornings into gifts.",
+      "tts": {
+        "voice": "en-US-ElizabethNeural",
+        "rate": "-2%",
+        "pitch": "-2%"
+      }
+    },
+    {
+      "id": "friend-cedar",
+      "displayName": "Cedar",
+      "universe": "caly-friends",
+      "role": "Cedar story friend",
+      "band": "adult",
+      "personality": "What we give outlives what we keep.",
+      "tts": {
+        "voice": "en-US-LunaNeural",
+        "rate": "-21%",
+        "pitch": "+9%"
+      }
+    },
+    {
+      "id": "friend-meadow",
+      "displayName": "Meadow",
+      "universe": "caly-friends",
+      "role": "Meadow story friend",
+      "band": "adult",
+      "personality": "Mercy restores what shame tries to steal.",
+      "tts": {
+        "voice": "en-US-DavisNeural",
+        "rate": "-6%",
+        "pitch": "-3%"
+      }
+    },
+    {
+      "id": "friend-stone",
+      "displayName": "Stone",
+      "universe": "caly-friends",
+      "role": "Stone story friend",
+      "band": "adult",
+      "personality": "Steadfast prayer anchors busy lives.",
+      "tts": {
+        "voice": "en-US-GuyNeural",
+        "rate": "-8%",
+        "pitch": "-4%"
+      }
+    },
+    {
+      "id": "friend-root",
+      "displayName": "Root",
+      "universe": "caly-friends",
+      "role": "Root story friend",
+      "band": "adult",
+      "personality": "Gratitude rooted deep sustains us through every season.",
+      "tts": {
+        "voice": "en-US-TonyNeural",
+        "rate": "-10%",
+        "pitch": "-2%"
+      }
+    },
+    {
+      "id": "family-mommy",
+      "displayName": "Mom",
+      "universe": "caly-family",
+      "role": "Caly's mother",
+      "band": "seed",
+      "personality": "Taller mature Caly plant variant with flower crown \u2014 never photorealistic human.",
+      "tts": {
+        "voice": "en-US-JasonNeural",
+        "rate": "-12%",
+        "pitch": "-1%"
+      }
+    },
+    {
+      "id": "family-daddy",
+      "displayName": "Dad",
+      "universe": "caly-family",
+      "role": "Caly's father",
+      "band": "seed",
+      "personality": "Taller mature Caly plant variant with leaf cap \u2014 never photorealistic human.",
+      "tts": {
+        "voice": "en-US-BrandonNeural",
+        "rate": "-14%",
+        "pitch": "+0%"
+      }
+    },
+    {
+      "id": "family-littleBrother",
+      "displayName": "Little Brother",
+      "universe": "caly-family",
+      "role": "Caly's younger brother",
+      "band": "bud",
+      "personality": "Smaller Caly Bud-era sibling \u2014 introduced when Caly is Child (Bud).",
+      "tts": {
+        "voice": "en-US-RogerNeural",
+        "rate": "+0%",
+        "pitch": "-5%"
+      }
+    },
+    {
+      "id": "root-root-sprout",
+      "displayName": "Root Sprout",
+      "universe": "roots-garden",
+      "role": "protagonist",
+      "band": "rootSprouts",
+      "personality": "Star of Root's Garden",
+      "tts": {
+        "voice": "en-US-SteffanNeural",
+        "rate": "+2%",
+        "pitch": "-1%"
+      }
+    },
+    {
+      "id": "root-caly-sprout-sister",
+      "displayName": "Caly Sprout",
+      "universe": "roots-garden",
+      "role": "older-sister-supporting",
+      "band": "toddler",
+      "personality": "Root's Big Sister",
+      "tts": {
+        "voice": "en-US-ChristopherNeural",
+        "rate": "+4%",
+        "pitch": "-3%"
+      }
+    },
+    {
+      "id": "root-elder-oak",
+      "displayName": "Elder Oak",
+      "universe": "roots-garden",
+      "role": "scripture-mentor",
+      "band": "all",
+      "personality": "Garden Mentor",
+      "tts": {
+        "voice": "en-US-EricNeural",
+        "rate": "-18%",
+        "pitch": "+3%"
+      }
+    },
+    {
+      "id": "root-fern-sprout",
+      "displayName": "Fern Sprout",
+      "universe": "roots-garden",
+      "role": "guest-friend",
+      "band": "rootSprouts",
+      "personality": "Garden Friend",
+      "tts": {
+        "voice": "en-US-JacobNeural",
+        "rate": "-20%",
+        "pitch": "+2%"
+      }
+    }
+  ],
+  "llm": {
+    "systemLock": "## CHARACTER VOICE LOCK\n- Each character has a unique voice tuple (voice+rate+pitch); never swap.\n- Caly is one maturing plant friend; friends and Root's Garden speak as themselves.\n- Canon version: 56 characters locked."
+  }
+}

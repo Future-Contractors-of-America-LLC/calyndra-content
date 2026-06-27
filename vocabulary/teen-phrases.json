@@ -6,130 +6,11 @@
   "nickname": "Vine",
   "phrases": [
     {
-      "id": "moment-respond",
-      "label": "I need a moment to respond",
+      "id": "all-done",
+      "label": "all done",
       "category": "core",
-      "speakText": "I need a moment to respond."
-    },
-    {
-      "id": "not-comfortable",
-      "label": "I'm not comfortable with that",
-      "category": "boundaries",
-      "speakText": "I'm not comfortable with that."
-    },
-    {
-      "id": "repeat-slower",
-      "label": "Can you repeat that slower?",
-      "category": "core",
-      "speakText": "Can you repeat that slower?"
-    },
-    {
-      "id": "clarify",
-      "label": "Can you clarify?",
-      "category": "core",
-      "speakText": "Can you clarify?"
-    },
-    {
-      "id": "privacy",
-      "label": "I need privacy",
-      "category": "boundaries",
-      "speakText": "I need privacy."
-    },
-    {
-      "id": "consent-no",
-      "label": "I don't consent to that",
-      "category": "boundaries",
-      "speakText": "I don't consent to that."
-    },
-    {
-      "id": "running-late",
-      "label": "I'm running late",
-      "category": "functional",
-      "speakText": "I'm running late."
-    },
-    {
-      "id": "cancel-plans",
-      "label": "I need to cancel",
-      "category": "functional",
-      "speakText": "I need to cancel."
-    },
-    {
-      "id": "feel-anxious",
-      "label": "I feel anxious",
-      "category": "feelings",
-      "speakText": "I feel anxious."
-    },
-    {
-      "id": "talk-later",
-      "label": "Can we talk later?",
-      "category": "social",
-      "speakText": "Can we talk later?"
-    },
-    {
-      "id": "need-doctor",
-      "label": "I need to see a doctor",
-      "category": "health",
-      "speakText": "I need to see a doctor."
-    },
-    {
-      "id": "order-food",
-      "label": "I'd like to order food",
-      "category": "functional",
-      "speakText": "I'd like to order food."
-    },
-    {
-      "id": "need-ride",
-      "label": "I need a ride",
-      "category": "functional",
-      "speakText": "I need a ride."
-    },
-    {
-      "id": "can-you-text",
-      "label": "Can you text me?",
-      "category": "functional",
-      "speakText": "Can you text me?"
-    },
-    {
-      "id": "respect-my-no",
-      "label": "Please respect my no",
-      "category": "boundaries",
-      "speakText": "Please respect my no."
-    },
-    {
-      "id": "need-break-teen",
-      "label": "I need a break from this",
-      "category": "regulation",
-      "speakText": "I need a break from this."
-    },
-    {
-      "id": "pick-me-up",
-      "label": "Can you pick me up?",
-      "category": "functional",
-      "speakText": "Can you pick me up?"
-    },
-    {
-      "id": "running-errands",
-      "label": "I am running errands",
-      "category": "functional",
-      "speakText": "I am running errands."
-    },
-    {
-      "id": "mental-health-day",
-      "label": "I need a mental health day",
-      "category": "health",
-      "speakText": "I need a mental health day."
-    },
-    {
-      "id": "set-boundary",
-      "label": "I'm setting a boundary",
-      "category": "boundaries",
-      "speakText": "I'm setting a boundary."
-    },
-    {
-      "id": "need-therapist",
-      "label": "I want to talk to my therapist",
-      "category": "health",
-      "speakText": "I want to talk to my therapist."
+      "speakText": "all done",
+      "imageAsset": "assets/symbols/vine/all-done.png"
     },
     {
       "id": "deadline-extension",
@@ -138,28 +19,74 @@
       "speakText": "Can I get an extension?"
     },
     {
-      "id": "gas-money",
-      "label": "I need gas money",
-      "category": "functional",
-      "speakText": "I need gas money."
-    },
-    {
-      "id": "feeling-burned-out",
-      "label": "I'm feeling burned out",
-      "category": "feelings",
-      "speakText": "I'm feeling burned out."
-    },
-    {
-      "id": "not-drinking",
-      "label": "I'm not drinking tonight",
-      "category": "boundaries",
-      "speakText": "I'm not drinking tonight."
-    },
-    {
       "id": "cover-shift",
       "label": "Can someone cover my shift?",
       "category": "work",
       "speakText": "Can someone cover my shift?"
+    },
+    {
+      "id": "talk-later",
+      "label": "Can we talk later?",
+      "category": "social",
+      "speakText": "Can we talk later?"
+    },
+    {
+      "id": "clarify",
+      "label": "Can you clarify?",
+      "category": "core",
+      "speakText": "Can you clarify?",
+      "imageAsset": "assets/symbols/vine/clarify.png"
+    },
+    {
+      "id": "pick-me-up",
+      "label": "Can you pick me up?",
+      "category": "functional",
+      "speakText": "Can you pick me up?"
+    },
+    {
+      "id": "repeat-slower",
+      "label": "Can you repeat that slower?",
+      "category": "core",
+      "speakText": "Can you repeat that slower?",
+      "imageAsset": "assets/symbols/vine/repeat-slower.png"
+    },
+    {
+      "id": "can-you-text",
+      "label": "Can you text me?",
+      "category": "functional",
+      "speakText": "Can you text me?"
+    },
+    {
+      "id": "dont-like",
+      "label": "don't like",
+      "category": "preferences",
+      "speakText": "don't like",
+      "imageAsset": "assets/symbols/vine/dont-like.png"
+    },
+    {
+      "id": "allergy",
+      "label": "food allergy",
+      "category": "health",
+      "speakText": "food allergy",
+      "imageAsset": "assets/symbols/vine/allergy.png"
+    },
+    {
+      "id": "running-errands",
+      "label": "I am running errands",
+      "category": "functional",
+      "speakText": "I am running errands."
+    },
+    {
+      "id": "consent-no",
+      "label": "I don't consent to that",
+      "category": "boundaries",
+      "speakText": "I don't consent to that."
+    },
+    {
+      "id": "feel-anxious",
+      "label": "I feel anxious",
+      "category": "feelings",
+      "speakText": "I feel anxious."
     },
     {
       "id": "college-visit",
@@ -168,10 +95,114 @@
       "speakText": "I have a college visit."
     },
     {
+      "id": "need-break-teen",
+      "label": "I need a break from this",
+      "category": "regulation",
+      "speakText": "I need a break from this."
+    },
+    {
+      "id": "mental-health-day",
+      "label": "I need a mental health day",
+      "category": "health",
+      "speakText": "I need a mental health day."
+    },
+    {
+      "id": "moment-respond",
+      "label": "I need a moment to respond",
+      "category": "core",
+      "speakText": "I need a moment to respond."
+    },
+    {
+      "id": "need-ride",
+      "label": "I need a ride",
+      "category": "functional",
+      "speakText": "I need a ride."
+    },
+    {
       "id": "safe-ride-home",
       "label": "I need a safe ride home",
       "category": "functional",
       "speakText": "I need a safe ride home."
+    },
+    {
+      "id": "gas-money",
+      "label": "I need gas money",
+      "category": "functional",
+      "speakText": "I need gas money."
+    },
+    {
+      "id": "privacy",
+      "label": "I need privacy",
+      "category": "boundaries",
+      "speakText": "I need privacy.",
+      "imageAsset": "assets/symbols/vine/privacy.png"
+    },
+    {
+      "id": "cancel-plans",
+      "label": "I need to cancel",
+      "category": "functional",
+      "speakText": "I need to cancel."
+    },
+    {
+      "id": "need-doctor",
+      "label": "I need to see a doctor",
+      "category": "health",
+      "speakText": "I need to see a doctor."
+    },
+    {
+      "id": "need-therapist",
+      "label": "I want to talk to my therapist",
+      "category": "health",
+      "speakText": "I want to talk to my therapist."
+    },
+    {
+      "id": "order-food",
+      "label": "I'd like to order food",
+      "category": "functional",
+      "speakText": "I'd like to order food."
+    },
+    {
+      "id": "feeling-burned-out",
+      "label": "I'm feeling burned out",
+      "category": "feelings",
+      "speakText": "I'm feeling burned out."
+    },
+    {
+      "id": "not-comfortable",
+      "label": "I'm not comfortable with that",
+      "category": "boundaries",
+      "speakText": "I'm not comfortable with that."
+    },
+    {
+      "id": "not-drinking",
+      "label": "I'm not drinking tonight",
+      "category": "boundaries",
+      "speakText": "I'm not drinking tonight."
+    },
+    {
+      "id": "overstimulated",
+      "label": "I'm overstimulated right now",
+      "category": "regulation",
+      "speakText": "I'm overstimulated right now."
+    },
+    {
+      "id": "running-late",
+      "label": "I'm running late",
+      "category": "functional",
+      "speakText": "I'm running late.",
+      "imageAsset": "assets/symbols/vine/running-late.png"
+    },
+    {
+      "id": "set-boundary",
+      "label": "I'm setting a boundary",
+      "category": "boundaries",
+      "speakText": "I'm setting a boundary."
+    },
+    {
+      "id": "respect-my-no",
+      "label": "Please respect my no",
+      "category": "boundaries",
+      "speakText": "Please respect my no."
     },
     {
       "id": "misgendered",
@@ -180,10 +211,18 @@
       "speakText": "Please use my name."
     },
     {
-      "id": "overstimulated",
-      "label": "I'm overstimulated right now",
-      "category": "regulation",
-      "speakText": "I'm overstimulated right now."
+      "id": "schedule-change",
+      "label": "schedule change",
+      "category": "life",
+      "speakText": "schedule change",
+      "imageAsset": "assets/symbols/vine/schedule-change.png"
+    },
+    {
+      "id": "thank-you",
+      "label": "thank you",
+      "category": "social",
+      "speakText": "thank you",
+      "imageAsset": "assets/symbols/vine/thank-you.png"
     }
   ]
 }

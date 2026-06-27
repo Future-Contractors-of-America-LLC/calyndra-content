@@ -1,6 +1,6 @@
 # Band art QC report
 
-Generated: **2026-06-25 20:01 UTC**
+Generated: **2026-06-26 23:40 UTC**
 
 ## Summary
 
@@ -10,7 +10,7 @@ Generated: **2026-06-25 20:01 UTC**
 | Placeholder copies (fail) | 0 |
 | Issues logged | 0 |
 | Required band folders | 6 |
-| Words checked | 329 |
+| Words checked | 331 |
 
 ## Band -> audience mapping
 
@@ -27,7 +27,7 @@ Generated: **2026-06-25 20:01 UTC**
 
 | Band folder | Mascot | Audience | Age band |
 |-------------|--------|----------|----------|
-| `seed` | Seed | baby | 0-23mo (161 png) |
+| `seed` | Seed | baby | 0-23mo (58 png) |
 
 ## Pass: band-unique words
 
@@ -57,10 +57,14 @@ These still show old Sprout/human/object art for every age band until regenerate
 
 ## Warnings
 
-- WORD COUNT varies across band folders (expanded vocab): bloom=324, bud=202, canopy=168, sprig=269, sprout=168, vine=312.
+- WORD COUNT varies across band folders (expanded vocab): bloom=324, bud=202, canopy=168, sprig=269, sprout=170, vine=312.
+- `bud` lacks 2 word(s) vs `sprout` (e.g. dada, mama).
 - `bud` has 34 extra word(s) vs `sprout` (e.g. alone, backpack, best_friend, break, brother).
+- `sprig` lacks 2 word(s) vs `sprout` (e.g. dada, mama).
 - `sprig` has 101 extra word(s) vs `sprout` (e.g. alarm, alone, appointment, baby, backpack).
+- `vine` lacks 2 word(s) vs `sprout` (e.g. dada, mama).
 - `vine` has 144 extra word(s) vs `sprout` (e.g. accommodation, alarm, allergy, alone, anxious).
+- `bloom` lacks 2 word(s) vs `sprout` (e.g. dada, mama).
 - `bloom` has 156 extra word(s) vs `sprout` (e.g. accommodation, alarm, allergy, alone, anxious).
-- `canopy` lacks 20 word(s) vs `sprout` (e.g. bottle, brush-teeth, bunny, bye, coat).
+- `canopy` lacks 22 word(s) vs `sprout` (e.g. bottle, brush-teeth, bunny, bye, coat).
 - `canopy` has 20 extra word(s) vs `sprout` (e.g. aunt, best_friend, break, choice, cousin).

@@ -54,6 +54,24 @@ FAMILY_SPECS = {
         "accessory": "river_beaver",
         "label": "River",
     },
+    "friend": {
+        "bands": ("seed", "sprout", "bud", "sprig", "vine", "bloom", "canopy"),
+        "scale": 0.9,
+        "accessory": "river_beaver",
+        "label": "Friend",
+    },
+    "mama": {
+        "bands": ("seed", "sprout"),
+        "scale": 1.02,
+        "accessory": "flower_crown",
+        "label": "Mama",
+    },
+    "dada": {
+        "bands": ("seed", "sprout"),
+        "scale": 1.04,
+        "accessory": "leaf_cap",
+        "label": "Dada",
+    },
 }
 
 
