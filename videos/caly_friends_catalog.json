@@ -1,7 +1,7 @@
 {
   "version": 1,
   "series": "Caly and Friends",
-  "lockedUtc": "2026-06-26T23:18:45Z",
+  "lockedUtc": "2026-06-27T01:18:22Z",
   "durationTargetsSec": {
     "baby": 300,
     "toddler": 600,
@@ -42,9 +42,9 @@
       "lesson": "Sharing joy makes friendship grow.",
       "pilot": false,
       "status": "complete",
-      "videoResolution": "1280x720",
-      "videoProfile": "draft",
-      "videoFps": 12
+      "videoResolution": "3840x2160",
+      "videoProfile": "uhd",
+      "videoFps": 24
     },
     {
       "id": "moss_kindness_trail_long",
