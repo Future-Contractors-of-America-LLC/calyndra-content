@@ -1,6 +1,6 @@
 # Ecosystem QC report
 
-Generated: **2026-06-26 23:39 UTC**
+Generated: **2026-06-27 19:09 UTC**
 
 **Overall:** PASS (0 issue(s))
 
@@ -225,22 +225,22 @@ QC summary
 ### qc_cinematic_catalog.py (exit 0)
 
 ```
-Cinematic QC (standard): 36 episodes checked.
-  WARN: pip_gentle_hello_long: resolution 1280x720 — HD upgrade pending.
-  WARN: fern_garden_share_long: resolution 1280x720 — HD upgrade pending.
-  WARN: moss_kindness_trail_long: resolution 1280x720 — HD upgrade pending.
-  WARN: sage_crossroads_long: resolution 1280x720 — HD upgrade pending.
-  WARN: laurel_morning_song_long: resolution 1280x720 — HD upgrade pending.
-  WARN: pip_soft_breeze_long: resolution 1280x720 — HD upgrade pending.
-  WARN: pip_moonlight_snuggle_long: resolution 1280x720 — HD upgrade pending.
-  WARN: pip_twinkle_toes_long: resolution 1280x720 — HD upgrade pending.
-  WARN: pip_rainbow_wave_long: resolution 1280x720 — HD upgrade pending.
-  WARN: pip_heartbeat_lullaby_long: resolution 1280x720 — HD upgrade pending.
-  WARN: fern_flower_surprise_long: resolution 1280x720 — HD upgrade pending.
-  WARN: fern_patience_pots_long: resolution 1280x720 — HD upgrade pending.
-  WARN: fern_butterfly_visit_long: resolution 1280x720 — HD upgrade pending.
-  WARN: fern_weeding_teamwork_long: resolution 1280x720 — HD upgrade pending.
-  WARN: fern_seed_gift_long: resolution 1280x720 — HD upgrade pending.
+Cinematic QC (strict-uhd): 36 episodes checked.
+  WARN: pip_gentle_hello_long: probed 1280x720 — UHD upgrade pending (ship allows HD interim).
+  WARN: pip_gentle_hello_long: catalog profile `hd` — UHD upgrade pending.
+  WARN: pip_gentle_hello_long: duration 231s < 255s (85% of 300s target). Full-length re-render pending.
+  WARN: fern_garden_share_long: probed 1280x720 — UHD upgrade pending (ship allows HD interim).
+  WARN: fern_garden_share_long: catalog profile `hd` — UHD upgrade pending.
+  WARN: fern_garden_share_long: duration 410s < 510s (85% of 600s target). Full-length re-render pending.
+  WARN: moss_kindness_trail_long: probed 1280x720 — UHD upgrade pending (ship allows HD interim).
+  WARN: moss_kindness_trail_long: catalog profile `hd` — UHD upgrade pending.
+  WARN: moss_kindness_trail_long: duration 603s < 765s (85% of 900s target). Full-length re-render pending.
+  WARN: reed_wisdom_perch_long: probed 1280x720 — UHD upgrade pending (ship allows HD interim).
+  WARN: reed_wisdom_perch_long: catalog profile `hd` — UHD upgrade pending.
+  WARN: reed_wisdom_perch_long: duration 654s < 1020s (85% of 1200s target). Full-length re-render pending.
+  WARN: sage_crossroads_long: probed 1280x720 — UHD upgrade pending (ship allows HD interim).
+  WARN: sage_crossroads_long: catalog profile `hd` — UHD upgrade pending.
+  WARN: sage_crossroads_long: duration 1065s < 1530s (85% of 1800s target). Full-length re-render pending.
 ```
 
 ### qc_style_consistency.py (exit 0)

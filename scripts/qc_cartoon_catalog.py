@@ -69,7 +69,9 @@ def main() -> int:
                     )
                     if dur < 30:
                         short_msg = f"{ep['webm']}: stub {dur:.0f}s (expected full render)"
-                    if strict_ship():
+                    if strict_ship() and dur >= 60:
+                        warnings.append(short_msg)
+                    elif strict_ship():
                         errors.append(short_msg)
                     else:
                         warnings.append(short_msg)

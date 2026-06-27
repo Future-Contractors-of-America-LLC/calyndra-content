@@ -1,7 +1,7 @@
 {
   "version": 1,
   "series": "Caly and Friends",
-  "lockedUtc": "2026-06-26T23:56:40Z",
+  "lockedUtc": "2026-06-27T19:12:38Z",
   "durationTargetsSec": {
     "baby": 300,
     "toddler": 600,
@@ -26,9 +26,9 @@
       "pilot": false,
       "status": "complete",
       "videoResolution": "1280x720",
-      "videoProfile": "hd",
+      "videoProfile": "draft",
       "videoFps": 12,
-      "renderedUtc": "2026-06-26T23:56:39Z"
+      "renderedUtc": "2026-06-27T19:08:35Z"
     },
     {
       "id": "fern_garden_share_long",
@@ -44,9 +44,9 @@
       "pilot": false,
       "status": "complete",
       "videoResolution": "1280x720",
-      "videoProfile": "hd",
+      "videoProfile": "draft",
       "videoFps": 12,
-      "renderedUtc": "2026-06-26T23:56:39Z"
+      "renderedUtc": "2026-06-27T19:08:35Z"
     },
     {
       "id": "moss_kindness_trail_long",
@@ -62,9 +62,9 @@
       "pilot": false,
       "status": "complete",
       "videoResolution": "1280x720",
-      "videoProfile": "hd",
+      "videoProfile": "draft",
       "videoFps": 12,
-      "renderedUtc": "2026-06-26T23:56:39Z"
+      "renderedUtc": "2026-06-27T19:08:35Z"
     },
     {
       "id": "reed_wisdom_perch_long",
@@ -79,9 +79,10 @@
       "lesson": "Wisdom listens before it speaks.",
       "pilot": false,
       "status": "complete",
-      "videoResolution": "3840x2160",
-      "videoProfile": "uhd",
-      "videoFps": 24
+      "videoResolution": "1280x720",
+      "videoProfile": "draft",
+      "videoFps": 12,
+      "renderedUtc": "2026-06-27T19:08:35Z"
     },
     {
       "id": "sage_crossroads_long",
@@ -97,9 +98,9 @@
       "pilot": false,
       "status": "complete",
       "videoResolution": "1280x720",
-      "videoProfile": "hd",
+      "videoProfile": "draft",
       "videoFps": 12,
-      "renderedUtc": "2026-06-26T23:56:39Z"
+      "renderedUtc": "2026-06-27T19:08:36Z"
     },
     {
       "id": "laurel_morning_song_long",
@@ -115,9 +116,9 @@
       "pilot": false,
       "status": "complete",
       "videoResolution": "1280x720",
-      "videoProfile": "hd",
+      "videoProfile": "draft",
       "videoFps": 12,
-      "renderedUtc": "2026-06-26T23:56:39Z"
+      "renderedUtc": "2026-06-27T19:08:36Z"
     },
     {
       "id": "pip_soft_breeze_long",
@@ -133,9 +134,9 @@
       "pilot": false,
       "status": "complete",
       "videoResolution": "1280x720",
-      "videoProfile": "hd",
+      "videoProfile": "draft",
       "videoFps": 12,
-      "renderedUtc": "2026-06-26T23:56:39Z"
+      "renderedUtc": "2026-06-27T19:08:36Z"
     },
     {
       "id": "pip_moonlight_snuggle_long",
@@ -151,9 +152,9 @@
       "pilot": false,
       "status": "complete",
       "videoResolution": "1280x720",
-      "videoProfile": "hd",
+      "videoProfile": "draft",
       "videoFps": 12,
-      "renderedUtc": "2026-06-26T23:56:39Z"
+      "renderedUtc": "2026-06-27T19:08:36Z"
     },
     {
       "id": "pip_twinkle_toes_long",
@@ -169,9 +170,9 @@
       "pilot": false,
       "status": "complete",
       "videoResolution": "1280x720",
-      "videoProfile": "hd",
+      "videoProfile": "draft",
       "videoFps": 12,
-      "renderedUtc": "2026-06-26T23:56:39Z"
+      "renderedUtc": "2026-06-27T19:08:36Z"
     },
     {
       "id": "pip_rainbow_wave_long",
@@ -187,9 +188,9 @@
       "pilot": false,
       "status": "complete",
       "videoResolution": "1280x720",
-      "videoProfile": "hd",
+      "videoProfile": "draft",
       "videoFps": 12,
-      "renderedUtc": "2026-06-26T23:56:39Z"
+      "renderedUtc": "2026-06-27T19:08:36Z"
     },
     {
       "id": "pip_heartbeat_lullaby_long",
@@ -205,9 +206,9 @@
       "pilot": false,
       "status": "complete",
       "videoResolution": "1280x720",
-      "videoProfile": "hd",
+      "videoProfile": "draft",
       "videoFps": 12,
-      "renderedUtc": "2026-06-26T23:56:40Z"
+      "renderedUtc": "2026-06-27T19:08:37Z"
     },
     {
       "id": "fern_flower_surprise_long",
@@ -223,9 +224,9 @@
       "pilot": false,
       "status": "complete",
       "videoResolution": "1280x720",
-      "videoProfile": "hd",
+      "videoProfile": "draft",
       "videoFps": 12,
-      "renderedUtc": "2026-06-26T23:56:40Z"
+      "renderedUtc": "2026-06-27T19:08:37Z"
     },
     {
       "id": "fern_patience_pots_long",
@@ -241,9 +242,9 @@
       "pilot": false,
       "status": "complete",
       "videoResolution": "1280x720",
-      "videoProfile": "hd",
+      "videoProfile": "draft",
       "videoFps": 12,
-      "renderedUtc": "2026-06-26T23:56:40Z"
+      "renderedUtc": "2026-06-27T19:08:37Z"
     },
     {
       "id": "fern_butterfly_visit_long",
@@ -259,9 +260,9 @@
       "pilot": false,
       "status": "complete",
       "videoResolution": "1280x720",
-      "videoProfile": "hd",
+      "videoProfile": "draft",
       "videoFps": 12,
-      "renderedUtc": "2026-06-26T23:56:40Z"
+      "renderedUtc": "2026-06-27T19:08:37Z"
     },
     {
       "id": "fern_weeding_teamwork_long",
@@ -277,9 +278,9 @@
       "pilot": false,
       "status": "complete",
       "videoResolution": "1280x720",
-      "videoProfile": "hd",
+      "videoProfile": "draft",
       "videoFps": 12,
-      "renderedUtc": "2026-06-26T23:56:40Z"
+      "renderedUtc": "2026-06-27T19:08:37Z"
     },
     {
       "id": "fern_seed_gift_long",
@@ -295,9 +296,9 @@
       "pilot": false,
       "status": "complete",
       "videoResolution": "1280x720",
-      "videoProfile": "hd",
+      "videoProfile": "draft",
       "videoFps": 12,
-      "renderedUtc": "2026-06-26T23:56:40Z"
+      "renderedUtc": "2026-06-27T19:08:37Z"
     },
     {
       "id": "moss_bridge_builders_long",
@@ -313,9 +314,9 @@
       "pilot": false,
       "status": "complete",
       "videoResolution": "1280x720",
-      "videoProfile": "hd",
+      "videoProfile": "draft",
       "videoFps": 12,
-      "renderedUtc": "2026-06-26T23:56:40Z"
+      "renderedUtc": "2026-06-27T19:08:37Z"
     },
     {
       "id": "moss_lost_and_found_long",

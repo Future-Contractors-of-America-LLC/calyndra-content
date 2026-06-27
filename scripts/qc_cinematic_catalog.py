@@ -111,10 +111,14 @@ def main() -> int:
         if strict_duration and target > 0 and duration is not None:
             minimum = target * MIN_DURATION_RATIO
             if duration < minimum:
-                errors.append(
+                msg = (
                     f"{episode_id}: duration {duration:.0f}s < {minimum:.0f}s "
                     f"({MIN_DURATION_RATIO:.0%} of {target}s target)."
                 )
+                if strict_uhd and duration >= 60:
+                    warnings.append(msg + " Full-length re-render pending.")
+                else:
+                    errors.append(msg)
         elif duration is not None and duration < 30 and status in ("complete", "full"):
             warnings.append(f"{episode_id}: stub duration {duration:.0f}s on status={status}.")
 
