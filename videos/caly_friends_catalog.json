@@ -1,7 +1,7 @@
 {
   "version": 1,
   "series": "Caly and Friends",
-  "lockedUtc": "2026-06-27T04:06:02Z",
+  "lockedUtc": "2026-06-27T07:43:47Z",
   "durationTargetsSec": {
     "baby": 300,
     "toddler": 600,
@@ -76,9 +76,9 @@
       "lesson": "Wisdom listens before it speaks.",
       "pilot": false,
       "status": "complete",
-      "videoResolution": "1280x720",
-      "videoProfile": "draft",
-      "videoFps": 12
+      "videoResolution": "3840x2160",
+      "videoProfile": "uhd",
+      "videoFps": 24
     },
     {
       "id": "sage_crossroads_long",
