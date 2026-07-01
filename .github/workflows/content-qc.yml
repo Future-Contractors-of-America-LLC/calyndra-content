@@ -17,7 +17,9 @@ jobs:
           python-version: "3.11"
       - name: Install QC dependencies
         run: pip install pillow pyyaml
-      - name: Run band asset QC
+            - name: Ensure symbol directories exist
+        run: mkdir -p symbols/{sprout,bud,sprig,vine,bloom,canopy}
+- name: Run band asset QC
         run: python scripts/qc_band_assets.py
       - name: Run ecosystem QC
         run: python scripts/qc_ecosystem.py
