@@ -18,7 +18,7 @@ jobs:
       - name: Install QC dependencies
         run: pip install pillow pyyaml
       - name: Ensure symbol directories exist
-        run: mkdir -p sprout bud sprig vine bloom canopy symbols/{sprout,bud,sprig,vine,bloom,canopy}
+        run: |`n          mkdir -p sprout bud sprig vine bloom canopy symbols/{sprout,bud,sprig,vine,bloom,canopy}`n          mkdir -p ../calyndra-app/assets/symbols/{sprout,bud,sprig,vine,bloom,canopy}
       - name: Run band asset QC
         run: python scripts/qc_band_assets.py
       - name: Run ecosystem QC
